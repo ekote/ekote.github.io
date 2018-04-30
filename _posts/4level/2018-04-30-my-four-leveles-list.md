@@ -35,6 +35,12 @@ published: false
 # Media about me
 1. 
 
+# Speaker
+1. Win Internal Intel conference - millenials
+1. Amsterdam WE Local conference - Work/life balance
+
 # Other goals:
 1. relocation to US
+1. 10.30 pm go to sleep
+1. miracle morning 5.30
 1. 
