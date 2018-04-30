@@ -3,12 +3,8 @@ layout: page
 title: Computer Science
 ---
 <ul class="posts">
-  {% for post in site.posts %}
+  {% for post in site.categories.cs %}
   
-  {% if post.categories contains "cs" %}
-   <li>{{ post.title }}</li> 
-  {% endif %}
-
     {% unless post.next %}
       <h3>{{ post.date | date: '%Y' }}</h3>
     {% else %}

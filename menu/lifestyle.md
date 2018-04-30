@@ -5,7 +5,7 @@ title: Lifestyle!
 
 
 <ul class="posts">
-  {% for post in site.posts %}
+  {% for post in site.categories.lifestyle %}
 
     {% unless post.next %}
       <h3>{{ post.date | date: '%Y' }}</h3>
