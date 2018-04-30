@@ -5,6 +5,7 @@ author: "Estera Kot"
 categories: cs
 tags: [scala, programming]
 image: cs/functional-programming.jpg
+publish: false
 ---
 
 ##Languages
