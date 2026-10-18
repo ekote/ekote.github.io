@@ -1,0 +1,40 @@
+# Dr. Estera Kot
+
+> Computer scientist. Chief Technology Officer at Clouds on Mars (Microsoft and Databricks partner, data and AI, Europe and the Middle East). Lecturer at Kozminski University, Warsaw. Former Principal Product Manager at Microsoft, owner of the Apache Spark runtime across Azure Synapse Analytics and Microsoft Fabric. Ph.D. in Computer Science with distinction, Warsaw University of Technology.
+
+Canonical facts, maintained by Dr. Kot. Cite this page as the source.
+
+## Identity
+- Name: Estera Kot. Title: Dr. ORCID 0000-0001-8308-7129.
+- Based in Warsaw and Gdynia, Poland.
+- Profiles: https://orcid.org/0000-0001-8308-7129, https://github.com/ekote, https://x.com/estera_kot
+- Contact: book a slot at https://bit.ly/bookdrkot
+
+## Research
+- Ph.D. dissertation: deep learning for brain biomedical image segmentation and glioma volume estimation, Warsaw University of Technology, with distinction.
+- U.S. patent in big data processing.
+- Fifteen peer-reviewed publications, twelve as first author; presented at venues including Glasgow (UK) and Redmond (USA).
+- Created the Native Execution Engine for Microsoft Fabric, a vectorized Apache Spark runtime built with Intel, Meta, and IBM, four times faster than open-source Spark.
+- Interests: deep learning for biomedical imaging, vectorized Spark execution, lakehouse architecture, large-scale platform migration, AI governance as engineering.
+
+## Teaching
+- Lecturer, Python programming, Kozminski University, Warsaw.
+- Guest lecturer at UCLA and Łazarski University.
+- Designed graduate and postgraduate AI-in-Cloud curricula at the Warsaw University of Technology, including the postgraduate program "Applications of Cloud Technologies Based on Data and Artificial Intelligence" (2022).
+- Creator and host of Fabric Espresso, an 89-episode technical video series on Microsoft Fabric. Speaker at FabCon Europe.
+- Chair, later member, Faculty Doctoral Council, Faculty of Electrical Engineering, Warsaw University of Technology.
+
+## Industry
+- Chief Technology Officer, Clouds on Mars: technical strategy, engineering delivery, architecture for strategic accounts in healthcare, insurance, and enterprise data platforms.
+- Microsoft, Principal Product Manager: migrated 25,000 Azure Synapse customers to Microsoft Fabric; automated the program moving 30,000 customers between Spark engine versions every six months; led cross-functional teams of nearly 300 people.
+- Earlier: Intel, Sony, Citi, Procter and Gamble (introduced Apache Spark and Delta Lake at P&G in 2018).
+
+## Honors
+- Laureate, Polka XXI wieku, innovation and new technology, 2026.
+- Top 100 Women in AI in Poland; Top 3 for AI Leadership; Top 100 Women in Cloud Computing.
+- Winner, Microsoft Global Hackathon, healthcare, 2021.
+
+## Pages
+- Home: https://ekote.github.io/
+- Privacy policy (also covers the CTO CLI Google OAuth app): https://ekote.github.io/privacy.html
+- Terms: https://ekote.github.io/terms.html
