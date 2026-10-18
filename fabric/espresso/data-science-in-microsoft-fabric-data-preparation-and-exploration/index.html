@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data Science in Microsoft Fabric – Data preparation and exploration with Data Wrangler | Fabric Espresso</title>
+  <meta name="description" content="Exploring Data Science in Microsoft Fabric Step into the dynamic realm of Microsoft Fabric&#x27;s Data Wrangler in this episode.">
+  <meta name="google-site-verification" content="cSOWqrR3-ff1EmSCDMry0rZuk_c8wklIxxS-CFQkkfg" />
+  <link rel="canonical" href="https://ekote.github.io/fabric/espresso/data-science-in-microsoft-fabric-data-preparation-and-exploration/">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Dr. Estera Kot">
+  <meta property="og:type" content="video.other">
+  <meta property="og:site_name" content="Dr. Estera Kot">
+  <meta property="og:title" content="Data Science in Microsoft Fabric – Data preparation and exploration with Data Wrangler">
+  <meta property="og:description" content="Exploring Data Science in Microsoft Fabric Step into the dynamic realm of Microsoft Fabric&#x27;s Data Wrangler in this episode.">
+  <meta property="og:url" content="https://ekote.github.io/fabric/espresso/data-science-in-microsoft-fabric-data-preparation-and-exploration/">
+  <meta property="og:image" content="https://i.ytimg.com/vi/-g6KveKQXu4/hqdefault.jpg">
+  <meta property="og:image:width" content="480">
+  <meta property="og:image:height" content="360">
+  <meta property="og:image:alt" content="Thumbnail of the Fabric Espresso episode Data Science in Microsoft Fabric – Data preparation and exploration with Data Wrangler">
+  <meta property="og:video" content="https://www.youtube.com/embed/-g6KveKQXu4">
+  <meta property="og:video:secure_url" content="https://www.youtube.com/embed/-g6KveKQXu4">
+  <meta property="og:video:type" content="text/html">
+  <meta property="og:video:width" content="1280">
+  <meta property="og:video:height" content="720">
+  <meta property="video:release_date" content="2023-08-15">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Data Science in Microsoft Fabric – Data preparation and exploration with Data Wrangler">
+  <meta name="twitter:description" content="Exploring Data Science in Microsoft Fabric Step into the dynamic realm of Microsoft Fabric&#x27;s Data Wrangler in this episode.">
+  <meta name="twitter:image" content="https://i.ytimg.com/vi/-g6KveKQXu4/hqdefault.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&amp;family=Source+Sans+3:wght@400;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../../style.css?v=4">
+  <style>
+    .crumbs { font-size: .9rem; color: var(--muted); margin: 0 0 16px; }
+    .crumbs a { margin: 0 4px; }
+    .crumbs a:first-child { margin-left: 0; }
+    .thumb { display: inline-block; margin: 6px 0 12px; max-width: 100%; }
+    .thumb img { display: block; max-width: 100%; height: auto; border: 1px solid #D5D0C8; }
+    .vmeta { color: var(--muted); }
+    .desc p { overflow-wrap: anywhere; }
+    .src { color: var(--muted); font-size: .9rem; }
+    .chapters { list-style: none; padding-left: 0; }
+    .chapters li { margin-bottom: 4px; }
+    .chapters a { display: inline-block; min-width: 3.6em; font-variant-numeric: tabular-nums; }
+    .pn { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 32px; margin-top: 44px;
+          border-top: 1px solid var(--rule); padding-top: 18px; }
+    .pn span { display: block; color: var(--muted); font-size: .88rem; }
+    .pn .next { text-align: right; }
+    @media (max-width: 600px) { .pn { grid-template-columns: 1fr; } .pn .next { text-align: left; } }
+  </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://ekote.github.io/fabric/espresso/data-science-in-microsoft-fabric-data-preparation-and-exploration/#video",
+      "name": "Data Science in Microsoft Fabric – Data preparation and exploration with Data Wrangler",
+      "url": "https://ekote.github.io/fabric/espresso/data-science-in-microsoft-fabric-data-preparation-and-exploration/",
+      "description": "Exploring Data Science in Microsoft Fabric Step into the dynamic realm of Microsoft Fabric's Data Wrangler in this episode. Ever wondered how Data Wrangler optimizes the data preparation and exploration process in Microsoft Fabric? Eren Orbey, a product manager on the Synapse Data Science team, focusing on machine learning in Microsoft Fabric, unveils data preparation and exploration process in Microsoft Fabric, offering unparalleled insights and behind-the-scenes peeks from the heart of Microsoft’s data innovation! ATTENTION all data engineers and data scientists: If you swear by Pandas in your daily work, this episode is a goldmine for you! Understand the synergy between Pandas and Data Wrangler and discover new tips and techniques that can revolutionize your workflow. Key Takeaways and links mentioned in the video: How to accelerate data prep with Data Wrangler in Microsoft Fabric https://learn.microsoft.com/en-us/fabric/data-science/data-wrangler To try out Data Wrangler in VS Code, see Data Wrangler in VS Code https://marketplace.visualstudio.com/items?itemName=ms-toolsai.datawrangler Join us in this insightful journey and unlock the secrets of efficient data storage in Fabric. Be sure to LIKE, COMMENT, and SUBSCRIBE to stay in the loop with our series. Don't forget to hit the notification bell to get updates on our latest videos. Meet the Speakers : Estera Kot: Senior Product Manager at Microsoft LinkedIn: https://www.linkedin.com/in/esterakot/",
+      "thumbnailUrl": [
+        "https://i.ytimg.com/vi/-g6KveKQXu4/hqdefault.jpg"
+      ],
+      "embedUrl": "https://www.youtube.com/embed/-g6KveKQXu4",
+      "uploadDate": "2023-08-15",
+      "duration": "PT19M15S",
+      "contentUrl": "https://www.youtube.com/watch?v=-g6KveKQXu4",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Azure Synapse Analytics",
+        "url": "https://www.youtube.com/@AzureSynapse"
+      },
+      "contributor": {
+        "@id": "https://ekote.github.io/#person"
+      },
+      "isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": "Fabric Espresso",
+        "url": "https://ekote.github.io/fabric/espresso/"
+      },
+      "hasPart": [
+        {
+          "@type": "Clip",
+          "name": "Introduction",
+          "startOffset": 0,
+          "url": "https://www.youtube.com/watch?v=-g6KveKQXu4",
+          "endOffset": 52
+        },
+        {
+          "@type": "Clip",
+          "name": "What is Data Wrangler",
+          "startOffset": 52,
+          "url": "https://www.youtube.com/watch?v=-g6KveKQXu4&t=52s",
+          "endOffset": 113
+        },
+        {
+          "@type": "Clip",
+          "name": "Demo",
+          "startOffset": 113,
+          "url": "https://www.youtube.com/watch?v=-g6KveKQXu4&t=113s",
+          "endOffset": 256
+        },
+        {
+          "@type": "Clip",
+          "name": "Environment overview",
+          "startOffset": 256,
+          "url": "https://www.youtube.com/watch?v=-g6KveKQXu4&t=256s",
+          "endOffset": 696
+        },
+        {
+          "@type": "Clip",
+          "name": "Exporting the cleaned data",
+          "startOffset": 696,
+          "url": "https://www.youtube.com/watch?v=-g6KveKQXu4&t=696s",
+          "endOffset": 835
+        },
+        {
+          "@type": "Clip",
+          "name": "Integration with VSCode",
+          "startOffset": 835,
+          "url": "https://www.youtube.com/watch?v=-g6KveKQXu4&t=835s",
+          "endOffset": 899
+        },
+        {
+          "@type": "Clip",
+          "name": "When to use Data Wrangler",
+          "startOffset": 899,
+          "url": "https://www.youtube.com/watch?v=-g6KveKQXu4&t=899s",
+          "endOffset": 962
+        },
+        {
+          "@type": "Clip",
+          "name": "Resources",
+          "startOffset": 962,
+          "url": "https://www.youtube.com/watch?v=-g6KveKQXu4&t=962s",
+          "endOffset": 1155
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ekote.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Microsoft Fabric",
+          "item": "https://ekote.github.io/fabric/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fabric Espresso",
+          "item": "https://ekote.github.io/fabric/espresso/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Data Science in Microsoft Fabric – Data preparation and exploration with Data Wrangler",
+          "item": "https://ekote.github.io/fabric/espresso/data-science-in-microsoft-fabric-data-preparation-and-exploration/"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ekote.github.io/#person",
+      "name": "Estera Kot",
+      "honorificPrefix": "Dr.",
+      "url": "https://ekote.github.io/"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+  <!-- generated by fabric/espresso/build_episodes.py -->
+  <header class="topbar">
+    <div class="inner">
+      <a class="brand" href="../../../">Dr. Estera Kot</a>
+      <nav>
+        <a href="../../../">Home</a>
+        <a href="../../">Fabric guide</a>
+        <a href="../">Fabric Espresso</a>
+        <a href="../../../#publications">Publications</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../">Home</a> / <a href="../../">Microsoft Fabric</a> / <a href="../">Fabric Espresso</a></nav>
+    <h1>Data Science in Microsoft Fabric – Data preparation and exploration with Data Wrangler</h1>
+    <p class="title">Episode 19 of Fabric Espresso, with Dr. Estera Kot.</p>
+    <a class="thumb" href="https://www.youtube.com/watch?v=-g6KveKQXu4"><img src="https://i.ytimg.com/vi/-g6KveKQXu4/hqdefault.jpg" width="480" height="360" alt="Video thumbnail for Data Science in Microsoft Fabric – Data preparation and exploration with Data Wrangler. Opens the video on YouTube."></a>
+    <p class="vmeta">Length 19:15. Published Aug 15, 2023 on the Azure Synapse Analytics YouTube channel. Topic: <a href="../#data-science-ml">Data Science and Machine Learning</a>.</p>
+    <p><strong><a href="https://www.youtube.com/watch?v=-g6KveKQXu4">Watch on YouTube</a></strong></p>
+    <section class="desc">
+      <h2>About this episode</h2>
+      <p class="src">Text from the YouTube description.</p>
+      <p>🌟📊 Exploring Data Science in Microsoft Fabric 📊🌟</p>
+      <p>Step into the dynamic realm of Microsoft Fabric&#x27;s Data Wrangler in this episode. Ever wondered how Data Wrangler optimizes the data preparation and exploration process in Microsoft Fabric? 🤔 Eren Orbey, a product manager on the Synapse Data Science team, focusing on machine learning in Microsoft Fabric, unveils data preparation and exploration process in Microsoft Fabric, offering unparalleled insights and behind-the-scenes peeks from the heart of Microsoft’s data innovation! ATTENTION all data engineers and data scientists: If you swear by Pandas in your daily work, this episode is a goldmine for you! Understand the synergy between Pandas and Data Wrangler and discover new tips and techniques that can revolutionize your workflow. 🚀</p>
+      <p>🏞🔑 Key Takeaways and 🔗 links mentioned in the video:</p>
+      <p>➡️ How to accelerate data prep with Data Wrangler in Microsoft Fabric  <a href="https://learn.microsoft.com/en-us/fabric/data-science/data-wrangler" rel="nofollow noopener">https://learn.microsoft.com/en-us/fabric/data-science/data-wrangler</a></p>
+      <p>➡️ ➡️  To try out Data Wrangler in VS Code, see Data Wrangler in VS Code <a href="https://marketplace.visualstudio.com/items?itemName=ms-toolsai.datawrangler" rel="nofollow noopener">https://marketplace.visualstudio.com/items?itemName=ms-toolsai.datawrangler</a></p>
+      <p>Join us in this insightful journey and unlock the secrets of efficient data storage in Fabric. Be sure to LIKE, COMMENT, and SUBSCRIBE to stay in the loop with our series. Don&#x27;t forget to hit the notification bell 🔔 to get updates on our latest videos.</p>
+      <p>Meet the Speakers 🚀 🚀 🚀:</p>
+      <p>Estera Kot: Senior Product Manager at Microsoft</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/esterakot/" rel="nofollow noopener">https://www.linkedin.com/in/esterakot/</a></p>
+    </section>
+    <section>
+      <h2>Chapters</h2>
+      <ol class="chapters">
+        <li><a href="https://www.youtube.com/watch?v=-g6KveKQXu4">0:00</a> Introduction</li>
+        <li><a href="https://www.youtube.com/watch?v=-g6KveKQXu4&amp;t=52s">0:52</a> What is Data Wrangler</li>
+        <li><a href="https://www.youtube.com/watch?v=-g6KveKQXu4&amp;t=113s">1:53</a> Demo</li>
+        <li><a href="https://www.youtube.com/watch?v=-g6KveKQXu4&amp;t=256s">4:16</a> Environment overview</li>
+        <li><a href="https://www.youtube.com/watch?v=-g6KveKQXu4&amp;t=696s">11:36</a> Exporting the cleaned data</li>
+        <li><a href="https://www.youtube.com/watch?v=-g6KveKQXu4&amp;t=835s">13:55</a> Integration with VSCode</li>
+        <li><a href="https://www.youtube.com/watch?v=-g6KveKQXu4&amp;t=899s">14:59</a> When to use Data Wrangler</li>
+        <li><a href="https://www.youtube.com/watch?v=-g6KveKQXu4&amp;t=962s">16:02</a> Resources</li>
+      </ol>
+    </section>
+    <nav class="pn" aria-label="More episodes">
+      <div class="prev"><span>Previous episode</span><a href="../performance-at-scale-with-microsoft-fabric-concurrency/">Performance at Scale with Microsoft Fabric: Concurrency!</a></div>
+      <div class="next"><span>Next episode</span><a href="../learn-to-share-a-microsoft-fabric-warehouse/">Learn to Share a Microsoft Fabric Warehouse!</a></div>
+    </nav>
+    <p><a href="../">All Fabric Espresso episodes</a></p>
+    <footer>
+      <a href="../../../privacy.html">Privacy</a>
+      <a href="../../../terms.html">Terms</a>
+      <span>Dr. Estera Kot, Warsaw and Gdynia, Poland.</span>
+    </footer>
+  </main>
+</body>
+</html>

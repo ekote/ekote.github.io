@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Synapse Real-Time Analytics: Get started with KQL | Fabric Espresso</title>
+  <meta name="description" content="Welcome to the third video in our How To series for Real-Time Analytics in Microsoft Fabric!">
+  <meta name="google-site-verification" content="cSOWqrR3-ff1EmSCDMry0rZuk_c8wklIxxS-CFQkkfg" />
+  <link rel="canonical" href="https://ekote.github.io/fabric/espresso/synapse-real-time-analytics-get-started-with-kql/">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Dr. Estera Kot">
+  <meta property="og:type" content="video.other">
+  <meta property="og:site_name" content="Dr. Estera Kot">
+  <meta property="og:title" content="Synapse Real-Time Analytics: Get started with KQL">
+  <meta property="og:description" content="Welcome to the third video in our How To series for Real-Time Analytics in Microsoft Fabric!">
+  <meta property="og:url" content="https://ekote.github.io/fabric/espresso/synapse-real-time-analytics-get-started-with-kql/">
+  <meta property="og:image" content="https://i.ytimg.com/vi/Bw_d6zmALV0/hqdefault.jpg">
+  <meta property="og:image:width" content="480">
+  <meta property="og:image:height" content="360">
+  <meta property="og:image:alt" content="Thumbnail of the Fabric Espresso episode Synapse Real-Time Analytics: Get started with KQL">
+  <meta property="og:video" content="https://www.youtube.com/embed/Bw_d6zmALV0">
+  <meta property="og:video:secure_url" content="https://www.youtube.com/embed/Bw_d6zmALV0">
+  <meta property="og:video:type" content="text/html">
+  <meta property="og:video:width" content="1280">
+  <meta property="og:video:height" content="720">
+  <meta property="video:release_date" content="2023-06-21">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Synapse Real-Time Analytics: Get started with KQL">
+  <meta name="twitter:description" content="Welcome to the third video in our How To series for Real-Time Analytics in Microsoft Fabric!">
+  <meta name="twitter:image" content="https://i.ytimg.com/vi/Bw_d6zmALV0/hqdefault.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&amp;family=Source+Sans+3:wght@400;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../../style.css?v=4">
+  <style>
+    .crumbs { font-size: .9rem; color: var(--muted); margin: 0 0 16px; }
+    .crumbs a { margin: 0 4px; }
+    .crumbs a:first-child { margin-left: 0; }
+    .thumb { display: inline-block; margin: 6px 0 12px; max-width: 100%; }
+    .thumb img { display: block; max-width: 100%; height: auto; border: 1px solid #D5D0C8; }
+    .vmeta { color: var(--muted); }
+    .desc p { overflow-wrap: anywhere; }
+    .src { color: var(--muted); font-size: .9rem; }
+    .chapters { list-style: none; padding-left: 0; }
+    .chapters li { margin-bottom: 4px; }
+    .chapters a { display: inline-block; min-width: 3.6em; font-variant-numeric: tabular-nums; }
+    .pn { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 32px; margin-top: 44px;
+          border-top: 1px solid var(--rule); padding-top: 18px; }
+    .pn span { display: block; color: var(--muted); font-size: .88rem; }
+    .pn .next { text-align: right; }
+    @media (max-width: 600px) { .pn { grid-template-columns: 1fr; } .pn .next { text-align: left; } }
+  </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://ekote.github.io/fabric/espresso/synapse-real-time-analytics-get-started-with-kql/#video",
+      "name": "Synapse Real-Time Analytics: Get started with KQL",
+      "url": "https://ekote.github.io/fabric/espresso/synapse-real-time-analytics-get-started-with-kql/",
+      "description": "Welcome to the third video in our How To series for Real-Time Analytics in Microsoft Fabric! In this video, Slavik Neimer, a Principal Software Engineer Manager at Microsoft, will show you how to get started with KQL. 00:06 Intro 00:17 Overview of Real-Time Analytics in Fabric 00:40 Running pre-defined queries 01:25 SQL to KQL using the `explain` keyword 02:23 Articles to get you started in KQL 02:39 `count` operator to count records in a table 03:02 `take` operator to get a few arbitrary records 04:01 `summarize` operator to aggregate data (e.g. find the min and max values in a column) 04:52 `where` operator to filter records 06:01 `top` operator to get the first N records sorted by the specified columns 06:38 `as` operator to bind a name to the operator's input tabular expression, and `extend` operator 07:51 `project` operator to select the columns to include in the output 08:13 `parse` operator to parse values into one or more calculated columns 09:05 `parse_json` function to extract values from JSONs 11:13 `let` statements to set a variable name equal to an expression, and `toscalar` function 12:52 Wrap-Up #microsoftfabric #synapserealtimeanalytics",
+      "thumbnailUrl": [
+        "https://i.ytimg.com/vi/Bw_d6zmALV0/hqdefault.jpg"
+      ],
+      "embedUrl": "https://www.youtube.com/embed/Bw_d6zmALV0",
+      "uploadDate": "2023-06-21",
+      "duration": "PT13M27S",
+      "contentUrl": "https://www.youtube.com/watch?v=Bw_d6zmALV0",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Azure Synapse Analytics",
+        "url": "https://www.youtube.com/@AzureSynapse"
+      },
+      "isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": "Fabric Espresso",
+        "url": "https://ekote.github.io/fabric/espresso/"
+      },
+      "hasPart": [
+        {
+          "@type": "Clip",
+          "name": "<Untitled Chapter 1>",
+          "startOffset": 0,
+          "url": "https://www.youtube.com/watch?v=Bw_d6zmALV0",
+          "endOffset": 6
+        },
+        {
+          "@type": "Clip",
+          "name": "Intro",
+          "startOffset": 6,
+          "url": "https://www.youtube.com/watch?v=Bw_d6zmALV0&t=6s",
+          "endOffset": 17
+        },
+        {
+          "@type": "Clip",
+          "name": "Overview of Real-Time Analytics in Fabric",
+          "startOffset": 17,
+          "url": "https://www.youtube.com/watch?v=Bw_d6zmALV0&t=17s",
+          "endOffset": 40
+        },
+        {
+          "@type": "Clip",
+          "name": "Running pre-defined queries",
+          "startOffset": 40,
+          "url": "https://www.youtube.com/watch?v=Bw_d6zmALV0&t=40s",
+          "endOffset": 85
+        },
+        {
+          "@type": "Clip",
+          "name": "SQL to KQL using the `explain` keyword",
+          "startOffset": 85,
+          "url": "https://www.youtube.com/watch?v=Bw_d6zmALV0&t=85s",
+          "endOffset": 143
+        },
+        {
+          "@type": "Clip",
+          "name": "Articles to get you started in KQL",
+          "startOffset": 143,
+          "url": "https://www.youtube.com/watch?v=Bw_d6zmALV0&t=143s",
+          "endOffset": 159
+        },
+        {
+          "@type": "Clip",
+          "name": "`count` operator to count records in a table",
+          "startOffset": 159,
+          "url": "https://www.youtube.com/watch?v=Bw_d6zmALV0&t=159s",
+          "endOffset": 182
+        },
+        {
+          "@type": "Clip",
+          "name": "`take` operator to get a few arbitrary records",
+          "startOffset": 182,
+          "url": "https://www.youtube.com/watch?v=Bw_d6zmALV0&t=182s",
+          "endOffset": 241
+        },
+        {
+          "@type": "Clip",
+          "name": "`summarize` operator to aggregate data (e.g. find the min and max values in a column)",
+          "startOffset": 241,
+          "url": "https://www.youtube.com/watch?v=Bw_d6zmALV0&t=241s",
+          "endOffset": 292
+        },
+        {
+          "@type": "Clip",
+          "name": "`where` operator to filter records",
+          "startOffset": 292,
+          "url": "https://www.youtube.com/watch?v=Bw_d6zmALV0&t=292s",
+          "endOffset": 361
+        },
+        {
+          "@type": "Clip",
+          "name": "`top` operator to get the first N records sorted by the specified columns",
+          "startOffset": 361,
+          "url": "https://www.youtube.com/watch?v=Bw_d6zmALV0&t=361s",
+          "endOffset": 398
+        },
+        {
+          "@type": "Clip",
+          "name": "`as` operator to bind a name to the operator's input tabular expression, and `extend` operator",
+          "startOffset": 398,
+          "url": "https://www.youtube.com/watch?v=Bw_d6zmALV0&t=398s",
+          "endOffset": 471
+        },
+        {
+          "@type": "Clip",
+          "name": "`project` operator to select the columns to include in the output",
+          "startOffset": 471,
+          "url": "https://www.youtube.com/watch?v=Bw_d6zmALV0&t=471s",
+          "endOffset": 493
+        },
+        {
+          "@type": "Clip",
+          "name": "`parse` operator to parse values into one or more calculated columns",
+          "startOffset": 493,
+          "url": "https://www.youtube.com/watch?v=Bw_d6zmALV0&t=493s",
+          "endOffset": 545
+        },
+        {
+          "@type": "Clip",
+          "name": "`parse_json` function to extract values from JSONs",
+          "startOffset": 545,
+          "url": "https://www.youtube.com/watch?v=Bw_d6zmALV0&t=545s",
+          "endOffset": 673
+        },
+        {
+          "@type": "Clip",
+          "name": "`let` statements to set a variable name equal to an expression, and `toscalar` function",
+          "startOffset": 673,
+          "url": "https://www.youtube.com/watch?v=Bw_d6zmALV0&t=673s",
+          "endOffset": 772
+        },
+        {
+          "@type": "Clip",
+          "name": "Wrap-Up",
+          "startOffset": 772,
+          "url": "https://www.youtube.com/watch?v=Bw_d6zmALV0&t=772s",
+          "endOffset": 807
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ekote.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Microsoft Fabric",
+          "item": "https://ekote.github.io/fabric/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fabric Espresso",
+          "item": "https://ekote.github.io/fabric/espresso/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Synapse Real-Time Analytics: Get started with KQL",
+          "item": "https://ekote.github.io/fabric/espresso/synapse-real-time-analytics-get-started-with-kql/"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ekote.github.io/#person",
+      "name": "Estera Kot",
+      "honorificPrefix": "Dr.",
+      "url": "https://ekote.github.io/"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+  <!-- generated by fabric/espresso/build_episodes.py -->
+  <header class="topbar">
+    <div class="inner">
+      <a class="brand" href="../../../">Dr. Estera Kot</a>
+      <nav>
+        <a href="../../../">Home</a>
+        <a href="../../">Fabric guide</a>
+        <a href="../">Fabric Espresso</a>
+        <a href="../../../#publications">Publications</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../">Home</a> / <a href="../../">Microsoft Fabric</a> / <a href="../">Fabric Espresso</a></nav>
+    <h1>Synapse Real-Time Analytics: Get started with KQL</h1>
+    <p class="title">Episode 8 of Fabric Espresso, the Microsoft Fabric video series created by Dr. Estera Kot.</p>
+    <a class="thumb" href="https://www.youtube.com/watch?v=Bw_d6zmALV0"><img src="https://i.ytimg.com/vi/Bw_d6zmALV0/hqdefault.jpg" width="480" height="360" alt="Video thumbnail for Synapse Real-Time Analytics: Get started with KQL. Opens the video on YouTube."></a>
+    <p class="vmeta">Length 13:27. Published Jun 21, 2023 on the Azure Synapse Analytics YouTube channel. Topic: <a href="../#real-time-kql">Real-Time Intelligence and KQL</a>.</p>
+    <p><strong><a href="https://www.youtube.com/watch?v=Bw_d6zmALV0">Watch on YouTube</a></strong></p>
+    <section class="desc">
+      <h2>About this episode</h2>
+      <p class="src">Text from the YouTube description.</p>
+      <p>Welcome to the third video in our How To series for Real-Time Analytics in Microsoft Fabric!</p>
+      <p>In this video, Slavik Neimer, a Principal Software Engineer Manager at Microsoft, will show you how to get started with KQL.</p>
+      <p>00:06 Intro<br>
+00:17 Overview of Real-Time Analytics in Fabric<br>
+00:40 Running pre-defined queries<br>
+01:25 SQL to KQL using the `explain` keyword<br>
+02:23 Articles to get you started in KQL<br>
+02:39 `count` operator to count records in a table<br>
+03:02 `take` operator to get a few arbitrary records<br>
+04:01 `summarize` operator to aggregate data (e.g. find the min and max values in a column)<br>
+04:52 `where` operator to filter records<br>
+06:01 `top` operator to get the first N records sorted by the specified columns<br>
+06:38 `as` operator to bind a name to the operator&#x27;s input tabular expression, and `extend` operator<br>
+07:51 `project` operator to select the columns to include in the output<br>
+08:13 `parse` operator to parse values into one or more calculated columns<br>
+09:05 `parse_json` function to extract values from JSONs<br>
+11:13 `let` statements to set a variable name equal to an expression, and `toscalar` function<br>
+12:52 Wrap-Up</p>
+      <p>#microsoftfabric #synapserealtimeanalytics</p>
+    </section>
+    <section>
+      <h2>Chapters</h2>
+      <ol class="chapters">
+        <li><a href="https://www.youtube.com/watch?v=Bw_d6zmALV0">0:00</a> &lt;Untitled Chapter 1&gt;</li>
+        <li><a href="https://www.youtube.com/watch?v=Bw_d6zmALV0&amp;t=6s">0:06</a> Intro</li>
+        <li><a href="https://www.youtube.com/watch?v=Bw_d6zmALV0&amp;t=17s">0:17</a> Overview of Real-Time Analytics in Fabric</li>
+        <li><a href="https://www.youtube.com/watch?v=Bw_d6zmALV0&amp;t=40s">0:40</a> Running pre-defined queries</li>
+        <li><a href="https://www.youtube.com/watch?v=Bw_d6zmALV0&amp;t=85s">1:25</a> SQL to KQL using the `explain` keyword</li>
+        <li><a href="https://www.youtube.com/watch?v=Bw_d6zmALV0&amp;t=143s">2:23</a> Articles to get you started in KQL</li>
+        <li><a href="https://www.youtube.com/watch?v=Bw_d6zmALV0&amp;t=159s">2:39</a> `count` operator to count records in a table</li>
+        <li><a href="https://www.youtube.com/watch?v=Bw_d6zmALV0&amp;t=182s">3:02</a> `take` operator to get a few arbitrary records</li>
+        <li><a href="https://www.youtube.com/watch?v=Bw_d6zmALV0&amp;t=241s">4:01</a> `summarize` operator to aggregate data (e.g. find the min and max values in a column)</li>
+        <li><a href="https://www.youtube.com/watch?v=Bw_d6zmALV0&amp;t=292s">4:52</a> `where` operator to filter records</li>
+        <li><a href="https://www.youtube.com/watch?v=Bw_d6zmALV0&amp;t=361s">6:01</a> `top` operator to get the first N records sorted by the specified columns</li>
+        <li><a href="https://www.youtube.com/watch?v=Bw_d6zmALV0&amp;t=398s">6:38</a> `as` operator to bind a name to the operator&#x27;s input tabular expression, and `extend` operator</li>
+        <li><a href="https://www.youtube.com/watch?v=Bw_d6zmALV0&amp;t=471s">7:51</a> `project` operator to select the columns to include in the output</li>
+        <li><a href="https://www.youtube.com/watch?v=Bw_d6zmALV0&amp;t=493s">8:13</a> `parse` operator to parse values into one or more calculated columns</li>
+        <li><a href="https://www.youtube.com/watch?v=Bw_d6zmALV0&amp;t=545s">9:05</a> `parse_json` function to extract values from JSONs</li>
+        <li><a href="https://www.youtube.com/watch?v=Bw_d6zmALV0&amp;t=673s">11:13</a> `let` statements to set a variable name equal to an expression, and `toscalar` function</li>
+        <li><a href="https://www.youtube.com/watch?v=Bw_d6zmALV0&amp;t=772s">12:52</a> Wrap-Up</li>
+      </ol>
+    </section>
+    <nav class="pn" aria-label="More episodes">
+      <div class="prev"><span>Previous episode</span><a href="../loading-data-from-landing-to-bronze/">Fabric Espresso: Loading Data from Landing to Bronze!</a></div>
+      <div class="next"><span>Next episode</span><a href="../loading-existing-delta-tables-to-silver/">Fabric Espresso: Loading existing Delta Tables to Silver!</a></div>
+    </nav>
+    <p><a href="../">All Fabric Espresso episodes</a></p>
+    <footer>
+      <a href="../../../privacy.html">Privacy</a>
+      <a href="../../../terms.html">Terms</a>
+      <span>Dr. Estera Kot, Warsaw and Gdynia, Poland.</span>
+    </footer>
+  </main>
+</body>
+</html>

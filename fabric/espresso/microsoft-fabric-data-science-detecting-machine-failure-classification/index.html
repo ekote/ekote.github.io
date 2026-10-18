@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Microsoft Fabric Data Science - Detecting Machine Failure (Classification). | Fabric Espresso</title>
+  <meta name="description" content="Microsoft Fabric Data Science - Detecting Machine Failure (Classification).Predict when manufacturing equipment will fail.">
+  <meta name="google-site-verification" content="cSOWqrR3-ff1EmSCDMry0rZuk_c8wklIxxS-CFQkkfg" />
+  <link rel="canonical" href="https://ekote.github.io/fabric/espresso/microsoft-fabric-data-science-detecting-machine-failure-classification/">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Dr. Estera Kot">
+  <meta property="og:type" content="video.other">
+  <meta property="og:site_name" content="Dr. Estera Kot">
+  <meta property="og:title" content="Microsoft Fabric Data Science - Detecting Machine Failure (Classification).">
+  <meta property="og:description" content="Microsoft Fabric Data Science - Detecting Machine Failure (Classification).Predict when manufacturing equipment will fail.">
+  <meta property="og:url" content="https://ekote.github.io/fabric/espresso/microsoft-fabric-data-science-detecting-machine-failure-classification/">
+  <meta property="og:image" content="https://i.ytimg.com/vi/u_60vpO3PlU/hqdefault.jpg">
+  <meta property="og:image:width" content="480">
+  <meta property="og:image:height" content="360">
+  <meta property="og:image:alt" content="Thumbnail of the Fabric Espresso episode Microsoft Fabric Data Science - Detecting Machine Failure (Classification).">
+  <meta property="og:video" content="https://www.youtube.com/embed/u_60vpO3PlU">
+  <meta property="og:video:secure_url" content="https://www.youtube.com/embed/u_60vpO3PlU">
+  <meta property="og:video:type" content="text/html">
+  <meta property="og:video:width" content="1280">
+  <meta property="og:video:height" content="720">
+  <meta property="video:release_date" content="2024-06-04">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Microsoft Fabric Data Science - Detecting Machine Failure (Classification).">
+  <meta name="twitter:description" content="Microsoft Fabric Data Science - Detecting Machine Failure (Classification).Predict when manufacturing equipment will fail.">
+  <meta name="twitter:image" content="https://i.ytimg.com/vi/u_60vpO3PlU/hqdefault.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&amp;family=Source+Sans+3:wght@400;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../../style.css?v=4">
+  <style>
+    .crumbs { font-size: .9rem; color: var(--muted); margin: 0 0 16px; }
+    .crumbs a { margin: 0 4px; }
+    .crumbs a:first-child { margin-left: 0; }
+    .thumb { display: inline-block; margin: 6px 0 12px; max-width: 100%; }
+    .thumb img { display: block; max-width: 100%; height: auto; border: 1px solid #D5D0C8; }
+    .vmeta { color: var(--muted); }
+    .desc p { overflow-wrap: anywhere; }
+    .src { color: var(--muted); font-size: .9rem; }
+    .chapters { list-style: none; padding-left: 0; }
+    .chapters li { margin-bottom: 4px; }
+    .chapters a { display: inline-block; min-width: 3.6em; font-variant-numeric: tabular-nums; }
+    .pn { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 32px; margin-top: 44px;
+          border-top: 1px solid var(--rule); padding-top: 18px; }
+    .pn span { display: block; color: var(--muted); font-size: .88rem; }
+    .pn .next { text-align: right; }
+    @media (max-width: 600px) { .pn { grid-template-columns: 1fr; } .pn .next { text-align: left; } }
+  </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://ekote.github.io/fabric/espresso/microsoft-fabric-data-science-detecting-machine-failure-classification/#video",
+      "name": "Microsoft Fabric Data Science - Detecting Machine Failure (Classification).",
+      "url": "https://ekote.github.io/fabric/espresso/microsoft-fabric-data-science-detecting-machine-failure-classification/",
+      "description": "Microsoft Fabric Data Science - Detecting Machine Failure (Classification).Predict when manufacturing equipment will fail. Explore the process of predicting machine failures with Fabric Data Science. This episode delves into classification methods used in detecting manufacturing equipment failures, providing valuable insights for both novice and experienced data scientists. Meet the Speakers: Guest Expert: Amir H. Jafari, PhD, Senior Product Manager | Fabric Data Science LinkedIn: https://www.linkedin.com/in/ahjafari/ Host: Estera Kot, PhD, Principal Product Manager at Microsoft. LinkedIn: https://www.linkedin.com/in/esterakot/ Twitter: https://twitter.com/estera_kot Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+      "thumbnailUrl": [
+        "https://i.ytimg.com/vi/u_60vpO3PlU/hqdefault.jpg"
+      ],
+      "embedUrl": "https://www.youtube.com/embed/u_60vpO3PlU",
+      "uploadDate": "2024-06-04",
+      "duration": "PT23M51S",
+      "contentUrl": "https://www.youtube.com/watch?v=u_60vpO3PlU",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Azure Synapse Analytics",
+        "url": "https://www.youtube.com/@AzureSynapse"
+      },
+      "author": {
+        "@id": "https://ekote.github.io/#person"
+      },
+      "creator": {
+        "@id": "https://ekote.github.io/#person"
+      },
+      "isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": "Fabric Espresso",
+        "url": "https://ekote.github.io/fabric/espresso/"
+      },
+      "hasPart": [
+        {
+          "@type": "Clip",
+          "name": "Introduction to the demo",
+          "startOffset": 0,
+          "url": "https://www.youtube.com/watch?v=u_60vpO3PlU",
+          "endOffset": 139
+        },
+        {
+          "@type": "Clip",
+          "name": "Environment setup",
+          "startOffset": 139,
+          "url": "https://www.youtube.com/watch?v=u_60vpO3PlU&t=139s",
+          "endOffset": 259
+        },
+        {
+          "@type": "Clip",
+          "name": "Data loading and cleaning",
+          "startOffset": 259,
+          "url": "https://www.youtube.com/watch?v=u_60vpO3PlU&t=259s",
+          "endOffset": 406
+        },
+        {
+          "@type": "Clip",
+          "name": "Exploratory data analysis",
+          "startOffset": 406,
+          "url": "https://www.youtube.com/watch?v=u_60vpO3PlU&t=406s",
+          "endOffset": 649
+        },
+        {
+          "@type": "Clip",
+          "name": "Handling imbalanced data",
+          "startOffset": 649,
+          "url": "https://www.youtube.com/watch?v=u_60vpO3PlU&t=649s",
+          "endOffset": 891
+        },
+        {
+          "@type": "Clip",
+          "name": "Training and model selection",
+          "startOffset": 891,
+          "url": "https://www.youtube.com/watch?v=u_60vpO3PlU&t=891s",
+          "endOffset": 1170
+        },
+        {
+          "@type": "Clip",
+          "name": "Generating insights",
+          "startOffset": 1170,
+          "url": "https://www.youtube.com/watch?v=u_60vpO3PlU&t=1170s",
+          "endOffset": 1256
+        },
+        {
+          "@type": "Clip",
+          "name": "Closing and scalability",
+          "startOffset": 1256,
+          "url": "https://www.youtube.com/watch?v=u_60vpO3PlU&t=1256s",
+          "endOffset": 1431
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ekote.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Microsoft Fabric",
+          "item": "https://ekote.github.io/fabric/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fabric Espresso",
+          "item": "https://ekote.github.io/fabric/espresso/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Microsoft Fabric Data Science - Detecting Machine Failure (Classification).",
+          "item": "https://ekote.github.io/fabric/espresso/microsoft-fabric-data-science-detecting-machine-failure-classification/"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ekote.github.io/#person",
+      "name": "Estera Kot",
+      "honorificPrefix": "Dr.",
+      "url": "https://ekote.github.io/"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+  <!-- generated by fabric/espresso/build_episodes.py -->
+  <header class="topbar">
+    <div class="inner">
+      <a class="brand" href="../../../">Dr. Estera Kot</a>
+      <nav>
+        <a href="../../../">Home</a>
+        <a href="../../">Fabric guide</a>
+        <a href="../">Fabric Espresso</a>
+        <a href="../../../#publications">Publications</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../">Home</a> / <a href="../../">Microsoft Fabric</a> / <a href="../">Fabric Espresso</a></nav>
+    <h1>Microsoft Fabric Data Science - Detecting Machine Failure (Classification).</h1>
+    <p class="title">Episode 56 of Fabric Espresso, hosted by Dr. Estera Kot.</p>
+    <a class="thumb" href="https://www.youtube.com/watch?v=u_60vpO3PlU"><img src="https://i.ytimg.com/vi/u_60vpO3PlU/hqdefault.jpg" width="480" height="360" alt="Video thumbnail for Microsoft Fabric Data Science - Detecting Machine Failure (Classification).. Opens the video on YouTube."></a>
+    <p class="vmeta">Length 23:51. Published Jun 4, 2024 on the Azure Synapse Analytics YouTube channel. Topic: <a href="../#data-science-ml">Data Science and Machine Learning</a>.</p>
+    <p><strong><a href="https://www.youtube.com/watch?v=u_60vpO3PlU">Watch on YouTube</a></strong></p>
+    <section class="desc">
+      <h2>About this episode</h2>
+      <p class="src">Text from the YouTube description.</p>
+      <p>Microsoft Fabric Data Science - Detecting Machine Failure (Classification).Predict when manufacturing equipment will fail.</p>
+      <p>Explore the process of predicting machine failures with Fabric Data Science. This episode delves into classification methods used in detecting manufacturing equipment failures, providing valuable insights for both novice and experienced data scientists.</p>
+      <p>🎙 Meet the Speakers:</p>
+      <p>👤 Guest Expert: Amir H. Jafari, PhD, Senior Product Manager | Fabric Data Science</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/ahjafari/" rel="nofollow noopener">https://www.linkedin.com/in/ahjafari/</a></p>
+      <p>👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft.</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/esterakot/" rel="nofollow noopener">https://www.linkedin.com/in/esterakot/</a></p>
+      <p>Twitter: <a href="https://twitter.com/estera_kot" rel="nofollow noopener">https://twitter.com/estera_kot</a></p>
+      <p>👍 Liked this video? Don&#x27;t forget to hit the &#x27;Like&#x27; button and share it with your peers!</p>
+    </section>
+    <section>
+      <h2>Chapters</h2>
+      <ol class="chapters">
+        <li><a href="https://www.youtube.com/watch?v=u_60vpO3PlU">0:00</a> Introduction to the demo</li>
+        <li><a href="https://www.youtube.com/watch?v=u_60vpO3PlU&amp;t=139s">2:19</a> Environment setup</li>
+        <li><a href="https://www.youtube.com/watch?v=u_60vpO3PlU&amp;t=259s">4:19</a> Data loading and cleaning</li>
+        <li><a href="https://www.youtube.com/watch?v=u_60vpO3PlU&amp;t=406s">6:46</a> Exploratory data analysis</li>
+        <li><a href="https://www.youtube.com/watch?v=u_60vpO3PlU&amp;t=649s">10:49</a> Handling imbalanced data</li>
+        <li><a href="https://www.youtube.com/watch?v=u_60vpO3PlU&amp;t=891s">14:51</a> Training and model selection</li>
+        <li><a href="https://www.youtube.com/watch?v=u_60vpO3PlU&amp;t=1170s">19:30</a> Generating insights</li>
+        <li><a href="https://www.youtube.com/watch?v=u_60vpO3PlU&amp;t=1256s">20:56</a> Closing and scalability</li>
+      </ol>
+    </section>
+    <nav class="pn" aria-label="More episodes">
+      <div class="prev"><span>Previous episode</span><a href="../copilot-in-microsoft-fabric-ultimate-demo-of-copilots-in-notebooks-ds/">Copilot in Microsoft Fabric | Ultimate demo of copilots in Notebooks - DS &amp; DE</a></div>
+      <div class="next"><span>Next episode</span><a href="../microsoft-fabric-data-engineering-apache-spark-jobs-monitoring/">Microsoft Fabric Data Engineering – Apache Spark Jobs Monitoring</a></div>
+    </nav>
+    <p><a href="../">All Fabric Espresso episodes</a></p>
+    <footer>
+      <a href="../../../privacy.html">Privacy</a>
+      <a href="../../../terms.html">Terms</a>
+      <span>Dr. Estera Kot, Warsaw and Gdynia, Poland.</span>
+    </footer>
+  </main>
+</body>
+</html>

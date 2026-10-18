@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Microsoft Fabric Maturity Model | Dr. Estera Kot</title>
+  <meta name="description" content="The Microsoft Fabric Maturity Model by Dr. Estera Kot: five levels from Foundation to Excellence, with objectives, success criteria, and a self-assessment.">
+  <meta name="google-site-verification" content="cSOWqrR3-ff1EmSCDMry0rZuk_c8wklIxxS-CFQkkfg" />
+  <link rel="canonical" href="https://ekote.github.io/fabric/maturity-model/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="author" content="Dr. Estera Kot">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="The Microsoft Fabric Maturity Model by Dr. Estera Kot">
+  <meta property="og:description" content="The Microsoft Fabric Maturity Model by Dr. Estera Kot: five levels from Foundation to Excellence, with objectives, success criteria, and a self-assessment.">
+  <meta property="og:url" content="https://ekote.github.io/fabric/maturity-model/">
+  <meta property="og:image" content="https://ekote.github.io/headshot.jpg">
+  <meta property="og:image:alt" content="Portrait of Dr. Estera Kot">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Dr. Estera Kot">
+  <meta property="article:published_time" content="2026-10-19">
+  <meta property="article:modified_time" content="2026-10-19">
+  <meta property="article:author" content="https://ekote.github.io/">
+  <meta property="article:section" content="Microsoft Fabric">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@estera_kot">
+  <meta name="twitter:creator" content="@estera_kot">
+  <meta name="twitter:title" content="The Microsoft Fabric Maturity Model by Dr. Estera Kot">
+  <meta name="twitter:description" content="The Microsoft Fabric Maturity Model by Dr. Estera Kot: five levels from Foundation to Excellence, with objectives, success criteria, and a self-assessment.">
+  <meta name="twitter:image" content="https://ekote.github.io/headshot.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "@id": "https://ekote.github.io/fabric/maturity-model/#article",
+    "headline": "The Microsoft Fabric Maturity Model by Dr. Estera Kot",
+    "alternativeHeadline": "Fabric Maturity Model: five levels from Foundation to Excellence",
+    "description": "The Microsoft Fabric Maturity Model by Dr. Estera Kot: five levels from Foundation to Excellence, with objectives, success criteria, and a self-assessment.",
+    "url": "https://ekote.github.io/fabric/maturity-model/",
+    "mainEntityOfPage": "https://ekote.github.io/fabric/maturity-model/",
+    "image": "https://ekote.github.io/headshot.jpg",
+    "inLanguage": "en-US",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
+    "author": {
+      "@type": "Person",
+      "@id": "https://ekote.github.io/#person",
+      "name": "Estera Kot",
+      "url": "https://ekote.github.io/"
+    },
+    "about": [
+      {
+        "@id": "https://ekote.github.io/fabric/maturity-model/#levels"
+      },
+      {
+        "@type": "Thing",
+        "name": "Microsoft Fabric",
+        "sameAs": "https://learn.microsoft.com/fabric/"
+      }
+    ],
+    "keywords": "Fabric maturity model, Microsoft Fabric maturity model, Microsoft Fabric implementation, Fabric adoption roadmap, Fabric assessment, Fabric Center of Excellence, F SKU capacity planning",
+    "proficiencyLevel": "Expert",
+    "mentions": [
+      {
+        "@type": "Service",
+        "name": "Microsoft Fabric Maturity Model",
+        "url": "https://catalog.cloudsonmars.com/offerings/microsoft-fabric-maturity-model",
+        "provider": {
+          "@type": "Organization",
+          "name": "Clouds on Mars",
+          "url": "https://cloudsonmars.com/"
+        }
+      },
+      {
+        "@id": "https://ekote.github.io/fabric/#article"
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTermSet",
+    "@id": "https://ekote.github.io/fabric/maturity-model/#levels",
+    "name": "Microsoft Fabric Maturity Model levels",
+    "description": "The five levels of the Microsoft Fabric Maturity Model by Dr. Estera Kot: Foundation, Expansion, Integration, Optimization, and Excellence.",
+    "url": "https://ekote.github.io/fabric/maturity-model/",
+    "inLanguage": "en-US",
+    "creator": {
+      "@id": "https://ekote.github.io/#person"
+    },
+    "hasDefinedTerm": [
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://ekote.github.io/fabric/maturity-model/#level-1",
+        "name": "Foundation",
+        "alternateName": "Fabric maturity level 1: Foundation",
+        "termCode": "L1",
+        "description": "Level 1 of the Microsoft Fabric Maturity Model: a governed Fabric environment, the first data sources, and basic reporting for a pilot team.",
+        "url": "https://ekote.github.io/fabric/maturity-model/#level-1",
+        "inDefinedTermSet": {
+          "@id": "https://ekote.github.io/fabric/maturity-model/#levels"
+        }
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://ekote.github.io/fabric/maturity-model/#level-2",
+        "name": "Expansion",
+        "alternateName": "Fabric maturity level 2: Expansion",
+        "termCode": "L2",
+        "description": "Level 2 of the Microsoft Fabric Maturity Model: cross-functional analytics with more sources, automated pipelines, and shared semantic models.",
+        "url": "https://ekote.github.io/fabric/maturity-model/#level-2",
+        "inDefinedTermSet": {
+          "@id": "https://ekote.github.io/fabric/maturity-model/#levels"
+        }
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://ekote.github.io/fabric/maturity-model/#level-3",
+        "name": "Integration",
+        "alternateName": "Fabric maturity level 3: Integration",
+        "termCode": "L3",
+        "description": "Level 3 of the Microsoft Fabric Maturity Model: a unified data platform on OneLake with an enterprise warehouse, real-time analytics, CI/CD, and lineage.",
+        "url": "https://ekote.github.io/fabric/maturity-model/#level-3",
+        "inDefinedTermSet": {
+          "@id": "https://ekote.github.io/fabric/maturity-model/#levels"
+        }
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://ekote.github.io/fabric/maturity-model/#level-4",
+        "name": "Optimization",
+        "alternateName": "Fabric maturity level 4: Optimization",
+        "termCode": "L4",
+        "description": "Level 4 of the Microsoft Fabric Maturity Model: AI-driven intelligence with machine learning in production, FinOps, enterprise governance, and a Center of Excellence.",
+        "url": "https://ekote.github.io/fabric/maturity-model/#level-4",
+        "inDefinedTermSet": {
+          "@id": "https://ekote.github.io/fabric/maturity-model/#levels"
+        }
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://ekote.github.io/fabric/maturity-model/#level-5",
+        "name": "Excellence",
+        "alternateName": "Fabric maturity level 5: Excellence",
+        "termCode": "L5",
+        "description": "Level 5 of the Microsoft Fabric Maturity Model: AI agents and real-time decision automation on governed data products.",
+        "url": "https://ekote.github.io/fabric/maturity-model/#level-5",
+        "inDefinedTermSet": {
+          "@id": "https://ekote.github.io/fabric/maturity-model/#levels"
+        }
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://ekote.github.io/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Microsoft Fabric",
+        "item": "https://ekote.github.io/fabric/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Maturity Model",
+        "item": "https://ekote.github.io/fabric/maturity-model/"
+      }
+    ]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../style.css?v=4">
+</head>
+<body>
+  <header class="topbar">
+    <div class="inner">
+      <a class="brand" href="../../">Dr. Estera Kot</a>
+      <nav>
+        <a href="../../">Home</a>
+        <a href="../">Fabric guide</a>
+        <a href="./" aria-current="page">Maturity model</a>
+        <a href="../espresso/">Fabric Espresso</a>
+        <a href="../../#publications">Publications</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <p class="links"><a href="../../">Home</a> / <a href="../">Microsoft Fabric</a> / Maturity Model</p>
+    <h1>The Microsoft Fabric Maturity Model by Dr. Estera Kot</h1>
+    <p class="title">By <a href="../../">Dr. Estera Kot</a>, CTO at Clouds on Mars and former Microsoft Principal Product Manager for the Apache Spark runtime in Fabric. Published <time datetime="2026-10-19">Monday, October 19, 2026</time>.</p>
+    <p>The Fabric Maturity Model is a five-level framework for planning and measuring Microsoft Fabric adoption. Dr. Estera Kot built it on what she saw as a Microsoft product manager for the Spark runtime in Fabric. The levels are Foundation, Expansion, Integration, Optimization, and Excellence.</p>
+    <p>The model is applied in Clouds on Mars engagements. The canonical offering is the <a href="https://catalog.cloudsonmars.com/offerings/microsoft-fabric-maturity-model">Microsoft Fabric Maturity Model in the Clouds on Mars catalog</a>. For the step-by-step build decisions behind each level, read the <a href="../">Microsoft Fabric implementation guide</a>.</p>
+    <div class="note">
+      <p><strong>On this page</strong></p>
+      <ul>
+        <li><a href="#why">Why a maturity model</a></li>
+        <li><a href="#overview">The five levels at a glance</a></li>
+        <li><a href="#level-1">Level 1: Foundation</a></li>
+        <li><a href="#level-2">Level 2: Expansion</a></li>
+        <li><a href="#level-3">Level 3: Integration</a></li>
+        <li><a href="#level-4">Level 4: Optimization</a></li>
+        <li><a href="#level-5">Level 5: Excellence</a></li>
+        <li><a href="#assess">How to assess your level</a></li>
+        <li><a href="#clouds-on-mars">How Clouds on Mars applies the model</a></li>
+        <li><a href="#related">Related resources and contact</a></li>
+      </ul>
+    </div>
+
+    <section id="why">
+      <h2>Why a maturity model</h2>
+      <p>Fabric spans many workloads, each with its own learning curve. Teams that switch everything on at once tend to hit the same problems. Poor engine and capacity choices drive cost overruns. Users get lost in features they did not ask for. Integration surprises appear late, and governance gaps surface only at scale.</p>
+      <p>The model replaces that with a sequence. Each level has explicit objectives and success criteria, so teams know what done looks like before they move on. The levels are stages of capability, not calendar dates.</p>
+      <p>Two principles run through every level. Start small and scale on evidence. Put governance in place before content spreads.</p>
+    </section>
+
+    <section id="overview">
+      <h2>The five levels at a glance</h2>
+      <table style="border-collapse:collapse;width:100%;max-width:72ch;font-size:.95rem;margin:0 0 14px">
+        <caption style="text-align:left;color:var(--muted);padding:0 0 8px">Fabric Maturity Model levels with starting capacity guidance</caption>
+        <thead>
+          <tr>
+            <th scope="col" style="border:1px solid var(--rule);background:var(--sand);padding:8px 10px;text-align:left;vertical-align:top">Level</th>
+            <th scope="col" style="border:1px solid var(--rule);background:var(--sand);padding:8px 10px;text-align:left;vertical-align:top">Focus</th>
+            <th scope="col" style="border:1px solid var(--rule);background:var(--sand);padding:8px 10px;text-align:left;vertical-align:top">Exit signal</th>
+            <th scope="col" style="border:1px solid var(--rule);background:var(--sand);padding:8px 10px;text-align:left;vertical-align:top">Starting capacity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" style="border:1px solid var(--rule);padding:8px 10px;text-align:left;vertical-align:top"><a href="#level-1">1. Foundation</a></th>
+            <td style="border:1px solid var(--rule);padding:8px 10px;vertical-align:top">Data collection and basic reporting</td>
+            <td style="border:1px solid var(--rule);padding:8px 10px;vertical-align:top">A governed pilot runs on schedule</td>
+            <td style="border:1px solid var(--rule);padding:8px 10px;vertical-align:top">F2 or a Fabric trial</td>
+          </tr>
+          <tr>
+            <th scope="row" style="border:1px solid var(--rule);padding:8px 10px;text-align:left;vertical-align:top"><a href="#level-2">2. Expansion</a></th>
+            <td style="border:1px solid var(--rule);padding:8px 10px;vertical-align:top">Cross-functional analytics</td>
+            <td style="border:1px solid var(--rule);padding:8px 10px;vertical-align:top">Several departments share models</td>
+            <td style="border:1px solid var(--rule);padding:8px 10px;vertical-align:top">F4</td>
+          </tr>
+          <tr>
+            <th scope="row" style="border:1px solid var(--rule);padding:8px 10px;text-align:left;vertical-align:top"><a href="#level-3">3. Integration</a></th>
+            <td style="border:1px solid var(--rule);padding:8px 10px;vertical-align:top">A unified data platform</td>
+            <td style="border:1px solid var(--rule);padding:8px 10px;vertical-align:top">Lineage, CI/CD, and a legacy retirement plan</td>
+            <td style="border:1px solid var(--rule);padding:8px 10px;vertical-align:top">F8 to F16</td>
+          </tr>
+          <tr>
+            <th scope="row" style="border:1px solid var(--rule);padding:8px 10px;text-align:left;vertical-align:top"><a href="#level-4">4. Optimization</a></th>
+            <td style="border:1px solid var(--rule);padding:8px 10px;vertical-align:top">AI-driven intelligence</td>
+            <td style="border:1px solid var(--rule);padding:8px 10px;vertical-align:top">Models in production, costs reviewed</td>
+            <td style="border:1px solid var(--rule);padding:8px 10px;vertical-align:top">F16 to F32</td>
+          </tr>
+          <tr>
+            <th scope="row" style="border:1px solid var(--rule);padding:8px 10px;text-align:left;vertical-align:top"><a href="#level-5">5. Excellence</a></th>
+            <td style="border:1px solid var(--rule);padding:8px 10px;vertical-align:top">AI and real-time decisions at scale</td>
+            <td style="border:1px solid var(--rule);padding:8px 10px;vertical-align:top">Agents and automation on governed data</td>
+            <td style="border:1px solid var(--rule);padding:8px 10px;vertical-align:top">F64 and above</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Capacity guidance is a starting point, not a rule. Size every capacity from measured use in the Fabric Capacity Metrics app. Remember the F64 line: below F64, every Power BI report viewer needs a Pro or Premium Per User license.</p>
+    </section>
+
+    <section id="level-1">
+      <h2>Level 1: Foundation</h2>
+      <p class="title">Data collection and basic reporting. This level is the proof of concept.</p>
+      <h3>Objectives</h3>
+      <ul>
+        <li>Stand up a governed Fabric environment with a first capacity, workspaces, and an access model.</li>
+        <li>Prove value with one or two high-value, low-complexity use cases.</li>
+        <li>Train a core team on Fabric fundamentals before production work starts.</li>
+        <li>Build confidence in the platform with sponsors and first users.</li>
+      </ul>
+      <h3>Key capabilities</h3>
+      <ul>
+        <li>Ingestion from a few well-understood sources, such as SQL Server, Excel, or SharePoint.</li>
+        <li>A first lakehouse in OneLake, laid out in bronze, silver, and gold layers.</li>
+        <li>Essential Power BI reports with scheduled refresh.</li>
+        <li>Workspace roles, row-level security, and basic data classification with sensitivity labels.</li>
+      </ul>
+      <h3>Success criteria</h3>
+      <ul>
+        <li>All planned data sources are connected and load on schedule.</li>
+        <li>Daily report refresh runs without manual steps.</li>
+        <li>All target users are onboarded and trained.</li>
+        <li>A governance framework is documented and approved.</li>
+      </ul>
+      <h3>Technology focus</h3>
+      <ul>
+        <li>Lakehouse, Data Factory pipelines or Dataflow Gen2 for ingestion, and Power BI.</li>
+        <li>An F2 capacity or a Fabric trial, with the Capacity Metrics app installed from the start.</li>
+        <li>An on-premises data gateway if any source sits outside the cloud.</li>
+      </ul>
+      <h3>Challenges and how to handle them</h3>
+      <ul>
+        <li><strong>Deciding the OneLake layout.</strong> Adopt the medallion pattern from day one, so later levels extend it instead of replacing it.</li>
+        <li><strong>Uncertain capacity size.</strong> Start small, watch real consumption, and scale up on evidence.</li>
+        <li><strong>Overengineering the setup.</strong> Keep the first environment simple. Complexity can wait for later levels.</li>
+        <li><strong>Postponing governance.</strong> Set workspace rules and labels now, because rework grows with every new item.</li>
+      </ul>
+    </section>
+
+    <section id="level-2">
+      <h2>Level 2: Expansion</h2>
+      <p class="title">Cross-functional analytics. Fabric moves beyond the pilot team.</p>
+      <h3>Objectives</h3>
+      <ul>
+        <li>Extend Fabric to more departments and more users.</li>
+        <li>Integrate more data sources through automated pipelines.</li>
+        <li>Agree on shared data modeling standards across teams.</li>
+      </ul>
+      <h3>Key capabilities</h3>
+      <ul>
+        <li>Integration of multiple sources through Data Factory pipelines, Dataflow Gen2, mirroring, and OneLake shortcuts.</li>
+        <li>Cross-departmental dashboards built on shared semantic models.</li>
+        <li>Direct Lake semantic models that read Delta tables in OneLake without import.</li>
+        <li>Automated refresh schedules, with monitoring and alerts on failed runs.</li>
+        <li>Data modeling practices such as star schemas, shared dimensions, and naming conventions.</li>
+      </ul>
+      <h3>Success criteria</h3>
+      <ul>
+        <li>Pipelines run unattended, and failures raise alerts to a named owner.</li>
+        <li>Several departments use shared, endorsed semantic models instead of private copies.</li>
+        <li>Report adoption and data refresh time are tracked against the Level 1 baseline.</li>
+      </ul>
+      <h3>Technology focus</h3>
+      <ul>
+        <li>Data Factory, Spark notebooks, Power BI with Direct Lake, and Git integration for pipelines and notebooks.</li>
+        <li>An F4 capacity as a starting point, resized when the Capacity Metrics app shows sustained pressure.</li>
+      </ul>
+      <h3>Challenges and how to handle them</h3>
+      <ul>
+        <li><strong>Pipeline sprawl.</strong> Keep pipelines simple, parameterized, and under version control.</li>
+        <li><strong>Overwhelmed users.</strong> Introduce features gradually, each with training.</li>
+        <li><strong>Performance surprises.</strong> Monitor capacity utilization early and tune the heaviest items first.</li>
+      </ul>
+    </section>
+
+    <section id="level-3">
+      <h2>Level 3: Integration</h2>
+      <p class="title">A unified data platform. Analytics consolidates on OneLake.</p>
+      <h3>Objectives</h3>
+      <ul>
+        <li>Consolidate analytics on one platform, with one copy of data in OneLake.</li>
+        <li>Add real-time analytics where the business needs it.</li>
+        <li>Industrialize data engineering with orchestration, CI/CD, and lineage.</li>
+      </ul>
+      <h3>Key capabilities</h3>
+      <ul>
+        <li>An enterprise data warehouse on Fabric Warehouse or on a gold-layer lakehouse.</li>
+        <li>Real-Time Intelligence with Eventstreams, Eventhouse and KQL databases, and Real-Time Dashboards.</li>
+        <li>Advanced transformations in Spark, with the Native Execution Engine turned on.</li>
+        <li>Automated pipeline orchestration, Git integration, and deployment pipelines across environments.</li>
+        <li>Fabric domains, endorsement, and lineage in the OneLake catalog.</li>
+      </ul>
+      <h3>Success criteria</h3>
+      <ul>
+        <li>Critical business assets have documented end-to-end lineage.</li>
+        <li>Code and item definitions live in Git and move from development to test to production through a defined process.</li>
+        <li>Legacy platforms in scope are retired or have a dated retirement plan.</li>
+        <li>Streaming use cases meet the latency targets agreed with the business.</li>
+      </ul>
+      <h3>Technology focus</h3>
+      <ul>
+        <li>Fabric Warehouse, Spark, Real-Time Intelligence, and Data Factory working on the same OneLake data.</li>
+        <li>F8 to F16 capacity as a starting range, with separate capacities for development and production.</li>
+      </ul>
+      <h3>Challenges and how to handle them</h3>
+      <ul>
+        <li><strong>Real-time complexity.</strong> Make batch processing solid before adding streaming.</li>
+        <li><strong>Migration effort.</strong> Move from Azure Synapse or other platforms in waves, with Microsoft's migration assistants where they apply.</li>
+        <li><strong>Rising cost.</strong> Put cost monitoring in place before new workloads go live, not after.</li>
+      </ul>
+    </section>
+
+    <section id="level-4">
+      <h2>Level 4: Optimization</h2>
+      <p class="title">AI-driven intelligence. The platform runs as a managed service inside the business.</p>
+      <h3>Objectives</h3>
+      <ul>
+        <li>Put machine learning into production with repeatable operations.</li>
+        <li>Optimize performance and total cost of ownership.</li>
+        <li>Run Fabric through a Center of Excellence with clear roles.</li>
+        <li>Reach enterprise-grade governance and security.</li>
+      </ul>
+      <h3>Key capabilities</h3>
+      <ul>
+        <li>Machine learning in Fabric Data Science, with MLflow experiment tracking and model management.</li>
+        <li>Predictive analytics and automated anomaly detection on business data.</li>
+        <li>Self-service AI experiences, such as Copilot in Fabric and Power BI.</li>
+        <li>FinOps practices: consumption reporting by domain, showback or chargeback, and capacity right-sizing.</li>
+        <li>Enterprise governance with Microsoft Purview sensitivity labels, data loss prevention, and audit, plus private networking where required.</li>
+      </ul>
+      <h3>Success criteria</h3>
+      <ul>
+        <li>Production models are monitored and retrained through a repeatable process.</li>
+        <li>Cost per active user and capacity utilization are reviewed on a fixed schedule with the owning teams.</li>
+        <li>A Center of Excellence owns platform standards, training, and the roadmap.</li>
+        <li>Sensitivity labels cover the data in scope, and policies act on them.</li>
+      </ul>
+      <h3>Technology focus</h3>
+      <ul>
+        <li>Fabric Data Science, Copilot, Microsoft Purview, and the Fabric Capacity Metrics app.</li>
+        <li>F16 to F32 capacity as a starting range. Move to F64 or above when free-license report viewing matters at scale.</li>
+      </ul>
+      <h3>Challenges and how to handle them</h3>
+      <ul>
+        <li><strong>AI overambition.</strong> Start with simple models and add complexity once the data supports it.</li>
+        <li><strong>Governance rigidity.</strong> Balance control with agility by delegating settings to domains.</li>
+        <li><strong>Technical debt.</strong> Schedule regular architecture reviews and refactoring.</li>
+      </ul>
+    </section>
+
+    <section id="level-5">
+      <h2>Level 5: Excellence</h2>
+      <p class="title">AI and real-time decisions at scale. Data products drive daily operations.</p>
+      <h3>Objectives</h3>
+      <ul>
+        <li>Embed AI in everyday decisions, grounded in governed data.</li>
+        <li>Automate actions on real-time signals, with clear human accountability.</li>
+        <li>Run the platform as a product with a continuous improvement pipeline.</li>
+      </ul>
+      <h3>Key capabilities</h3>
+      <ul>
+        <li>Fabric data agents and Fabric IQ that answer business questions from governed data products.</li>
+        <li>Real-time decision automation with Activator in Real-Time Intelligence.</li>
+        <li>Cross-cloud data federation through OneLake shortcuts and mirroring, for example from Amazon S3, Snowflake, or Azure Databricks.</li>
+        <li>A controlled path for preview features, tested in sandbox workspaces before production.</li>
+      </ul>
+      <h3>Success criteria</h3>
+      <ul>
+        <li>AI agents answer business questions from endorsed data products, with traceable sources.</li>
+        <li>Automated actions on live events run with named owners and human oversight where required.</li>
+        <li>Data products are discoverable, owned, and reused across domains.</li>
+        <li>New Fabric capabilities reach production through a documented evaluation path.</li>
+      </ul>
+      <h3>Technology focus</h3>
+      <ul>
+        <li>Fabric data agents, Copilot, Activator, shortcuts, mirroring, and the Fabric REST APIs.</li>
+        <li>F64 capacity and above, often split into several capacities by domain or region.</li>
+      </ul>
+      <h3>Challenges and how to handle them</h3>
+      <ul>
+        <li><strong>Experimentation stalls.</strong> Create safe sandboxes so teams can test ideas without risk to production.</li>
+        <li><strong>Accountability for automated decisions.</strong> Keep a person responsible for every automated action and its outcome.</li>
+        <li><strong>Lock-in concerns.</strong> OneLake stores tables in the open Delta Lake format, so other engines can read the same data.</li>
+      </ul>
+    </section>
+
+    <section id="assess">
+      <h2>How to assess your level</h2>
+      <p>Assess maturity against evidence, not intentions. The model uses a weakest-link rule. Your level is the highest level whose success criteria you meet in full, along with every level below it.</p>
+      <ol>
+        <li><strong>Gather evidence.</strong> Pull capacity utilization from the Capacity Metrics app, the workspace and domain inventory, pipeline run history, governance documents, and report usage.</li>
+        <li><strong>Score seven dimensions.</strong> Rate each one against the success criteria of every level. The dimensions are strategy and sponsorship, data integration, architecture and engineering, analytics and AI, governance and security, operations and cost, and people and adoption.</li>
+        <li><strong>Apply the weakest-link rule.</strong> Take the lowest dimension score as your overall level. A strong architecture does not make up for missing governance.</li>
+        <li><strong>Plan the next level.</strong> Turn each unmet criterion for the next level into a backlog item with an owner and a date.</li>
+        <li><strong>Reassess on a fixed rhythm.</strong> Repeat the assessment every quarter and after major changes, such as a migration wave.</li>
+      </ol>
+      <h3>Quick diagnostic questions</h3>
+      <dl>
+        <dt>Foundation</dt>
+        <dd>Does a Fabric capacity have a named owner? Are workspace roles assigned to groups, not individuals? Does at least one report refresh on schedule from Fabric data?</dd>
+        <dt>Expansion</dt>
+        <dd>Do pipelines run unattended, with alerts on failure? Do several departments use shared, endorsed semantic models?</dd>
+        <dt>Integration</dt>
+        <dd>Are code and item definitions in Git, with promotion through environments? Do critical assets have end-to-end lineage? Is there a dated plan to retire legacy platforms in scope?</dd>
+        <dt>Optimization</dt>
+        <dd>Are machine learning models monitored and retrained through a repeatable process? Is consumption reported per domain? Does a Center of Excellence own standards and training?</dd>
+        <dt>Excellence</dt>
+        <dd>Do AI agents answer business questions from governed data products? Does every automated action on live events have a named, accountable owner?</dd>
+      </dl>
+    </section>
+
+    <section id="clouds-on-mars">
+      <h2>How Clouds on Mars applies the model</h2>
+      <p>Clouds on Mars applies the Fabric Maturity Model in its Fabric engagements. The offering is listed in the Clouds on Mars catalog as the <a href="https://catalog.cloudsonmars.com/offerings/microsoft-fabric-maturity-model">Microsoft Fabric Maturity Model</a>. Its initial phases are scoped at 4 to 16 weeks, depending on the data estate, and follow four steps.</p>
+      <ol>
+        <li><strong>Assessment and planning.</strong> Current-state architecture review, stakeholder alignment, and a technical readiness check. The deliverable is an implementation blueprint and project charter.</li>
+        <li><strong>Foundation setup.</strong> Workspace configuration and governance, the security framework, data source connectivity, and first user training. The deliverable is an operational Fabric environment.</li>
+        <li><strong>Iterative development.</strong> Reports, dashboards, and analytics built in short cycles with user feedback. The deliverable is a set of production-ready analytics solutions.</li>
+        <li><strong>Scale and optimize.</strong> Capacity tuning, advanced features such as AI and machine learning, and adoption support. The deliverable is a scalable enterprise platform.</li>
+      </ol>
+      <p>Each engagement sets up a Fabric Center of Excellence with defined roles. It also sets a success metrics framework: cost per active user, data refresh time, report adoption, and time to insight.</p>
+      <p>Four factors decide success at every level: executive sponsorship, a cross-functional team, structured training, and an iterative approach with regular feedback.</p>
+    </section>
+
+    <section id="related">
+      <h2>Related resources and contact</h2>
+      <ul>
+        <li><a href="../">Microsoft Fabric implementation: a practitioner's guide by Dr. Estera Kot</a></li>
+        <li><a href="../espresso/">Fabric Espresso episode guide</a> and the full <a href="https://www.youtube.com/playlist?list=PLnfmGXUkCC7SypXJ6AcSk155pcUS0DPIX">Fabric Espresso playlist on YouTube</a></li>
+        <li><a href="https://catalog.cloudsonmars.com/offerings/microsoft-fabric-maturity-model">Microsoft Fabric Maturity Model offering, Clouds on Mars catalog</a></li>
+      </ul>
+      <p>Dr. Estera Kot was Principal Product Manager at Microsoft, owning the Apache Spark runtime across Azure Synapse Analytics and Microsoft Fabric. She created the Native Execution Engine and migrated 25,000 Synapse customers to Fabric. She is now CTO at Clouds on Mars and a Microsoft MVP.</p>
+      <p>To assess your Fabric maturity or plan the next level, book a slot with Dr. Kot: <a href="https://bit.ly/bookdrkot">bit.ly/bookdrkot</a>.</p>
+    </section>
+
+    <footer>
+      <a href="../../privacy.html">Privacy</a>
+      <a href="../../terms.html">Terms</a>
+      <span>Dr. Estera Kot, Warsaw and Gdynia, Poland. Last updated October 19, 2026.</span>
+    </footer>
+  </main>
+</body>
+</html>

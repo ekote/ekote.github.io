@@ -1,0 +1,803 @@
+[
+ {
+  "number": 1,
+  "slug": "microsoft-fabric-introduction",
+  "id": "WRfyN9_PL3A",
+  "title": "Fabric Espresso: Microsoft Fabric Introduction",
+  "duration": 326,
+  "upload_date": "2023-06-05",
+  "topic": "Other"
+ },
+ {
+  "number": 2,
+  "slug": "synapse-real-time-analytics-how-to-get-data-into-a-kql-database",
+  "id": "6tmkvV3s44Q",
+  "title": "Synapse Real-time Analytics: How to Get Data into a KQL Database",
+  "duration": 624,
+  "upload_date": "2023-06-07",
+  "topic": "Real-Time/KQL"
+ },
+ {
+  "number": 3,
+  "slug": "onelake-as-the-glue-in-microsoft-fabric",
+  "id": "Rw4JPSjcBNA",
+  "title": "Fabric Espresso: OneLake as the glue In Microsoft Fabric",
+  "duration": 340,
+  "upload_date": "2023-06-08",
+  "topic": "Lakehouse/OneLake"
+ },
+ {
+  "number": 4,
+  "slug": "tap-into-existing-data-with-shortcuts",
+  "id": "bjzPnZ-Ctu4",
+  "title": "Fabric Espresso: Tap into existing data with Shortcuts",
+  "duration": 459,
+  "upload_date": "2023-06-12",
+  "topic": "Lakehouse/OneLake"
+ },
+ {
+  "number": 5,
+  "slug": "synapse-real-time-analytics-stream-data-from-eventstream-into-a-kql",
+  "id": "Oo4Tdy3oKdo",
+  "title": "Synapse Real-Time Analytics: Stream data from Eventstream into a KQL database for powerful analytics",
+  "duration": 471,
+  "upload_date": "2023-06-14",
+  "topic": "Real-Time/KQL"
+ },
+ {
+  "number": 6,
+  "slug": "building-a-landing-zone-in-microsoft-fabric",
+  "id": "u3U9aHkvaF8",
+  "title": "Fabric Espresso: Building a Landing zone in Microsoft Fabric",
+  "duration": 574,
+  "upload_date": "2023-06-15",
+  "topic": "Lakehouse/OneLake"
+ },
+ {
+  "number": 7,
+  "slug": "loading-data-from-landing-to-bronze",
+  "id": "inIwJoNzk-I",
+  "title": "Fabric Espresso: Loading Data from Landing to Bronze!",
+  "duration": 397,
+  "upload_date": "2023-06-19",
+  "topic": "Lakehouse/OneLake"
+ },
+ {
+  "number": 8,
+  "slug": "synapse-real-time-analytics-get-started-with-kql",
+  "id": "Bw_d6zmALV0",
+  "title": "Synapse Real-Time Analytics: Get started with KQL",
+  "duration": 807,
+  "upload_date": "2023-06-21",
+  "topic": "Real-Time/KQL"
+ },
+ {
+  "number": 9,
+  "slug": "loading-existing-delta-tables-to-silver",
+  "id": "r7urq_EDR3k",
+  "title": "Fabric Espresso: Loading existing Delta Tables to Silver!",
+  "duration": 314,
+  "upload_date": "2023-06-22",
+  "topic": "Lakehouse/OneLake"
+ },
+ {
+  "number": 10,
+  "slug": "will-fabric-replace-azure-synapse",
+  "id": "6BI89Y2S-Oo",
+  "title": "Fabric Espresso: Will Fabric replace Azure Synapse?",
+  "duration": 231,
+  "upload_date": "2023-06-26",
+  "topic": "Other"
+ },
+ {
+  "number": 11,
+  "slug": "synapse-real-time-analytics-stream-data-from-event-hubs-into-a-kql",
+  "id": "bK9WNtCmT4M",
+  "title": "Synapse Real-Time Analytics: Stream data from Event Hubs into a KQL database for powerful analytics",
+  "duration": 644,
+  "upload_date": "2023-06-28",
+  "topic": "Real-Time/KQL"
+ },
+ {
+  "number": 12,
+  "slug": "table-clone-in-warehouse-within-microsoft-fabric",
+  "id": "b4fYU-ik6XY",
+  "title": "Fabric Espresso: Table clone in Warehouse within Microsoft Fabric",
+  "duration": 356,
+  "upload_date": "2023-07-06",
+  "topic": "Warehouse"
+ },
+ {
+  "number": 13,
+  "slug": "top-microsoft-fabric-features-that-every-data-engineer-should-know",
+  "id": "gC8BczGL7ic",
+  "title": "Top Microsoft Fabric Features that Every Data Engineer Should Know",
+  "duration": 537,
+  "upload_date": "2023-07-25",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 14,
+  "slug": "performance-at-scale-with-microsoft-fabric-query-processing",
+  "id": "3Cs8uTJ1HnA",
+  "title": "Performance at Scale with Microsoft Fabric: Query Processing!",
+  "duration": 544,
+  "upload_date": "2023-07-27",
+  "topic": "Warehouse"
+ },
+ {
+  "number": 15,
+  "slug": "data-engineer-perspective-on-loading-data-for-fabric-uploads-data",
+  "id": "rrxF0ATZY7s",
+  "title": "Data Engineer perspective on loading data for Fabric: Uploads, Data Flows, Copy Tool or Shortcuts?",
+  "duration": 524,
+  "upload_date": "2023-08-01",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 16,
+  "slug": "performance-at-scale-with-microsoft-fabric-query-optimizations",
+  "id": "9bkZHHUcy6I",
+  "title": "Performance at Scale with Microsoft Fabric: Query Optimizations!",
+  "duration": 451,
+  "upload_date": "2023-08-03",
+  "topic": "Warehouse"
+ },
+ {
+  "number": 17,
+  "slug": "data-engineers-perspective-on-storing-data-in-fabric-lakehouse",
+  "id": "yCQTOHDOfJw",
+  "title": "Data Engineer’s perspective on storing data in Fabric: Lakehouse or Warehouse?",
+  "duration": 305,
+  "upload_date": "2023-08-08",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 18,
+  "slug": "performance-at-scale-with-microsoft-fabric-concurrency",
+  "id": "l-8omtemVU0",
+  "title": "Performance at Scale with Microsoft Fabric: Concurrency!",
+  "duration": 346,
+  "upload_date": "2023-08-10",
+  "topic": "Warehouse"
+ },
+ {
+  "number": 19,
+  "slug": "data-science-in-microsoft-fabric-data-preparation-and-exploration",
+  "id": "-g6KveKQXu4",
+  "title": "Data Science in Microsoft Fabric – Data preparation and exploration with Data Wrangler",
+  "duration": 1155,
+  "upload_date": "2023-08-15",
+  "topic": "Data Science/ML"
+ },
+ {
+  "number": 20,
+  "slug": "learn-to-share-a-microsoft-fabric-warehouse",
+  "id": "upW7DtKX2IU",
+  "title": "Learn to Share a Microsoft Fabric Warehouse!",
+  "duration": 410,
+  "upload_date": "2023-08-17",
+  "topic": "Warehouse"
+ },
+ {
+  "number": 21,
+  "slug": "enabling-data-mesh-with-onelake-on-microsoft-fabric",
+  "id": "6_3gjipEq_k",
+  "title": "Enabling Data Mesh with OneLake on Microsoft Fabric",
+  "duration": 900,
+  "upload_date": "2023-08-22",
+  "topic": "Lakehouse/OneLake"
+ },
+ {
+  "number": 22,
+  "slug": "granular-access-control-for-warehouse",
+  "id": "_GpwpXuS2gk",
+  "title": "Granular Access Control for Warehouse!",
+  "duration": 294,
+  "upload_date": "2023-08-24",
+  "topic": "Governance/Security/Purview"
+ },
+ {
+  "number": 23,
+  "slug": "spark-compute-in-fabric-data-engineering-and-data-science-starter",
+  "id": "AXXasVxhgTs",
+  "title": "Spark Compute in Fabric Data Engineering and Data Science - Starter Pools vs Custom Pools Unveiled!",
+  "duration": 1015,
+  "upload_date": "2023-08-30",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 24,
+  "slug": "high-concurrency-mode-in-microsoft-fabric",
+  "id": "j2GrmcR6xA8",
+  "title": "High Concurrency Mode in Microsoft Fabric",
+  "duration": 969,
+  "upload_date": "2023-09-05",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 25,
+  "slug": "spark-data-engineering-patterns-shortcuts-and-external-tables",
+  "id": "AObKOOVHRv4",
+  "title": "Spark Data Engineering Patterns – Shortcuts and external tables",
+  "duration": 947,
+  "upload_date": "2023-09-13",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 26,
+  "slug": "real-time-data-sharing-in-microsoft-fabric",
+  "id": "4QJNVVT5Ga0",
+  "title": "Real-Time Data Sharing in Microsoft Fabric",
+  "duration": 551,
+  "upload_date": "2023-09-18",
+  "topic": "Real-Time/KQL"
+ },
+ {
+  "number": 27,
+  "slug": "getting-data-into-your-microsoft-fabric-lakehouse-using-load-to-tables",
+  "id": "GhX4oMHlCOY",
+  "title": "Getting data into your Microsoft Fabric Lakehouse using Load to Tables",
+  "duration": 550,
+  "upload_date": "2023-09-19",
+  "topic": "Lakehouse/OneLake"
+ },
+ {
+  "number": 28,
+  "slug": "data-science-in-microsoft-fabric-model-scoring-with-predict",
+  "id": "HzdZ0n0lpFw",
+  "title": "Data Science in Microsoft Fabric – Model scoring with PREDICT",
+  "duration": 1532,
+  "upload_date": "2023-09-26",
+  "topic": "Data Science/ML"
+ },
+ {
+  "number": 29,
+  "slug": "utilization-reporting-for-warehouse",
+  "id": "30UpPJFKHGM",
+  "title": "Utilization Reporting for Warehouse!",
+  "duration": 499,
+  "upload_date": "2023-09-28",
+  "topic": "Warehouse"
+ },
+ {
+  "number": 30,
+  "slug": "caching-in-data-warehousing",
+  "id": "1tI1d3m0ffg",
+  "title": "Caching in data warehousing",
+  "duration": 243,
+  "upload_date": "2023-09-29",
+  "topic": "Warehouse"
+ },
+ {
+  "number": 31,
+  "slug": "spark-data-engineering-patterns-optimizing-delta-tables-for-power-bi",
+  "id": "mt4Lqa36wss",
+  "title": "Spark Data Engineering Patterns Optimizing Delta Tables for Power Bi in Microsoft Fabric",
+  "duration": 986,
+  "upload_date": "2023-10-03",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 32,
+  "slug": "row-level-security-in-fabric-warehouse-and-sql-endpoint",
+  "id": "_gcPNOyrGgc",
+  "title": "Row-Level security in Fabric Warehouse & SQL Endpoint",
+  "duration": 332,
+  "upload_date": "2023-10-05",
+  "topic": "Governance/Security/Purview"
+ },
+ {
+  "number": 33,
+  "slug": "microsoft-fabric-notebooks-showcase-with-advanced-features",
+  "id": "L3ZC46lAUhI",
+  "title": "Microsoft Fabric Notebooks - Showcase with advanced features",
+  "duration": 1671,
+  "upload_date": "2023-10-10",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 34,
+  "slug": "microsoft-fabric-spark-integration-and-vs-code",
+  "id": "A9SjAyZ_JSc",
+  "title": "Microsoft Fabric Spark integration and VS Code",
+  "duration": 1630,
+  "upload_date": "2023-10-24",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 35,
+  "slug": "permissions-in-microsoft-fabric-workspace-and-sql",
+  "id": "47vCxbHchn4",
+  "title": "Permissions in Microsoft Fabric Workspace and SQL",
+  "duration": 771,
+  "upload_date": "2023-10-31",
+  "topic": "Governance/Security/Purview"
+ },
+ {
+  "number": 36,
+  "slug": "microsoft-fabric-spark-utilities-mssparkutils",
+  "id": "P3vQyvO55DI",
+  "title": "Microsoft Fabric Spark Utilities - mssparkutils",
+  "duration": 1276,
+  "upload_date": "2023-11-07",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 37,
+  "slug": "r-programming-language-in-microsoft-fabric-an-insightful-overview",
+  "id": "Vai5YQ2IqsU",
+  "title": "R (Programming Language) in Microsoft Fabric - An Insightful Overview with Fabric Product Group",
+  "duration": 1012,
+  "upload_date": "2023-11-21",
+  "topic": "Data Science/ML"
+ },
+ {
+  "number": 38,
+  "slug": "data-engineering-starter-kit-quick-start-with-fabric-product-group",
+  "id": "Sf5qSfiYITA",
+  "title": "Data Engineering Starter Kit - Quick Start with Fabric Product Group",
+  "duration": 733,
+  "upload_date": "2023-11-28",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 39,
+  "slug": "microsoft-fabric-capacity-smoothing-and-data-warehouse-throttling",
+  "id": "6pe9NnpRm0w",
+  "title": "Microsoft Fabric Capacity Smoothing and Data Warehouse Throttling",
+  "duration": 895,
+  "upload_date": "2023-11-30",
+  "topic": "Warehouse"
+ },
+ {
+  "number": 40,
+  "slug": "model-and-experiment-tracking-in-fabric-data-science-mlflow",
+  "id": "vqqVcD5f-g0",
+  "title": "Model & Experiment Tracking in Fabric Data Science (MLFLOW)",
+  "duration": 1224,
+  "upload_date": "2023-12-05",
+  "topic": "Data Science/ML"
+ },
+ {
+  "number": 41,
+  "slug": "autologging-and-mlflow-in-fabric-data-science",
+  "id": "VrIrZfq2RQU",
+  "title": "Autologging and MLFlow in Fabric Data Science",
+  "duration": 916,
+  "upload_date": "2023-12-12",
+  "topic": "Data Science/ML"
+ },
+ {
+  "number": 42,
+  "slug": "csv-ingestion-performance-improvements",
+  "id": "PD3AnXiCQo0",
+  "title": "CSV ingestion performance improvements",
+  "duration": 303,
+  "upload_date": "2023-12-14",
+  "topic": "Warehouse"
+ },
+ {
+  "number": 43,
+  "slug": "automated-maintenance-features-in-fabric-warehouse",
+  "id": "uKgXKAw00XM",
+  "title": "Automated maintenance features in Fabric Warehouse",
+  "duration": 630,
+  "upload_date": "2024-01-04",
+  "topic": "Warehouse"
+ },
+ {
+  "number": 44,
+  "slug": "fabric-spark-compute-capabilities-azure-vms-and-their-impact",
+  "id": "LJAmc1Ng-Ic",
+  "title": "Fabric Spark Compute Capabilities - Azure VM's and their impact on performance",
+  "duration": 563,
+  "upload_date": "2024-02-21",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 45,
+  "slug": "consume-warehouse-data-from-other-services",
+  "id": "SSSlufo9kqM",
+  "title": "Consume Warehouse data from other services",
+  "duration": 407,
+  "upload_date": "2024-02-29",
+  "topic": "Warehouse"
+ },
+ {
+  "number": 46,
+  "slug": "microsoft-fabric-data-engineering-how-to-make-the-reference-file-work",
+  "id": "J1vRWanmd00",
+  "title": "Microsoft Fabric Data Engineering - How to make the reference file work in Spark Job Definitions?",
+  "duration": 853,
+  "upload_date": "2024-03-12",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 47,
+  "slug": "medallion-architecture-data-design-and-lakehouse-patterns-microsoft",
+  "id": "706MVIBivOU",
+  "title": "Medallion Architecture Data Design and Lakehouse Patterns | Microsoft Fabric Data Factory",
+  "duration": 2742,
+  "upload_date": "2024-03-19",
+  "topic": "Data Factory/Dataflows"
+ },
+ {
+  "number": 48,
+  "slug": "fabric-data-science-sales-forecasting-predict-sales-numbers",
+  "id": "YZP5DWdqUYo",
+  "title": "Fabric Data Science Sales Forecasting: Predict sales numbers for product categories at a superstore.",
+  "duration": 1751,
+  "upload_date": "2024-03-21",
+  "topic": "Data Science/ML"
+ },
+ {
+  "number": 49,
+  "slug": "fabric-data-science-cust-churn-scenario-when-a-customer-will-stop",
+  "id": "vC2QzSmh5N4",
+  "title": "Fabric Data Science Cust churn scenario - when a customer will stop doing business with the bank.",
+  "duration": 1981,
+  "upload_date": "2024-03-26",
+  "topic": "Data Science/ML"
+ },
+ {
+  "number": 50,
+  "slug": "what-are-dataflows-gen2-in-fabric-data-factory",
+  "id": "qfn-LsaXOIA",
+  "title": "What are Dataflows Gen2 in Fabric Data Factory?",
+  "duration": 901,
+  "upload_date": "2024-03-28",
+  "topic": "Data Factory/Dataflows"
+ },
+ {
+  "number": 51,
+  "slug": "dataflow-gen2-data-destinations-in-fabric-data-factory",
+  "id": "Yek4riSko40",
+  "title": "Dataflow Gen2 data destinations in Fabric Data Factory",
+  "duration": 971,
+  "upload_date": "2024-04-02",
+  "topic": "Data Factory/Dataflows"
+ },
+ {
+  "number": 52,
+  "slug": "automate-your-interactions-with-fabric-warehouse",
+  "id": "H__IFLhKPD0",
+  "title": "Automate your interactions with Fabric Warehouse",
+  "duration": 333,
+  "upload_date": "2024-04-23",
+  "topic": "Warehouse"
+ },
+ {
+  "number": 53,
+  "slug": "getting-the-most-out-of-the-staging-mechanisms-in-dataflows-gen2",
+  "id": "U9YQyaNFixo",
+  "title": "Getting the most out of the Staging Mechanisms in Dataflows Gen2 Fabric Data Factory",
+  "duration": 658,
+  "upload_date": "2024-04-25",
+  "topic": "Data Factory/Dataflows"
+ },
+ {
+  "number": 54,
+  "slug": "optimize-warehouse-costs-with-capacity-pause-and-resume",
+  "id": "Yompg73vvEw",
+  "title": "Optimize Warehouse costs with capacity pause and resume",
+  "duration": 616,
+  "upload_date": "2024-05-21",
+  "topic": "Warehouse"
+ },
+ {
+  "number": 55,
+  "slug": "copilot-in-microsoft-fabric-ultimate-demo-of-copilots-in-notebooks-ds",
+  "id": "H3LND_ErY5U",
+  "title": "Copilot in Microsoft Fabric | Ultimate demo of copilots in Notebooks - DS & DE",
+  "duration": 941,
+  "upload_date": "2024-05-28",
+  "topic": "AI/Copilot/Agents"
+ },
+ {
+  "number": 56,
+  "slug": "microsoft-fabric-data-science-detecting-machine-failure-classification",
+  "id": "u_60vpO3PlU",
+  "title": "Microsoft Fabric Data Science - Detecting Machine Failure (Classification).",
+  "duration": 1431,
+  "upload_date": "2024-06-04",
+  "topic": "Data Science/ML"
+ },
+ {
+  "number": 57,
+  "slug": "microsoft-fabric-data-engineering-apache-spark-jobs-monitoring",
+  "id": "afe6vdO_UHw",
+  "title": "Microsoft Fabric Data Engineering – Apache Spark Jobs Monitoring",
+  "duration": 671,
+  "upload_date": "2024-06-11",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 58,
+  "slug": "microsoft-fabric-data-engineering-notebooks-monitoring-and-apache",
+  "id": "6AUM9JOxlP8",
+  "title": "Microsoft Fabric Data Engineering - Notebooks Monitoring and Apache Spark Jobs Advisor",
+  "duration": 643,
+  "upload_date": "2024-06-18",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 59,
+  "slug": "fabric-apache-spark-jobs-monitoring-capabilities-resource-usage",
+  "id": "SC8a9ks4-Qg",
+  "title": "Fabric Apache Spark Jobs monitoring capabilities - Resource Usage Analysis",
+  "duration": 633,
+  "upload_date": "2024-06-25",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 60,
+  "slug": "fabric-apache-spark-autotune-and-run-series-job-analysis-in-monitoring",
+  "id": "iv1kAz_ShEo",
+  "title": "Fabric Apache Spark Autotune and Run Series Job Analysis in Monitoring Hub",
+  "duration": 1071,
+  "upload_date": "2024-07-02",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 61,
+  "slug": "fabric-copilot-billing-pricing",
+  "id": "iXYQUr4WcGU",
+  "title": "Fabric Copilot billing pricing",
+  "duration": 1588,
+  "upload_date": "2024-07-09",
+  "topic": "AI/Copilot/Agents"
+ },
+ {
+  "number": 62,
+  "slug": "native-execution-engine-for-apache-spark-in-fabric",
+  "id": "8GJj4QlFlsw",
+  "title": "Native execution engine for Apache Spark in Fabric",
+  "duration": 1230,
+  "upload_date": "2024-07-16",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 63,
+  "slug": "microsoft-fabric-optimistic-job-admission-for-apache-spark-maximum",
+  "id": "oFkC4hauU88",
+  "title": "Microsoft Fabric Optimistic Job Admission for Apache Spark - maximum compute utilization by default",
+  "duration": 1145,
+  "upload_date": "2024-07-23",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 64,
+  "slug": "mirroring",
+  "id": "V6OydGZvjdw",
+  "title": "Mirroring",
+  "duration": 419,
+  "upload_date": "2024-08-01",
+  "topic": "Warehouse"
+ },
+ {
+  "number": 65,
+  "slug": "ml-based-autotune-for-apache-spark-jobs-in-ms-fabric-performance",
+  "id": "qGVaHE53vGc",
+  "title": "ML based Autotune for Apache Spark Jobs in MS Fabric performance optimization for recurrent jobs",
+  "duration": 1691,
+  "upload_date": "2024-08-13",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 66,
+  "slug": "ingesting-data-into-fabric-warehouse",
+  "id": "8TxiiryF7N4",
+  "title": "Ingesting data into Fabric Warehouse",
+  "duration": 353,
+  "upload_date": "2024-08-20",
+  "topic": "Warehouse"
+ },
+ {
+  "number": 67,
+  "slug": "apache-spark-runtimes-in-microsoft-fabric-runtime-1-3-based-on-apache",
+  "id": "u3B2U8M0PtI",
+  "title": "Apache Spark Runtimes in Microsoft Fabric – Runtime 1.3 based on Apache Spark 3.5",
+  "duration": 1001,
+  "upload_date": "2024-08-27",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 68,
+  "slug": "data-wrangler-in-microsoft-fabric-an-immersive-interface",
+  "id": "EzSStWnyLkc",
+  "title": "Data Wrangler in Microsoft Fabric (an immersive interface for exploratory data analysis)",
+  "duration": 1145,
+  "upload_date": "2024-09-03",
+  "topic": "Data Science/ML"
+ },
+ {
+  "number": 69,
+  "slug": "automl-in-fabric-data-science-automated-model-training",
+  "id": "9-Ci6r6TO9w",
+  "title": "AutoML in Fabric Data Science - automated model training and optimization (do more with less work!)",
+  "duration": 1145,
+  "upload_date": "2024-09-10",
+  "topic": "Data Science/ML"
+ },
+ {
+  "number": 70,
+  "slug": "interoperability-of-delta-lake-table-format-in-fabric",
+  "id": "qY0JEGdN6Aw",
+  "title": "Interoperability of Delta Lake table format in Fabric",
+  "duration": 942,
+  "upload_date": "2024-09-17",
+  "topic": "Lakehouse/OneLake"
+ },
+ {
+  "number": 71,
+  "slug": "spark-in-microsoft-fabric-and-spark-sql-for-dw-users",
+  "id": "qzZvGfx16zM",
+  "title": "Spark in Microsoft Fabric and Spark SQL for DW Users",
+  "duration": 2086,
+  "upload_date": "2024-09-24",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 72,
+  "slug": "custom-schema-and-multipart-naming-in-microsoft-fabric-lakehouse",
+  "id": "gjK-tT7C4ZA",
+  "title": "Custom schema and multipart naming in Microsoft Fabric Lakehouse",
+  "duration": 745,
+  "upload_date": "2024-09-24",
+  "topic": "Lakehouse/OneLake"
+ },
+ {
+  "number": 73,
+  "slug": "lifecycle-of-apache-spark-runtimes-in-ms-fabric-unpacking-experimental",
+  "id": "1nlqp5Dv6ko",
+  "title": "Lifecycle of Apache Spark Runtimes in MS Fabric Unpacking Experimental Preview, GA & End of Support",
+  "duration": 1001,
+  "upload_date": "2024-10-08",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 74,
+  "slug": "performance-best-practices",
+  "id": "QYbpLSUoghI",
+  "title": "Performance best practices",
+  "duration": 1044,
+  "upload_date": "2024-10-16",
+  "topic": "Warehouse"
+ },
+ {
+  "number": 75,
+  "slug": "apache-airflow-job-in-microsoft-fabric",
+  "id": "ykF3HfK8-6k",
+  "title": "Apache Airflow Job in Microsoft Fabric",
+  "duration": 2193,
+  "upload_date": "2024-10-23",
+  "topic": "Data Factory/Dataflows"
+ },
+ {
+  "number": 76,
+  "slug": "job-queueing-for-notebook-in-microsoft-fabric-spark-compute",
+  "id": "kj9IzL2Iyuc",
+  "title": "Job Queueing for Notebook in Microsoft Fabric | Spark Compute",
+  "duration": 1634,
+  "upload_date": "2024-10-29",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 77,
+  "slug": "microsoft-fabric-environment-a-consolidated-item-for-all-your-hardware",
+  "id": "3w9c15kaGkU",
+  "title": "Microsoft Fabric environment - A consolidated item for all your hardware and software settings",
+  "duration": 1386,
+  "upload_date": "2024-11-05",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 78,
+  "slug": "hyperparameter-tuning-in-fabric-data-science",
+  "id": "eXZLxRPOzzQ",
+  "title": "Hyperparameter tuning in Fabric Data Science",
+  "duration": 800,
+  "upload_date": "2024-11-12",
+  "topic": "Data Science/ML"
+ },
+ {
+  "number": 79,
+  "slug": "high-concurrency-mode-for-notebooks-in-pipelines-for-fabric-spark",
+  "id": "AF6HUl4wImM",
+  "title": "High Concurrency Mode for Notebooks in Pipelines for Fabric Spark",
+  "duration": 961,
+  "upload_date": "2024-11-19",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 80,
+  "slug": "low-code-automl-ui-in-microsoft-fabric-data-science",
+  "id": "NMqnMrEKOqs",
+  "title": "Low Code AutoML UI in Microsoft Fabric Data Science",
+  "duration": 720,
+  "upload_date": "2024-11-26",
+  "topic": "Data Science/ML"
+ },
+ {
+  "number": 81,
+  "slug": "microsoft-fabric-product-group-presents-t-sql-support-in-microsoft",
+  "id": "V6rlyj5TiWg",
+  "title": "Microsoft Fabric Product Group presents T-SQL support in Microsoft Fabric Notebooks",
+  "duration": 551,
+  "upload_date": "2024-12-03",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 82,
+  "slug": "microsoft-fabric-spark-diagnostic-emitter-for-logs-and-metrics",
+  "id": "NOwtY6yhrx4",
+  "title": "Microsoft Fabric Spark Diagnostic Emitter for Logs and Metrics",
+  "duration": 881,
+  "upload_date": "2024-12-11",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 83,
+  "slug": "microsoft-fabric-product-group-presents-security-in-fabric-data",
+  "id": "xTF8AaQJrXY",
+  "title": "Microsoft Fabric Product Group presents: Security in Fabric Data Engineering",
+  "duration": 1839,
+  "upload_date": "2024-12-17",
+  "topic": "Governance/Security/Purview"
+ },
+ {
+  "number": 84,
+  "slug": "fabrics-native-spark-the-end-of-the-jvm-bottleneck",
+  "id": "FAjwdPCcGRw",
+  "title": "Fabric's Native Spark: The end of the JVM Bottleneck",
+  "duration": 343,
+  "upload_date": "2025-08-25",
+  "topic": "Spark/Data Engineering"
+ },
+ {
+  "number": 85,
+  "slug": "fabric-in-production-inside-view-from-microsofts-product-team-justyna",
+  "id": "lMqnSne5ee0",
+  "title": "Fabric in production: inside view from Microsoft's Product Team Justyna Lucznik",
+  "duration": 480,
+  "upload_date": "2025-09-10",
+  "topic": "Other"
+ },
+ {
+  "number": 86,
+  "slug": "microsoft-purview-a-service-for-handling-enterprise-data-governance",
+  "id": "gLSHIQWztWA",
+  "title": "Microsoft Purview - A Service for Handling Enterprise Data Governance Challenges in AI-Enabled World",
+  "duration": 991,
+  "upload_date": "2025-09-30",
+  "topic": "Governance/Security/Purview"
+ },
+ {
+  "number": 87,
+  "slug": "ai-agents-and-chain-of-debate-building-intelligent-multi-agent-systems",
+  "id": "uBDwx6wgSyk",
+  "title": "AI Agents and Chain of Debate: Building Intelligent Multi-Agent Systems with Microsoft AI Foundry",
+  "duration": 1159,
+  "upload_date": "2025-11-04",
+  "topic": "AI/Copilot/Agents"
+ },
+ {
+  "number": 88,
+  "slug": "data-clustering-on-fabric-data-warehouse",
+  "id": "SJ4df1RMt1U",
+  "title": "Data Clustering on Fabric Data Warehouse",
+  "duration": 641,
+  "upload_date": "2025-11-19",
+  "topic": "Warehouse"
+ },
+ {
+  "number": 89,
+  "slug": "data-clustering-on-fabric-data-warehouse-2",
+  "id": "jRcyphMmHRg",
+  "title": "Data Clustering on Fabric Data Warehouse",
+  "duration": 641,
+  "upload_date": "2025-12-02",
+  "topic": "Warehouse"
+ }
+]

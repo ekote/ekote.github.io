@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Synapse Real-time Analytics: How to Get Data into a KQL Database | Fabric Espresso</title>
+  <meta name="description" content="Welcome to the first video in our How To series for Real-Time Analytics in Microsoft Fabric!">
+  <meta name="google-site-verification" content="cSOWqrR3-ff1EmSCDMry0rZuk_c8wklIxxS-CFQkkfg" />
+  <link rel="canonical" href="https://ekote.github.io/fabric/espresso/synapse-real-time-analytics-how-to-get-data-into-a-kql-database/">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Dr. Estera Kot">
+  <meta property="og:type" content="video.other">
+  <meta property="og:site_name" content="Dr. Estera Kot">
+  <meta property="og:title" content="Synapse Real-time Analytics: How to Get Data into a KQL Database">
+  <meta property="og:description" content="Welcome to the first video in our How To series for Real-Time Analytics in Microsoft Fabric!">
+  <meta property="og:url" content="https://ekote.github.io/fabric/espresso/synapse-real-time-analytics-how-to-get-data-into-a-kql-database/">
+  <meta property="og:image" content="https://i.ytimg.com/vi/6tmkvV3s44Q/hqdefault.jpg">
+  <meta property="og:image:width" content="480">
+  <meta property="og:image:height" content="360">
+  <meta property="og:image:alt" content="Thumbnail of the Fabric Espresso episode Synapse Real-time Analytics: How to Get Data into a KQL Database">
+  <meta property="og:video" content="https://www.youtube.com/embed/6tmkvV3s44Q">
+  <meta property="og:video:secure_url" content="https://www.youtube.com/embed/6tmkvV3s44Q">
+  <meta property="og:video:type" content="text/html">
+  <meta property="og:video:width" content="1280">
+  <meta property="og:video:height" content="720">
+  <meta property="video:release_date" content="2023-06-07">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Synapse Real-time Analytics: How to Get Data into a KQL Database">
+  <meta name="twitter:description" content="Welcome to the first video in our How To series for Real-Time Analytics in Microsoft Fabric!">
+  <meta name="twitter:image" content="https://i.ytimg.com/vi/6tmkvV3s44Q/hqdefault.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&amp;family=Source+Sans+3:wght@400;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../../style.css?v=4">
+  <style>
+    .crumbs { font-size: .9rem; color: var(--muted); margin: 0 0 16px; }
+    .crumbs a { margin: 0 4px; }
+    .crumbs a:first-child { margin-left: 0; }
+    .thumb { display: inline-block; margin: 6px 0 12px; max-width: 100%; }
+    .thumb img { display: block; max-width: 100%; height: auto; border: 1px solid #D5D0C8; }
+    .vmeta { color: var(--muted); }
+    .desc p { overflow-wrap: anywhere; }
+    .src { color: var(--muted); font-size: .9rem; }
+    .chapters { list-style: none; padding-left: 0; }
+    .chapters li { margin-bottom: 4px; }
+    .chapters a { display: inline-block; min-width: 3.6em; font-variant-numeric: tabular-nums; }
+    .pn { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 32px; margin-top: 44px;
+          border-top: 1px solid var(--rule); padding-top: 18px; }
+    .pn span { display: block; color: var(--muted); font-size: .88rem; }
+    .pn .next { text-align: right; }
+    @media (max-width: 600px) { .pn { grid-template-columns: 1fr; } .pn .next { text-align: left; } }
+  </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://ekote.github.io/fabric/espresso/synapse-real-time-analytics-how-to-get-data-into-a-kql-database/#video",
+      "name": "Synapse Real-time Analytics: How to Get Data into a KQL Database",
+      "url": "https://ekote.github.io/fabric/espresso/synapse-real-time-analytics-how-to-get-data-into-a-kql-database/",
+      "description": "Welcome to the first video in our How To series for Real-Time Analytics in Microsoft Fabric! In this video, Anshul Sharma, a Product Manager for Synapse Real-Time Analytics in Microsoft Fabric, will discuss the best ways for bringing data into a KQL database using the Get data experiences. 00:07 What is Real-Time Analytics? 01:23 Real-Time Analytics in Microsoft Fabric 03:16 Ingest data from a local file 05:00 Ingest data from OneLake 07:08 Analyze and derive insights from your data 09:40 Wrap-Up Read the Get Data blog: blog.fabric.microsoft.com/blog/synapse-real-time-analytics-discovering-the-best-ways-to-get-data-into-a-kql-database/ Follow Anshul on Twitter: https://twitter.com/anshuldsharma #microsoftfabric #synapserealtimeanalytics",
+      "thumbnailUrl": [
+        "https://i.ytimg.com/vi/6tmkvV3s44Q/hqdefault.jpg"
+      ],
+      "embedUrl": "https://www.youtube.com/embed/6tmkvV3s44Q",
+      "uploadDate": "2023-06-07",
+      "duration": "PT10M24S",
+      "contentUrl": "https://www.youtube.com/watch?v=6tmkvV3s44Q",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Azure Synapse Analytics",
+        "url": "https://www.youtube.com/@AzureSynapse"
+      },
+      "isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": "Fabric Espresso",
+        "url": "https://ekote.github.io/fabric/espresso/"
+      },
+      "hasPart": [
+        {
+          "@type": "Clip",
+          "name": "<Untitled Chapter 1>",
+          "startOffset": 0,
+          "url": "https://www.youtube.com/watch?v=6tmkvV3s44Q",
+          "endOffset": 7
+        },
+        {
+          "@type": "Clip",
+          "name": "What is Real-Time Analytics?",
+          "startOffset": 7,
+          "url": "https://www.youtube.com/watch?v=6tmkvV3s44Q&t=7s",
+          "endOffset": 83
+        },
+        {
+          "@type": "Clip",
+          "name": "Real-Time Analytics in Microsoft Fabric",
+          "startOffset": 83,
+          "url": "https://www.youtube.com/watch?v=6tmkvV3s44Q&t=83s",
+          "endOffset": 196
+        },
+        {
+          "@type": "Clip",
+          "name": "Ingest data from a local file",
+          "startOffset": 196,
+          "url": "https://www.youtube.com/watch?v=6tmkvV3s44Q&t=196s",
+          "endOffset": 300
+        },
+        {
+          "@type": "Clip",
+          "name": "Ingest data from OneLake",
+          "startOffset": 300,
+          "url": "https://www.youtube.com/watch?v=6tmkvV3s44Q&t=300s",
+          "endOffset": 428
+        },
+        {
+          "@type": "Clip",
+          "name": "Analyze and derive insights from your data",
+          "startOffset": 428,
+          "url": "https://www.youtube.com/watch?v=6tmkvV3s44Q&t=428s",
+          "endOffset": 580
+        },
+        {
+          "@type": "Clip",
+          "name": "Wrap-Up",
+          "startOffset": 580,
+          "url": "https://www.youtube.com/watch?v=6tmkvV3s44Q&t=580s",
+          "endOffset": 624
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ekote.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Microsoft Fabric",
+          "item": "https://ekote.github.io/fabric/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fabric Espresso",
+          "item": "https://ekote.github.io/fabric/espresso/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Synapse Real-time Analytics: How to Get Data into a KQL Database",
+          "item": "https://ekote.github.io/fabric/espresso/synapse-real-time-analytics-how-to-get-data-into-a-kql-database/"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ekote.github.io/#person",
+      "name": "Estera Kot",
+      "honorificPrefix": "Dr.",
+      "url": "https://ekote.github.io/"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+  <!-- generated by fabric/espresso/build_episodes.py -->
+  <header class="topbar">
+    <div class="inner">
+      <a class="brand" href="../../../">Dr. Estera Kot</a>
+      <nav>
+        <a href="../../../">Home</a>
+        <a href="../../">Fabric guide</a>
+        <a href="../">Fabric Espresso</a>
+        <a href="../../../#publications">Publications</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../">Home</a> / <a href="../../">Microsoft Fabric</a> / <a href="../">Fabric Espresso</a></nav>
+    <h1>Synapse Real-time Analytics: How to Get Data into a KQL Database</h1>
+    <p class="title">Episode 2 of Fabric Espresso, the Microsoft Fabric video series created by Dr. Estera Kot.</p>
+    <a class="thumb" href="https://www.youtube.com/watch?v=6tmkvV3s44Q"><img src="https://i.ytimg.com/vi/6tmkvV3s44Q/hqdefault.jpg" width="480" height="360" alt="Video thumbnail for Synapse Real-time Analytics: How to Get Data into a KQL Database. Opens the video on YouTube."></a>
+    <p class="vmeta">Length 10:24. Published Jun 7, 2023 on the Azure Synapse Analytics YouTube channel. Topic: <a href="../#real-time-kql">Real-Time Intelligence and KQL</a>.</p>
+    <p><strong><a href="https://www.youtube.com/watch?v=6tmkvV3s44Q">Watch on YouTube</a></strong></p>
+    <section class="desc">
+      <h2>About this episode</h2>
+      <p class="src">Text from the YouTube description.</p>
+      <p>Welcome to the first video in our How To series for Real-Time Analytics in Microsoft Fabric!</p>
+      <p>In this video, Anshul Sharma, a Product Manager for Synapse Real-Time Analytics in Microsoft Fabric, will discuss the best ways for bringing data into a KQL database using the Get data experiences.</p>
+      <p>00:07 What is Real-Time Analytics?<br>
+01:23 Real-Time Analytics in Microsoft Fabric<br>
+03:16 Ingest data from a local file<br>
+05:00 Ingest data from OneLake<br>
+07:08 Analyze and derive insights from your data<br>
+09:40 Wrap-Up</p>
+      <p>Read the Get Data blog: blog.fabric.microsoft.com/blog/synapse-real-time-analytics-discovering-the-best-ways-to-get-data-into-a-kql-database/</p>
+      <p>Follow Anshul on Twitter: <a href="https://twitter.com/anshuldsharma" rel="nofollow noopener">https://twitter.com/anshuldsharma</a></p>
+      <p>#microsoftfabric #synapserealtimeanalytics</p>
+    </section>
+    <section>
+      <h2>Chapters</h2>
+      <ol class="chapters">
+        <li><a href="https://www.youtube.com/watch?v=6tmkvV3s44Q">0:00</a> &lt;Untitled Chapter 1&gt;</li>
+        <li><a href="https://www.youtube.com/watch?v=6tmkvV3s44Q&amp;t=7s">0:07</a> What is Real-Time Analytics?</li>
+        <li><a href="https://www.youtube.com/watch?v=6tmkvV3s44Q&amp;t=83s">1:23</a> Real-Time Analytics in Microsoft Fabric</li>
+        <li><a href="https://www.youtube.com/watch?v=6tmkvV3s44Q&amp;t=196s">3:16</a> Ingest data from a local file</li>
+        <li><a href="https://www.youtube.com/watch?v=6tmkvV3s44Q&amp;t=300s">5:00</a> Ingest data from OneLake</li>
+        <li><a href="https://www.youtube.com/watch?v=6tmkvV3s44Q&amp;t=428s">7:08</a> Analyze and derive insights from your data</li>
+        <li><a href="https://www.youtube.com/watch?v=6tmkvV3s44Q&amp;t=580s">9:40</a> Wrap-Up</li>
+      </ol>
+    </section>
+    <nav class="pn" aria-label="More episodes">
+      <div class="prev"><span>Previous episode</span><a href="../microsoft-fabric-introduction/">Fabric Espresso: Microsoft Fabric Introduction</a></div>
+      <div class="next"><span>Next episode</span><a href="../onelake-as-the-glue-in-microsoft-fabric/">Fabric Espresso: OneLake as the glue In Microsoft Fabric</a></div>
+    </nav>
+    <p><a href="../">All Fabric Espresso episodes</a></p>
+    <footer>
+      <a href="../../../privacy.html">Privacy</a>
+      <a href="../../../terms.html">Terms</a>
+      <span>Dr. Estera Kot, Warsaw and Gdynia, Poland.</span>
+    </footer>
+  </main>
+</body>
+</html>

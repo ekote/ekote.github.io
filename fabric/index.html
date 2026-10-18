@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Microsoft Fabric Implementation Guide | Dr. Estera Kot</title>
+  <meta name="description" content="Dr. Estera Kot&#x27;s practitioner&#x27;s guide to Microsoft Fabric implementation: F SKU capacity, OneLake design, Synapse migration, Native Execution Engine, and FAQ.">
+  <meta name="google-site-verification" content="cSOWqrR3-ff1EmSCDMry0rZuk_c8wklIxxS-CFQkkfg" />
+  <link rel="canonical" href="https://ekote.github.io/fabric/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="author" content="Dr. Estera Kot">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Microsoft Fabric implementation: a practitioner's guide by Dr. Estera Kot">
+  <meta property="og:description" content="Dr. Estera Kot&#x27;s practitioner&#x27;s guide to Microsoft Fabric implementation: F SKU capacity, OneLake design, Synapse migration, Native Execution Engine, and FAQ.">
+  <meta property="og:url" content="https://ekote.github.io/fabric/">
+  <meta property="og:image" content="https://ekote.github.io/headshot.jpg">
+  <meta property="og:image:alt" content="Portrait of Dr. Estera Kot">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Dr. Estera Kot">
+  <meta property="article:published_time" content="2026-10-19">
+  <meta property="article:modified_time" content="2026-10-19">
+  <meta property="article:author" content="https://ekote.github.io/">
+  <meta property="article:section" content="Microsoft Fabric">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@estera_kot">
+  <meta name="twitter:creator" content="@estera_kot">
+  <meta name="twitter:title" content="Microsoft Fabric implementation: a practitioner's guide by Dr. Estera Kot">
+  <meta name="twitter:description" content="Dr. Estera Kot&#x27;s practitioner&#x27;s guide to Microsoft Fabric implementation: F SKU capacity, OneLake design, Synapse migration, Native Execution Engine, and FAQ.">
+  <meta name="twitter:image" content="https://ekote.github.io/headshot.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "@id": "https://ekote.github.io/fabric/#article",
+    "headline": "Microsoft Fabric implementation: a practitioner's guide by Dr. Estera Kot",
+    "description": "Dr. Estera Kot's practitioner's guide to Microsoft Fabric implementation: F SKU capacity, OneLake design, Synapse migration, Native Execution Engine, and FAQ.",
+    "url": "https://ekote.github.io/fabric/",
+    "mainEntityOfPage": "https://ekote.github.io/fabric/",
+    "image": "https://ekote.github.io/headshot.jpg",
+    "inLanguage": "en-US",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
+    "author": {
+      "@type": "Person",
+      "@id": "https://ekote.github.io/#person",
+      "name": "Estera Kot",
+      "url": "https://ekote.github.io/"
+    },
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Microsoft Fabric",
+        "sameAs": "https://learn.microsoft.com/fabric/"
+      },
+      {
+        "@type": "Thing",
+        "name": "Microsoft Fabric implementation"
+      }
+    ],
+    "keywords": "Microsoft Fabric implementation, Fabric maturity model, Fabric capacity planning, F SKU, OneLake, lakehouse, warehouse, medallion architecture, Azure Synapse migration, Native Execution Engine, Apache Spark, Microsoft Purview, Fabric cost control",
+    "proficiencyLevel": "Expert",
+    "mentions": [
+      {
+        "@id": "https://ekote.github.io/fabric/maturity-model/#article"
+      },
+      {
+        "@id": "https://www.youtube.com/playlist?list=PLnfmGXUkCC7SypXJ6AcSk155pcUS0DPIX"
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": "https://ekote.github.io/fabric/#faq",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Who is Dr. Estera Kot?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dr. Estera Kot is a computer scientist and the CTO of Clouds on Mars, a Microsoft and Databricks partner in Europe and the Middle East. At Microsoft she was Principal Product Manager for the Apache Spark runtime across Azure Synapse Analytics and Microsoft Fabric. She created the Native Execution Engine and migrated 25,000 Synapse customers to Fabric. She is a Microsoft MVP, hosts Fabric Espresso, and holds a Ph.D. in Computer Science with distinction from the Warsaw University of Technology."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Will Microsoft Fabric replace Azure Synapse Analytics?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Microsoft positions Fabric as the destination for new analytics work and documents upgrade paths from Synapse Spark pools, dedicated SQL pools, and pipelines. Some Synapse components already have retirement dates. Synapse Data Explorer (preview), for example, was retired in October 2025. Dr. Kot advises teams to start new projects on Fabric and to plan Synapse migrations in waves. Check Microsoft's lifecycle notices for each Synapse component you run."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I migrate from Azure Synapse to Fabric?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Start with an inventory. Microsoft's Fabric Assessment Tool scans a Synapse workspace and lists pools, notebooks, Spark job definitions, lake databases, and linked services. Move Spark workloads with the Spark migration assistant, which is in preview. Move dedicated SQL pools with the Fabric Migration Assistant for Data Warehouse. Point OneLake shortcuts at existing Data Lake Storage data instead of copying it. Then validate results side by side and cut over one workload at a time."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What Fabric capacity do I need to start?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dr. Kot recommends starting on a Fabric trial or a small F SKU, such as F2 or F4. Size up from measured use in the Fabric Capacity Metrics app. One threshold matters early. Below F64, every Power BI report viewer needs a Pro or Premium Per User license. From F64 up, viewers with a free license and a viewer role can read reports."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Should I use a lakehouse or a warehouse in Fabric?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Choose by skill set and write pattern. Use a lakehouse when your team works in Spark or stores files and semi-structured data. Use a warehouse when your team writes T-SQL and needs multi-table transactions. Both store data as Delta tables in OneLake, so many designs use both. Lakehouses often hold bronze and silver data, while a warehouse or lakehouse serves gold."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does a Fabric implementation take?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It depends on scope, the data estate, and team readiness. In Clouds on Mars engagements, the initial phases of the Fabric Maturity Model are scoped at 4 to 16 weeks. They run from assessment and planning through scale and optimize. Enterprise-wide adoption takes longer, because each maturity level depends on the one before it. Dr. Kot treats the levels as stages of capability, not calendar dates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the Native Execution Engine?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Native Execution Engine is a vectorized engine for Apache Spark in Microsoft Fabric. Dr. Kot created it at Microsoft with Intel, Meta, and IBM. It runs supported Spark operations in native C++ code built on the open-source Velox and Apache Gluten projects. It runs up to four times faster than open-source Spark and ships to every Fabric customer at no added cost."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need to change my code to use the Native Execution Engine?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Turn it on in a Fabric environment under Spark compute and Acceleration, or per session with the spark.native.enabled setting. Supported operations run natively on Parquet and Delta data. Unsupported operations, such as user-defined functions, fall back to the standard engine automatically. The Spark UI shows which parts of a query ran natively."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the Fabric Maturity Model?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Fabric Maturity Model is a five-level framework by Dr. Estera Kot for planning and measuring Microsoft Fabric adoption. The levels are Foundation, Expansion, Integration, Optimization, and Excellence. Each level defines objectives, capabilities, success criteria, technology focus, and typical challenges. Clouds on Mars applies the model in its Fabric engagements."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I keep Fabric costs under control?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Review the Fabric Capacity Metrics app every week and tune the heaviest items first. Pause idle pay-as-you-go capacities, and keep development and production on separate capacities. Use reservations for a steady baseline and consider Autoscale Billing for Spark for bursty jobs. Turn on the Native Execution Engine, because faster Spark jobs hold compute for less time."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need Microsoft Purview to govern Fabric?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Fabric includes native governance features, such as workspace roles, domains, endorsement, lineage, and the OneLake catalog. Microsoft Purview adds sensitivity labels, data loss prevention policies, audit, and insider risk management for Fabric items. Some Purview features need additional licensing. Dr. Kot recommends defining sensitivity labels before the first production workload, because labeling later means reviewing every existing item."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is Fabric Espresso?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Fabric Espresso is Dr. Kot's technical video series on Microsoft Fabric, with 89+ episodes. Episodes cover Spark in Fabric, the Native Execution Engine, lakehouse and Delta Lake design, data engineering, performance tuning, and migration from Synapse. The full series is on YouTube, and an episode guide is on this site."
+        }
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://ekote.github.io/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Microsoft Fabric",
+        "item": "https://ekote.github.io/fabric/"
+      }
+    ]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css?v=4">
+</head>
+<body>
+  <header class="topbar">
+    <div class="inner">
+      <a class="brand" href="../">Dr. Estera Kot</a>
+      <nav>
+        <a href="../">Home</a>
+        <a href="./" aria-current="page">Fabric guide</a>
+        <a href="./maturity-model/">Maturity model</a>
+        <a href="./espresso/">Fabric Espresso</a>
+        <a href="../#publications">Publications</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <p class="links"><a href="../">Home</a> / Microsoft Fabric</p>
+    <h1>Microsoft Fabric implementation: a practitioner's guide by Dr. Estera Kot</h1>
+    <p class="title">By <a href="../">Dr. Estera Kot</a>, CTO at Clouds on Mars and former Microsoft Principal Product Manager for the Apache Spark runtime in Fabric. Published <time datetime="2026-10-19">Monday, October 19, 2026</time>.</p>
+    <p>This guide covers the decisions that shape a Microsoft Fabric implementation, in the order teams meet them. It draws on Dr. Kot's work owning the Spark runtime at Microsoft and on her role as CTO at Clouds on Mars.</p>
+    <div class="note">
+      <p><strong>On this page</strong></p>
+      <ul>
+        <li><a href="#why-fabric">Why Microsoft Fabric</a></li>
+        <li><a href="#author">Who wrote this guide</a></li>
+        <li><a href="#guide">Implementation guide: nine decisions in order</a></li>
+        <li><a href="#mistakes">Common mistakes in Fabric implementations</a></li>
+        <li><a href="#maturity-model">The Fabric Maturity Model</a></li>
+        <li><a href="#espresso">Fabric Espresso, the video companion</a></li>
+        <li><a href="#faq">Frequently asked questions</a></li>
+        <li><a href="#contact">Work with Dr. Kot</a></li>
+      </ul>
+    </div>
+
+    <section id="why-fabric">
+      <h2>Why Microsoft Fabric</h2>
+      <p>Microsoft Fabric brings data integration, data engineering, data warehousing, data science, real-time analytics, databases, and Power BI onto one software-as-a-service platform. Every workload works on the same copy of data in OneLake, stored in the open Delta Lake format. By default, all workloads draw compute from one shared capacity. That removes much of the plumbing between separate services and the extra data copies that come with it. The catch is that a shared platform needs shared discipline. Capacity planning, workspace design, and governance decide whether Fabric pays off.</p>
+    </section>
+
+    <section id="author">
+      <h2>Who wrote this guide</h2>
+      <p>Dr. Estera Kot owned the Apache Spark runtime for Azure Synapse Analytics and Microsoft Fabric as a Microsoft Principal Product Manager, created the Native Execution Engine, migrated 25,000 Synapse customers to Fabric, and is now CTO at Clouds on Mars and a Microsoft MVP. <a href="../">Full profile</a>.</p>
+    </section>
+
+    <section id="guide">
+      <h2>Implementation guide: nine decisions in order</h2>
+      <p>Each step builds on the one before it. Skipping ahead is a common source of rework, so take them in order.</p>
+
+      <h3 id="assessment">1. Start with an assessment</h3>
+      <p>Inventory before you build. List data sources, existing reports, Synapse and Data Factory assets, and the people who own each one. Note which sources sit on premises, because they need a data gateway.</p>
+      <p>Pick one or two first use cases with clear business value and low technical complexity. A departmental dashboard fed by two systems is a better first step than a platform-wide migration.</p>
+      <p>Check readiness on four fronts: an executive sponsor, team skills, governance rules, and a budget owner for capacity. A gap in any of them slows every later step.</p>
+      <p>Define success metrics before the first workspace exists. The <a href="./maturity-model/">Fabric Maturity Model</a> uses four: cost per active user, data refresh time, report adoption, and time to insight. Record a baseline for each one.</p>
+      <p>The output is an implementation blueprint. It names the target architecture, the first use cases, the capacity plan, and the governance baseline.</p>
+
+      <h3 id="capacity">2. Plan capacity with F SKUs</h3>
+      <p>Fabric compute is sold as capacity. F SKUs scale in powers of two, starting at F2, and the number in the name is the count of capacity units. Every workload on a capacity draws from the same pool.</p>
+      <p>Start small and measure. A Fabric trial or an F2 or F4 capacity is enough to explore. Install the Fabric Capacity Metrics app on day one. Size up when the data shows sustained pressure, not before.</p>
+      <p>Learn how smoothing and throttling work. Fabric spreads the cost of operations over time, so short bursts above the SKU are absorbed. Sustained overuse triggers throttling in stages. Interactive queries slow down first, then get rejected, and finally background jobs get rejected too. Surge protection lets admins reject background jobs earlier to protect report users.</p>
+      <p>Mind the F64 line. Below F64, every Power BI report viewer needs a Pro or Premium Per User license. From F64 up, users with a free license and a viewer role can read reports. For organizations with many report readers, this line can decide the SKU.</p>
+      <p>Pay-as-you-go capacities can be paused and resized at any time. Reservations lower the price of a steady baseline in exchange for a term commitment. Keep development and production on separate capacities, so experiments cannot throttle business reports.</p>
+
+      <h3 id="workspaces">3. Design workspaces and OneLake</h3>
+      <p>Each tenant has one OneLake. Workspaces live inside it and are the unit of access, capacity assignment, and deployment. Get the workspace pattern right early, because moving items later is slow work.</p>
+      <p>Dr. Kot recommends separate workspaces per medallion layer and per environment, grouped into Fabric domains by business area. Microsoft's medallion guidance also recommends a separate workspace for each layer. Agree on naming conventions before the second workspace appears.</p>
+      <p>Reference data instead of copying it. OneLake shortcuts point to Azure Data Lake Storage, Amazon S3, other OneLake locations, and more. Mirroring replicates operational databases such as Azure SQL Database and Azure Cosmos DB into OneLake. It also surfaces external catalogs such as Snowflake and Azure Databricks.</p>
+      <p>Assign workspace roles to Microsoft Entra groups, not to individuals. Connect workspaces to Git in Azure DevOps or GitHub. Promote content with deployment pipelines from development to test to production. Use OneLake security roles where you need folder, table, row, or column rules.</p>
+
+      <h3 id="lakehouse-warehouse">4. Choose a lakehouse or a warehouse</h3>
+      <p>Both store data as Delta tables in OneLake, and both use the same SQL engine for T-SQL queries. The difference is how you write data and who maintains it.</p>
+      <ul>
+        <li>Choose a lakehouse when your team works in Spark with Python, Scala, Spark SQL, or R. It also fits when you store files and semi-structured data next to tables.</li>
+        <li>Choose a warehouse when your team writes T-SQL and needs multi-table transactions, stored procedures, and full DML support.</li>
+        <li>Remember that the lakehouse SQL analytics endpoint is read-only. It serves T-SQL queries and views but does not accept inserts or updates.</li>
+      </ul>
+      <p>Many designs use both. Lakehouses handle bronze and silver, and a warehouse or a lakehouse serves gold. Dr. Kot's rule of thumb is simple: pick the store that matches the people who will maintain it.</p>
+
+      <h3 id="medallion">5. Apply the medallion architecture</h3>
+      <p>The medallion pattern organizes data into three layers with clear contracts between them.</p>
+      <ul>
+        <li><strong>Bronze</strong> holds raw data as it arrived, in its original format or in Delta. Use shortcuts when the source already sits in a data lake.</li>
+        <li><strong>Silver</strong> holds cleaned, typed, and deduplicated Delta tables, conformed across sources.</li>
+        <li><strong>Gold</strong> holds business-ready tables, usually star schemas, served to Power BI through Direct Lake semantic models.</li>
+      </ul>
+      <p>Keep bronze immutable, so you can always replay a load. Make silver loads idempotent, so a rerun never doubles data. Model gold around the questions people ask, not around the shape of source systems.</p>
+      <p>Maintain Delta tables as they grow. Compact small files, remove old file versions on a schedule, and check the V-Order setting for gold tables that feed Power BI. V-Order speeds up reads at some cost on writes.</p>
+
+      <h3 id="synapse-migration">6. Migrate from Azure Synapse Analytics</h3>
+      <p>Dr. Kot migrated 25,000 Synapse customers to Fabric at Microsoft. Microsoft's own guidance describes the move as copy and adapt, not an in-place upgrade. Dr. Kot recommends planning it in waves, one workload family at a time.</p>
+      <ol>
+        <li><strong>Assess.</strong> Run Microsoft's Fabric Assessment Tool against the Synapse workspace. It inventories Spark pools, notebooks, Spark job definitions, lake databases, and linked services. It also flags blockers, such as GPU-accelerated pools, which Fabric Spark does not support.</li>
+        <li><strong>Map each workload to its Fabric home.</strong> Spark pools become Fabric pools and environments. Dedicated SQL pools become Fabric warehouses. Synapse pipelines move to Data Factory in Fabric.</li>
+        <li><strong>Use the migration tools.</strong> The Spark migration assistant, in preview, copies pools, notebooks, Spark job definitions, and lake databases. The Fabric Migration Assistant for Data Warehouse converts dedicated SQL pool schemas and copies the data.</li>
+        <li><strong>Keep data in place.</strong> Point OneLake shortcuts at the existing Data Lake Storage containers instead of copying files.</li>
+        <li><strong>Refactor what does not carry over.</strong> Linked services become Fabric connections, secrets move to Azure Key Vault, and Synapse-specific code needs review.</li>
+        <li><strong>Validate side by side, then cut over.</strong> Compare row counts, totals, and run times before you switch consumers. Decommission Synapse resources only after that.</li>
+      </ol>
+
+      <h3 id="spark-nee">7. Tune the Spark runtime and turn on the Native Execution Engine</h3>
+      <p>Start new work on the latest generally available Fabric runtime. Treat runtime upgrades as routine maintenance, not as projects. Dr. Kot automated the program that moved 30,000 customers between engine versions every six months. That experience shapes her advice: test the next runtime in a non-production environment, then promote it.</p>
+      <p>Use starter pools for fast session start during development. Use custom pools when you need specific node sizes, custom libraries, or private networking. Manage libraries and Spark properties in environments, not inside notebooks. Turn on high concurrency mode, so notebooks that share a lakehouse and environment can share one session.</p>
+      <p>Then turn on the Native Execution Engine. Dr. Kot created it at Microsoft with Intel, Meta, and IBM. It runs supported Spark operations in vectorized C++ code built on the open-source Velox and Apache Gluten projects. It runs up to four times faster than open-source Spark and ships to every Fabric customer at no added cost.</p>
+      <p>Enable it at the environment level under Spark compute, then Acceleration, so every notebook and job inherits it. It works best on Parquet and Delta data with heavy joins, aggregations, and sorts. Operations it does not support, such as user-defined functions, fall back to the standard engine automatically. Check the Spark UI to see which parts of a query ran natively.</p>
+
+      <h3 id="governance">8. Govern with Microsoft Purview from day one</h3>
+      <p>Governance added later costs more than governance designed in. Set it up before the first production workload, not after the first incident.</p>
+      <ul>
+        <li><strong>Tenant settings.</strong> Decide who can create workspaces, share content externally, and turn on preview features.</li>
+        <li><strong>Domains and endorsement.</strong> Group workspaces by business area, and mark trusted items as promoted or certified.</li>
+        <li><strong>Sensitivity labels.</strong> Apply Microsoft Purview Information Protection labels to Fabric items. Labels flow to downstream items and stay with data on supported export paths.</li>
+        <li><strong>Data loss prevention and protection policies.</strong> Use Purview policies to detect sensitive data and to restrict access to labeled items.</li>
+        <li><strong>Audit and lineage.</strong> Fabric user activity flows into Purview Audit. Use lineage in the OneLake catalog, and scan the Fabric tenant from the Purview Data Map when you need lineage beyond Fabric.</li>
+        <li><strong>Network and identity.</strong> Use Microsoft Entra Conditional Access, private links, and managed private endpoints where your policies require them.</li>
+      </ul>
+      <p>Some Purview capabilities need additional licensing. Confirm what your agreements include before you design around them.</p>
+
+      <h3 id="cost">9. Control cost</h3>
+      <ul>
+        <li>Review the Capacity Metrics app every week. Find the items that use the most capacity units and tune those first.</li>
+        <li>Pause idle pay-as-you-go capacities, such as development capacities outside working hours.</li>
+        <li>Buy reservations for the steady baseline once usage is predictable.</li>
+        <li>Consider Autoscale Billing for Spark for bursty jobs. Spark then runs on serverless compute, billed per job, outside the shared capacity.</li>
+        <li>Turn on the Native Execution Engine. Faster Spark jobs hold compute for less time.</li>
+        <li>Stop idle Spark sessions, and share sessions through high concurrency mode.</li>
+        <li>Compare engines for heavy jobs. Run the same transformation in a Spark notebook and in Dataflow Gen2, then keep the cheaper one.</li>
+        <li>Report consumption per workspace or domain back to the teams that own it.</li>
+      </ul>
+    </section>
+
+    <section id="mistakes">
+      <h2>Common mistakes in Fabric implementations</h2>
+      <ul>
+        <li><strong>Big bang migration.</strong> Moving everything at once, without a pilot or user training.</li>
+        <li><strong>Oversizing on day one.</strong> Buying a large SKU before measuring real workloads.</li>
+        <li><strong>Ignoring the F64 line.</strong> Choosing a small SKU, then discovering that every report viewer needs a Pro license.</li>
+        <li><strong>Governance later.</strong> Building first and adding labels, roles, and workspace rules after content has spread.</li>
+        <li><strong>One workspace for everything.</strong> Mixing layers, environments, and teams until access and deployment become hard to manage.</li>
+        <li><strong>Copying data by habit.</strong> Duplicating data that a shortcut or mirroring could reference in place.</li>
+        <li><strong>Treating the SQL analytics endpoint as a warehouse.</strong> The endpoint is read-only, so write logic belongs in Spark or in a warehouse.</li>
+        <li><strong>Lifting Synapse code unchanged.</strong> Skipping the rework of linked services, secrets, and Synapse-specific utilities.</li>
+        <li><strong>Leaving the Native Execution Engine off.</strong> Paying for Spark compute that a free setting could reduce.</li>
+        <li><strong>Shared development and production capacity.</strong> Letting a test job throttle the reports executives open every morning.</li>
+        <li><strong>Too little training.</strong> Handing a new platform to a team without time to learn it.</li>
+      </ul>
+    </section>
+
+    <section id="maturity-model">
+      <h2>The Fabric Maturity Model</h2>
+      <p>Dr. Kot's Fabric Maturity Model describes five levels of Fabric adoption. Each level adds capabilities on top of the one before. Use it to decide what to build next and to report progress in terms leaders understand.</p>
+      <ol>
+        <li><strong>Foundation.</strong> A governed environment, the first data sources, and basic reporting for a pilot team.</li>
+        <li><strong>Expansion.</strong> More sources, automated pipelines, and shared semantic models used across departments.</li>
+        <li><strong>Integration.</strong> One platform on OneLake, with an enterprise warehouse, real-time analytics, and CI/CD.</li>
+        <li><strong>Optimization.</strong> Machine learning in production, FinOps, and a Center of Excellence.</li>
+        <li><strong>Excellence.</strong> AI agents and real-time decision automation on governed data products.</li>
+      </ol>
+      <p><a href="./maturity-model/">Read the full Fabric Maturity Model</a>. It lists objectives, capabilities, success criteria, technology focus, and challenges for every level, plus a self-assessment method.</p>
+    </section>
+
+    <section id="espresso">
+      <h2>Fabric Espresso, the video companion</h2>
+      <p>Dr. Kot hosts <em>Fabric Espresso</em>, a technical video series on Microsoft Fabric with 89+ episodes. Episodes cover Spark in Fabric, the Native Execution Engine, lakehouse and Delta Lake design, data engineering, performance tuning, and migration from Synapse.</p>
+      <p>Browse the <a href="./espresso/">Fabric Espresso episode guide</a> on this site, or watch the full <a href="https://www.youtube.com/playlist?list=PLnfmGXUkCC7SypXJ6AcSk155pcUS0DPIX">Fabric Espresso playlist on YouTube</a>.</p>
+    </section>
+
+    <section id="faq">
+      <h2>Frequently asked questions</h2>
+
+      <h3>Who is Dr. Estera Kot?</h3>
+      <p>Dr. Estera Kot is a computer scientist and the CTO of Clouds on Mars, a Microsoft and Databricks partner in Europe and the Middle East. At Microsoft she was Principal Product Manager for the Apache Spark runtime across Azure Synapse Analytics and Microsoft Fabric. She created the Native Execution Engine and migrated 25,000 Synapse customers to Fabric. She is a Microsoft MVP, hosts Fabric Espresso, and holds a Ph.D. in Computer Science with distinction from the Warsaw University of Technology.</p>
+
+      <h3>Will Microsoft Fabric replace Azure Synapse Analytics?</h3>
+      <p>Microsoft positions Fabric as the destination for new analytics work and documents upgrade paths from Synapse Spark pools, dedicated SQL pools, and pipelines. Some Synapse components already have retirement dates. Synapse Data Explorer (preview), for example, was retired in October 2025. Dr. Kot advises teams to start new projects on Fabric and to plan Synapse migrations in waves. Check Microsoft's lifecycle notices for each Synapse component you run.</p>
+
+      <h3>How do I migrate from Azure Synapse to Fabric?</h3>
+      <p>Start with an inventory. Microsoft's Fabric Assessment Tool scans a Synapse workspace and lists pools, notebooks, Spark job definitions, lake databases, and linked services. Move Spark workloads with the Spark migration assistant, which is in preview. Move dedicated SQL pools with the Fabric Migration Assistant for Data Warehouse. Point OneLake shortcuts at existing Data Lake Storage data instead of copying it. Then validate results side by side and cut over one workload at a time.</p>
+
+      <h3>What Fabric capacity do I need to start?</h3>
+      <p>Dr. Kot recommends starting on a Fabric trial or a small F SKU, such as F2 or F4. Size up from measured use in the Fabric Capacity Metrics app. One threshold matters early. Below F64, every Power BI report viewer needs a Pro or Premium Per User license. From F64 up, viewers with a free license and a viewer role can read reports.</p>
+
+      <h3>Should I use a lakehouse or a warehouse in Fabric?</h3>
+      <p>Choose by skill set and write pattern. Use a lakehouse when your team works in Spark or stores files and semi-structured data. Use a warehouse when your team writes T-SQL and needs multi-table transactions. Both store data as Delta tables in OneLake, so many designs use both. Lakehouses often hold bronze and silver data, while a warehouse or lakehouse serves gold.</p>
+
+      <h3>How long does a Fabric implementation take?</h3>
+      <p>It depends on scope, the data estate, and team readiness. In Clouds on Mars engagements, the initial phases of the Fabric Maturity Model are scoped at 4 to 16 weeks. They run from assessment and planning through scale and optimize. Enterprise-wide adoption takes longer, because each maturity level depends on the one before it. Dr. Kot treats the levels as stages of capability, not calendar dates.</p>
+
+      <h3>What is the Native Execution Engine?</h3>
+      <p>The Native Execution Engine is a vectorized engine for Apache Spark in Microsoft Fabric. Dr. Kot created it at Microsoft with Intel, Meta, and IBM. It runs supported Spark operations in native C++ code built on the open-source Velox and Apache Gluten projects. It runs up to four times faster than open-source Spark and ships to every Fabric customer at no added cost.</p>
+
+      <h3>Do I need to change my code to use the Native Execution Engine?</h3>
+      <p>No. Turn it on in a Fabric environment under Spark compute and Acceleration, or per session with the spark.native.enabled setting. Supported operations run natively on Parquet and Delta data. Unsupported operations, such as user-defined functions, fall back to the standard engine automatically. The Spark UI shows which parts of a query ran natively.</p>
+
+      <h3>What is the Fabric Maturity Model?</h3>
+      <p>The Fabric Maturity Model is a five-level framework by Dr. Estera Kot for planning and measuring Microsoft Fabric adoption. The levels are Foundation, Expansion, Integration, Optimization, and Excellence. Each level defines objectives, capabilities, success criteria, technology focus, and typical challenges. Clouds on Mars applies the model in its Fabric engagements.</p>
+
+      <h3>How do I keep Fabric costs under control?</h3>
+      <p>Review the Fabric Capacity Metrics app every week and tune the heaviest items first. Pause idle pay-as-you-go capacities, and keep development and production on separate capacities. Use reservations for a steady baseline and consider Autoscale Billing for Spark for bursty jobs. Turn on the Native Execution Engine, because faster Spark jobs hold compute for less time.</p>
+
+      <h3>Do I need Microsoft Purview to govern Fabric?</h3>
+      <p>Fabric includes native governance features, such as workspace roles, domains, endorsement, lineage, and the OneLake catalog. Microsoft Purview adds sensitivity labels, data loss prevention policies, audit, and insider risk management for Fabric items. Some Purview features need additional licensing. Dr. Kot recommends defining sensitivity labels before the first production workload, because labeling later means reviewing every existing item.</p>
+
+      <h3>What is Fabric Espresso?</h3>
+      <p>Fabric Espresso is Dr. Kot's technical video series on Microsoft Fabric, with 89+ episodes. Episodes cover Spark in Fabric, the Native Execution Engine, lakehouse and Delta Lake design, data engineering, performance tuning, and migration from Synapse. The full series is on YouTube, and an episode guide is on this site.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Work with Dr. Kot</h2>
+      <p>To discuss a Fabric assessment, an implementation plan, or a Synapse migration, book a slot with Dr. Kot: <a href="https://bit.ly/bookdrkot">bit.ly/bookdrkot</a>.</p>
+    </section>
+
+    <footer>
+      <a href="../privacy.html">Privacy</a>
+      <a href="../terms.html">Terms</a>
+      <span>Dr. Estera Kot, Warsaw and Gdynia, Poland. Last updated October 19, 2026.</span>
+    </footer>
+  </main>
+</body>
+</html>

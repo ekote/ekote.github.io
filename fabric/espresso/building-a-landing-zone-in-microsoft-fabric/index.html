@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fabric Espresso: Building a Landing zone in Microsoft Fabric | Fabric Espresso</title>
+  <meta name="description" content="Welcome to our Fabric Espresso series! In this video, Stijn shows how to load data to a Landing Zone in Microsoft Fabric and also shows how to tap into...">
+  <meta name="google-site-verification" content="cSOWqrR3-ff1EmSCDMry0rZuk_c8wklIxxS-CFQkkfg" />
+  <link rel="canonical" href="https://ekote.github.io/fabric/espresso/building-a-landing-zone-in-microsoft-fabric/">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Dr. Estera Kot">
+  <meta property="og:type" content="video.other">
+  <meta property="og:site_name" content="Dr. Estera Kot">
+  <meta property="og:title" content="Fabric Espresso: Building a Landing zone in Microsoft Fabric">
+  <meta property="og:description" content="Welcome to our Fabric Espresso series! In this video, Stijn shows how to load data to a Landing Zone in Microsoft Fabric and also shows how to tap into...">
+  <meta property="og:url" content="https://ekote.github.io/fabric/espresso/building-a-landing-zone-in-microsoft-fabric/">
+  <meta property="og:image" content="https://i.ytimg.com/vi/u3U9aHkvaF8/hqdefault.jpg">
+  <meta property="og:image:width" content="480">
+  <meta property="og:image:height" content="360">
+  <meta property="og:image:alt" content="Thumbnail of the Fabric Espresso episode Fabric Espresso: Building a Landing zone in Microsoft Fabric">
+  <meta property="og:video" content="https://www.youtube.com/embed/u3U9aHkvaF8">
+  <meta property="og:video:secure_url" content="https://www.youtube.com/embed/u3U9aHkvaF8">
+  <meta property="og:video:type" content="text/html">
+  <meta property="og:video:width" content="1280">
+  <meta property="og:video:height" content="720">
+  <meta property="video:release_date" content="2023-06-15">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Fabric Espresso: Building a Landing zone in Microsoft Fabric">
+  <meta name="twitter:description" content="Welcome to our Fabric Espresso series! In this video, Stijn shows how to load data to a Landing Zone in Microsoft Fabric and also shows how to tap into...">
+  <meta name="twitter:image" content="https://i.ytimg.com/vi/u3U9aHkvaF8/hqdefault.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&amp;family=Source+Sans+3:wght@400;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../../style.css?v=4">
+  <style>
+    .crumbs { font-size: .9rem; color: var(--muted); margin: 0 0 16px; }
+    .crumbs a { margin: 0 4px; }
+    .crumbs a:first-child { margin-left: 0; }
+    .thumb { display: inline-block; margin: 6px 0 12px; max-width: 100%; }
+    .thumb img { display: block; max-width: 100%; height: auto; border: 1px solid #D5D0C8; }
+    .vmeta { color: var(--muted); }
+    .desc p { overflow-wrap: anywhere; }
+    .src { color: var(--muted); font-size: .9rem; }
+    .chapters { list-style: none; padding-left: 0; }
+    .chapters li { margin-bottom: 4px; }
+    .chapters a { display: inline-block; min-width: 3.6em; font-variant-numeric: tabular-nums; }
+    .pn { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 32px; margin-top: 44px;
+          border-top: 1px solid var(--rule); padding-top: 18px; }
+    .pn span { display: block; color: var(--muted); font-size: .88rem; }
+    .pn .next { text-align: right; }
+    @media (max-width: 600px) { .pn { grid-template-columns: 1fr; } .pn .next { text-align: left; } }
+  </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://ekote.github.io/fabric/espresso/building-a-landing-zone-in-microsoft-fabric/#video",
+      "name": "Fabric Espresso: Building a Landing zone in Microsoft Fabric",
+      "url": "https://ekote.github.io/fabric/espresso/building-a-landing-zone-in-microsoft-fabric/",
+      "description": "Welcome to our Fabric Espresso series! In this video, Stijn shows how to load data to a Landing Zone in Microsoft Fabric and also shows how to tap into an existing landing zone residing in ADLS Gen2. We also discuss the logical structure that is created in OneLake when taking these actions. OneLake, the OneDrive for data: https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview OneLake shortcuts: https://learn.microsoft.com/en-us/fabric/onelake/onelake-shortcuts How do shortcuts handle deletions?: https://learn.microsoft.com/en-us/fabric/onelake/onelake-shortcuts?branch=main#how-do-shortcuts-handle-deletions Stijn Wynants - Fasttrack Engineer https://www.linkedin.com/in/stijn-wynants-ba528660/ https://sql-stijn.com/ https://twitter.com/SQLStijn #onelake #microsoftfabric #fabric",
+      "thumbnailUrl": [
+        "https://i.ytimg.com/vi/u3U9aHkvaF8/hqdefault.jpg"
+      ],
+      "embedUrl": "https://www.youtube.com/embed/u3U9aHkvaF8",
+      "uploadDate": "2023-06-15",
+      "duration": "PT9M34S",
+      "contentUrl": "https://www.youtube.com/watch?v=u3U9aHkvaF8",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Azure Synapse Analytics",
+        "url": "https://www.youtube.com/@AzureSynapse"
+      },
+      "isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": "Fabric Espresso",
+        "url": "https://ekote.github.io/fabric/espresso/"
+      },
+      "hasPart": [
+        {
+          "@type": "Clip",
+          "name": "Introduction",
+          "startOffset": 0,
+          "url": "https://www.youtube.com/watch?v=u3U9aHkvaF8",
+          "endOffset": 27
+        },
+        {
+          "@type": "Clip",
+          "name": "Overview",
+          "startOffset": 27,
+          "url": "https://www.youtube.com/watch?v=u3U9aHkvaF8&t=27s",
+          "endOffset": 52
+        },
+        {
+          "@type": "Clip",
+          "name": "Layout",
+          "startOffset": 52,
+          "url": "https://www.youtube.com/watch?v=u3U9aHkvaF8&t=52s",
+          "endOffset": 243
+        },
+        {
+          "@type": "Clip",
+          "name": "Data Pipeline",
+          "startOffset": 243,
+          "url": "https://www.youtube.com/watch?v=u3U9aHkvaF8&t=243s",
+          "endOffset": 513
+        },
+        {
+          "@type": "Clip",
+          "name": "Outro",
+          "startOffset": 513,
+          "url": "https://www.youtube.com/watch?v=u3U9aHkvaF8&t=513s",
+          "endOffset": 574
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ekote.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Microsoft Fabric",
+          "item": "https://ekote.github.io/fabric/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fabric Espresso",
+          "item": "https://ekote.github.io/fabric/espresso/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Fabric Espresso: Building a Landing zone in Microsoft Fabric",
+          "item": "https://ekote.github.io/fabric/espresso/building-a-landing-zone-in-microsoft-fabric/"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ekote.github.io/#person",
+      "name": "Estera Kot",
+      "honorificPrefix": "Dr.",
+      "url": "https://ekote.github.io/"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+  <!-- generated by fabric/espresso/build_episodes.py -->
+  <header class="topbar">
+    <div class="inner">
+      <a class="brand" href="../../../">Dr. Estera Kot</a>
+      <nav>
+        <a href="../../../">Home</a>
+        <a href="../../">Fabric guide</a>
+        <a href="../">Fabric Espresso</a>
+        <a href="../../../#publications">Publications</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../">Home</a> / <a href="../../">Microsoft Fabric</a> / <a href="../">Fabric Espresso</a></nav>
+    <h1>Fabric Espresso: Building a Landing zone in Microsoft Fabric</h1>
+    <p class="title">Episode 6 of Fabric Espresso, the Microsoft Fabric video series created by Dr. Estera Kot.</p>
+    <a class="thumb" href="https://www.youtube.com/watch?v=u3U9aHkvaF8"><img src="https://i.ytimg.com/vi/u3U9aHkvaF8/hqdefault.jpg" width="480" height="360" alt="Video thumbnail for Fabric Espresso: Building a Landing zone in Microsoft Fabric. Opens the video on YouTube."></a>
+    <p class="vmeta">Length 9:34. Published Jun 15, 2023 on the Azure Synapse Analytics YouTube channel. Topic: <a href="../#lakehouse-onelake">Lakehouse and OneLake</a>.</p>
+    <p><strong><a href="https://www.youtube.com/watch?v=u3U9aHkvaF8">Watch on YouTube</a></strong></p>
+    <section class="desc">
+      <h2>About this episode</h2>
+      <p class="src">Text from the YouTube description.</p>
+      <p>Welcome to our Fabric Espresso series! In this video, Stijn shows how to load data to a Landing Zone in Microsoft Fabric and also shows how to tap into an existing landing zone residing in ADLS Gen2. We also discuss the logical structure that is created in OneLake when taking these actions.</p>
+      <p>OneLake, the OneDrive for data: <a href="https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview" rel="nofollow noopener">https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview</a><br>
+OneLake shortcuts: <a href="https://learn.microsoft.com/en-us/fabric/onelake/onelake-shortcuts" rel="nofollow noopener">https://learn.microsoft.com/en-us/fabric/onelake/onelake-shortcuts</a><br>
+How do shortcuts handle deletions?: <a href="https://learn.microsoft.com/en-us/fabric/onelake/onelake-shortcuts?branch=main#how-do-shortcuts-handle-deletions" rel="nofollow noopener">https://learn.microsoft.com/en-us/fabric/onelake/onelake-shortcuts?branch=main#how-do-shortcuts-handle-deletions</a></p>
+      <p>Stijn Wynants - Fasttrack Engineer<br>
+<a href="https://www.linkedin.com/in/stijn-wynants-ba528660/" rel="nofollow noopener">https://www.linkedin.com/in/stijn-wynants-ba528660/</a><br>
+<a href="https://sql-stijn.com/" rel="nofollow noopener">https://sql-stijn.com/</a><br>
+<a href="https://twitter.com/SQLStijn" rel="nofollow noopener">https://twitter.com/SQLStijn</a></p>
+      <p>#onelake #microsoftfabric #fabric</p>
+    </section>
+    <section>
+      <h2>Chapters</h2>
+      <ol class="chapters">
+        <li><a href="https://www.youtube.com/watch?v=u3U9aHkvaF8">0:00</a> Introduction</li>
+        <li><a href="https://www.youtube.com/watch?v=u3U9aHkvaF8&amp;t=27s">0:27</a> Overview</li>
+        <li><a href="https://www.youtube.com/watch?v=u3U9aHkvaF8&amp;t=52s">0:52</a> Layout</li>
+        <li><a href="https://www.youtube.com/watch?v=u3U9aHkvaF8&amp;t=243s">4:03</a> Data Pipeline</li>
+        <li><a href="https://www.youtube.com/watch?v=u3U9aHkvaF8&amp;t=513s">8:33</a> Outro</li>
+      </ol>
+    </section>
+    <nav class="pn" aria-label="More episodes">
+      <div class="prev"><span>Previous episode</span><a href="../synapse-real-time-analytics-stream-data-from-eventstream-into-a-kql/">Synapse Real-Time Analytics: Stream data from Eventstream into a KQL database for powerful analytics</a></div>
+      <div class="next"><span>Next episode</span><a href="../loading-data-from-landing-to-bronze/">Fabric Espresso: Loading Data from Landing to Bronze!</a></div>
+    </nav>
+    <p><a href="../">All Fabric Espresso episodes</a></p>
+    <footer>
+      <a href="../../../privacy.html">Privacy</a>
+      <a href="../../../terms.html">Terms</a>
+      <span>Dr. Estera Kot, Warsaw and Gdynia, Poland.</span>
+    </footer>
+  </main>
+</body>
+</html>

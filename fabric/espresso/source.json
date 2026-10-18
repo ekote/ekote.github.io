@@ -1,0 +1,4277 @@
+[
+ {
+  "id": "jRcyphMmHRg",
+  "title": "Data Clustering on Fabric Data Warehouse",
+  "description": "In this episode of Fabric Espresso, Joanna Podgoetsky hosts Peri Rocha, Senior Product Manager for Microsoft Fabric Data Warehouse, to explore the Data Clustering. \n\nPeri explains how clustering organizes data on disk to dramatically improve query performance by reducing unnecessary I/O. The discussion covers practical tips for choosing clustering columns using Query Insights and includes a live demo comparing query times on regular versus clustered tables, showing a performance boost from 45 seconds to under 2 seconds. \n\nLearn how this game-changing capability can make queries faster, cheaper, and more efficient.\n\nLearn more about Data Clustering in the announcement blog: https://msft.it/6050tj1EC\n\n#Microsoft  #MicrosoftFabric #FabricDataWarehouse",
+  "upload_date": "20251202",
+  "timestamp": 1764702899,
+  "duration": 641,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 43.0,
+    "title": "Introduction to clustering"
+   },
+   {
+    "start": 43.0,
+    "end": 176.0,
+    "title": "Understanding the benefits"
+   },
+   {
+    "start": 176.0,
+    "end": 183.0,
+    "title": "Setting up for a demo"
+   },
+   {
+    "start": 183.0,
+    "end": 414.0,
+    "title": "Performance demonstration"
+   },
+   {
+    "start": 414.0,
+    "end": 523.0,
+    "title": "Analyzing results with insights"
+   },
+   {
+    "start": 523.0,
+    "end": 591.0,
+    "title": "Why clustering works"
+   },
+   {
+    "start": 591.0,
+    "end": 616.0,
+    "title": "Wrap up and resources"
+   },
+   {
+    "start": 616.0,
+    "end": 641,
+    "title": "Closing statements"
+   }
+  ],
+  "tags": [
+   "Big Data Analytics",
+   "Data Clustering",
+   "Data Warehouse Performance",
+   "Fabric Data Warehouse",
+   "Fabric Espresso",
+   "Fabric performance demo",
+   "Fabric tips and tricks",
+   "Microsoft Fabric",
+   "Query Performance Optimization",
+   "Reduce query cost"
+  ],
+  "channel": "Microsoft Fabric",
+  "channel_url": "https://www.youtube.com/@MicrosoftFabric",
+  "playlist_index": 1
+ },
+ {
+  "id": "SJ4df1RMt1U",
+  "title": "Data Clustering on Fabric Data Warehouse",
+  "description": "In this episode of Fabric Espresso, Joanna Podgoetsky hosts Peri Rocha, Senior Product Manager for Microsoft Fabric Data Warehouse, to explore the Data Clustering. Peri explains how clustering organizes data on disk to dramatically improve query performance by reducing unnecessary I/O. The discussion covers practical tips for choosing clustering columns using Query Insights and includes a live demo comparing query times on regular versus clustered tables, showing a performance boost from 45 seconds to under 2 seconds. Learn how this game-changing capability can make queries faster, cheaper, and more efficient.\n\nLearn more about Data Clustering in the announcement blog: https://msft.it/6051t3TlJ\n\n#Microsoft #MicrosoftFabric #FabricDataWarehouse",
+  "upload_date": "20251119",
+  "timestamp": 1763571534,
+  "duration": 641,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 34.0,
+    "title": "Introduction to data clustering"
+   },
+   {
+    "start": 34.0,
+    "end": 120.0,
+    "title": "Understanding clustering"
+   },
+   {
+    "start": 120.0,
+    "end": 180.0,
+    "title": "Choosing clustering columns"
+   },
+   {
+    "start": 180.0,
+    "end": 349.0,
+    "title": "Demonstration of clustering"
+   },
+   {
+    "start": 349.0,
+    "end": 603.0,
+    "title": "Analyzing performance gains"
+   },
+   {
+    "start": 603.0,
+    "end": 641,
+    "title": "Conclusion and resources"
+   }
+  ],
+  "tags": [
+   "Big Data Analytics",
+   "Data Clustering",
+   "Data Warehouse Performance",
+   "Fabric Data Warehouse",
+   "Fabric Espresso",
+   "Fabric performance demo",
+   "Fabric tips and tricks",
+   "Microsoft",
+   "Microsoft Fabric",
+   "Query Performance Optimization",
+   "Reduce query cost"
+  ],
+  "channel": "Microsoft Fabric",
+  "channel_url": "https://www.youtube.com/@MicrosoftFabric",
+  "playlist_index": 2
+ },
+ {
+  "id": "uBDwx6wgSyk",
+  "title": "AI Agents and Chain of Debate: Building Intelligent Multi-Agent Systems with Microsoft AI Foundry",
+  "description": "In this episode of AI Espresso, Michał Furmankiewicz and Estera Kot explore the emerging world of AI agents - autonomous systems powered by large language models that collaborate to solve complex business problems. Discover how multi-agent architectures, the “chain of debate” concept, and tools like Microsoft AI Foundry enable enterprises to design, deploy, and monitor intelligent solutions at scale.\nThe discussion covers real-world use cases such as energy trading systems and healthcare diagnostics, emphasizing data-driven decision-making, model orchestration, and human-in-the-loop confidence frameworks.\n \n👉 Subscribe for more practical insights on AI engineering, Microsoft Fabric, and enterprise innovation.",
+  "upload_date": "20251104",
+  "timestamp": 1762272983,
+  "duration": 1159,
+  "chapters": [],
+  "tags": [
+   "Synapse",
+   "Azure Synapse",
+   "Serverless",
+   "Dedicated SQL Pool",
+   "SQL Pool"
+  ],
+  "channel": "Fabric Espresso",
+  "channel_url": "https://www.youtube.com/@fabricespresso",
+  "playlist_index": 3
+ },
+ {
+  "id": "gLSHIQWztWA",
+  "title": "Microsoft Purview - A Service for Handling Enterprise Data Governance Challenges in AI-Enabled World",
+  "description": "Enterprise organizations deploying AI tools face critical data governance gaps. Microsoft Purview addresses these challenges through integrated discovery, classification, and protection capabilities. This analysis examines business impact, regulatory compliance requirements, and implementation frameworks for enterprise data governance in AI environments. Key focus areas include risk mitigation strategies, cost-benefit evaluation, and operational governance models. The discussion targets decision-makers evaluating data governance investments for AI-enabled organizations.\n \n👉 Subscribe for more practical insights on data governance and AI security.",
+  "upload_date": "20250930",
+  "timestamp": 1759227196,
+  "duration": 991,
+  "chapters": [],
+  "tags": [
+   "Synapse",
+   "Azure Synapse",
+   "Serverless",
+   "Dedicated SQL Pool",
+   "SQL Pool"
+  ],
+  "channel": "Fabric Espresso",
+  "channel_url": "https://www.youtube.com/@fabricespresso",
+  "playlist_index": 4
+ },
+ {
+  "id": "lMqnSne5ee0",
+  "title": "Fabric in production: inside view from Microsoft's Product Team Justyna Lucznik",
+  "description": "Microsoft Fabric isn’t just another data platform—it’s the unification of Synapse, Power BI, ADF, and more into one powerful ecosystem built for scale. In this episode, special guest Justyna Łucznik (Microsoft, Fabric Product Group) breaks down why Fabric is gaining massive enterprise adoption and how it’s already transforming data engineering, AI, and analytics at companies like London Stock Exchange Group, Coca-Cola, and Bajaj.\n\nFrom Spark workloads and data pipelines to AI and Power BI, Fabric is positioning itself as a true competitor to Databricks and Snowflake—not by replacing them, but by complementing and extending what enterprises can do with their data.",
+  "upload_date": "20250910",
+  "timestamp": 1757509206,
+  "duration": 480,
+  "chapters": [],
+  "tags": [
+   "Synapse",
+   "Azure Synapse",
+   "Serverless",
+   "Dedicated SQL Pool",
+   "SQL Pool"
+  ],
+  "channel": "Fabric Espresso",
+  "channel_url": "https://www.youtube.com/@fabricespresso",
+  "playlist_index": 5
+ },
+ {
+  "id": "FAjwdPCcGRw",
+  "title": "Fabric's Native Spark: The end of the JVM Bottleneck",
+  "description": "Microsoft Fabric just delivered what data engineers have been waiting for—a way to finally escape the JVM performance prison that's been choking Spark workloads for over a decade. This native execution engine isn't another incremental optimization. It's a complete architectural overhaul that rips out the Java Virtual Machine layer entirely, replacing it with optimized C++ code that talks directly to your hardware. No more garbage collection pauses killing your streaming jobs. No more serialization overhead turning simple transformations into memory nightmares. No more watching your expensive compute clusters spend half their time managing Java heap instead of processing data. The performance gains are substantial—we're talking 2-5x speedups on typical analytics workloads, with even bigger wins on memory-intensive operations. But the real story isn't just about speed. It's about Microsoft fundamentally repositioning Fabric as a serious competitor to Databricks and Snowflake by solving the core performance problem that's plagued distributed computing since Hadoop days.\n \nIf you're running Spark at enterprise scale, this episode will either confirm you're on the right path or make you seriously question why you're still paying the JVM tax.",
+  "upload_date": "20250825",
+  "timestamp": 1756110195,
+  "duration": 343,
+  "chapters": [],
+  "tags": [
+   "Synapse",
+   "Azure Synapse",
+   "Serverless",
+   "Dedicated SQL Pool",
+   "SQL Pool"
+  ],
+  "channel": "Fabric Espresso",
+  "channel_url": "https://www.youtube.com/@fabricespresso",
+  "playlist_index": 6
+ },
+ {
+  "id": "xTF8AaQJrXY",
+  "title": "Microsoft Fabric Product Group presents: Security in Fabric Data Engineering",
+  "description": "Microsoft Fabric is a SaaS platform that lets you easily connect, process, and visualize data, all within a single, secure environment. Instead of maintaining your own security infrastructure, Fabric takes care of it for you, leveraging Microsoft’s resources and expertise to keep your data protected, patched, monitored, and compliant. \n\nBy moving your data to the cloud and working with analytics tools like Power BI, Data Factory, and the next-generation Synapse, you get built-in encryption for data at rest and in transit, along with disaster recovery options. This means you can confidently focus on building data solutions without worrying about the underlying security. \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest from Product Group: Santhosh Kumar Ravindran, Senior Product Manager \n\n \n\nSanthosh Ravindran currently leads Spark Compute and Settings for Microsoft Fabric Spark. He focuses on building capabilities that meet the data engineering needs like Spark Pools, Queueing and Scheduling, and Job orchestration for big data workloads in large enterprises using Spark. Prior to this, Santhosh was a Product Manager and Engineering Lead building Metadata scanners, access policy orchestration, lineage and data catalog systems for enterprise data estates as part of the Microsoft Governance Platform (Microsoft Purview). \n\n \n\nLinkedIn:  https://www.linkedin.com/in/thisissanthoshkumar/   \n\nTwitter:  https://www.twitter.com/iamsanthoshkr  \n\n \n\n \n\n👤 Host: Estera Kot, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+  "upload_date": "20241217",
+  "timestamp": 1734454806,
+  "duration": 1839,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 269.0,
+    "title": "Introduction to security"
+   },
+   {
+    "start": 269.0,
+    "end": 432.0,
+    "title": "Multi-layered security"
+   },
+   {
+    "start": 432.0,
+    "end": 553.0,
+    "title": "Network security isolation"
+   },
+   {
+    "start": 553.0,
+    "end": 650.0,
+    "title": "Trusted workspace access"
+   },
+   {
+    "start": 650.0,
+    "end": 763.0,
+    "title": "Securing data sources"
+   },
+   {
+    "start": 763.0,
+    "end": 859.0,
+    "title": "Workspace and data security"
+   },
+   {
+    "start": 859.0,
+    "end": 936.0,
+    "title": "Runtime security management"
+   },
+   {
+    "start": 936.0,
+    "end": 1147.0,
+    "title": "End-to-end secure workflow"
+   },
+   {
+    "start": 1147.0,
+    "end": 1273.0,
+    "title": "Billing and SKUs"
+   },
+   {
+    "start": 1273.0,
+    "end": 1839,
+    "title": "Performance and best practices"
+   }
+  ],
+  "tags": [
+   "Microsoft Fabric",
+   "Fabric Espresso",
+   "Fabric Data Engineering",
+   "SaaS",
+   "Power BI",
+   "Data Factory",
+   "Synapse"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 7
+ },
+ {
+  "id": "NOwtY6yhrx4",
+  "title": "Microsoft Fabric Spark Diagnostic Emitter for Logs and Metrics",
+  "description": "Fabric Apache Spark Diagnostic Emitter for Logs and Metrics is now in public preview. This new feature allows Apache Spark users to collect Spark logs, job events, and metrics from their Spark applications and send them to various destinations, including Azure Event Hubs, Azure Storage, and Azure Log Analytics. It provides robust support for monitoring and troubleshooting Spark applications, enhancing your visibility into application performance. \n\n What Does the Diagnostic Emitter Do? \n\nThe Fabric Apache Spark Diagnostic Emitter enables Apache Spark applications to emit critical logs and metrics that can be used for real-time monitoring, analysis, and troubleshooting. Whether you’re sending logs to Azure Event Hubs, Azure Storage, or Azure Log Analytics, this emitter simplifies the process, allowing you to collect data seamlessly and store it in your preferred destinations.  \n\n \n\nBlog post: https://blog.fabric.microsoft.com/en-US/blog/announcing-the-fabric-apache-spark-diagnostic-emitter-collect-logs-and-metrics/  \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert: Jenny Jiang, Principal Product Manager | Fabric Data Engineering \n\nLinkedIn: https://www.linkedin.com/in/jenny-jiang-8b57036/ \n\n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \n\nTwitter: https://twitter.com/estera_kot \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+  "upload_date": "20241211",
+  "timestamp": 1733948395,
+  "duration": 881,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 60.0,
+    "title": "Introduction to feature"
+   },
+   {
+    "start": 60.0,
+    "end": 157.0,
+    "title": "Feature overview and benefits"
+   },
+   {
+    "start": 157.0,
+    "end": 219.0,
+    "title": "Integration with Azure tools"
+   },
+   {
+    "start": 219.0,
+    "end": 302.0,
+    "title": "Using Azure Log Analytics"
+   },
+   {
+    "start": 302.0,
+    "end": 388.0,
+    "title": "Event Hub and Blob Storage"
+   },
+   {
+    "start": 388.0,
+    "end": 548.0,
+    "title": "Configuration process"
+   },
+   {
+    "start": 548.0,
+    "end": 748.0,
+    "title": "Feature demonstration"
+   },
+   {
+    "start": 748.0,
+    "end": 881,
+    "title": "Release status and roadmap"
+   }
+  ],
+  "tags": [
+   "Microsoft Fabric",
+   "Fabric Espresso",
+   "Spark Diagnostic Emitter",
+   "Fabric Apache Spark",
+   "Azure Event Hubs",
+   "Azure Storage",
+   "Azure Log Analytics",
+   "Data Engineering"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 8
+ },
+ {
+  "id": "V6rlyj5TiWg",
+  "title": "Microsoft Fabric Product Group presents T-SQL support in Microsoft Fabric Notebooks",
+  "description": "The T-SQL notebook feature in Microsoft Fabric lets you write and run T-SQL code within a notebook. You can use T-SQL notebooks to manage complex queries and write better markdown documentation. It also allows direct execution of T-SQL on connected warehouse or SQL analytics endpoint. By adding a Data Warehouse or SQL analytics endpoint to a notebook, T-SQL developers can run queries directly on the connected endpoint. BI analysts can also perform cross-database queries to gather insights from multiple warehouses and SQL analytics endpoints. \n\n🎙 Meet the Speakers: \n\n👤 Guest from Microsoft Fabric Product Group: Qixiao Wang, Principal Program Manager in Microsoft | Fabric Spark \n\nLinkedin: https://www.linkedin.com/in/%E5%90%AF%E9%9C%84-%E7%8E%8B-24368233/  \n\n \n\n👤 Host: Estera Kot, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n \n\n👍 Like this video? Don't forget to hit the 'Like' button and share it with your network! \n\n🔔 Stay Updated: For more insights into Microsoft Fabric Data Engineering and Data Science, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode!",
+  "upload_date": "20241203",
+  "timestamp": 1733245206,
+  "duration": 551,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 223.0,
+    "title": "T-SQL in fabric notebooks"
+   },
+   {
+    "start": 223.0,
+    "end": 281.0,
+    "title": "Monitoring and tracking"
+   },
+   {
+    "start": 281.0,
+    "end": 358.0,
+    "title": "Choosing compute engines"
+   },
+   {
+    "start": 358.0,
+    "end": 551,
+    "title": "Workflow flexibility"
+   }
+  ],
+  "tags": [
+   "T-SQL",
+   "Microsoft Fabric",
+   "Fabric Espresso",
+   "Microsoft Fabric Notebook",
+   "T-SQL support",
+   "Microsoft Fabric Product Group",
+   "T-SQL notebook",
+   "Data Warehouse",
+   "SQL analytics",
+   "Fabric Spark"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 9
+ },
+ {
+  "id": "NMqnMrEKOqs",
+  "title": "Low Code AutoML UI in Microsoft Fabric Data Science",
+  "description": "AutoML (Automated Machine Learning) is a collection of methods and tools that automate machine learning model training and optimization with little human involvement. The aim of AutoML is to simplify and speed up the process of choosing the best machine learning model and hyperparameters for a given dataset, which usually demands much skill and computing power. \n\n  \n\n🎙 Meet the Speakers: \n\n👤 Guest from Microsoft Fabric Product Group: Misha Desai, Senior Program Manager  \n\n \n\nMisha is a Senior Product Manager based in Seattle, WA, specializing in model tracking, training, and governance within the Fabric Data Science team. \n\nLinkedin: www.linkedin.com/in/misha-desai-6034a362 \n\n \n\n👤 Host: Estera Kot, Senior Product Manager at Microsoft and a member of the Fabric Product Group. She holds the role of Product Owner for Apache Spark-based runtimes in Microsoft Fabric and Synapse Analytics. Estera is a Data & AI Architect and is passionate about computer science. \nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n🔔 Stay Updated: For more insights into Microsoft Fabric Data Engineering and Data Science, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode!",
+  "upload_date": "20241126",
+  "timestamp": 1732640407,
+  "duration": 720,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 37.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 37.0,
+    "end": 220.0,
+    "title": "Low Code AutoML"
+   },
+   {
+    "start": 220.0,
+    "end": 295.0,
+    "title": "Who is the end user"
+   },
+   {
+    "start": 295.0,
+    "end": 363.0,
+    "title": "Compatible with AutoML"
+   },
+   {
+    "start": 363.0,
+    "end": 602.0,
+    "title": "Scenarios"
+   },
+   {
+    "start": 602.0,
+    "end": 720,
+    "title": "Release stage"
+   }
+  ],
+  "tags": [
+   "Fabric Espresso",
+   "Microsoft Fabric",
+   "AutoML UI",
+   "Fabric Data Science",
+   "Low Code AutoML",
+   "Microsoft",
+   "Data Science",
+   "Dataset",
+   "Hyperparameters"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 10
+ },
+ {
+  "id": "AF6HUl4wImM",
+  "title": "High Concurrency Mode for Notebooks in Pipelines for Fabric Spark",
+  "description": "With high concurrency mode, we’re bringing a game-changing way to orchestrate your data ingestion and transformation processes in enterprise workflows. Notebooks in pipelines now leverage shared, high-performance sessions, combining speed with cost-efficiency—all while maintaining top-tier security. \n\n Imagine a pipeline with five notebooks, each running 5 minutes. Normally, the 3-minute Spark start time per step would push your pipeline to 40 minutes. With high concurrency, the total runtime drops to 28 minutes—a 30% speed improvement. \n\nUnlock faster workflows, lower costs, and a seamless data journey with high concurrency mode. Get ready to experience the next level of pipeline orchestration! 🎉 \n\nhttps://blog.fabric.microsoft.com/en-US/blog/introducing-high-concurrency-mode-for-notebooks-in-pipelines-for-fabric-spark/  \n\n🎙 Meet the Speakers: \n\n👤 Guest from Product Group: Santhosh Kumar Ravindran, Senior Product Manager \n\n \n\nSanthosh Ravindran currently leads Spark Compute and Settings for Microsoft Fabric Spark. He focuses on building capabilities that meet the data engineering needs like Spark Pools, Queueing and Scheduling, and Job orchestration for big data workloads in large enterprises using Spark. Prior to this, Santhosh was a Product Manager and Engineering Lead building Metadata scanners, access policy orchestration, lineage and data catalog systems for enterprise data estates as part of the Microsoft Governance Platform (Microsoft Purview). \n\n \n\nLinkedIn:  https://www.linkedin.com/in/thisissanthoshkumar/   \n\nTwitter:  https://www.twitter.com/iamsanthoshkr  \n\n \n\n \n\n👤 Host: Estera Kot, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+  "upload_date": "20241119",
+  "timestamp": 1732035626,
+  "duration": 961,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 132.0,
+    "title": "Fabric platform updates"
+   },
+   {
+    "start": 132.0,
+    "end": 396.0,
+    "title": "High concurrency mode"
+   },
+   {
+    "start": 396.0,
+    "end": 626.0,
+    "title": "High concurrency in pipelines"
+   },
+   {
+    "start": 626.0,
+    "end": 789.0,
+    "title": "Security and usage details"
+   },
+   {
+    "start": 789.0,
+    "end": 961,
+    "title": "Final takeaways"
+   }
+  ],
+  "tags": [
+   "High Concurrency Mode",
+   "Fabric Notebooks",
+   "Notebooks in Pipelines",
+   "Fabric Spark",
+   "Fabric Espresso",
+   "Microsoft Fabric",
+   "Microsoft"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 11
+ },
+ {
+  "id": "eXZLxRPOzzQ",
+  "title": "Hyperparameter tuning in Fabric Data Science",
+  "description": "Hyperparameter tuning involves determining the optimal values for parameters not learned by the machine learning model during training but set by the user prior to the initiation of the training process. These parameters, known as hyperparameters, include the learning rate, the number of hidden layers in a neural network, the regularization strength, and the batch size. The performance of a machine learning model can be highly sensitive to the selection of hyperparameters, with the optimal set varying significantly based on the specific problem and dataset. Consequently, hyperparameter tuning is a crucial step in the machine learning pipeline, substantially influencing the model's accuracy and generalization performance. \n\nIn the context of Fabric, data scientists can utilize FLAML, a lightweight Python library designed for the efficient automation of machine learning and AI operations, to meet their hyperparameter tuning needs. Within Fabric notebooks, users can employ `flaml.tune` for cost-effective hyperparameter tuning. \n\nhttps://learn.microsoft.com/en-us/fabric/data-science/hyperparameter-tuning-fabric  \n\nhttps://blog.fabric.microsoft.com/en-US/blog/introducing-code-first-automl-and-hyperparameter-tuning-now-in-public-preview-for-fabric-data-science/  \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest from Microsoft Fabric Product Group: Misha Desai, Senior Program Manager at Microsoft \n\n \n\nMisha is a Senior Product Manager based in Seattle, WA, specializing in model tracking, training, and governance within the Fabric Data Science team. \n\nLinkedin: www.linkedin.com/in/misha-desai-6034a362 \n\n \n\n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \n\nTwitter: https://twitter.com/estera_kot \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+  "upload_date": "20241112",
+  "timestamp": 1731430806,
+  "duration": 800,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 31.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 31.0,
+    "end": 187.0,
+    "title": "Why Hyperparameter Tuning"
+   },
+   {
+    "start": 187.0,
+    "end": 248.0,
+    "title": "Hyperparameter Tuning vs AutoML"
+   },
+   {
+    "start": 248.0,
+    "end": 398.0,
+    "title": "Hyperparameter Tuning in Fabric Data Science"
+   },
+   {
+    "start": 398.0,
+    "end": 450.0,
+    "title": "Synaps ML"
+   },
+   {
+    "start": 450.0,
+    "end": 717.0,
+    "title": "Demo"
+   },
+   {
+    "start": 717.0,
+    "end": 800,
+    "title": "Conclusion"
+   }
+  ],
+  "tags": [
+   "Hyperparameter Tuning",
+   "Fabric Espresso",
+   "Microsoft Fabric",
+   "Data Science",
+   "Microsoft",
+   "Python library",
+   "Fabric Notebooks"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 12
+ },
+ {
+  "id": "3w9c15kaGkU",
+  "title": "Microsoft Fabric environment - A consolidated item for all your hardware and software settings",
+  "description": "The environment serves as a comprehensive container for both your hardware and software settings within Spark. Within this unified interface, you have the ability to select the desired Spark runtime, install libraries, and configure Spark compute settings and properties. It simplifies the process of managing, maintaining, and sharing these configurations. Environment is now generally available and ready for production workloads. \n\nhttps://learn.microsoft.com/en-us/fabric/data-engineering/create-and-use-environment  \n\nhttps://blog.fabric.microsoft.com/en-us/blog/environment-is-now-generally-available/  \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert:  Shuaijun Ye | Fabric Data Engineering \n\nLinkedIn: https://www.linkedin.com/in/shuaijun-ye-133805125/  \n\n \n \n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \n\nTwitter: https://twitter.com/estera_kot \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+  "upload_date": "20241105",
+  "timestamp": 1730826006,
+  "duration": 1386,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 136.0,
+    "title": "Introduction to environments"
+   },
+   {
+    "start": 136.0,
+    "end": 282.0,
+    "title": "What is an environment"
+   },
+   {
+    "start": 282.0,
+    "end": 433.0,
+    "title": "Environment demonstration"
+   },
+   {
+    "start": 433.0,
+    "end": 597.0,
+    "title": "Features and roadmap"
+   },
+   {
+    "start": 597.0,
+    "end": 727.0,
+    "title": "Git and CI/CD integration"
+   },
+   {
+    "start": 727.0,
+    "end": 912.0,
+    "title": "CI/CD principles"
+   },
+   {
+    "start": 912.0,
+    "end": 1031.0,
+    "title": "Working with YAML files"
+   },
+   {
+    "start": 1031.0,
+    "end": 1222.0,
+    "title": "REST API support"
+   },
+   {
+    "start": 1222.0,
+    "end": 1386,
+    "title": "Default workspace settings"
+   }
+  ],
+  "tags": [
+   "Microsoft",
+   "Microsoft Fabric Environment",
+   "Fabric Expresso",
+   "Spark",
+   "Spark Runtime",
+   "Spark Compute",
+   "Data Engineering"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 13
+ },
+ {
+  "id": "kj9IzL2Iyuc",
+  "title": "Job Queueing for Notebook in Microsoft Fabric | Spark Compute",
+  "description": "Microsoft Fabric supports job queueing for Spark compute when capacity limits are reached, ensuring jobs are retried until they either execute or expire. Admins allocate resources within Azure-based capacities, affecting how jobs are queued. The system supports queueing for pipeline-triggered Notebook jobs and Spark job definitions but not for interactive or public API-triggered Notebook jobs. Jobs are processed in a First-In-First-Out manner. \n\n\nhttps://learn.microsoft.com/en-us/fabric/data-engineering/job-queueing-for-fabric-spark  \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest from Product Group: Santhosh Kumar Ravindran, Senior Product Manager \n\n \n\nSanthosh Ravindran currently leads Spark Compute and Settings for Microsoft Fabric Spark. He focuses on building capabilities that meet the data engineering needs like Spark Pools, Queueing and Scheduling, and Job orchestration for big data workloads in large enterprises using Spark. Prior to this, Santhosh was a Product Manager and Engineering Lead building Metadata scanners, access policy orchestration, lineage and data catalog systems for enterprise data estates as part of the Microsoft Governance Platform (Microsoft Purview). \n\n \n\nLinkedin:  https://www.linkedin.com/in/thisissanthoshkumar/   \n\nTwitter:  https://www.twitter.com/iamsanthoshkr  \n\n \n\n \n\n👤 Host: Estera Kot, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+  "upload_date": "20241029",
+  "timestamp": 1730217627,
+  "duration": 1634,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 62.0,
+    "title": "Introduction to job queuing"
+   },
+   {
+    "start": 62.0,
+    "end": 220.0,
+    "title": "Job queuing evolution"
+   },
+   {
+    "start": 220.0,
+    "end": 315.0,
+    "title": "Concept of job queuing"
+   },
+   {
+    "start": 315.0,
+    "end": 393.0,
+    "title": "Queuing activation"
+   },
+   {
+    "start": 393.0,
+    "end": 541.0,
+    "title": "Queuing vs rejection"
+   },
+   {
+    "start": 541.0,
+    "end": 652.0,
+    "title": "Capacity and queuing"
+   },
+   {
+    "start": 652.0,
+    "end": 741.0,
+    "title": "Monitoring capacity"
+   },
+   {
+    "start": 741.0,
+    "end": 847.0,
+    "title": "Understanding throttling"
+   },
+   {
+    "start": 847.0,
+    "end": 951.0,
+    "title": "Bursting in Fabric"
+   },
+   {
+    "start": 951.0,
+    "end": 1135.0,
+    "title": "Interactive job throttling"
+   },
+   {
+    "start": 1135.0,
+    "end": 1395.0,
+    "title": "Managing enterprise workloads"
+   },
+   {
+    "start": 1395.0,
+    "end": 1497.0,
+    "title": "Compute optimization tips"
+   },
+   {
+    "start": 1497.0,
+    "end": 1634,
+    "title": "Conclusion and next steps"
+   }
+  ],
+  "tags": [
+   "Microsoft",
+   "Fabric Espresso",
+   "Job Queueing",
+   "Notebook",
+   "Spark Compute",
+   "Azure",
+   "Data Engineering",
+   "Notebook Jobs",
+   "Spark Job",
+   "Fabric Spark"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 14
+ },
+ {
+  "id": "ykF3HfK8-6k",
+  "title": "Apache Airflow Job in Microsoft Fabric",
+  "description": "Apache Airflow job in Microsoft Fabric provides an integrated, cloud-based platform for development, scheduling, and monitoring python-based data workflows, articulated as Directed Acyclic Graphs (DAGs). This innovation delivers a Software-as-a-Service (SaaS) experience for data pipeline development and management using Apache Airflow, making Apache Airflow runtime readily accessible for the development and operationalization of your data workflows.  \n\nhttps://blog.fabric.microsoft.com/blog/introducing-data-workflows-in-microsoft-fabric  \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert: Abhishek Narain, Principal Program Manager in Microsoft. Abhishek serves as a Product Manager at Microsoft Fabric's Data Factory. His primary area of focus is Data Factory, a tool that empowers data engineers to construct scalable, robust, and reliable ETLs. \n\nLinkedIn: https://www.linkedin.com/in/narain-abhishek/ \n\nTwitter: https://x.com/narainabhishek  \n\n👤 Host: Estera Kot, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://x.com/estera_kot  \n\n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+  "upload_date": "20241023",
+  "timestamp": 1729699206,
+  "duration": 2193,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 33.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 33.0,
+    "end": 118.0,
+    "title": "What are you working on"
+   },
+   {
+    "start": 118.0,
+    "end": 284.0,
+    "title": "Apache Airflow overview"
+   },
+   {
+    "start": 284.0,
+    "end": 443.0,
+    "title": "Airflow vs Data Pipelines"
+   },
+   {
+    "start": 443.0,
+    "end": 563.0,
+    "title": "What is Airflow"
+   },
+   {
+    "start": 563.0,
+    "end": 1043.0,
+    "title": "Data Workflows"
+   },
+   {
+    "start": 1043.0,
+    "end": 1313.0,
+    "title": "monitoring"
+   },
+   {
+    "start": 1313.0,
+    "end": 1613.0,
+    "title": "pain points"
+   },
+   {
+    "start": 1613.0,
+    "end": 1841.0,
+    "title": "Git Sync"
+   },
+   {
+    "start": 1841.0,
+    "end": 2009.0,
+    "title": "Pricing"
+   },
+   {
+    "start": 2009.0,
+    "end": 2092.0,
+    "title": "Customer Feedback"
+   },
+   {
+    "start": 2092.0,
+    "end": 2193,
+    "title": "Outro"
+   }
+  ],
+  "tags": [
+   "Apache Airflow Job",
+   "Microsoft Fabric",
+   "Fabric Espresso",
+   "Data Workflows",
+   "Directed Acyclic Graphs",
+   "SaaS"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 15
+ },
+ {
+  "id": "QYbpLSUoghI",
+  "title": "Performance best practices",
+  "description": "Welcome back to another episode of Fabric Espresso DW series. In this episode, we'll be exploring the best practices for achieving optimal query performance when querying warehouse and lakehouse tables, as well as shortcuts. \n\n \n \n\n🎙 Meet the Speaker: \n\n👤 Host: Filip Popović is a Senior Product Manager at Microsoft and part of the Fabric Product Group, focusing on performance. Before joining Microsoft in 2019, he spent over ten years in the software and financial services industry, delivering business analytics solutions using the Microsoft technology stack. \nLinkedIn: Filip Popovic | LinkedIn \nTwitter: Filip Popovic (@FilipPop_MSFT) / X \n\n \n\n👍 Like this video? Don't forget to hit the 'Like' button and share it with your network! \n\n🔔 Stay Updated: For more insights into Microsoft Fabric Data Warehousing, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode! \n\n#Microsoft #MicrosoftFabric #FabricWarehouse #queryperformance #tsql #performance #bestpractices",
+  "upload_date": "20241016",
+  "timestamp": 1729094406,
+  "duration": 1044,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 65.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 65.0,
+    "end": 239.0,
+    "title": "collocation"
+   },
+   {
+    "start": 239.0,
+    "end": 512.0,
+    "title": "data model"
+   },
+   {
+    "start": 512.0,
+    "end": 632.0,
+    "title": "table optimization"
+   },
+   {
+    "start": 632.0,
+    "end": 769.0,
+    "title": "table partitioning"
+   },
+   {
+    "start": 769.0,
+    "end": 889.0,
+    "title": "set ordering"
+   },
+   {
+    "start": 889.0,
+    "end": 1044,
+    "title": "Summary"
+   }
+  ],
+  "tags": [
+   "Data Warehouse",
+   "Query Performance",
+   "Querying Warehouse",
+   "lakehouse tables",
+   "Microsoft",
+   "Fabric Espresso",
+   "Microsoft Fabric",
+   "TSQL",
+   "Best Practices",
+   "Fabric Warehouse"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 16
+ },
+ {
+  "id": "1nlqp5Dv6ko",
+  "title": "Lifecycle of Apache Spark Runtimes in MS Fabric Unpacking Experimental Preview, GA & End of Support",
+  "description": "The Microsoft Fabric runtime is an Azure-integrated platform based on Apache Spark. It facilitates the execution and management of data engineering and data science workflows. It synthesizes essential elements from both proprietary and open-source resources to offer a comprehensive solution. For brevity, we refer to the Microsoft Fabric Runtime powered by Apache Spark simply as Fabric Runtime. \n\nIn this episode of Fabric Espresso, we delve into Lifecycle of Apache Spark Runtimes in Fabric.  \n\nRead more: https://learn.microsoft.com/en-us/fabric/data-engineering/lifecycle  \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert:  Akshay Tayal, Senior Software Engineer | Fabric Product Engineering \n\nLinkedIn: https://www.linkedin.com/in/akshaytayal/  \n\n \n \n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \n\nTwitter: https://twitter.com/estera_kot \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+  "upload_date": "20241008",
+  "timestamp": 1728403206,
+  "duration": 1001,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 113.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 113.0,
+    "end": 258.0,
+    "title": "What are the ingredients"
+   },
+   {
+    "start": 258.0,
+    "end": 339.0,
+    "title": "What was the scope"
+   },
+   {
+    "start": 339.0,
+    "end": 600.0,
+    "title": "How to switch runtimes"
+   },
+   {
+    "start": 600.0,
+    "end": 1001,
+    "title": "Why use runtime 13"
+   }
+  ],
+  "tags": [
+   "microsoft fabric",
+   "Apache Spark",
+   "Apache Spark Runtimes",
+   "Azure",
+   "Data Science",
+   "Data Engineering",
+   "Fabric Espresso",
+   "Fabric Runtime",
+   "Microsoft"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 17
+ },
+ {
+  "id": "gjK-tT7C4ZA",
+  "title": "Custom schema and multipart naming in Microsoft Fabric Lakehouse",
+  "description": "Lakehouse supports the creation of custom schemas. Schemas allow you to group your tables together for better data discovery, access control, and more. Historically, creating schemas was a privilege reserved for Data Warehouses, but now, schemas can be directly created within a Lakehouse environment too!  This advancement unlocks new architectural opportunities, allowing for more organized, structured, and scalable data solutions within the Lakehouse. Embrace the flexibility and innovation of modern data management strategies! \n\nKey Benefits: \n\nEnhanced organization: easily categorize and manage your data within the Lakehouse. \n\nScalability: accommodate complex data models and extensive datasets. \n\nFlexibility: implement diverse architectural patterns tailored to your needs. \n\nHow to enable schema support? \n\nTo enable schema support for your lakehouse, check the box next to Lakehouse schemas (Public Preview) when you create it. \n\nOnce you create the lakehouse, you can find a default schema named dbo under Tables. This schema is always there and can't be changed or removed. To create a new schema, hover over Tables, select …, and choose new schema. Enter your schema name and select Create. You'll see your schema listed under Tables in alphabetical order. \n\n \n\nDocs: https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-schemas  \n\n \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest from Microsoft Fabric Product Group: Ted Vilutis: Senior Product Manager at Microsoft \n\nLinkedIn: https://www.linkedin.com/in/tedvilutis/ \nTwitter: https://twitter.com/tvilutis \n\n \n\n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft \nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n \n\n👍 Like this video? Don't forget to hit the 'Like' button and share it with your network!",
+  "upload_date": "20240924",
+  "timestamp": 1727197210,
+  "duration": 745,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 104.0,
+    "title": "Introduction to new features"
+   },
+   {
+    "start": 104.0,
+    "end": 226.0,
+    "title": "Creating and managing schemas"
+   },
+   {
+    "start": 226.0,
+    "end": 272.0,
+    "title": "SQL endpoint synchronization"
+   },
+   {
+    "start": 272.0,
+    "end": 376.0,
+    "title": "Key customer scenarios"
+   },
+   {
+    "start": 376.0,
+    "end": 523.0,
+    "title": "Security and architecture"
+   },
+   {
+    "start": 523.0,
+    "end": 611.0,
+    "title": "Multi-part naming benefits"
+   },
+   {
+    "start": 611.0,
+    "end": 745,
+    "title": "Future roadmap and conclusion"
+   }
+  ],
+  "tags": [
+   "Microsoft Fabric",
+   "Custom Schema",
+   "Multipart Naming",
+   "Fabric Lakehouse",
+   "Data Warehouse",
+   "Data Management",
+   "Data Models",
+   "Datasets",
+   "Data Engineering",
+   "Fabric Espresso"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 18
+ },
+ {
+  "id": "qzZvGfx16zM",
+  "title": "Spark in Microsoft Fabric and Spark SQL for DW Users",
+  "description": "In this episode of Fabric Espresso, we delve into Apache Spark in Microsoft Fabric for SQL users. \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert:  Arshad Ali | Principal Product Manager at Microsoft | Fabric Data Engineering \n\nLinkedIn: https://www.linkedin.com/in/arshadalitmmba/  \n\nTwitter: https://twitter.com/ArshadAliTMMBA  \n \n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \n\nTwitter: https://twitter.com/estera_kot \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+  "upload_date": "20240924",
+  "timestamp": 1727196453,
+  "duration": 2086,
+  "chapters": [],
+  "tags": [
+   "Fabric Espresso",
+   "SQL",
+   "Data Warehouse",
+   "Microsoft Fabric",
+   "Apache Spark",
+   "Data Engineering",
+   "Spark SQL"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 19
+ },
+ {
+  "id": "qY0JEGdN6Aw",
+  "title": "Interoperability of Delta Lake table format in Fabric",
+  "description": "In Microsoft Fabric, the Delta Lake table format is the standard for analytics. Delta Lake is an open-source storage layer that brings ACID (Atomicity, Consistency, Isolation, Durability) transactions to big data and analytics workloads.  In this episode of Fabric Espresso, we delve into Delta Lake and how Fabric provides interoperability across all engines: Estera Kot, along with Daniel Coelho, unpack the topic.  \n\nDocs: https://learn.microsoft.com/en-us/fabric/get-started/delta-lake-interoperability  \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert:  Daniel Coelho, Principal Product Manager | Fabric Data Engineering \n\nLinkedIn: https://www.linkedin.com/in/danibunny/  \n \n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \n\nTwitter: https://twitter.com/estera_kot \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+  "upload_date": "20240917",
+  "timestamp": 1726595583,
+  "duration": 942,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 168.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 168.0,
+    "end": 377.0,
+    "title": "Interoperability Patterns"
+   },
+   {
+    "start": 377.0,
+    "end": 543.0,
+    "title": "Principles and Challenges"
+   },
+   {
+    "start": 543.0,
+    "end": 667.0,
+    "title": "How to track"
+   },
+   {
+    "start": 667.0,
+    "end": 942,
+    "title": "The future"
+   }
+  ],
+  "tags": [
+   "Microsoft Fabric",
+   "Fabric Espresso",
+   "Delta Lake"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 20
+ },
+ {
+  "id": "9-Ci6r6TO9w",
+  "title": "AutoML in Fabric Data Science - automated model training and optimization (do more with less work!)",
+  "description": "🔍 Microsoft Fabric offers Data Science experiences to empower users to complete end-to-end data science workflows for the purpose of data enrichment and business insights. You can complete a wide range of activities across the entire data science process, all the way from data exploration, preparation and cleansing to experimentation, modeling, model scoring and serving predictive insights to BI reports. \n\nAutoML (Automated Machine Learning) is a collection of methods and tools that automate machine learning model training and optimization with little human involvement. The aim of AutoML is to simplify and speed up the process of choosing the best machine learning model and hyperparameters for a given dataset, which usually demands much skill and computing power. \n\nIn Fabric, data scientists can use flaml.AutoML to automate their machine learning tasks. \n\nAutoML can help ML professionals and developers from different sectors to: \n\n 1. Build ML solutions with minimal coding \n\n2. Reduce time and cost \n\n3. Apply data science best practices \n\n4. Solve problems quickly and efficiently \n\nRead more: https://learn.microsoft.com/en-us/fabric/data-science/automated-machine-learning-fabric  \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest from Microsoft Fabric Product Group: Misha Desai, Senior Program Manager at Microsoft \n\n \n\nMisha is a Senior Product Manager based in Seattle, WA, specializing in model tracking, training, and governance within the Fabric Data Science team. \n\nLinkedin: www.linkedin.com/in/misha-desai-6034a362 \n\n \n\n👤 Host: Estera Kot Estera Kot, PhD, Principal Product Manager at Microsoft.  \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n🔔 Stay Updated: For more insights into Microsoft Fabric Data Engineering and Data Science, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode!",
+  "upload_date": "20240910",
+  "timestamp": 1725984006,
+  "duration": 1145,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 117.0,
+    "title": "Introduction to automl"
+   },
+   {
+    "start": 117.0,
+    "end": 269.0,
+    "title": "Flaml integration in fabric"
+   },
+   {
+    "start": 269.0,
+    "end": 375.0,
+    "title": "Mlflow and model deployment"
+   },
+   {
+    "start": 375.0,
+    "end": 528.0,
+    "title": "Data prep and exploration"
+   },
+   {
+    "start": 528.0,
+    "end": 634.0,
+    "title": "Baseline model training"
+   },
+   {
+    "start": 634.0,
+    "end": 776.0,
+    "title": "Running automl trials"
+   },
+   {
+    "start": 776.0,
+    "end": 866.0,
+    "title": "Parallelizing automl trials"
+   },
+   {
+    "start": 866.0,
+    "end": 1017.0,
+    "title": "Visualization and management"
+   },
+   {
+    "start": 1017.0,
+    "end": 1145,
+    "title": "Availability and closing"
+   }
+  ],
+  "tags": [
+   "Microsoft Fabric",
+   "Data Engineering",
+   "Data Science",
+   "Fabric Espresso",
+   "AutoML",
+   "Data Enrichment",
+   "Data Exploration",
+   "BI reports"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 21
+ },
+ {
+  "id": "EzSStWnyLkc",
+  "title": "Data Wrangler in Microsoft Fabric (an immersive interface for exploratory data analysis)",
+  "description": "In this episode of Fabric Espresso, we delve into Data Wrangler, a notebook-based tool for exploratory data analysis, now supports both Spark DataFrames and pandas DataFrames, generating PySpark code in addition to Python code. \n\n \nhttps://learn.microsoft.com/en-us/fabric/data-science/data-wrangler \n\nhttps://learn.microsoft.com/en-us/fabric/data-science/data-wrangler-spark \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert: Eren Orbey, Product Manager, Microsoft Fabric \n\nLinkedIn  https://www.linkedin.com/in/orbey \n\nTwitter:  https://twitter.com/erenorbey \n\n \n\n \n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \n\nTwitter: https://twitter.com/estera_kot \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+  "upload_date": "20240903",
+  "timestamp": 1725379206,
+  "duration": 1145,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 231.0,
+    "title": "Introduction to data wrangler"
+   },
+   {
+    "start": 231.0,
+    "end": 694.0,
+    "title": "Spark data frame workflows"
+   },
+   {
+    "start": 694.0,
+    "end": 833.0,
+    "title": "Notebook inspection tools"
+   },
+   {
+    "start": 833.0,
+    "end": 1044.0,
+    "title": "Future features and roadmap"
+   },
+   {
+    "start": 1044.0,
+    "end": 1145,
+    "title": "Resources and conclusion"
+   }
+  ],
+  "tags": [
+   "Data Wrangler",
+   "Microsoft Fabric",
+   "Fabric Espresso",
+   "Data Analysis",
+   "Spark DataFrames",
+   "DataFrames",
+   "PySpark Code",
+   "Python Code",
+   "Data Science"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 22
+ },
+ {
+  "id": "u3B2U8M0PtI",
+  "title": "Apache Spark Runtimes in Microsoft Fabric – Runtime 1.3 based on Apache Spark 3.5",
+  "description": "Microsoft Fabric Runtime is an Azure-integrated platform based on Apache Spark that enables the execution and management of data engineering and data science experiences. It combines key components from both internal and open-source sources, providing customers with a comprehensive solution. For simplicity, we refer to Microsoft Fabric Runtime powered by Apache Spark as Fabric Runtime. \n\nMajor components of Fabric Runtime: \n\nApache Spark - a powerful open-source distributed computing library that enables large-scale data processing and analytics tasks. Apache Spark provides a versatile and high-performance platform for data engineering and data science experiences. \n\nDelta Lake - an open-source storage layer that brings ACID transactions and other data reliability features to Apache Spark. Integrated within Fabric Runtime, Delta Lake enhances data processing capabilities and ensures data consistency across multiple concurrent operations. \n\nDefault-level packages for Java/Scala, Python, and R - packages that support diverse programming languages and environments. These packages are automatically installed and configured, allowing developers to apply their preferred programming languages for data processing tasks. \n\n  \n\nRead more: https://learn.microsoft.com/en-us/fabric/data-engineering/runtime-1-3  \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert:  Akshay Tayal, Senior Software Engineer | Fabric Product Engineering \n\nLinkedIn: https://www.linkedin.com/in/akshaytayal/\n\n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \n\nTwitter: https://twitter.com/estera_kot \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+  "upload_date": "20240827",
+  "timestamp": 1724774406,
+  "duration": 1001,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 113.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 113.0,
+    "end": 258.0,
+    "title": "What are the ingredients"
+   },
+   {
+    "start": 258.0,
+    "end": 338.0,
+    "title": "What was the scope"
+   },
+   {
+    "start": 338.0,
+    "end": 600.0,
+    "title": "How to change runtime"
+   },
+   {
+    "start": 600.0,
+    "end": 1001,
+    "title": "Why use runtime 13"
+   }
+  ],
+  "tags": [
+   "Microsoft Fabric",
+   "Fabric Espresso",
+   "Apache Spark",
+   "Delta Lake",
+   "Azure",
+   "Microsoft Fabric Runtime",
+   "Microsoft"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 23
+ },
+ {
+  "id": "8TxiiryF7N4",
+  "title": "Ingesting data into Fabric Warehouse",
+  "description": "Welcome back to another episode of Fabric Espresso DW series. In this episode, we're diving into various methods for ingesting data into Fabric Warehouse. \n\nShortcuts: OneLake shortcuts - Microsoft Fabric | Microsoft Learn \nMirroring: Mirroring - Microsoft Fabric | Microsoft Learn \nPipelines: What is Data Factory - Microsoft Fabric | Microsoft Learn \nDataflows: What is Data Factory - Microsoft Fabric | Microsoft Learn \nCOPY INTO: COPY INTO (Transact-SQL) - Azure Synapse Analytics and Microsoft Fabric | Microsoft Learn \n\n🎙 Meet the Speakers: \n\n👤 Guest from Microsoft Fabric Product Group: John Hoang is a Principal Program Manager on the Microsoft Fabric CAT (Customer Advisory Team) focusing on Fabric DW providing guidance for customer engagement. \n\nLinkedIn: John Hoang | LinkedIn \n\nTwitter: John Hoang (@MSJohnPHoang) / X \n\n👤 Host: Filip Popović is a Senior Product Manager at Microsoft and part of the Fabric Product Group, focusing on performance. Before joining Microsoft in 2019, he spent over ten years in the software and financial services industry, delivering business analytics solutions using the Microsoft technology stack. \nLinkedIn: Filip Popovic | LinkedIn \nTwitter: Filip Popovic (@FilipPop_MSFT) / X \n\n \n\n👍 Like this video? Don't forget to hit the 'Like' button and share it with your network! \n\n🔔 Stay Updated: For more insights into Microsoft Fabric Data Warehousing, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode! \n\n#Microsoft #MicrosoftFabric #FabricWarehouse #ingestion #shortcuts #pipelines #mirroring",
+  "upload_date": "20240820",
+  "timestamp": 1724169631,
+  "duration": 353,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 41.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 41.0,
+    "end": 241.0,
+    "title": "Data ingestion"
+   },
+   {
+    "start": 241.0,
+    "end": 353,
+    "title": "Summary"
+   }
+  ],
+  "tags": [
+   "Fabric Espresso",
+   "Microsoft Fabric",
+   "Data Warehouse",
+   "OneLake",
+   "Data Factory",
+   "Azure Synapse Analytics",
+   "Ingesting Data"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 24
+ },
+ {
+  "id": "qGVaHE53vGc",
+  "title": "ML based Autotune for Apache Spark Jobs in MS Fabric performance optimization for recurrent jobs",
+  "description": "In this episode of Fabric Espresso, we delve into Autotune. Estera Kot, along with Karuna Sagar Krishna and Yiwen Zhu unpack the technology, use cases and demo of Autotune – predictive optimization for Apache Spark Jobs - which automatically adjusts Apache Spark configuration to speed up workload execution and to optimize overall performance. Autotune configures three Apache Spark settings for each of your queries separately based on historical runs. \n\nRead more: https://learn.microsoft.com/en-us/fabric/data-engineering/autotune  \n \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert: Karuna Sagar Krishna | Principal Software Engineering Manager at Microsoft  \n\nLinkedIn:https://www.linkedin.com/in/karuna-krishna-842211126/  \n\n \n\n👤 Guest Expert: Yiwen Zhu | Principal Applied Data Scientist, Researcher at Microsoft  \n\nLinkedIn: https://www.linkedin.com/in/yiwen-zhu-25139933/ \n\n \n \n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \n\nTwitter: https://twitter.com/estera_kot \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+  "upload_date": "20240813",
+  "timestamp": 1723564807,
+  "duration": 1691,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 115.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 115.0,
+    "end": 450.0,
+    "title": "Spark settings"
+   },
+   {
+    "start": 450.0,
+    "end": 800.0,
+    "title": "Autotune performance"
+   },
+   {
+    "start": 800.0,
+    "end": 1207.0,
+    "title": "Technical details"
+   },
+   {
+    "start": 1207.0,
+    "end": 1223.0,
+    "title": "AI based intuition"
+   },
+   {
+    "start": 1223.0,
+    "end": 1285.0,
+    "title": "Autotune approach"
+   },
+   {
+    "start": 1285.0,
+    "end": 1364.0,
+    "title": "Finetuning process"
+   },
+   {
+    "start": 1364.0,
+    "end": 1506.0,
+    "title": "Centroid update"
+   },
+   {
+    "start": 1506.0,
+    "end": 1691,
+    "title": "Enable Autotune"
+   }
+  ],
+  "tags": [
+   "Autotune",
+   "Apache Spark Jobs",
+   "Microsoft Fabric",
+   "Fabric Espresso",
+   "Predictive optimization",
+   "Data Science",
+   "ML based Autotune",
+   "Data Engineering"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 25
+ },
+ {
+  "id": "V6OydGZvjdw",
+  "title": "Mirroring",
+  "description": "Welcome back to another episode of Fabric Espresso DW series. In this episode, we'll be exploring mirroring. \n\nFabric Mirroring enables you to replicate tables in near real time from Snowflake, Azure SQL DB and Cosmos to Fabric.   For more information on Fabric Mirroring, follow this link. \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest from Microsoft Fabric Product Group: Mark Pryce-Maher is a Senior Product Manager on the Microsoft Fabric (Data Warehouse) team, owning developer experiences. \n\nLinkedIn: Mark (Pryce-Jones) Pryce-Maher | LinkedIn \n\nTwitter: Mark Pryce-Maher ( He | Him ) (@MarkPM_MSFT) / X \n\n👤 Host: Filip Popović is a Senior Product Manager at Microsoft and part of the Fabric Product Group, focusing on performance. Before joining Microsoft in 2019, he spent over ten years in the software and financial services industry, delivering business analytics solutions using the Microsoft technology stack. \nLinkedIn: Filip Popovic | LinkedIn \nTwitter: Filip Popovic (@FilipPop_MSFT) / X \n\n \n\n👍 Like this video? Don't forget to hit the 'Like' button and share it with your network! \n\n🔔 Stay Updated: For more insights into Microsoft Fabric Data Warehousing, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode! \n\n#Microsoft #MicrosoftFabric #FabricWarehouse #mirroring",
+  "upload_date": "20240801",
+  "timestamp": 1722528006,
+  "duration": 419,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 62.0,
+    "title": "Introduction to mirroring"
+   },
+   {
+    "start": 62.0,
+    "end": 224.0,
+    "title": "Snowflake demo and setup"
+   },
+   {
+    "start": 224.0,
+    "end": 336.0,
+    "title": "Technical backend explained"
+   },
+   {
+    "start": 336.0,
+    "end": 419,
+    "title": "Benefits and wrap up"
+   }
+  ],
+  "tags": [
+   "Fabric Espresso",
+   "Microsoft Fabric",
+   "Data Warehouse",
+   "Fabric Mirroring",
+   "Snowflake",
+   "Azure SQL DB",
+   "Cosmos to Fabric",
+   "Microsoft",
+   "FabricWarehouse",
+   "Mirroring"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 26
+ },
+ {
+  "id": "oFkC4hauU88",
+  "title": "Microsoft Fabric Optimistic Job Admission for Apache Spark - maximum compute utilization by default",
+  "description": "Welcome to our latest video where we dive into the powerful capabilities of Microsoft Fabric's Data Engineering and Data Science experiences! 🚀 \n\nDiscover how this fully managed Apache Spark compute platform is revolutionizing data analytics with unparalleled speed and efficiency. With starter pools, you can initialize Apache Spark sessions in just 5 to 10 seconds—no manual setup required! Plus, enjoy the flexibility to customize Spark pools to meet your unique data engineering and data science needs. \n\nWe'll explore how ApacheSpark for Fabric uses the innovative optimistic job admission technique to ensure your Spark jobs run smoothly. Whether you're working with interactive or batch jobs from notebooks, lakehouses, or Spark job definitions, this platform has got you covered. \n\nLearn how jobs start with minimum node settings and can scale up dynamically, optimizing performance based on job stages. We'll also discuss how the job admission and throttling layer on Fabric Spark allows for seamless scaling within the maximum burst cores assigned, ensuring your analytics experience is always top-notch. \n\nWanna try a lab, go to https://aka.ms/fabconlake  \n \nRead more here:  \n\n➡️  https://blog.fabric.microsoft.com/en-us/blog/introducing-optimistic-job-admission-for-fabric-spark \n\n➡️  https://learn.microsoft.com/en-us/fabric/data-engineering/job-admission-management  \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert:  Santhosh Kumar Ravindran, Senior Product Manager  \n\nSanthosh Ravindran currently leads Spark Compute and Settings for Microsoft Fabric Spark. He focuses on building capabilities that meet the data engineering needs like Spark Pools, Queueing and Scheduling, and Job orchestration for big data workloads in large enterprises using Spark. Prior to this, Santhosh was a Product Manager and Engineering Lead building Metadata scanners, access policy orchestration, lineage and data catalog systems for enterprise data estates as part of the Microsoft Governance Platform (Microsoft Purview).  \n\nLinkedin:  https://www.linkedin.com/in/thisissanthoshkumar/    \n\nTwitter:  https://www.twitter.com/iamsanthoshkr   \n\n \n \n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \n\nTwitter: https://twitter.com/estera_kot \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+  "upload_date": "20240723",
+  "timestamp": 1721750407,
+  "duration": 1145,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 62.0,
+    "title": "Introduction to the show"
+   },
+   {
+    "start": 62.0,
+    "end": 319.0,
+    "title": "Optimistic job admission"
+   },
+   {
+    "start": 319.0,
+    "end": 403.0,
+    "title": "Understanding job starvation"
+   },
+   {
+    "start": 403.0,
+    "end": 567.0,
+    "title": "Automatic job scaling"
+   },
+   {
+    "start": 567.0,
+    "end": 674.0,
+    "title": "Configuration and controls"
+   },
+   {
+    "start": 674.0,
+    "end": 955.0,
+    "title": "Concurrency simulation"
+   },
+   {
+    "start": 955.0,
+    "end": 1057.0,
+    "title": "Real-world test scenario"
+   },
+   {
+    "start": 1057.0,
+    "end": 1145,
+    "title": "Final thoughts and updates"
+   }
+  ],
+  "tags": [
+   "Microsoft Fabric",
+   "Apache Spark",
+   "Optimistic Job Admission",
+   "Data Engineering",
+   "Data Science",
+   "Spark jobs",
+   "Microsoft",
+   "Fabric Spark"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 27
+ },
+ {
+  "id": "8GJj4QlFlsw",
+  "title": "Native execution engine for Apache Spark in Fabric",
+  "description": "Native execution engine for Apache Spark on Fabric is a vectorized engine that optimizes the performance and efficiency of your Spark queries by running them directly on your lakehouse infrastructure. The engine's seamless integration means it requires no code modifications and avoids vendor lock-in. \n\nIn this episode of Fabric Espresso, we delve into the product and technical details about the native execution engine. Estera Kot, along with Ankita Christine Victor from Fabric Engineering Product Group unpack the use cases, scenarios, and technical details about the innovation. \n\nBlog: https://blog.fabric.microsoft.com/en-us/blog/public-preview-of-native-execution-engine-for-apache-spark-on-fabric-data-engineering-and-data-science?ft=All  \n\nDocs: https://learn.microsoft.com/en-us/fabric/data-engineering/native-execution-engine-overview?tabs=sparksql  \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert:  Ankita Christine Victor, Software Engineer at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/ankita-victor/  \n \n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \n\nTwitter: https://twitter.com/estera_kot \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+  "upload_date": "20240716",
+  "timestamp": 1721145606,
+  "duration": 1230,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 107.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 107.0,
+    "end": 278.0,
+    "title": "Native Execution Engine"
+   },
+   {
+    "start": 278.0,
+    "end": 316.0,
+    "title": "Open Source Components"
+   },
+   {
+    "start": 316.0,
+    "end": 514.0,
+    "title": "Architecture"
+   },
+   {
+    "start": 514.0,
+    "end": 630.0,
+    "title": "Innovation"
+   },
+   {
+    "start": 630.0,
+    "end": 700.0,
+    "title": "Scenarios"
+   },
+   {
+    "start": 700.0,
+    "end": 761.0,
+    "title": "Enable Native Execution Engine"
+   },
+   {
+    "start": 761.0,
+    "end": 842.0,
+    "title": "Impact of Native Execution Engine"
+   },
+   {
+    "start": 842.0,
+    "end": 1035.0,
+    "title": "fallback mechanism"
+   },
+   {
+    "start": 1035.0,
+    "end": 1115.0,
+    "title": "user experience"
+   },
+   {
+    "start": 1115.0,
+    "end": 1230,
+    "title": "outro"
+   }
+  ],
+  "tags": [
+   "Apache Spark",
+   "Fabric",
+   "Microsoft Fabric",
+   "Fabric Espresso",
+   "Native execution engine"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 28
+ },
+ {
+  "id": "iXYQUr4WcGU",
+  "title": "Fabric Copilot billing pricing",
+  "description": "We are pleased to announce the global availability of the public preview of Copilot in Microsoft Fabric. The preview includes enhancements for Power BI, Data Factory, and Data Science & Data Engineering. With Copilot now in preview, Microsoft Fabric offers a refined approach to data transformation, enrichment, and analysis, accelerating the journey to insights. In this installment of Fabric Espresso, we delve deep into the pricing details of Fabric Copilot. Estera Kot, with special guest Ruixin Xu, will discuss the aspects of pricing, rate of consumption, and how to track usage. \n\nDocs: https://learn.microsoft.com/fabric/get-started/copilot-fabric-overview  \n\nBlog post: https://blog.fabric.microsoft.com/en-us/blog/announcing-fabric-copilot-pricing-2/  \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert: Ruixin Xu, Senior Product Manager at Microsoft. Ruixin Xu is a product manager from Microsoft Fabric Data Science team, who is driving both the AI services in Fabric and the R language support.   \n\nLinkedIn: https://www.linkedin.com/in/ruixinxu/  \nTwitter: https://twitter.com/RuixinXu  \n\n \n\n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \n\nTwitter: https://twitter.com/estera_kot",
+  "upload_date": "20240709",
+  "timestamp": 1720540806,
+  "duration": 1588,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 93.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 93.0,
+    "end": 320.0,
+    "title": "Copilot for Fabric"
+   },
+   {
+    "start": 320.0,
+    "end": 385.0,
+    "title": "Token estimation"
+   },
+   {
+    "start": 385.0,
+    "end": 425.0,
+    "title": "Consumption rate"
+   },
+   {
+    "start": 425.0,
+    "end": 506.0,
+    "title": "Fabric Capacity Matrix app"
+   },
+   {
+    "start": 506.0,
+    "end": 769.0,
+    "title": "Fabric Copilot"
+   },
+   {
+    "start": 769.0,
+    "end": 1055.0,
+    "title": "Demo"
+   },
+   {
+    "start": 1055.0,
+    "end": 1588,
+    "title": "Questions"
+   }
+  ],
+  "tags": [
+   "Microsoft Fabric",
+   "Fabric Espresso",
+   "Copilot",
+   "Data Science",
+   "Data Engineering",
+   "Data Factory",
+   "Power BI",
+   "Fabric Copilot"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 29
+ },
+ {
+  "id": "iv1kAz_ShEo",
+  "title": "Fabric Apache Spark Autotune and Run Series Job Analysis in Monitoring Hub",
+  "description": "In this episode of Fabric Espresso, we delve into two features: Apache Spark Autotune and Run Series Job Analysis. Estera Kot, along with guest Jenny Jiang, Principal Product Manager at Fabric Data Engineering, unpack the use cases, scenarios, and demos of these features.  \n\nAutotune: https://learn.microsoft.com/en-us/fabric/data-engineering/autotune?tabs=sparksql  \n\nBlog post: https://blog.fabric.microsoft.com/en-us/blog/fabric-spark-autotune-and-run-series-job-analysis-public-preview?ft=All  \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert: Jenny Jiang, Principal Product Manager | Fabric Data Engineering \n\nLinkedIn: https://www.linkedin.com/in/jenny-jiang-8b57036/ \n\n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \n\nTwitter: https://twitter.com/estera_kot \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+  "upload_date": "20240702",
+  "timestamp": 1719936006,
+  "duration": 1071,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 214.0,
+    "title": "Run series job analysis"
+   },
+   {
+    "start": 214.0,
+    "end": 443.0,
+    "title": "Understanding autotune"
+   },
+   {
+    "start": 443.0,
+    "end": 552.0,
+    "title": "Monitoring and demo"
+   },
+   {
+    "start": 552.0,
+    "end": 758.0,
+    "title": "Autotune in action"
+   },
+   {
+    "start": 758.0,
+    "end": 920.0,
+    "title": "Machine learning insights"
+   },
+   {
+    "start": 920.0,
+    "end": 1071,
+    "title": "Future plans and wrap up"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 30
+ },
+ {
+  "id": "SC8a9ks4-Qg",
+  "title": "Fabric Apache Spark Jobs monitoring capabilities - Resource Usage Analysis",
+  "description": "Microsoft Fabric allows you to operate notebooks, jobs, and various applications using Apache Spark within your workspace. It also offers in-depth monitoring capabilities for analyzing your job execution statistics and logs. In this episode, Estera Kot joins Jenny Jiang, the Principal Product Manager at Fabric Data Engineering, to discuss Resource Usage Analysis.  \n\nhttps://learn.microsoft.com/en-us/fabric/data-engineering/spark-detail-monitoring  \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert: Jenny Jiang, Principal Product Manager | Fabric Data Engineering \n\nLinkedIn: https://www.linkedin.com/in/jenny-jiang-8b57036/ \n\n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \n\nTwitter: https://twitter.com/estera_kot \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers! \n\nAll episodes are available here: https://aka.ms/fabric-espresso",
+  "upload_date": "20240625",
+  "timestamp": 1719331206,
+  "duration": 633,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 36.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 36.0,
+    "end": 139.0,
+    "title": "Approach"
+   },
+   {
+    "start": 139.0,
+    "end": 237.0,
+    "title": "Architecture"
+   },
+   {
+    "start": 237.0,
+    "end": 633,
+    "title": "Features"
+   }
+  ],
+  "tags": [
+   "Fabric Espresso",
+   "Spark Resource",
+   "Apache Spark",
+   "Data Engineering",
+   "Resource Usage Analysis",
+   "Microsoft Fabric"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 31
+ },
+ {
+  "id": "6AUM9JOxlP8",
+  "title": "Microsoft Fabric Data Engineering - Notebooks Monitoring and Apache Spark Jobs Advisor",
+  "description": "In this episode of Fabric Data Engineering, we delve into the world of Notebooks Monitoring and Spark Advisor. Our host, Estera Kot, along with guest expert Jenny Jiang, Principal Product Manager at Fabric Data Engineering, unpack the intricacies of monitoring Spark applications and advising on Spark. \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert: Jenny Jiang, Principal Product Manager | Fabric Data Engineering \n\nLinkedIn: https://www.linkedin.com/in/jenny-jiang-8b57036/ \n\n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \n\nTwitter: https://twitter.com/estera_kot \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+  "upload_date": "20240618",
+  "timestamp": 1718726406,
+  "duration": 643,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 145.0,
+    "title": "Introduction to monitoring"
+   },
+   {
+    "start": 145.0,
+    "end": 271.0,
+    "title": "Notebook monitoring features"
+   },
+   {
+    "start": 271.0,
+    "end": 451.0,
+    "title": "Spark advisor demo"
+   },
+   {
+    "start": 451.0,
+    "end": 532.0,
+    "title": "When to use spark advisor"
+   },
+   {
+    "start": 532.0,
+    "end": 643,
+    "title": "Conclusion and next steps"
+   }
+  ],
+  "tags": [
+   "Microsoft Fabric",
+   "Fabric",
+   "Fabric Espresso",
+   "Fabric Notebook",
+   "Notebook",
+   "Microsoft",
+   "Apache Spark Jobs",
+   "Data Engineering",
+   "Spark Advisor",
+   "Spark"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 32
+ },
+ {
+  "id": "afe6vdO_UHw",
+  "title": "Microsoft Fabric Data Engineering – Apache Spark Jobs Monitoring",
+  "description": "In this episode of Fabric Data Engineering, host Estera Kot and guest expert Jenny Jiang, Principal Product Manager at Fabric Data Engineering, dive into the world of Spark Monitoring. They explore the ins and outs of monitoring Spark applications, offering valuable insights and practical advice. \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert: Jenny Jiang, Principal Product Manager | Fabric Data Engineering \n\nLinkedIn: https://www.linkedin.com/in/jenny-jiang-8b57036/ \n\n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \n\nTwitter: https://twitter.com/estera_kot \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+  "upload_date": "20240611",
+  "timestamp": 1718121606,
+  "duration": 671,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 64.0,
+    "title": "Introduction to spark"
+   },
+   {
+    "start": 64.0,
+    "end": 130.0,
+    "title": "Monitoring features"
+   },
+   {
+    "start": 130.0,
+    "end": 213.0,
+    "title": "Why monitoring is needed"
+   },
+   {
+    "start": 213.0,
+    "end": 389.0,
+    "title": "Demonstration of tools"
+   },
+   {
+    "start": 389.0,
+    "end": 483.0,
+    "title": "Notebooks vs jobs"
+   },
+   {
+    "start": 483.0,
+    "end": 593.0,
+    "title": "Snapshots and debugging"
+   },
+   {
+    "start": 593.0,
+    "end": 671,
+    "title": "Future roadmap and closing"
+   }
+  ],
+  "tags": [
+   "Fabric Espresso",
+   "Microsoft Fabric",
+   "Fabric Data Engineering",
+   "Spark Monitoring",
+   "Apache Spark"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 33
+ },
+ {
+  "id": "u_60vpO3PlU",
+  "title": "Microsoft Fabric Data Science - Detecting Machine Failure (Classification).",
+  "description": "Microsoft Fabric Data Science - Detecting Machine Failure (Classification).Predict when manufacturing equipment will fail.\n\nExplore the process of predicting machine failures with Fabric Data Science. This episode delves into classification methods used in detecting manufacturing equipment failures, providing valuable insights for both novice and experienced data scientists. \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert: Amir H. Jafari, PhD, Senior Product Manager | Fabric Data Science \n\nLinkedIn: https://www.linkedin.com/in/ahjafari/ \n\n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \n\nTwitter: https://twitter.com/estera_kot \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+  "upload_date": "20240604",
+  "timestamp": 1717516806,
+  "duration": 1431,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 139.0,
+    "title": "Introduction to the demo"
+   },
+   {
+    "start": 139.0,
+    "end": 259.0,
+    "title": "Environment setup"
+   },
+   {
+    "start": 259.0,
+    "end": 406.0,
+    "title": "Data loading and cleaning"
+   },
+   {
+    "start": 406.0,
+    "end": 649.0,
+    "title": "Exploratory data analysis"
+   },
+   {
+    "start": 649.0,
+    "end": 891.0,
+    "title": "Handling imbalanced data"
+   },
+   {
+    "start": 891.0,
+    "end": 1170.0,
+    "title": "Training and model selection"
+   },
+   {
+    "start": 1170.0,
+    "end": 1256.0,
+    "title": "Generating insights"
+   },
+   {
+    "start": 1256.0,
+    "end": 1431,
+    "title": "Closing and scalability"
+   }
+  ],
+  "tags": [
+   "Microsoft Fabric",
+   "Data Science",
+   "Microsoft",
+   "Fabric Data Science"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 34
+ },
+ {
+  "id": "H3LND_ErY5U",
+  "title": "Copilot in Microsoft Fabric | Ultimate demo of copilots in Notebooks - DS & DE",
+  "description": "In this episode, we delve into the use of Copilot within Fabric Data Science and Data Engineering notebooks. Our host Estera Kot, along with guest expert Raj Rikhy, will showcase the different aspects of Copilot and how they can be effectively utilized within the notebook environment.  \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert: Raj Rikhy, Principal Product Manager | Fabric Data Science \n\nLinkedIn: https://www.linkedin.com/in/jenny-jiang-8b57036/ \n\n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \n\nTwitter: https://twitter.com/estera_kot \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+  "upload_date": "20240528",
+  "timestamp": 1716912006,
+  "duration": 941,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 120.0,
+    "title": "Introduction to Fabric"
+   },
+   {
+    "start": 120.0,
+    "end": 184.0,
+    "title": "What is Copilot in Fabric?"
+   },
+   {
+    "start": 184.0,
+    "end": 375.0,
+    "title": "Using Copilot in notebooks"
+   },
+   {
+    "start": 375.0,
+    "end": 550.0,
+    "title": "Generating data insights"
+   },
+   {
+    "start": 550.0,
+    "end": 687.0,
+    "title": "Requirements and licensing"
+   },
+   {
+    "start": 687.0,
+    "end": 941,
+    "title": "Semantic link and conclusion"
+   }
+  ],
+  "tags": [
+   "Copilot",
+   "Microsoft Fabric",
+   "Notebooks",
+   "Data Science",
+   "Data Engineering"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 35
+ },
+ {
+  "id": "Yompg73vvEw",
+  "title": "Optimize Warehouse costs with capacity pause and resume",
+  "description": "Welcome back to another episode of Fabric Espresso DW series. In this episode, we'll be exploring capacity pause and resume features so you can minimize costs and maximize efficiency. \n\n🎙 Meet the Speakers: \n\n👤 Guest from Microsoft Fabric Product Group: Sowmya Sivaraman is a Senior Product Manager on the Microsoft Fabric (Data Warehouse) team, owning experiences like billing, pause/resume, cost monitoring and other user consumption experiences via SQL Query editor.  \n\nLinkedIn: https://www.linkedin.com/in/sowmyasivaraman/  \n\n \n\n👤 Host: Filip Popović is a Senior Product Manager at Microsoft and part of the Fabric Product Group, focusing on performance. Before joining Microsoft in 2019, he spent over ten years in the software and financial services industry, delivering business analytics solutions using the Microsoft technology stack. \nLinkedIn: https://www.linkedin.com/in/popovicfilip/ \nTwitter: https://twitter.com/FilipPop_MSFT \n\n \n\n👍 Like this video? Don't forget to hit the 'Like' button and share it with your network! \n\n🔔 Stay Updated: For more insights into Microsoft Fabric Data Warehousing, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode! \n\n#Microsoft #MicrosoftFabric #FabricWarehouse",
+  "upload_date": "20240521",
+  "timestamp": 1716307206,
+  "duration": 616,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 134.0,
+    "title": "Capacity pause overview"
+   },
+   {
+    "start": 134.0,
+    "end": 244.0,
+    "title": "Live pause demonstration"
+   },
+   {
+    "start": 244.0,
+    "end": 287.0,
+    "title": "Resuming capacity"
+   },
+   {
+    "start": 287.0,
+    "end": 384.0,
+    "title": "Monitoring and metrics"
+   },
+   {
+    "start": 384.0,
+    "end": 616,
+    "title": "Technical impact and cost"
+   }
+  ],
+  "tags": [
+   "Fabric Espresso",
+   "Microsoft Fabric",
+   "Microsoft",
+   "Data Warehouse",
+   "SQL Query",
+   "Capacity pause and resume",
+   "Fabric Warehouse"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 36
+ },
+ {
+  "id": "U9YQyaNFixo",
+  "title": "Getting the most out of the Staging Mechanisms in Dataflows Gen2 Fabric Data Factory",
+  "description": "After you've cleaned and prepared your data with Dataflow Gen2, you want to land your data in a destination. You can do this using the data destination capabilities in Dataflow Gen2. With this capability, you can pick from different destinations, like Azure SQL, Fabric Lakehouse, and many more. Dataflow Gen2 then writes your data to the destination, and from there you can use your data for further analysis and reporting. \n\nJoin us in this Fabric Espresso episode as Miguel and Estera discuss getting the most out of the Staging Mechanisms in Dataflows Gen2 Fabric Data Factory. \n \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert: Name: Miguel Escobar. Currently a Senior Program Manager at Microsoft for the product that changed his life: Power Query. Born and raised in Panama City, Panama.  \n\n\nLinkedin: https://www.linkedin.com/in/escobarmiguel90/ \n\nTwitter: @EscobarMiguel90 \n\n\n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+  "upload_date": "20240425",
+  "timestamp": 1714060806,
+  "duration": 658,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 69.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 69.0,
+    "end": 156.0,
+    "title": "What is staging"
+   },
+   {
+    "start": 156.0,
+    "end": 254.0,
+    "title": "Best practices for staging"
+   },
+   {
+    "start": 254.0,
+    "end": 299.0,
+    "title": "How does the staging mechanism work"
+   },
+   {
+    "start": 299.0,
+    "end": 328.0,
+    "title": "How does it impact the data processing speed"
+   },
+   {
+    "start": 328.0,
+    "end": 445.0,
+    "title": "Common challenges with staging"
+   },
+   {
+    "start": 445.0,
+    "end": 509.0,
+    "title": "How staging works with structured and unstructured data"
+   },
+   {
+    "start": 509.0,
+    "end": 658,
+    "title": "Question"
+   }
+  ],
+  "tags": [
+   "Fabric Espresso",
+   "Dataflow Gen2",
+   "Lakehouse",
+   "Azure SQL",
+   "Microsoft Fabric",
+   "Data Factory",
+   "Microsoft"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 37
+ },
+ {
+  "id": "H__IFLhKPD0",
+  "title": "Automate your interactions with Fabric Warehouse",
+  "description": "Welcome back to another episode of Fabric Espresso DW series. In this episode, we'll be exploring how you can automate actions in your Fabric solution and streamline operations using API. \n\n🎙 Meet the Speakers: \n\n👤 Guest from Microsoft Fabric Product Group: Salil Kanade is a product manager on the Microsoft Fabric (Data Warehouse) team, owning developer experiences. \n\nLinkedIn: https://www.linkedin.com/in/salil-kanade/ \n\n👤 Host: Filip Popović is a Senior Product Manager at Microsoft and part of the Fabric Product Group, focusing on performance. Before joining Microsoft in 2019, he spent over ten years in the software and financial services industry, delivering business analytics solutions using the Microsoft technology stack. \n\nLinkedIn: https://www.linkedin.com/in/popovicfilip/ \nTwitter: https://twitter.com/FilipPop_MSFT  \n\n👍 Like this video? Don't forget to hit the 'Like' button and share it with your network! \n\n🔔 Stay Updated: For more insights into Microsoft Fabric Data Warehousing, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode! \n\n#Microsoft #MicrosoftFabric #FabricWarehouse #automation #api",
+  "upload_date": "20240423",
+  "timestamp": 1713888006,
+  "duration": 333,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 31.0,
+    "title": "Intro"
+   },
+   {
+    "start": 31.0,
+    "end": 130.0,
+    "title": "Overview"
+   },
+   {
+    "start": 130.0,
+    "end": 333,
+    "title": "Demo"
+   }
+  ],
+  "tags": [
+   "Microsoft",
+   "MicrosoftFabric",
+   "FabricWarehouse",
+   "automation",
+   "api",
+   "FabricEspresso"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 38
+ },
+ {
+  "id": "Yek4riSko40",
+  "title": "Dataflow Gen2 data destinations in Fabric Data Factory",
+  "description": "Dataflow Gen2 is the new generation of dataflows. The new generation of dataflows resides alongside the Power BI Dataflow (Gen1) and brings new features and improved experiences.  \n\n \n\nJoin us in this Fabric Espresso episode as Miguel and Estera discuss Dataflow Gen2 data destinations (https://learn.microsoft.com/en-us/fabric/data-factory/dataflow-gen2-data-destinations-and-managed-settings ). \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert: Name: Miguel Escobar. Currently a Senior Program Manager at Microsoft for the product that changed his life: Power Query. Born and raised in Panama City, Panama.  \n\n \n\nLinkedin: https://www.linkedin.com/in/escobarmiguel90/ \n\nTwitter: @EscobarMiguel90 \n\n  \n\n \n\n  \n\n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+  "upload_date": "20240402",
+  "timestamp": 1712073606,
+  "duration": 971,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 50.0,
+    "title": "Intro"
+   },
+   {
+    "start": 50.0,
+    "end": 102.0,
+    "title": "Dataflow destinations"
+   },
+   {
+    "start": 102.0,
+    "end": 146.0,
+    "title": "Connection to SQL Server"
+   },
+   {
+    "start": 146.0,
+    "end": 730.0,
+    "title": "Demo"
+   },
+   {
+    "start": 730.0,
+    "end": 838.0,
+    "title": "Optimization"
+   },
+   {
+    "start": 838.0,
+    "end": 877.0,
+    "title": "Gateway"
+   },
+   {
+    "start": 877.0,
+    "end": 971,
+    "title": "Limitations"
+   }
+  ],
+  "tags": [
+   "Fabric Espresso",
+   "Microsoft Fabric",
+   "Data Factory",
+   "Dataflow",
+   "Dataflow Gen1",
+   "Dataflow Gen2",
+   "Data Destinations",
+   "Power BI Dataflow"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 39
+ },
+ {
+  "id": "qfn-LsaXOIA",
+  "title": "What are Dataflows Gen2 in Fabric Data Factory?",
+  "description": "Dataflow Gen2 is the new generation of dataflows. The new generation of dataflows resides alongside the Power BI Dataflow (Gen1) and brings new features and improved experiences.  \n\nJoin us in this Fabric Espresso episode as Miguel and Estera discuss Dataflows Gen2 and provide a comparison between Dataflow Gen1 and Dataflow Gen2. \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert: Name: Miguel Escobar, currently a Senior Program Manager at Microsoft for the product that changed his life: Power Query. Born and raised in Panama City, Panama.  \n\n \n\nLinkedin: https://www.linkedin.com/in/escobarmiguel90/ \n\nTwitter: @EscobarMiguel90 \n\n  \n\n \n\n  \n\n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+  "upload_date": "20240328",
+  "timestamp": 1711641606,
+  "duration": 901,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 74.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 74.0,
+    "end": 116.0,
+    "title": "What are Dataflows"
+   },
+   {
+    "start": 116.0,
+    "end": 302.0,
+    "title": "History of Dataflows"
+   },
+   {
+    "start": 302.0,
+    "end": 402.0,
+    "title": "Architecture"
+   },
+   {
+    "start": 402.0,
+    "end": 509.0,
+    "title": "Complex Data Structures"
+   },
+   {
+    "start": 509.0,
+    "end": 558.0,
+    "title": "Role of Dataflows"
+   },
+   {
+    "start": 558.0,
+    "end": 688.0,
+    "title": "On Pivot"
+   },
+   {
+    "start": 688.0,
+    "end": 901,
+    "title": "Gen2 vs Gen1"
+   }
+  ],
+  "tags": [
+   "Microsoft",
+   "Microsoft Fabric",
+   "Dataflow",
+   "Dataflow Gen2",
+   "Dataflow Gen1",
+   "Power BI Dataflow",
+   "Fabric",
+   "Fabric Espresso"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 40
+ },
+ {
+  "id": "vC2QzSmh5N4",
+  "title": "Fabric Data Science Cust churn scenario - when a customer will stop doing business with the bank.",
+  "description": "The Synapse Data Science software as a service (SaaS) experience in Microsoft Fabric can help machine learning professionals build, deploy, and operationalize their machine learning models in a single analytics platform, while collaborating with other key roles. This article describes both the capabilities of the Synapse Data Science experience, and how machine learning models can address common business problems. \n\n \n\nJoin us in this Fabric Espresso episode as Amir and Estera discuss the customer churn scenario - predict when a bank customer will stop doing business with the bank. \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert: Amir H. Jafari, PhD, Senior Product Manager | Fabric Data Science \n\nLinkedIn: https://www.linkedin.com/in/ahjafari/  \n\n  \n\n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers! \n\n🔔 Stay Updated: Subscribe to our channel for the latest in Microsoft Fabric Data Engineering, Data Science, and groundbreaking tech. Hit the notification bell to never miss out on the Fabric Espresso series!",
+  "upload_date": "20240326",
+  "timestamp": 1711468806,
+  "duration": 1981,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 154.0,
+    "title": "Introduction to churn sample"
+   },
+   {
+    "start": 154.0,
+    "end": 471.0,
+    "title": "Library setup and data loading"
+   },
+   {
+    "start": 471.0,
+    "end": 747.0,
+    "title": "Exploratory data analysis"
+   },
+   {
+    "start": 747.0,
+    "end": 1026.0,
+    "title": "Statistical insights"
+   },
+   {
+    "start": 1026.0,
+    "end": 1188.0,
+    "title": "Feature engineering"
+   },
+   {
+    "start": 1188.0,
+    "end": 1558.0,
+    "title": "Model training and tracking"
+   },
+   {
+    "start": 1558.0,
+    "end": 1704.0,
+    "title": "Evaluation and results"
+   },
+   {
+    "start": 1704.0,
+    "end": 1981,
+    "title": "Business insights and wrap up"
+   }
+  ],
+  "tags": [
+   "Fabric Data Science",
+   "Synapse Data Science",
+   "SAAS",
+   "Microsoft",
+   "Microsoft Fabric",
+   "Data Engineering",
+   "Data Science",
+   "Fabric Espresso"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 41
+ },
+ {
+  "id": "YZP5DWdqUYo",
+  "title": "Fabric Data Science Sales Forecasting: Predict sales numbers for product categories at a superstore.",
+  "description": "The Synapse Data Science software as a service (SaaS) experience in Microsoft Fabric can help machine learning professionals build, deploy, and operationalize their machine learning models in a single analytics platform, while collaborating with other key roles. This article describes both the capabilities of the Synapse Data Science experience, and how machine learning models can address common business problems. \n\nJoin us in this Fabric Espresso episode as Amir and Estera discuss the Sales forecasting - predict sales numbers for product categories at a superstore. \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert: Amir H. Jafari, PhD, Senior Product Manager | Fabric Data Science \n\nLinkedIn: https://www.linkedin.com/in/ahjafari/  \n\n  \n\n👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers! \n\n🔔 Stay Updated: Subscribe to our channel for the latest in Microsoft Fabric Data Engineering, Data Science, and groundbreaking tech. Hit the notification bell to never miss out on the Fabric Espresso series!",
+  "upload_date": "20240321",
+  "timestamp": 1711036806,
+  "duration": 1751,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 73.0,
+    "title": "Introduction to fabric"
+   },
+   {
+    "start": 73.0,
+    "end": 179.0,
+    "title": "Overview of data samples"
+   },
+   {
+    "start": 179.0,
+    "end": 204.0,
+    "title": "Getting started prerequisites"
+   },
+   {
+    "start": 204.0,
+    "end": 337.0,
+    "title": "Demo: Data loading and setup"
+   },
+   {
+    "start": 337.0,
+    "end": 415.0,
+    "title": "Experiment configuration"
+   },
+   {
+    "start": 415.0,
+    "end": 472.0,
+    "title": "Auto logging with mlflow"
+   },
+   {
+    "start": 472.0,
+    "end": 558.0,
+    "title": "Exploratory data analysis"
+   },
+   {
+    "start": 558.0,
+    "end": 652.0,
+    "title": "Data preprocessing"
+   },
+   {
+    "start": 652.0,
+    "end": 789.0,
+    "title": "Time series resampling"
+   },
+   {
+    "start": 789.0,
+    "end": 872.0,
+    "title": "Visualizing sales trends"
+   },
+   {
+    "start": 872.0,
+    "end": 1001.0,
+    "title": "Statistical decomposition"
+   },
+   {
+    "start": 1001.0,
+    "end": 1184.0,
+    "title": "Training sarimax model"
+   },
+   {
+    "start": 1184.0,
+    "end": 1260.0,
+    "title": "Model validation"
+   },
+   {
+    "start": 1260.0,
+    "end": 1375.0,
+    "title": "Model logging and prediction"
+   },
+   {
+    "start": 1375.0,
+    "end": 1556.0,
+    "title": "Business insights integration"
+   },
+   {
+    "start": 1556.0,
+    "end": 1751,
+    "title": "Conclusion and partner work"
+   }
+  ],
+  "tags": [
+   "Fabric Espresso",
+   "Fabric Data Science",
+   "Data Science Sales Forecasting",
+   "Microsoft"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 42
+ },
+ {
+  "id": "706MVIBivOU",
+  "title": "Medallion Architecture Data Design and Lakehouse Patterns | Microsoft Fabric Data Factory",
+  "description": "Join us in this Fabric Espresso episode as Abhishek and Estera discuss the Medallion Architecture Data Design and Lakehouse Patterns in Microsoft Fabric Data Factory.  \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert: Abhishek Narain, Principal Program Manager in Microsoft. Abhishek serves as a Product Manager at Microsoft Fabric's Data Factory. His primary area of focus is the Data Pipeline, a tool that empowers data engineers to construct scalable, robust, and reliable data pipelines. \n\nLinkedIn: https://www.linkedin.com/in/narain-abhishek/ \n\nTwitter: @narainabhishek \n\n  \n\n👤 Host: Estera Kot, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers! \n\n🔔 Stay Updated: Subscribe to our channel for the latest in Microsoft Fabric Data Engineering, Data Science, and groundbreaking tech. Hit the notification bell to never miss out on the Fabric Espresso series!",
+  "upload_date": "20240319",
+  "timestamp": 1710853206,
+  "duration": 2742,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 51.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 51.0,
+    "end": 272.0,
+    "title": "Understanding medallion layers"
+   },
+   {
+    "start": 272.0,
+    "end": 339.0,
+    "title": "Workspace segregation"
+   },
+   {
+    "start": 339.0,
+    "end": 506.0,
+    "title": "Bronze layer ingestion"
+   },
+   {
+    "start": 506.0,
+    "end": 643.0,
+    "title": "Avoiding data duplication"
+   },
+   {
+    "start": 643.0,
+    "end": 1042.0,
+    "title": "Data pipeline capabilities"
+   },
+   {
+    "start": 1042.0,
+    "end": 1895.0,
+    "title": "Incremental load demonstration"
+   },
+   {
+    "start": 1895.0,
+    "end": 2469.0,
+    "title": "Performance and reliability"
+   },
+   {
+    "start": 2469.0,
+    "end": 2742,
+    "title": "Serverless compute explained"
+   }
+  ],
+  "tags": [
+   "Fabric Espresso",
+   "Medallion Architecture",
+   "Data Design",
+   "Lakehouse",
+   "Microsoft",
+   "Data Factory",
+   "Data Pipeline",
+   "Data Science",
+   "Data Engineering"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 43
+ },
+ {
+  "id": "J1vRWanmd00",
+  "title": "Microsoft Fabric Data Engineering - How to make the reference file work in Spark Job Definitions?",
+  "description": "Join us in this Fabric Espresso episode as Qixiao Wang and Estera Kot explore the integration of reference files in Spark Job Definitions in Microsoft Fabric. \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest Expert: Qixiao Wang, Principal Program Manager in Microsoft   \n\nLinkedin: https://www.linkedin.com/in/%E5%90%AF%E9%9C%84-%E7%8E%8B-24368233/ \n\n \n\n👤 Host: Estera Kot, Principal Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n \n\n👍 Liked this video? Don't forget to hit the 'Like' button and share it with your peers! \n\n🔔 Stay Updated: Subscribe to our channel for the latest in Microsoft Fabric Data Engineering, Data Science, and groundbreaking tech. Hit the notification bell to never miss out on the Fabric Espresso series!",
+  "upload_date": "20240312",
+  "timestamp": 1710259206,
+  "duration": 853,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 6.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 6.0,
+    "end": 65.0,
+    "title": "Spark Job Definition Overview"
+   },
+   {
+    "start": 65.0,
+    "end": 175.0,
+    "title": "Reference Files and Modules"
+   },
+   {
+    "start": 175.0,
+    "end": 240.0,
+    "title": "Demo: Creating a Spark Job"
+   },
+   {
+    "start": 240.0,
+    "end": 315.0,
+    "title": "Code Structure and Execution"
+   },
+   {
+    "start": 315.0,
+    "end": 378.0,
+    "title": "Upload Options"
+   },
+   {
+    "start": 378.0,
+    "end": 447.0,
+    "title": "Git Integration Support"
+   },
+   {
+    "start": 447.0,
+    "end": 540.0,
+    "title": "Java/Scala and Feature Updates"
+   },
+   {
+    "start": 540.0,
+    "end": 645.0,
+    "title": "Job Services and Roadmap"
+   },
+   {
+    "start": 645.0,
+    "end": 740.0,
+    "title": "User Feedback and Futures"
+   },
+   {
+    "start": 740.0,
+    "end": 853,
+    "title": "Spark SQL and Closing"
+   }
+  ],
+  "tags": [
+   "Fabric Espresso",
+   "Fabric",
+   "SJD",
+   "Spark Job Definitions"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 44
+ },
+ {
+  "id": "SSSlufo9kqM",
+  "title": "Consume Warehouse data from other services",
+  "description": "Welcome back to another episode of Fabric Espresso DW series. In this episode, we'll show how you can access your Microsoft Fabric Warehouse tables in OneLake from any engine that can read Delta tables. \n\n🎙 Meet the Speakers: \n\n👤 Guest from Microsoft Fabric Product Group: Kevin Conan is a Senior Product Manager working on transactions, metadata and publishing Delta Lake Logs for warehouse in Microsoft Fabric. He has more than 20 years of experience in databases and analytics. \n\nLinkedIn: https://www.linkedin.com/in/kconan/ \n\n \n\n👤 Host: Filip Popović is a Senior Product Manager at Microsoft and part of the Fabric Product Group, focusing on performance. Before joining Microsoft in 2019, he spent over ten years in the software and financial services industry, delivering business analytics solutions using the Microsoft technology stack. \nLinkedIn: https://www.linkedin.com/in/popovicfilip/ \nTwitter: https://twitter.com/FilipPop_MSFT \n\n \n\n👍 Like this video? Don't forget to hit the 'Like' button and share it with your network! \n\n🔔 Stay Updated: For more insights into Microsoft Fabric Data Warehousing, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode! \n\n#Microsoft #MicrosoftFabric #FabricWarehouse",
+  "upload_date": "20240229",
+  "timestamp": 1709215208,
+  "duration": 407,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 27.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 27.0,
+    "end": 127.0,
+    "title": "Overview"
+   },
+   {
+    "start": 127.0,
+    "end": 343.0,
+    "title": "Demo"
+   },
+   {
+    "start": 343.0,
+    "end": 407,
+    "title": "Conclusion"
+   }
+  ],
+  "tags": [
+   "microsoft",
+   "microsoft fabric",
+   "fabric warehouse",
+   "fabric espresso",
+   "warehouse data",
+   "OneLake",
+   "Data Lake Logs"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 45
+ },
+ {
+  "id": "LJAmc1Ng-Ic",
+  "title": "Fabric Spark Compute Capabilities - Azure VM's and their impact on performance",
+  "description": "In this episode, Guy and Estera discuss how Fabric Spark, a distributed data processing platform, leverages Azure VM's to achieve high performance and scalability. They compare Fabric Spark with Synapse Spark, and highlight the differences in terms of architecture, features, and pricing. \n\nRead more: https://learn.microsoft.com/en-us/fabric/data-engineering/spark-compute \n\n \n\n🎙 Meet the Speakers:  \n\n👤 Guest: Guy Haycock, Principal Program Manager in Microsoft - https://www.linkedin.com/in/guyhay/  \n\n👤 Host: Estera Kot, Senior Product Manager at Microsoft - https://www.linkedin.com/in/esterakot/",
+  "upload_date": "20240221",
+  "timestamp": 1708554606,
+  "duration": 563,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 49.0,
+    "title": "Intro"
+   },
+   {
+    "start": 49.0,
+    "end": 132.0,
+    "title": "What are the features of Fabric Spark Compute"
+   },
+   {
+    "start": 132.0,
+    "end": 212.0,
+    "title": "Can I select a different Azure VM SKU"
+   },
+   {
+    "start": 212.0,
+    "end": 331.0,
+    "title": "How often do you roll out new hardware"
+   },
+   {
+    "start": 331.0,
+    "end": 389.0,
+    "title": "What about Synaps"
+   },
+   {
+    "start": 389.0,
+    "end": 445.0,
+    "title": "Performance Boost"
+   },
+   {
+    "start": 445.0,
+    "end": 492.0,
+    "title": "Price Comparison"
+   },
+   {
+    "start": 492.0,
+    "end": 563,
+    "title": "Future Plans"
+   }
+  ],
+  "tags": [
+   "Espresso",
+   "Fabric Espresso",
+   "Microsoft",
+   "Spark Compute",
+   "Azure VM",
+   "Fabric Spark",
+   "Synapse Spark",
+   "Data engineering",
+   "Data Processing",
+   "Fabric Spark Compute"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 46
+ },
+ {
+  "id": "uKgXKAw00XM",
+  "title": "Automated maintenance features in Fabric Warehouse",
+  "description": "Welcome back to another episode of Fabric Espresso DW series. In this episode, we'll be exploring maintenance features that optimize your tables automatically for performant querying. Stay tuned to learn how it lets you focus on delivering value to business users instead of maintaining the warehouse. \n\n🎙 Meet the Speakers: \n\n👤 Guest from Microsoft Fabric Product Group: Kevin Conan is a Senior Product Manager working on transactions, metadata and publishing Delta Lake Logs for warehouse in Microsoft Fabric. He has more than 20 years of experience in databases and analytics. \n\nLinkedIn: https://www.linkedin.com/in/kconan/ \n\n \n\n👤 Host: Filip Popović is a Senior Product Manager at Microsoft and part of the Fabric Product Group, focusing on performance. Before joining Microsoft in 2019, he spent over ten years in the software and financial services industry previously, delivering business analytics solutions using the Microsoft technology stack. \nLinkedIn: https://www.linkedin.com/in/popovicfilip/ \nTwitter: https://twitter.com/FilipPop_MSFT \n\n \n\n👍 Like this video? Don't forget to hit the 'Like' button and share it with your network! \n\n🔔 Stay Updated: For more insights into Microsoft Fabric Data Warehousing, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode! \n\n#Microsoft #MicrosoftFabric #FabricWarehouse #Fabricators",
+  "upload_date": "20240104",
+  "timestamp": 1704384039,
+  "duration": 630,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 32.0,
+    "title": "Introduction to Fabric"
+   },
+   {
+    "start": 32.0,
+    "end": 129.0,
+    "title": "Data compaction explained"
+   },
+   {
+    "start": 129.0,
+    "end": 228.0,
+    "title": "Data compaction demo"
+   },
+   {
+    "start": 228.0,
+    "end": 325.0,
+    "title": "Compaction best practices"
+   },
+   {
+    "start": 325.0,
+    "end": 411.0,
+    "title": "Checkpointing explained"
+   },
+   {
+    "start": 411.0,
+    "end": 529.0,
+    "title": "Checkpointing demo"
+   },
+   {
+    "start": 529.0,
+    "end": 630,
+    "title": "Summary and conclusion"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 47
+ },
+ {
+  "id": "PD3AnXiCQo0",
+  "title": "CSV ingestion performance improvements",
+  "description": "Welcome back to another episode of Fabric Espresso DW series. In this episode, we'll be exploring the ins and outs of recent performance improvements on CSV ingestion in Microsoft Fabric Warehouse. Stay tuned to learn how it supercharges your ingestion pipeline.\n\n🎙 Meet the Speakers:\n\n👤 Guest from Microsoft Fabric Product Group: Peri Rocha is a Senior Product Manager working on data ingestion for warehouse in Microsoft Fabric. He has more than 25 years of experience in databases and analytics. LinkedIn: https://www.linkedin.com/in/periclesrocha/ Twitter: https://www.twitter.com/periclesrocha\n\n👤 Host: Filip Popović is a Senior Product Manager at Microsoft and part of the Fabric Product Group, focusing on performance. Before joining Microsoft in 2019, he spent over ten years in the software and financial services industry, delivering business analytics solutions using the Microsoft technology stack. LinkedIn: https://www.linkedin.com/in/popovicfilip/ Twitter: https://twitter.com/FilipPop_MSFT\n\n👍 Like this video? Don't forget to hit the 'Like' button and share it with your network!\n\n🔔 Stay Updated: For more insights into Microsoft Fabric Data Warehousing, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode!\n\n#Microsoft #MicrosoftFabric #FabricWarehouse #ingestion",
+  "upload_date": "20231214",
+  "timestamp": 1702569610,
+  "duration": 303,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 27.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 27.0,
+    "end": 75.0,
+    "title": "What is it"
+   },
+   {
+    "start": 75.0,
+    "end": 183.0,
+    "title": "Demo"
+   },
+   {
+    "start": 183.0,
+    "end": 200.0,
+    "title": "Why use 10"
+   },
+   {
+    "start": 200.0,
+    "end": 219.0,
+    "title": "Parser support"
+   },
+   {
+    "start": 219.0,
+    "end": 237.0,
+    "title": "Multibyte separators"
+   },
+   {
+    "start": 237.0,
+    "end": 303,
+    "title": "Conclusion"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 48
+ },
+ {
+  "id": "VrIrZfq2RQU",
+  "title": "Autologging and MLFlow in Fabric Data Science",
+  "description": "🔍 Autologging revolutionizes how we track MLFlow runs by significantly reducing the code needed to log parameters, metrics, and model artifacts during training. This episode delves into how this feature extends MLflow's autologging capabilities and seamlessly integrates into the Synapse Data Science experience in Microsoft Fabric. \n\n👩‍💻 For developers and data scientists, this means an effortless way to track and compare model performances, eliminating the hassle of manual tracking. Join us as Misha Desai unveils the intricacies of autologging, offering insights into its development, functionality, and impact on machine learning workflows. \n\n📊 Whether you're fine-tuning your machine learning models or just starting in data science, this episode is a treasure trove of information on leveraging autologging for optimal performance and efficiency.  \n\n🎙 Meet the Speakers: \n\n👤 Guest from Microsoft Fabric Product Group: Misha Desai, Senior Program Manager  \n\n \n\nMisha is a Senior Product Manager based in Seattle, WA, specializing in model tracking, training, and governance within the Fabric Data Science team. \n\nLinkedin: www.linkedin.com/in/misha-desai-6034a362 \n\n \n\n👤 Host: Estera Kot, Senior Product Manager at Microsoft and a member of the Fabric Product Group. She holds the role of Product Owner for Apache Spark-based runtimes in Microsoft Fabric and Synapse Analytics. Estera is a Data & AI Architect and is passionate about computer science. \nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n🔔 Stay Updated: For more insights into Microsoft Fabric Data Engineering and Data Science, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode!",
+  "upload_date": "20231212",
+  "timestamp": 1702396809,
+  "duration": 916,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 147.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 147.0,
+    "end": 512.0,
+    "title": "Demo"
+   },
+   {
+    "start": 512.0,
+    "end": 916,
+    "title": "Limitations"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 49
+ },
+ {
+  "id": "vqqVcD5f-g0",
+  "title": "Model & Experiment Tracking in Fabric Data Science (MLFLOW)",
+  "description": "🔍 Microsoft Fabric offers Data Science experiences to empower users to complete end-to-end data science workflows for the purpose of data enrichment and business insights. You can complete a wide range of activities across the entire data science process, all the way from data exploration, preparation and cleansing to experimentation, modeling, model scoring and serving of predictive insights to BI reports. \n\nWith tools like PySpark/Python, SparklyR/R, Microsoft Fabric Notebooks can handle machine learning model training. ML algorithms and libraries can help train machine learning models. Library management tools can install these libraries and algorithms. Users have therefore the option to leverage a large variety of popular machine learning libraries to complete their ML model training in Microsoft Fabric.  \n\nMLflow experiments and runs can track the ML model training. Microsoft Fabric offers a built-in MLflow experience with which users can interact, to log experiments and models. Learn more about how to use MLflow to track experiments and manage models in Microsoft Fabric. \n\n🎙 Meet the Speakers: \n\n👤 Guest from Microsoft Fabric Product Group: Misha Desai, Senior Program Manager at Microsoft \n\n \n\nMisha is a Senior Product Manager based in Seattle, WA, specializing in model tracking, training, and governance within the Fabric Data Science team. \n\nLinkedin: www.linkedin.com/in/misha-desai-6034a362 \n\n \n\n👤 Host: Estera Kot, Senior Product Manager at Microsoft and a member of the Fabric Product Group. She holds the role of Product Owner for Apache Spark-based runtimes in Microsoft Fabric and Synapse Analytics. Estera is a Data & AI Architect and is passionate about computer science. \nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n🔔 Stay Updated: For more insights into Microsoft Fabric Data Engineering and Data Science, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode!",
+  "upload_date": "20231205",
+  "timestamp": 1701792011,
+  "duration": 1224,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 67.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 67.0,
+    "end": 297.0,
+    "title": "Experiment vs Model"
+   },
+   {
+    "start": 297.0,
+    "end": 381.0,
+    "title": "MLFLOW"
+   },
+   {
+    "start": 381.0,
+    "end": 717.0,
+    "title": "Demo"
+   },
+   {
+    "start": 717.0,
+    "end": 1224,
+    "title": "Experiments"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 50
+ },
+ {
+  "id": "6pe9NnpRm0w",
+  "title": "Microsoft Fabric Capacity Smoothing and Data Warehouse Throttling",
+  "description": "In the dynamic world of technology, demand spikes and troughs are inevitable. In this video, learn more about capacity smoothing that intelligently distributes consumption, mitigating the impact of sudden spikes and ensuring consistent performance.  \n\nAre you also curious to understand the admin and end user experience when you overload the capacity you have purchased? This video will uncover the below:  \n\n✅ Explain the benefits of capacity smoothing  \n\n✅ Explain capacity throttling principles   \n\n✅ Demos on capacity admin and end-user experience  \n\n🎙 Meet the Speakers:  \n\n👤 Stijn Wynants: Senior Product Manager for Fabric Warehouse \n\n Linkedin:   / stijn-wynants-ba528660    \n\n👤Sowmya Sivaraman: Senior Product Manager for Fabric Warehouse  \n\nLinkedIn: Sowmya Sivaraman | LinkedIn  \n\n👤Jonathan Garriss: Senior Product Manager in Fabric \n\nLinkedIn: Jonathan Garriss | LinkedIn",
+  "upload_date": "20231130",
+  "timestamp": 1701360007,
+  "duration": 895,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 87.0,
+    "title": "Introduction to fabric"
+   },
+   {
+    "start": 87.0,
+    "end": 240.0,
+    "title": "Understanding smoothing"
+   },
+   {
+    "start": 240.0,
+    "end": 330.0,
+    "title": "Throttling stages"
+   },
+   {
+    "start": 330.0,
+    "end": 389.0,
+    "title": "Data warehouse specificities"
+   },
+   {
+    "start": 389.0,
+    "end": 728.0,
+    "title": "Capacity demo"
+   },
+   {
+    "start": 728.0,
+    "end": 895,
+    "title": "Best practices and wrap up"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 51
+ },
+ {
+  "id": "Sf5qSfiYITA",
+  "title": "Data Engineering Starter Kit - Quick Start with Fabric Product Group",
+  "description": "🌐 Welcome back to the Fabric Espresso series! Today's episode is a goldmine for data engineers and enthusiasts diving into the Microsoft Fabric platform. \n\n🔍 Join us as we welcome Avinanda (Avi) Chattapadday, Product Manager from the Microsoft Fabric Data Engineering team. Avi is instrumental in driving the Lakehouse experience and its integration across the Fabric platform. In this episode, she's here to guide us through a hands-on demo of two incredible samples available for data engineers. \n\n🚀 What's in Store? \n\nNo-Hassle Provisioning: Learn how, with just a subscription or trial subscription, you can effortlessly click on samples and choose your favorite one. Microsoft Fabric takes care of provisioning the necessary resources, including a fully equipped lakehouse and notebooks. \n\nStep-by-Step Demo: Avi walks us through the most advanced and complex samples for data engineering. These samples are designed to get you coding and using Spark immediately, leveraging the full features of Spark and Lakehouse. \n\nPractical Applications: Discover how these samples allow you to load data, conduct data analysis, and install necessary libraries. It's the perfect toolkit for both junior and senior data engineers. \n\n👩‍💻 Whether you're a beginner or a seasoned professional, this episode is a fantastic starting point to familiarize yourself with Microsoft Fabric. Avi's step-by-step guide ensures that you'll be ready to tackle data engineering tasks with ease and just improve your overall understanding of Spark. \n\n💡 Use this episode as a tutorial or a first step in your Microsoft Fabric journey. By the end of it, you'll be ready to explore, experiment, and excel in the world of data engineering. \n\n🎙 Meet the Speakers: \n\n👤 Guest from Microsoft Fabric Product Group: Avinanda (Avi) Chattapadday, Product Manager at Microsoft. Avi is a product manager from Microsoft Fabric Data Engineering team, who is driving the Lakehouse experience and it’s integration across Fabric platform.  \n\nLinkedIn: https://www.linkedin.com/in/achattapadday/  \n\n \n\n👤 Host: Estera Kot, Senior Product Manager at Microsoft \nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n \n\n🔗 Follow us on our social media channels to stay updated on the latest from Microsoft Fabric. \n\n \n\n#Microsoft #MicrosoftFabric #DataScience #DataEngineering #BigData #DataAnalytics #ApacheSpark #FabricEspresso",
+  "upload_date": "20231128",
+  "timestamp": 1701187209,
+  "duration": 733,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 40.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 40.0,
+    "end": 84.0,
+    "title": "Meet Abby"
+   },
+   {
+    "start": 84.0,
+    "end": 182.0,
+    "title": "Benefits of Samples"
+   },
+   {
+    "start": 182.0,
+    "end": 630.0,
+    "title": "Demo"
+   },
+   {
+    "start": 630.0,
+    "end": 685.0,
+    "title": "Summary"
+   },
+   {
+    "start": 685.0,
+    "end": 733,
+    "title": "Outro"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 52
+ },
+ {
+  "id": "Vai5YQ2IqsU",
+  "title": "R (Programming Language) in Microsoft Fabric - An Insightful Overview with Fabric Product Group",
+  "description": "🌟 Welcome to the latest episode of our Fabric Espresso series, where we delve deep into the world of Data Engineering, Data Science, and Real-Time Analytics, all within the Microsoft Fabric ecosystem. \n\n👨‍💻 Today, we're thrilled to have Ruixin Xu, a Senior Product Manager from the Microsoft Fabric Data Science team, join us. With her extensive expertise, Ruixin is at the forefront of integrating AI services into Fabric and spearheading the support for the R programming language. \n\n🚀 In this episode, we explore the robust capabilities of R within Microsoft Fabric. For data science enthusiasts and professionals, this is a not-to-miss conversation! We'll cover: \n\nBuilt-In R Support: Discover how Microsoft Fabric enhances your data analysis and modeling with its built-in R support for Apache Spark. \n\nSparkR & Sparklyr Integration: Learn about the seamless integration of SparkR and sparklyr, enabling users to interact with Spark using both familiar Spark and R interfaces. \n\nData Analysis Made Easy: Get insights into how you can analyze data using R through Spark batch job definitions or interactive Microsoft Fabric notebooks. \n\n📊 Whether you're new to data science or a seasoned expert, this episode will give you a comprehensive overview of R language support in Microsoft Fabric and how it's revolutionizing data analysis and integration. \n\n🎙 Meet the Speakers: \n\n👤 Guest from Microsoft Fabric Product Group: Ruixin Xu, Senior Product Manager at Microsoft. Ruixin Xu is a product manager from Microsoft Fabric Data Science team, who is driving both the AI services in Fabric and the R language support.   \n\nLinkedIn: https://www.linkedin.com/in/ruixinxu/  \nTwitter: https://twitter.com/RuixinXu  \n\n \n\n👤 Host: Estera Kot, Senior Product Manager at Microsoft \nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n🔗 Follow us on our social media channels to stay updated on the latest from Microsoft Fabric. \n\n \n\n👍 Like this video? Don't forget to hit the 'Like' button and share it with your network! \n\n🔔 Stay Updated: For more insights into Microsoft Fabric Data Engineering and Data Science, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode! \n\n🔗 Follow us on our social media channels to stay updated on the latest from Microsoft Fabric. \n\n \n\n#Microsoft #MicrosoftFabric #DataScience #DataEngineering #BigData #DataAnalytics #ApacheSpark #FabricEspresso",
+  "upload_date": "20231121",
+  "timestamp": 1700582410,
+  "duration": 1012,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 50.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 50.0,
+    "end": 114.0,
+    "title": "What is R"
+   },
+   {
+    "start": 114.0,
+    "end": 166.0,
+    "title": "Why use R in Fabric"
+   },
+   {
+    "start": 166.0,
+    "end": 265.0,
+    "title": "Fabric is a unified platform"
+   },
+   {
+    "start": 265.0,
+    "end": 572.0,
+    "title": "Spark R"
+   },
+   {
+    "start": 572.0,
+    "end": 759.0,
+    "title": "Demo"
+   },
+   {
+    "start": 759.0,
+    "end": 818.0,
+    "title": "Ms Spark Utilities"
+   },
+   {
+    "start": 818.0,
+    "end": 1012,
+    "title": "Questions"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 53
+ },
+ {
+  "id": "P3vQyvO55DI",
+  "title": "Microsoft Fabric Spark Utilities - mssparkutils",
+  "description": "Welcome back to another episode of Fabric Espresso DE&DS series. In this episode, we introduce and explore the nuances of Fabric Notebooks and a library named MSSparkUtils. Microsoft Spark Utilities (MSSparkUtils) is a built-in package to help you easily perform common tasks. You can use MSSparkUtils to work with file systems, to get environment variables, to chain notebooks together, and to work with secrets. MSSparkUtils are available in PySpark (Python), Scala, .NET Spark (C#), and R (Preview) notebooks and Synapse pipelines. \n\n🎙 Meet the Speakers: \n\n👤 Guest from Microsoft Fabric Product Group: Jene Zhang, Senior Program Manager of Fabric Notebooks \n\nJene is a Senior Program Manager at Microsoft with a passion for developing advanced developer tools and AI technology. Currently, she is spearheading the creation of a specialized Spark notebook aimed at enabling data engineers and scientists to excel in their domains. \n\nLinkedIn: https://www.linkedin.com/in/edelweissno1/  \n\nTwitter:   https://twitter.com/edelweissno1  \n\n \n\n👤 Host: Estera Kot, Senior Product Manager at Microsoft and a member of the Fabric Product Group. She holds the role of Product Owner for Apache Spark-based runtimes in Microsoft Fabric and Synapse Analytics. Estera is a Data & AI Architect and is passionate about computer science. \nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n \n\n👍 Like this video? Don't forget to hit the 'Like' button and share it with your network! \n\n🔔 Stay Updated: For more insights into Microsoft Fabric Data Engineering and Data Science, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode! \n\n#Microsoft #MicrosoftFabric #FabricNotebooks #DataScience #BigData #DataAnalytics #ApacheSpark #JupyterNotebook #SynapseNotebook #IPywidgets #TechInnovation #mssparkutils #MicrosoftSparkUtilities",
+  "upload_date": "20231107",
+  "timestamp": 1699372823,
+  "duration": 1276,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 55.0,
+    "title": "Introduction to MS Spark"
+   },
+   {
+    "start": 55.0,
+    "end": 125.0,
+    "title": "What is MS Spark Utils"
+   },
+   {
+    "start": 125.0,
+    "end": 261.0,
+    "title": "Key Utilities and Use Cases"
+   },
+   {
+    "start": 261.0,
+    "end": 363.0,
+    "title": "File System API Demo"
+   },
+   {
+    "start": 363.0,
+    "end": 516.0,
+    "title": "Mounting Storage Demo"
+   },
+   {
+    "start": 516.0,
+    "end": 576.0,
+    "title": "Working with Mount Paths"
+   },
+   {
+    "start": 576.0,
+    "end": 654.0,
+    "title": "Notebook Resources Management"
+   },
+   {
+    "start": 654.0,
+    "end": 825.0,
+    "title": "Fast Copy Functionality"
+   },
+   {
+    "start": 825.0,
+    "end": 1065.0,
+    "title": "Reference Run API Demo"
+   },
+   {
+    "start": 1065.0,
+    "end": 1276,
+    "title": "Unique Features and Summary"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 54
+ },
+ {
+  "id": "47vCxbHchn4",
+  "title": "Permissions in Microsoft Fabric Workspace and SQL",
+  "description": "In this episode, we will discuss how to control and regulate access to sensitive or valuable data within Fabric. We will cover defining user roles and access levels, assigning permissions based on job responsibilities, and implementing robust authentication and authorization mechanisms for Lakehouse and touch on object level security for SQL Endpoint. \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest from Microsoft Fabric Product Group: Ted Vilutis: Senior Product Manager at Microsoft \n\nLinkedIn: https://www.linkedin.com/in/tedvilutis/ \nTwitter: https://twitter.com/tvilutis \n\n \n\n \n\n👤 Host: Estera Kot, Senior Product Manager at Microsoft \nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n \n\n👍 Like this video? Don't forget to hit the 'Like' button and share it with your network! \n\n🔔 Stay Updated: For more insights into Microsoft Fabric Data Engineering and Data Science, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode! \n\n#Microsoft #MicrosoftFabric #DataScience #DataEngineering #BigData #DataAnalytics #ApacheSpark",
+  "upload_date": "20231031",
+  "timestamp": 1698764402,
+  "duration": 771,
+  "chapters": [],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 55
+ },
+ {
+  "id": "A9SjAyZ_JSc",
+  "title": "Microsoft Fabric Spark integration and VS Code",
+  "description": "Welcome back to another episode of Fabric Espresso DE&DS series. In this episode, Qixiao and Estera will discuss VS Code, The Synapse VS Code extension and Microsoft Fabric Notebooks.  \n\nThe Synapse VS Code extension supports a pro-developer experience for exploring Microsoft Fabric lakehouses, and authoring Fabric notebooks and Spark job definitions. Learn more about the extension, including how to get started with the necessary prerequisites. Visual Studio Code is one of the most popular lightweight source code editors; it runs on your desktop and is available for Windows, macOS, and Linux. By installing the Synapse VS Code extension, you can author, run, and debug your notebook and Spark job definition locally in VS Code. You can also post the code to the remote Spark compute in your Fabric workspace to run or debug. The extension also allows you to browse your lakehouse data, including tables and raw files, in VS Code. \n\n🎙 Meet the Speakers: \n\n👤 Guest from Microsoft Fabric Product Group: Qixiao Wang, Principal Program Manager in Microsoft | Fabric Spark \n\nLinkedin: https://www.linkedin.com/in/%E5%90%AF%E9%9C%84-%E7%8E%8B-24368233/  \n\n \n\n👤 Host: Estera Kot, Senior Product Manager at Microsoft. \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n \n\n👍 Like this video? Don't forget to hit the 'Like' button and share it with your network! \n\n🔔 Stay Updated: For more insights into Microsoft Fabric Data Engineering and Data Science, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode!",
+  "upload_date": "20231024",
+  "timestamp": 1698159604,
+  "duration": 1630,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 82.0,
+    "title": "Introduction to Fabric Spark"
+   },
+   {
+    "start": 82.0,
+    "end": 204.0,
+    "title": "Code authoring in Fabric"
+   },
+   {
+    "start": 204.0,
+    "end": 338.0,
+    "title": "VS Code as an IDE"
+   },
+   {
+    "start": 338.0,
+    "end": 560.0,
+    "title": "Demo: VS Code and Fabric"
+   },
+   {
+    "start": 560.0,
+    "end": 680.0,
+    "title": "Debugging in VS Code"
+   },
+   {
+    "start": 680.0,
+    "end": 919.0,
+    "title": "Code modularity with VS Code"
+   },
+   {
+    "start": 919.0,
+    "end": 1113.0,
+    "title": "Installation and setup"
+   },
+   {
+    "start": 1113.0,
+    "end": 1237.0,
+    "title": "Using VS Code for the web"
+   },
+   {
+    "start": 1237.0,
+    "end": 1441.0,
+    "title": "Best practices and tips"
+   },
+   {
+    "start": 1441.0,
+    "end": 1527.0,
+    "title": "VS Code advantages"
+   },
+   {
+    "start": 1527.0,
+    "end": 1630,
+    "title": "Resources and conclusion"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 56
+ },
+ {
+  "id": "L3ZC46lAUhI",
+  "title": "Microsoft Fabric Notebooks - Showcase with advanced features",
+  "description": "Welcome back to another episode of Fabric Espresso DE&DS series. In this episode, we introduce and explore the nuances of Fabric Notebooks, a web-based interactive surface that's rapidly becoming the go-to tool for data scientists and engineers for writing big data analytic jobs using Apache Spark.  \n\nKey points presented by Jene: \n\nWhat are Fabric Notebooks? Microsoft Fabric notebook is a primary code item for developing Apache Spark jobs and machine learning experiments. It's a web-based interactive surface used by data scientists and data engineers to write code benefiting from rich visualizations and Markdown text.  \n\nDistinctive Features and Focus Area: Unlike its counterparts, Fabric Notebooks are tailored for developers working in data scenarios, providing a seamless experience for tasks like data ingestion, data preparation, data transformation, and data analytics. \n\nComparison to Synapse and Jupyter Notebooks: Compared to Synapse Notebooks, Fabric Notebooks are built on a SaaS platform, offering various SaaS-like features including low-code experience and enhanced collaborative features. They facilitate easier interaction with PowerBI report/dashboard. \n\nUnlike Jupyter Notebooks, Fabric Notebooks are integrated tightly with the lakehouse and other Fabric key features and functionalities and are rich in spark specific features like high concurrency mode to share a spark session, spark job inline monitoring, spark job diagnostics, and built-in Microsoft Spark Utilities. \n\nAdvanced Features: The notebooks also support advanced features like IPywidgets and reference run which significantly enhance functionality, although at the time of this interview, there are some compatibility issues with IPywidgets which are being addressed. \n\n \n\n🎙 Meet the Speakers: \n\n👤 Guest from Microsoft Fabric Product Group: Jene Zhang, Senior Program Manager of Fabric Notebooks \n\nJene is a Senior Program Manager at Microsoft with a passion for developing advanced developer tools and AI technology. Currently, she is spearheading the creation of a specialized Spark notebook aimed at enabling data engineers and scientists to excel in their domains. \n\nLinkedin: https://www.linkedin.com/in/edelweissno1/  \n\nTwitter:   https://twitter.com/edelweissno1  \n\n \n\n👤 Host: Estera Kot, Senior Product Manager at Microsoft and a member of the Fabric Product Group. She holds the role of Product Owner for Apache Spark-based runtimes in Microsoft Fabric and Synapse Analytics. Estera is a Data & AI Architect and is passionate about computer science. \nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n \n\n👍 Like this video? Don't forget to hit the 'Like' button and share it with your network! \n\n🔔 Stay Updated: For more insights into Microsoft Fabric Data Engineering and Data Science, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode! \n\n#Microsoft #MicrosoftFabric #FabricNotebooks #DataScience #BigData #DataAnalytics #ApacheSpark #JupyterNotebook #SynapseNotebook #IPywidgets #TechInnovation #MicrosoftSparkUtilities",
+  "upload_date": "20231010",
+  "timestamp": 1696946414,
+  "duration": 1671,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 65.0,
+    "title": "Introduction to Fabric"
+   },
+   {
+    "start": 65.0,
+    "end": 358.0,
+    "title": "Fabric vs Jupyter"
+   },
+   {
+    "start": 358.0,
+    "end": 591.0,
+    "title": "Core functionalities"
+   },
+   {
+    "start": 591.0,
+    "end": 722.0,
+    "title": "Collaboration tools"
+   },
+   {
+    "start": 722.0,
+    "end": 798.0,
+    "title": "Immersive editing"
+   },
+   {
+    "start": 798.0,
+    "end": 1168.0,
+    "title": "Language service & magics"
+   },
+   {
+    "start": 1168.0,
+    "end": 1497.0,
+    "title": "Data visualization"
+   },
+   {
+    "start": 1497.0,
+    "end": 1671,
+    "title": "Next episode preview"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 57
+ },
+ {
+  "id": "_gcPNOyrGgc",
+  "title": "Row-Level security in Fabric Warehouse & SQL Endpoint",
+  "description": "Welcome back to another episode of Fabric Espresso Warehouse series. In this episode, we introduce and highlight the new Row-Level security feature in Warehouse and SQL Endpoint \n\nRow-Level Security enables you to use group membership or execution context to control access to rows in a database table. \n\nRow-Level Security (RLS) simplifies the design and coding of security in your application. RLS helps you implement restrictions on data row access. For example, you can ensure that workers access only those data rows that are pertinent to their department. Another example is to restrict customers' data access to only the data relevant to their company. \n\nThe access restriction logic is in the database tier rather than away from the data in another application tier. The database system applies the access restrictions every time that data access is attempted from any tier. This makes your security system more reliable and robust by reducing the surface area of your security system. \n\n🎙 Meet the Speakers: \n\n👤 Stijn Wynants, Senior Product Manager for Fabric Warehouse \n\nLinkedin: https://www.linkedin.com/in/stijn-wynants-ba528660/ \n\n👤 Host: Filip Popovic, Senior Product Manager at Microsoft and a member of the Fabric Product Group. \nLinkedIn: https://www.linkedin.com/in/popovicfilip/ \n\n \n\n👍 Like this video? Don't forget to hit the 'Like' button and share it with your network! \n\n🔔 Stay Updated: For more insights into Microsoft Fabric and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode! \n\n#Microsoft #MicrosoftFabric #Warehouse #SQLEndpoint #BigData #DataAnalytics #TechInnovation",
+  "upload_date": "20231005",
+  "timestamp": 1696518032,
+  "duration": 332,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 25.0,
+    "title": "Intro"
+   },
+   {
+    "start": 25.0,
+    "end": 96.0,
+    "title": "Introducing RowLevel Security"
+   },
+   {
+    "start": 96.0,
+    "end": 245.0,
+    "title": "Demo"
+   },
+   {
+    "start": 245.0,
+    "end": 332,
+    "title": "Summary"
+   }
+  ],
+  "tags": [
+   "Microsoft",
+   "Microsoft Fabric",
+   "Row-Level Security",
+   "Database",
+   "SQL",
+   "Security",
+   "Data Security"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 58
+ },
+ {
+  "id": "mt4Lqa36wss",
+  "title": "Spark Data Engineering Patterns Optimizing Delta Tables for Power Bi in Microsoft Fabric",
+  "description": "Welcome back to another episode of Fabric Espresso DE&DS series. In this episode, we're diving deep into the world of Delta Lake table optimization, focusing on how to get the most out of your Power BI analytics with the usage of V-Order. \n\n🎙 Meet the Speakers: \n\n👤 Guest from Microsoft Fabric Product Group: Daniel Coelho, Principal Product Manager \nLinkedin:  https://www.linkedin.com/in/danibunny/  \n\n \n\n👤 Host: Estera Kot: Senior Product Manager at Microsoft \nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n \n\n👍 Like this video? Don't forget to hit the 'Like' button and share it with your network! \n\n🔔 Stay Updated: For more insights into Microsoft Fabric Data Engineering and Data Science, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode!",
+  "upload_date": "20231003",
+  "timestamp": 1696345240,
+  "duration": 986,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 270.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 270.0,
+    "end": 430.0,
+    "title": "What is the Order"
+   },
+   {
+    "start": 430.0,
+    "end": 542.0,
+    "title": "Enabling the Order"
+   },
+   {
+    "start": 542.0,
+    "end": 817.0,
+    "title": "Demo"
+   },
+   {
+    "start": 817.0,
+    "end": 986,
+    "title": "Considerations"
+   }
+  ],
+  "tags": [
+   "Microsoft",
+   "Microsoft Fabric",
+   "Delta Tables",
+   "Apache Spark",
+   "Power BI"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 59
+ },
+ {
+  "id": "1tI1d3m0ffg",
+  "title": "Caching in data warehousing",
+  "description": "In this video, we dive into the world of caching techniques that can supercharge your SQL query performance, especially when dealing with large datasets. Learn about the power of in-memory caching and SSD caching, two optimization techniques that can dramatically reduce query times by reducing IO latency dramatically. Whether you're a seasoned database administrator or just getting started with data warehousing in Microsoft Fabric, this video has valuable insights to help you understand how Fabric delivers great performance. \n\nLearn more: Caching in Fabric data warehousing - Microsoft Fabric | Microsoft Learn \n\nMeet the Speakers 🚀 🚀 🚀: \n\nFilip Popović: Senior Product Manager at Microsoft, Microsoft Fabric \nLinkedIn: Filip Popović | LinkedIn \nTwitter: Filip Popović (@FilipPop_MSFT) / X (twitter.com) \n\n \n\nMiloš Šuković, Senior Software Enginner, Microsoft Fabric \n\nLinkedIn  Miloš Šuković | LinkedIn",
+  "upload_date": "20230929",
+  "timestamp": 1695999602,
+  "duration": 243,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 23.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 23.0,
+    "end": 49.0,
+    "title": "Query Scan"
+   },
+   {
+    "start": 49.0,
+    "end": 127.0,
+    "title": "Transcoder"
+   },
+   {
+    "start": 127.0,
+    "end": 198.0,
+    "title": "SSD Cache"
+   },
+   {
+    "start": 198.0,
+    "end": 243,
+    "title": "Conclusion"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 60
+ },
+ {
+  "id": "30UpPJFKHGM",
+  "title": "Utilization Reporting for Warehouse!",
+  "description": "Welcome back to another episode of Fabric Espresso Warehouse series.  \n\n🎙 Meet the Speakers: \n\n👤 Guest from Microsoft Fabric Product Group: Sowmya Sivaraman, Senior Product Manager \nLinkedin:  https://www.linkedin.com/in/sowmyasivaraman/ \n\n \n\n👤 Host: Stijn Wynants: Senior Product Manager at Microsoft \nLinkedIn: https://www.linkedin.com/in/stijn-wynants-ba528660/  \n\nTwitter: https://twitter.com/SQLStijn \n\n \n\n👍 Like this video? Don't forget to hit the 'Like' button and share it with your network! \n\n🔔 Stay Updated: For more insights into Microsoft Fabric, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode! \n\n \n\nDescription: \n\nDo you want to understand how to measure the impact of your organization’s Fabric Data Warehouse and SQL Endpoint usage against capacity limits for better planning and to understand your compute spend?  \n\nThis video will uncover the below: \n✅ Track capacity usage trends across Warehouse and SQL Endpoint. \n✅ Deep dive with the Microsoft Fabric Capacity Metrics app. \n✅ Spot potential overload points and optimize resources.",
+  "upload_date": "20230928",
+  "timestamp": 1695916631,
+  "duration": 499,
+  "chapters": [],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 61
+ },
+ {
+  "id": "HzdZ0n0lpFw",
+  "title": "Data Science in Microsoft Fabric – Model scoring with PREDICT",
+  "description": "🌟📊 Exploring Data Science in Microsoft Fabric 📊🌟 \n\nWe're back with Eren to explore the cutting-edge capabilities of Microsoft Fabric in the realm of Data Science. Microsoft Fabric allows users to operationalize machine learning models with a scalable function called PREDICT, which supports batch scoring in any compute engine. Users can generate batch predictions directly from a Microsoft Fabric notebook or from a given model's item page.  \n\nMeet the Speakers 🚀 🚀 🚀: \n\nEstera Kot: Senior Product Manager at Microsoft \nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n \n\nEren Orbey, Product Manager, Microsoft Fabric \n\nLinkedIn  https://www.linkedin.com/in/orbey \n\nTwitter:  https://twitter.com/erenorbey",
+  "upload_date": "20230926",
+  "timestamp": 1695740425,
+  "duration": 1532,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 8.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 8.0,
+    "end": 95.0,
+    "title": "ML Concepts"
+   },
+   {
+    "start": 95.0,
+    "end": 149.0,
+    "title": "Overview of predict function"
+   },
+   {
+    "start": 149.0,
+    "end": 372.0,
+    "title": "Model workspace setup"
+   },
+   {
+    "start": 372.0,
+    "end": 554.0,
+    "title": "Batch prediction code flow"
+   },
+   {
+    "start": 554.0,
+    "end": 739.0,
+    "title": "Prediction APIs"
+   },
+   {
+    "start": 739.0,
+    "end": 838.0,
+    "title": "Persisting results"
+   },
+   {
+    "start": 838.0,
+    "end": 1201.0,
+    "title": "UI-based model application"
+   },
+   {
+    "start": 1201.0,
+    "end": 1341.0,
+    "title": "Data visualization"
+   },
+   {
+    "start": 1341.0,
+    "end": 1532,
+    "title": "Future capabilities"
+   }
+  ],
+  "tags": [
+   "Microsoft",
+   "Microsoft Fabric",
+   "Data Science",
+   "SQL PREDICT",
+   "Data",
+   "ML"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 62
+ },
+ {
+  "id": "GhX4oMHlCOY",
+  "title": "Getting data into your Microsoft Fabric Lakehouse using Load to Tables",
+  "description": "The future of data analytics is here, and it's called Lakehouse! Microsoft Fabric Lakehouse is revolutionizing the way we manage and analyze data.  \n\n📌 In this episode, we'll explore:  \n\n📊 Load Single File into a New or Existing Table \n\n📊 Learn which file types are supported in the Load to Tables feature. \n\n📊 Table and Column Name Validation and Rules \n\n📊 Walk through the process of selecting a file in the Lakehouse Files section and loading it into a new Delta table. \n\n🎙 Meet the Speakers: \n\n👤 Guest from Microsoft Fabric Product Group: Daniel Coelho, Principal Product Manager \nLinkedin:  https://www.linkedin.com/in/danibunny/  \n\n \n\n👤 Host: Estera Kot: Senior Product Manager at Microsoft \nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n#microsoft #microsoftfabric",
+  "upload_date": "20230919",
+  "timestamp": 1695135613,
+  "duration": 550,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 53.0,
+    "title": "Introduction to load to tables"
+   },
+   {
+    "start": 53.0,
+    "end": 135.0,
+    "title": "Understanding load to tables"
+   },
+   {
+    "start": 135.0,
+    "end": 355.0,
+    "title": "Supported formats and limitations"
+   },
+   {
+    "start": 355.0,
+    "end": 418.0,
+    "title": "Automation and API support"
+   },
+   {
+    "start": 418.0,
+    "end": 511.0,
+    "title": "Demonstration and best practices"
+   },
+   {
+    "start": 511.0,
+    "end": 550,
+    "title": "Conclusion and next steps"
+   }
+  ],
+  "tags": [
+   "Fabric",
+   "Microsoft",
+   "Microsoft Fabric",
+   "Lakehouse",
+   "load data",
+   "Table",
+   "Data ingestion"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 63
+ },
+ {
+  "id": "4QJNVVT5Ga0",
+  "title": "Real-Time Data Sharing in Microsoft Fabric",
+  "description": "Anshul Sharma walks us through in-place data sharing in Synapse Real-time Analytics. \n\nIntroducing database shortcuts in Real-Time analytics! A database shortcut in Real-Time Analytics is an embedded reference within a KQL database to a source database in Azure Data Explorer allowing in-place data sharing. The behaviour exhibited by the database shortcut is similar to that of a follower database.",
+  "upload_date": "20230918",
+  "timestamp": 1695049205,
+  "duration": 551,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 17.0,
+    "title": "Intro"
+   },
+   {
+    "start": 17.0,
+    "end": 77.0,
+    "title": "Demo Scenario"
+   },
+   {
+    "start": 77.0,
+    "end": 125.0,
+    "title": "Data Provider Scenario"
+   },
+   {
+    "start": 125.0,
+    "end": 210.0,
+    "title": "Data Consumer Scenario"
+   },
+   {
+    "start": 210.0,
+    "end": 247.0,
+    "title": "Company Financial Database"
+   },
+   {
+    "start": 247.0,
+    "end": 383.0,
+    "title": "Querying Data"
+   },
+   {
+    "start": 383.0,
+    "end": 551,
+    "title": "Shortcut"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 64
+ },
+ {
+  "id": "AObKOOVHRv4",
+  "title": "Spark Data Engineering Patterns – Shortcuts and external tables",
+  "description": "Fabric Espresso Presents: \"Spark Data Engineering Patterns – Shortcuts and external tables\" \n\n📌 About This Episode: \n\nIn today's data-driven world, mastering Spark and Big Data technologies is no longer optional—it's essential. That's why we've invited Daniel Coelho to share his invaluable insights. Daniel is driving Delta Lake at Microsoft Fabric and Azure Synapse Analytics. He's laser-focused on Data Engineering experiences using Spark and Big Data technologies. His work enables BI Analysts, DBAs, Data Engineers, and Data Scientists to shape their data effectively and build incredible solutions.  \n\nIn this episode, we'll dive deep into: \n\n📊 The Difference Between Managed Tables, External Tables, and Views \n\n📊 Why It's Worth Using Delta Format \n\n🛠️ Shortcuts for Optimizing Your Spark Workflows \n\n🗄️ How to Leverage External Tables for Better Data Management \n\n \n\n✅ PS. Demos starts from 08:28! :) \n\n \n🎙 Meet the Speakers: \n\n👤 Guest from Product Group: Daniel Coelho, Principal Product Manager  \nLinkedin:  https://www.linkedin.com/in/danibunny/  \n\n \n\n👤 Host: Estera Kot: Senior Product Manager at Microsoft \nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot",
+  "upload_date": "20230913",
+  "timestamp": 1694617205,
+  "duration": 947,
+  "chapters": [],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 65
+ },
+ {
+  "id": "j2GrmcR6xA8",
+  "title": "High Concurrency Mode in Microsoft Fabric",
+  "description": "Fabric Espresso Presents: High Concurrency Mode in Microsoft Fabric. Learn about how high concurrency mode works in Fabric Spark for Notebooks 🔥🔥🔥 \n\n📌 Ever wondered how to optimize your Spark sessions in Microsoft Fabric for both Data Engineering and Data Science workloads? This video is your one-stop guide to understanding High Concurrency Mode in Fabric Spark for Notebooks. Learn how this mode allows for the independent execution of multiple items within a single Spark session, providing you with an instant run experience! \n\n📚 What You'll Learn: \n\n✅ High Concurrency Mode: What it is and how it allows users to share the same Spark sessions across multiple notebooks. \n\n✅ Session Sharing Conditions: Key conditions for sharing sessions like user boundaries and lakehouse configurations. \n\n✅ Performance Boost: Discover how Custom Pools with High Concurrency Mode offer a 36X faster session start compared to standard Spark sessions. \n\nRead more here: https://learn.microsoft.com/en-us/fabric/data-engineering/high-concurrency-overview  \n\n🎙 Meet the Speakers: \n\n👤 Guest from Product Group: Santhosh Kumar Ravindran, Senior Product Manager \n\nSanthosh Ravindran currently leads Spark Compute and Settings for Microsoft Fabric Spark. He focuses on building capabilities that meet the data engineering needs like Spark Pools, Queueing and Scheduling, and Job orchestration for big data workloads in large enterprises using Spark. Prior to this, Santhosh was a Product Manager and Engineering Lead building Metadata scanners, access policy orchestration, lineage and data catalog systems for enterprise data estates as part of the Microsoft Governance Platform (Microsoft Purview). \n\n \n\nLinkedin:  https://www.linkedin.com/in/thisissanthoshkumar/   \n\nTwitter:  https://www.twitter.com/iamsanthoshkr  \n\n \n\n👤 Host: Estera Kot: Senior Product Manager at Microsoft \nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot",
+  "upload_date": "20230905",
+  "timestamp": 1693926029,
+  "duration": 969,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 65.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 65.0,
+    "end": 220.0,
+    "title": "Motivation"
+   },
+   {
+    "start": 220.0,
+    "end": 370.0,
+    "title": "Session Sharing"
+   },
+   {
+    "start": 370.0,
+    "end": 645.0,
+    "title": "Demo"
+   },
+   {
+    "start": 645.0,
+    "end": 770.0,
+    "title": "Best Practices"
+   },
+   {
+    "start": 770.0,
+    "end": 969,
+    "title": "Future Plans"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 66
+ },
+ {
+  "id": "AXXasVxhgTs",
+  "title": "Spark Compute in Fabric Data Engineering and Data Science - Starter Pools vs Custom Pools Unveiled!",
+  "description": "Fabric Espresso Presents: \" Spark Compute for Microsoft Fabric Data Engineering and Data Science - Starter Pools vs Custom Pools Unveiled! \" 🔥🔥🔥 \n\n📌 Navigating the world of Microsoft Fabric's Spark Compute platform? Confused about whether to go for Starter Pools or Custom Pools? Look no further! This video breaks down the distinct advantages of both, tailored to meet different needs in Data Engineering and Data Science. Whether you're looking for quick insights or need to handle resource-intensive tasks, we've got you covered! \n\n📚 What You'll Learn: \n\n✅ Starter Pools: Designed for quick, hassle-free access to Spark sessions. Learn how they initialize in just 5 to 10 seconds and offer always-on Spark clusters that dynamically scale based on your needs. \n\n✅ Custom Pools: Get a deep dive into how Custom Pools offer a more tailored experience, allowing you to specify node sizes and numbers, ideal for complex and resource-intensive jobs. \n\n✅ Billing: Understand how you're only charged for active job runs in both Starter and Custom Pools, not for setup or idle time. \n\n✅ Choosing the Right Pool: Tips on how to choose between Starter and Custom Pools based on your specific project requirements.",
+  "upload_date": "20230830",
+  "timestamp": 1693407608,
+  "duration": 1015,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 69.0,
+    "title": "Introduction to Spark"
+   },
+   {
+    "start": 69.0,
+    "end": 155.0,
+    "title": "Spark compute overview"
+   },
+   {
+    "start": 155.0,
+    "end": 243.0,
+    "title": "Fabric vs synapse"
+   },
+   {
+    "start": 243.0,
+    "end": 432.0,
+    "title": "Starter pools"
+   },
+   {
+    "start": 432.0,
+    "end": 632.0,
+    "title": "Custom pools"
+   },
+   {
+    "start": 632.0,
+    "end": 758.0,
+    "title": "Single node support"
+   },
+   {
+    "start": 758.0,
+    "end": 863.0,
+    "title": "Pandas on Spark"
+   },
+   {
+    "start": 863.0,
+    "end": 1015,
+    "title": "Resources and conclusion"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 67
+ },
+ {
+  "id": "_GpwpXuS2gk",
+  "title": "Granular Access Control for Warehouse!",
+  "description": "Fabric Espresso Presents: \" Granular Access Control for Warehouse \"  \n\nDo you want to know how to only give access to single tables/stored procedures/ views / functions in Fabric Warehouse? Then check out this video on Granular Access control for warehouse! In this episode Filip & Stijn talk about the two levels of permissions the workspace permissions and the SQL Permission and how to combine these two to grant granular object access in Fabric Warehouse 📊 \n\nDon't miss out on this electrifying episode! Hit that play button, and let's dive into the future of data! 🎥🎉 \n\nMeet the Speakers 🚀 🚀 🚀: \n\nFilip Popovic – Senior Product Manager \nhttps://twitter.com/FilipPop_MSFT   \nhttps://www.linkedin.com/in/popovicfilip/  \n\nStijn Wynants - Senior Product Manager \nhttps://www.linkedin.com/in/stijn-wynants-ba528660/ \nhttps://sql-stijn.com/ \nhttps://twitter.com/SQLStijn",
+  "upload_date": "20230824",
+  "timestamp": 1692889224,
+  "duration": 294,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 62.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 62.0,
+    "end": 100.0,
+    "title": "Adding a User"
+   },
+   {
+    "start": 100.0,
+    "end": 131.0,
+    "title": "Read Permission"
+   },
+   {
+    "start": 131.0,
+    "end": 191.0,
+    "title": "Grant Select"
+   },
+   {
+    "start": 191.0,
+    "end": 294,
+    "title": "Demo"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 68
+ },
+ {
+  "id": "6_3gjipEq_k",
+  "title": "Enabling Data Mesh with OneLake on Microsoft Fabric",
+  "description": "Fabric Espresso Presents: \"Enabling Data Mesh with OneLake on Microsoft Fabric\" 🚀 Ever wondered how to scale analytics adoption beyond just one platform? Dive deep into the world of data mesh architecture with OneLake! 🌐 Join our DE&DS series host, Estera, as she sits down with Elizabeth Oldag, a seasoned PM who's been at the forefront of big data storage at Microsoft for a DECADE! 🌟 Discover the secrets of implementing enterprise data platforms in mammoth organizations, and get insights straight from the experts! 📊 \n\n🏞🔑 Key Takeaways and 🔗 links mentioned in the video: \n\n➡️  Blog post about OneLake and data mesh: Microsoft OneLake in Fabric, the OneDrive for data | Microsoft Fabric Blog | Microsoft Fabric \n\n \n\n➡️➡️ Good reference about data mesh: Data Mesh  \n\n \n\n➡️ ➡️ ➡️ Data Mesh as part of Cloud Adoption Framework  - https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/architectures/what-is-data-mesh \n\n https://www.oreilly.com/library/view/data-mesh/9781492092384/ \n\nDon't miss out on this electrifying episode! Hit that play button, and let's dive into the future of data! 🎥🎉 \n\nMeet the Speakers 🚀 🚀 🚀: \n\nEstera Kot: Senior Product Manager at Microsoft \nLinkedIn: https://www.linkedin.com/in/esterakot/ \nTwitter: https://twitter.com/estera_kot \n\n \n\nElizabeth Oldag \n\nSenior Product Manager \n\nLinkedin profile link:  Elizabeth Oldag | LinkedIn",
+  "upload_date": "20230822",
+  "timestamp": 1692716408,
+  "duration": 900,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 168.0,
+    "title": "Introduction to Data Mesh"
+   },
+   {
+    "start": 168.0,
+    "end": 364.0,
+    "title": "Fabric and OneLake Overview"
+   },
+   {
+    "start": 364.0,
+    "end": 532.0,
+    "title": "Enabling Data Mesh in Fabric"
+   },
+   {
+    "start": 532.0,
+    "end": 778.0,
+    "title": "Data Governance and Access"
+   },
+   {
+    "start": 778.0,
+    "end": 900,
+    "title": "Data Mesh Resources"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 69
+ },
+ {
+  "id": "upW7DtKX2IU",
+  "title": "Learn to Share a Microsoft Fabric Warehouse!",
+  "description": "In this video, Jacinda joins Stijn to walk through how to share a Microsoft Fabric warehouse and demos how the recipient can build reports, query the data, and create a shortcut to the shared warehouse!\n\nDocumentation: https://learn.microsoft.com/en-us/fabric/data-warehouse/share-warehouse-manage-permissions\n\nBlog: https://blog.fabric.microsoft.com/en-us/blog/data-warehouse-sharing/\n\nJacinda Eng - Product Manager\n\nhttps://www.linkedin.com/in/jacindaeng/",
+  "upload_date": "20230817",
+  "timestamp": 1692284731,
+  "duration": 410,
+  "chapters": [],
+  "tags": [
+   "Microsoft",
+   "Microsoft Fabric",
+   "Fabric",
+   "Data",
+   "Data Warehouse",
+   "Shared Warehouse",
+   "Query Data"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 70
+ },
+ {
+  "id": "-g6KveKQXu4",
+  "title": "Data Science in Microsoft Fabric – Data preparation and exploration with Data Wrangler",
+  "description": "🌟📊 Exploring Data Science in Microsoft Fabric 📊🌟 \n\nStep into the dynamic realm of Microsoft Fabric's Data Wrangler in this episode. Ever wondered how Data Wrangler optimizes the data preparation and exploration process in Microsoft Fabric? 🤔 Eren Orbey, a product manager on the Synapse Data Science team, focusing on machine learning in Microsoft Fabric, unveils data preparation and exploration process in Microsoft Fabric, offering unparalleled insights and behind-the-scenes peeks from the heart of Microsoft’s data innovation! ATTENTION all data engineers and data scientists: If you swear by Pandas in your daily work, this episode is a goldmine for you! Understand the synergy between Pandas and Data Wrangler and discover new tips and techniques that can revolutionize your workflow. 🚀 \n\n \n\n🏞🔑 Key Takeaways and 🔗 links mentioned in the video: \n\n➡️ How to accelerate data prep with Data Wrangler in Microsoft Fabric  https://learn.microsoft.com/en-us/fabric/data-science/data-wrangler  \n\n➡️ ➡️  To try out Data Wrangler in VS Code, see Data Wrangler in VS Code https://marketplace.visualstudio.com/items?itemName=ms-toolsai.datawrangler  \n\nJoin us in this insightful journey and unlock the secrets of efficient data storage in Fabric. Be sure to LIKE, COMMENT, and SUBSCRIBE to stay in the loop with our series. Don't forget to hit the notification bell 🔔 to get updates on our latest videos. \n\nMeet the Speakers 🚀 🚀 🚀: \n\nEstera Kot: Senior Product Manager at Microsoft \n\nLinkedIn: https://www.linkedin.com/in/esterakot/",
+  "upload_date": "20230815",
+  "timestamp": 1692111600,
+  "duration": 1155,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 52.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 52.0,
+    "end": 113.0,
+    "title": "What is Data Wrangler"
+   },
+   {
+    "start": 113.0,
+    "end": 256.0,
+    "title": "Demo"
+   },
+   {
+    "start": 256.0,
+    "end": 696.0,
+    "title": "Environment overview"
+   },
+   {
+    "start": 696.0,
+    "end": 835.0,
+    "title": "Exporting the cleaned data"
+   },
+   {
+    "start": 835.0,
+    "end": 899.0,
+    "title": "Integration with VSCode"
+   },
+   {
+    "start": 899.0,
+    "end": 962.0,
+    "title": "When to use Data Wrangler"
+   },
+   {
+    "start": 962.0,
+    "end": 1155,
+    "title": "Resources"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 71
+ },
+ {
+  "id": "l-8omtemVU0",
+  "title": "Performance at Scale with Microsoft Fabric: Concurrency!",
+  "description": "In this video Bogdan joins Stijn to talk about Microsoft Fabric performance and what we do underneath the hood to tackle concurrency and how this all works with the Polaris Engine! \n\nPolaris white paper: https://www.vldb.org/pvldb/vol13/p3204-saborit.pdf \n\nBogdan Crivat - VP Synapse Analytics \n\nhttps://twitter.com/bogdanC_guid \nhttps://www.linkedin.com/in/bogdanc/ \n\nStijn Wynants - Senior Product Manager \nhttps://www.linkedin.com/in/stijn-wynants-ba528660/ \nhttps://sql-stijn.com/ \nhttps://twitter.com/SQLStijn",
+  "upload_date": "20230810",
+  "timestamp": 1691679638,
+  "duration": 346,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 21.0,
+    "title": "Introduction to Polaris"
+   },
+   {
+    "start": 21.0,
+    "end": 74.0,
+    "title": "Query Plan Decomposition"
+   },
+   {
+    "start": 74.0,
+    "end": 122.0,
+    "title": "Frontend Services and Tasks"
+   },
+   {
+    "start": 122.0,
+    "end": 185.0,
+    "title": "Automatic Scaling and Faults"
+   },
+   {
+    "start": 185.0,
+    "end": 223.0,
+    "title": "Load Balancing"
+   },
+   {
+    "start": 223.0,
+    "end": 307.0,
+    "title": "Workload Management"
+   },
+   {
+    "start": 307.0,
+    "end": 346,
+    "title": "Conclusion"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 72
+ },
+ {
+  "id": "yCQTOHDOfJw",
+  "title": "Data Engineer’s perspective on storing data in Fabric: Lakehouse or Warehouse?",
+  "description": "🏭 Data Engineer's Perspective: Storing Data in Fabric - Lakehouse or Warehouse? A Complete Guide! 📊🔍 \n\nJoin us in another insightful episode of our Data Engineering and Data Science series hosted by Estera Kot, with our special guest, Ted Vilutis. Today, we're exploring two core aspects of Fabric's data storage - Lakehouse and Warehouse. Both powerhouses are equipped to handle unlimited data volumes, but how do they differ? Let's find out. \n\n🔑 Key Takeaways and 🔗 links mentioned in the video: \n\n➡️ What is a lakehouse in Microsoft Fabric?: https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview  \n\n➡️ What is data warehousing in Microsoft Fabric? https://learn.microsoft.com/en-us/fabric/data-warehouse/data-warehousing   \n\n➡️ ➡️  Microsoft Fabric decision guide: data warehouse or lakehouse: https://learn.microsoft.com/en-us/fabric/get-started/decision-guide-warehouse-lakehouse  \n\n \n\nJoin us in this insightful journey and unlock the secrets of efficient data storage in Fabric. Be sure to LIKE, COMMENT, and SUBSCRIBE to stay in the loop with our series. Don't forget to hit the notification bell 🔔 to get updates on our latest videos. \n\nMeet the Speakers 🚀 🚀 🚀: \n\nEstera Kot: Senior Product Manager at Microsoft \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \n\nTwitter: https://twitter.com/estera_kot \n\n \n\nTed Vilutis: Senior Product Manager at Microsoft \n\nLinkedIn: https://www.linkedin.com/in/tedvilutis/ \n\nTwitter: https://twitter.com/tvilutis",
+  "upload_date": "20230808",
+  "timestamp": 1691506850,
+  "duration": 305,
+  "chapters": [],
+  "tags": [
+   "Microsoft Fabric",
+   "Fabric",
+   "Microsoft",
+   "Data Warehouse",
+   "Data Engineering",
+   "Apache Spark",
+   "Cloud",
+   "Lakehouse"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 73
+ },
+ {
+  "id": "9bkZHHUcy6I",
+  "title": "Performance at Scale with Microsoft Fabric: Query Optimizations!",
+  "description": "In this video Bogdan joins Stijn to talk about Microsoft Fabric performance and what we do underneath the hood for optimizing queries! \n\nPolaris white paper: https://www.vldb.org/pvldb/vol13/p3204-saborit.pdf \n\nBogdan Crivat - VP Synapse Analytics \nhttps://twitter.com/bogdanC_guid \nhttps://www.linkedin.com/in/bogdanc/ \n\nStijn Wynants - Senior Product Manager \nhttps://www.linkedin.com/in/stijn-wynants-ba528660/ \nhttps://sql-stijn.com/ \nhttps://twitter.com/SQLStijn",
+  "upload_date": "20230803",
+  "timestamp": 1691074807,
+  "duration": 451,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 74.0,
+    "title": "Introduction to data ingestion"
+   },
+   {
+    "start": 74.0,
+    "end": 209.0,
+    "title": "Data statistics and layout"
+   },
+   {
+    "start": 209.0,
+    "end": 362.0,
+    "title": "Distributed query execution"
+   },
+   {
+    "start": 362.0,
+    "end": 451,
+    "title": "Query optimization recap"
+   }
+  ],
+  "tags": [
+   "Microsoft Fabric",
+   "Query Optimization",
+   "Bogdan Crivat",
+   "Synapse",
+   "Analytics",
+   "Query Performance",
+   "Data"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 74
+ },
+ {
+  "id": "rrxF0ATZY7s",
+  "title": "Data Engineer perspective on loading data for Fabric: Uploads, Data Flows, Copy Tool or Shortcuts?",
+  "description": "📚👨‍💻 Data Engineer's Perspective: Loading Data into Fabric - Comprehensive Guide 🚀📈 \n\nIn this enlightening video, we delve into the world of data engineering and explore how to effectively load data into Fabric, the powerful all-in-one analytics solution for enterprises that covers everything from data movement to data science, Real-Time Analytics, and business intelligence.  \n\nWe're thrilled to welcome a special guest, Ted Vilutis, an experienced product manager, to our Data Engineering and Data Science series hosted by Estera Kot. Together, they will illuminate the subtleties of various data loading methods and provide their expert insights. \n\n🔑 Key Points: \n\n👉 Upload CSV: https://learn.microsoft.com/en-us/fabric/data-engineering/get-started-csv-upload  \n\n👉 Create your first dataflow: https://learn.microsoft.com/en-us/fabric/data-factory/create-first-dataflow-gen2 \n\n👉 Microsoft Fabric decision guide: copy activity, dataflow, or Spark: https://learn.microsoft.com/en-us/fabric/get-started/decision-guide-pipeline-dataflow-spark  \n\n👉 Shortcuts to Other Storage Locations: https://learn.microsoft.com/en-us/fabric/onelake/onelake-shortcuts \n\n  \n\nMeet the Speakers: \n\nEstera Kot: Senior Product Manager at Microsoft \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \n\nTwitter: https://twitter.com/estera_kot \n\n \n\nTed Vilutis: Senior Product Manager at Microsoft \n\nLinkedIn: https://www.linkedin.com/in/tedvilutis/ \n\nTwitter: https://twitter.com/tvilutis \n\n  \n\nDon't miss out on this opportunity to learn directly from the Microsoft Fabric Product Group Team and elevate your data engineering skills with Microsoft Fabric! 🚀",
+  "upload_date": "20230801",
+  "timestamp": 1690902048,
+  "duration": 524,
+  "chapters": [],
+  "tags": [
+   "Microsoft Fabric",
+   "Fabric",
+   "Microsoft",
+   "Data Engineer",
+   "Data Engineering",
+   "Data loading",
+   "Cloud",
+   "Cloud Data"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 75
+ },
+ {
+  "id": "3Cs8uTJ1HnA",
+  "title": "Performance at Scale with Microsoft Fabric: Query Processing!",
+  "description": "In this video Bogdan joins Stijn to talk about Microsoft Fabric performance and what happens underneath the hood while processing a query! \n\n  \n\nPolaris white paper: https://www.vldb.org/pvldb/vol13/p3204-saborit.pdf \n\n  \n\nBogdan Crivat - VP Synapse Analytics\n\nhttps://twitter.com/bogdanC_guid \n\nhttps://www.linkedin.com/in/bogdanc/ \n\n  \n\nStijn Wynants - Senior Product Manager \nhttps://www.linkedin.com/in/stijn-wynants-ba528660/ \nhttps://sql-stijn.com/ \nhttps://twitter.com/SQLStijn",
+  "upload_date": "20230727",
+  "timestamp": 1690470002,
+  "duration": 544,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 39.0,
+    "title": "Introduction to the series"
+   },
+   {
+    "start": 39.0,
+    "end": 121.0,
+    "title": "Performance in data warehouse"
+   },
+   {
+    "start": 121.0,
+    "end": 296.0,
+    "title": "Understanding parquet format"
+   },
+   {
+    "start": 296.0,
+    "end": 425.0,
+    "title": "Transcoding to vertipac"
+   },
+   {
+    "start": 425.0,
+    "end": 544,
+    "title": "Optimizing with v-order"
+   }
+  ],
+  "tags": [
+   "Microsoft Fabric",
+   "Fabric",
+   "Microsoft",
+   "Data Warehouse",
+   "Data Engineering",
+   "Data Science",
+   "Real-time Analytics"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 76
+ },
+ {
+  "id": "gC8BczGL7ic",
+  "title": "Top Microsoft Fabric Features that Every Data Engineer Should Know",
+  "description": "As part of our Fabric Espresso series, we're diving deep into the realm of Data Engineering and Data Science. Join us as our senior product managers - Estera Kot, Ted Vilutis, and Stijn Wynants discuss the crucial features of Microsoft Fabric that every data engineer should know about! \n\nFrom insights into data engineering within Microsoft Fabric to decision guides for copying data into Fabric, and shortcuts that point to other storage locations - we've got it all covered in this exciting new video. \n\nCheck out these key resources for a deep dive: \n\n👉 Data Engineering in Microsoft Fabric: https://learn.microsoft.com/en-us/fabric/data-engineering/data-engineering-overview  \n\n👉 Decision Guide to Copy Data into Fabric: https://learn.microsoft.com/en-us/fabric/get-started/decision-guide-pipeline-dataflow-spark \n\n👉 Shortcuts to Other Storage Locations: https://learn.microsoft.com/en-us/fabric/onelake/onelake-shortcuts \n\n  \n\nMeet the Speakers: \n\n1️⃣ Stijn Wynants: Senior Product Manager at Microsoft \n\nLinkedIn: https://www.linkedin.com/in/stijn-wynants-ba528660/ \n\nTwitter: https://twitter.com/SQLStijn \n\nBlog: https://sql-stijn.com/ \n\n  \n\n2️⃣ Estera Kot: Senior Product Manager at Microsoft \n\nLinkedIn: https://www.linkedin.com/in/esterakot/ \n\nTwitter: https://twitter.com/estera_kot \n\n  \n\n3️⃣ Ted Vilutis: Senior Product Manager at Microsoft \n\nLinkedIn: https://www.linkedin.com/in/tedvilutis/ \n\nTwitter: https://twitter.com/tvilutis \n\n  \n\nDon't miss out on this opportunity to learn directly from the Microsoft Fabric Product Group Team and elevate your data engineering skills with Microsoft Fabric! 🚀",
+  "upload_date": "20230725",
+  "timestamp": 1690297234,
+  "duration": 537,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 10.0,
+    "title": "Intro"
+   },
+   {
+    "start": 10.0,
+    "end": 189.0,
+    "title": "What is Fabric Spark"
+   },
+   {
+    "start": 189.0,
+    "end": 537,
+    "title": "Top 3 Fabric Features"
+   }
+  ],
+  "tags": [
+   "Microsoft Fabric",
+   "Synapse",
+   "Synapse in Fabric",
+   "Data Engineering",
+   "Data Warehouse",
+   "Microsoft"
+  ],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 77
+ },
+ {
+  "id": "b4fYU-ik6XY",
+  "title": "Fabric Espresso: Table clone in Warehouse within Microsoft Fabric",
+  "description": "Welcome to our Fabric Espresso series! In this video Ambika joins Stijn to talk about table clone in Warehouse within Microsoft Fabric. We will talk a bit more deep on what is a table clone, when and how to use a table clone.\n\nClone table: https://learn.microsoft.com/fabric/data-warehouse/clone-table\nClone table using T-SQL: https://learn.microsoft.com/fabric/data-warehouse/tutorial-clone-table\nCREATE TABLE AS CLONE OF: https://learn.microsoft.com/sql/t-sql/statements/create-table-as-clone-of-transact-sql?view=fabric\n\nAmbika Jagadish - Product Manager for Warehouse in Microsoft Fabric\nwww.linkedin.com/in/ambikajagadish",
+  "upload_date": "20230706",
+  "timestamp": 1688655633,
+  "duration": 356,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 36.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 36.0,
+    "end": 114.0,
+    "title": "What is Table Clone"
+   },
+   {
+    "start": 114.0,
+    "end": 356,
+    "title": "Demo"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 78
+ },
+ {
+  "id": "bK9WNtCmT4M",
+  "title": "Synapse Real-Time Analytics: Stream data from Event Hubs into a KQL database for powerful analytics",
+  "description": "Welcome to the fourth video in our How To series for Real-Time Analytics in Microsoft Fabric!\n\nIn this video, Guy Reginiano, a Product Manager for Synapse Real-Time Analytics in Microsoft Fabric, will show you how to get data from Azure Event Hubs into a Real-Time Analytics KQL database in Microsoft Fabric.\n\n00:07 Introduction\n00:25 Basic definitions\n01:12 Event Hubs ingestion demo\n06:34 Interact with the ingested data using KQL\n07:54 Create a Cloud Connection in Fabric\n10:24 Wrap-Up\n\n#microsoftfabric #synapserealtimeanalytics",
+  "upload_date": "20230628",
+  "timestamp": 1687964434,
+  "duration": 644,
+  "chapters": [
+   {
+    "start": 0,
+    "end": 7.0,
+    "title": "<Untitled Chapter 1>"
+   },
+   {
+    "start": 7.0,
+    "end": 25.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 25.0,
+    "end": 72.0,
+    "title": "Basic definitions"
+   },
+   {
+    "start": 72.0,
+    "end": 394.0,
+    "title": "Event Hubs ingestion demo"
+   },
+   {
+    "start": 394.0,
+    "end": 474.0,
+    "title": "Interact with the ingested data using KQL"
+   },
+   {
+    "start": 474.0,
+    "end": 624.0,
+    "title": "Create a Cloud Connection in Fabric"
+   },
+   {
+    "start": 624.0,
+    "end": 644,
+    "title": "Wrap-Up"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 79
+ },
+ {
+  "id": "6BI89Y2S-Oo",
+  "title": "Fabric Espresso: Will Fabric replace Azure Synapse?",
+  "description": "Welcome to our Fabric Espresso series! In this video Bogdan joins Stijn to talk about Microsoft Fabric and what place Azure Synapse has in all of this. We will talk a bit more deep on the engine that was created for Fabric Warehouse and how it compares to Dedicated SQL Pools!\n\nPolaris white paper: https://www.vldb.org/pvldb/vol13/p3204-saborit.pdf\n\nBogdan Crivat - VP Synapse Analytics\nhttps://twitter.com/bogdanC_guid\nhttps://www.linkedin.com/in/bogdanc/\n\nStijn Wynants - Senior Program Manager\nhttps://www.linkedin.com/in/stijn-wynants-ba528660/\nhttps://sql-stijn.com/\nhttps://twitter.com/SQLStijn",
+  "upload_date": "20230626",
+  "timestamp": 1687791608,
+  "duration": 231,
+  "chapters": [],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 80
+ },
+ {
+  "id": "r7urq_EDR3k",
+  "title": "Fabric Espresso: Loading existing Delta Tables to Silver!",
+  "description": "Welcome to our Fabric Espresso series! In this video, Stijn shows how to tap into existing delta tables residing on ADLS Gen2 with Microsoft Fabric! We will show you how to link those tables using shortcuts and how to start querying it with the SQL endpoint!\n\nLakehouse SQL Endpoint: https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-sql-endpoint\nOneLake shortcuts: https://learn.microsoft.com/en-us/fabric/onelake/onelake-shortcuts\nData engineering in Fabric: https://learn.microsoft.com/en-us/fabric/data-engineering/data-engineering-overview\n\nStijn Wynants - Fasttrack Engineer \nhttps://www.linkedin.com/in/stijn-wynants-ba528660/\nhttps://sql-stijn.com/\nhttps://twitter.com/SQLStijn\n\n#onelake #microsoftfabric #fabric",
+  "upload_date": "20230622",
+  "timestamp": 1687446041,
+  "duration": 314,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 44.0,
+    "title": "Intro"
+   },
+   {
+    "start": 44.0,
+    "end": 245.0,
+    "title": "Code"
+   },
+   {
+    "start": 245.0,
+    "end": 314,
+    "title": "Outro"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 81
+ },
+ {
+  "id": "Bw_d6zmALV0",
+  "title": "Synapse Real-Time Analytics: Get started with KQL",
+  "description": "Welcome to the third video in our How To series for Real-Time Analytics in Microsoft Fabric!\n\nIn this video, Slavik Neimer, a Principal Software Engineer Manager at Microsoft, will show you how to get started with KQL.\n\n00:06 Intro\n00:17 Overview of Real-Time Analytics in Fabric\n00:40 Running pre-defined queries\n01:25 SQL to KQL using the `explain` keyword\n02:23 Articles to get you started in KQL\n02:39 `count` operator to count records in a table\n03:02 `take` operator to get a few arbitrary records\n04:01 `summarize` operator to aggregate data (e.g. find the min and max values in a column)\n04:52 `where` operator to filter records\n06:01 `top` operator to get the first N records sorted by the specified columns\n06:38 `as` operator to bind a name to the operator's input tabular expression, and `extend` operator\n07:51 `project` operator to select the columns to include in the output\n08:13 `parse` operator to parse values into one or more calculated columns\n09:05 `parse_json` function to extract values from JSONs\n11:13 `let` statements to set a variable name equal to an expression, and `toscalar` function\n12:52 Wrap-Up\n\n#microsoftfabric #synapserealtimeanalytics",
+  "upload_date": "20230621",
+  "timestamp": 1687359607,
+  "duration": 807,
+  "chapters": [
+   {
+    "start": 0,
+    "end": 6.0,
+    "title": "<Untitled Chapter 1>"
+   },
+   {
+    "start": 6.0,
+    "end": 17.0,
+    "title": "Intro"
+   },
+   {
+    "start": 17.0,
+    "end": 40.0,
+    "title": "Overview of Real-Time Analytics in Fabric"
+   },
+   {
+    "start": 40.0,
+    "end": 85.0,
+    "title": "Running pre-defined queries"
+   },
+   {
+    "start": 85.0,
+    "end": 143.0,
+    "title": "SQL to KQL using the `explain` keyword"
+   },
+   {
+    "start": 143.0,
+    "end": 159.0,
+    "title": "Articles to get you started in KQL"
+   },
+   {
+    "start": 159.0,
+    "end": 182.0,
+    "title": "`count` operator to count records in a table"
+   },
+   {
+    "start": 182.0,
+    "end": 241.0,
+    "title": "`take` operator to get a few arbitrary records"
+   },
+   {
+    "start": 241.0,
+    "end": 292.0,
+    "title": "`summarize` operator to aggregate data (e.g. find the min and max values in a column)"
+   },
+   {
+    "start": 292.0,
+    "end": 361.0,
+    "title": "`where` operator to filter records"
+   },
+   {
+    "start": 361.0,
+    "end": 398.0,
+    "title": "`top` operator to get the first N records sorted by the specified columns"
+   },
+   {
+    "start": 398.0,
+    "end": 471.0,
+    "title": "`as` operator to bind a name to the operator's input tabular expression, and `extend` operator"
+   },
+   {
+    "start": 471.0,
+    "end": 493.0,
+    "title": "`project` operator to select the columns to include in the output"
+   },
+   {
+    "start": 493.0,
+    "end": 545.0,
+    "title": "`parse` operator to parse values into one or more calculated columns"
+   },
+   {
+    "start": 545.0,
+    "end": 673.0,
+    "title": "`parse_json` function to extract values from JSONs"
+   },
+   {
+    "start": 673.0,
+    "end": 772.0,
+    "title": "`let` statements to set a variable name equal to an expression, and `toscalar` function"
+   },
+   {
+    "start": 772.0,
+    "end": 807,
+    "title": "Wrap-Up"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 82
+ },
+ {
+  "id": "inIwJoNzk-I",
+  "title": "Fabric Espresso: Loading Data from Landing to Bronze!",
+  "description": "Welcome to our Fabric Espresso series! In this video, Stijn shows how to incrementally load data from a landing zone to a Bronze lakehouse in Microsoft Fabric! We will show you how to create a notebook, and how to use the shortcuts and table links to use a parameter cell to load your data both initially and incrementally!\n\nOneLake, the OneDrive for data: https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview\nOneLake shortcuts: https://learn.microsoft.com/en-us/fabric/onelake/onelake-shortcuts\nData engineering in Fabric: https://learn.microsoft.com/en-us/fabric/data-engineering/data-engineering-overview\n\nStijn Wynants - Fasttrack Engineer \nhttps://www.linkedin.com/in/stijn-wynants-ba528660/\nhttps://sql-stijn.com/\nhttps://twitter.com/SQLStijn\n\n#onelake #microsoftfabric #fabric",
+  "upload_date": "20230619",
+  "timestamp": 1687186835,
+  "duration": 397,
+  "chapters": [],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 83
+ },
+ {
+  "id": "u3U9aHkvaF8",
+  "title": "Fabric Espresso: Building a Landing zone in Microsoft Fabric",
+  "description": "Welcome to our Fabric Espresso series! In this video, Stijn shows how to load data to a Landing Zone in Microsoft Fabric and also shows how to tap into an existing landing zone residing in ADLS Gen2. We also discuss the logical structure that is created in OneLake when taking these actions.\n\nOneLake, the OneDrive for data: https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview\nOneLake shortcuts: https://learn.microsoft.com/en-us/fabric/onelake/onelake-shortcuts\nHow do shortcuts handle deletions?: https://learn.microsoft.com/en-us/fabric/onelake/onelake-shortcuts?branch=main#how-do-shortcuts-handle-deletions\n\nStijn Wynants - Fasttrack Engineer \nhttps://www.linkedin.com/in/stijn-wynants-ba528660/\nhttps://sql-stijn.com/\nhttps://twitter.com/SQLStijn\n\n#onelake #microsoftfabric #fabric",
+  "upload_date": "20230615",
+  "timestamp": 1686841247,
+  "duration": 574,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 27.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 27.0,
+    "end": 52.0,
+    "title": "Overview"
+   },
+   {
+    "start": 52.0,
+    "end": 243.0,
+    "title": "Layout"
+   },
+   {
+    "start": 243.0,
+    "end": 513.0,
+    "title": "Data Pipeline"
+   },
+   {
+    "start": 513.0,
+    "end": 574,
+    "title": "Outro"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 84
+ },
+ {
+  "id": "Oo4Tdy3oKdo",
+  "title": "Synapse Real-Time Analytics: Stream data from Eventstream into a KQL database for powerful analytics",
+  "description": "Welcome to the second video in our How To series for Real-Time Analytics in Microsoft Fabric!\n\nIn this video, Guy Reginiano, a Product Manager for Synapse Real-Time Analytics in Microsoft Fabric, will cover how to ingest data from Eventstream into a KQL database for powerful analytics\n\n00:06 Introduction\n00:16 Real-Time Analytics experience in Microsoft Fabric\n01:04 Create a new Eventstream\n04:08 Explore the data\n05:05 Let's get insights using KQL\n07:30 Wrap-Up\n\nRead the Eventstreams with RTA blog: https://blog.fabric.microsoft.com/en-us/blog/from-raw-data-to-insights-how-to-ingest-data-from-eventstream-into-a-kql-database-for-powerful-analytics/\n\n#microsoftfabric #synapserealtimeanalytics",
+  "upload_date": "20230614",
+  "timestamp": 1686754818,
+  "duration": 471,
+  "chapters": [
+   {
+    "start": 0,
+    "end": 6.0,
+    "title": "<Untitled Chapter 1>"
+   },
+   {
+    "start": 6.0,
+    "end": 16.0,
+    "title": "Introduction"
+   },
+   {
+    "start": 16.0,
+    "end": 64.0,
+    "title": "Real-Time Analytics experience in Microsoft Fabric"
+   },
+   {
+    "start": 64.0,
+    "end": 248.0,
+    "title": "Create a new Eventstream"
+   },
+   {
+    "start": 248.0,
+    "end": 305.0,
+    "title": "Explore the data"
+   },
+   {
+    "start": 305.0,
+    "end": 450.0,
+    "title": "Let's get insights using KQL"
+   },
+   {
+    "start": 450.0,
+    "end": 471,
+    "title": "Wrap-Up"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 85
+ },
+ {
+  "id": "bjzPnZ-Ctu4",
+  "title": "Fabric Espresso: Tap into existing data with Shortcuts",
+  "description": "Welcome to our Fabric Espresso series! In this video, Stijn and Filip demonstrate how you can leverage OneLake shortcuts to query the data without copying it. Besides explaining what shortcuts are and how to create them, they explain which of your actions on the shortcut reflect to the data in the original storage.\n\nOneLake, the OneDrive for data: https://learn.microsoft.com/fabric/onelake/onelake-overview\nOneLake shortcuts: https://learn.microsoft.com/fabric/onelake/onelake-shortcuts\nHow do shortcuts handle deletions?: https://learn.microsoft.com/fabric/onelake/onelake-shortcuts?branch=main#how-do-shortcuts-handle-deletions\n\nFilip Popovic - Senior Program Manager \nhttps://www.linkedin.com/in/popovicfilip/\nhttps://twitter.com/FilipPop_MSFT\n\nStijn Wynants - Fasttrack Engineer \nhttps://www.linkedin.com/in/stijn-wynants-ba528660/\nhttps://sql-stijn.com/\nhttps://twitter.com/SQLStijn\n\n#onelake #microsoftfabric #fabric",
+  "upload_date": "20230612",
+  "timestamp": 1686582027,
+  "duration": 459,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 85.0,
+    "title": "Intro"
+   },
+   {
+    "start": 85.0,
+    "end": 351.0,
+    "title": "Demo"
+   },
+   {
+    "start": 351.0,
+    "end": 407.0,
+    "title": "Deleting data"
+   },
+   {
+    "start": 407.0,
+    "end": 459,
+    "title": "Outro"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 86
+ },
+ {
+  "id": "Rw4JPSjcBNA",
+  "title": "Fabric Espresso: OneLake as the glue In Microsoft Fabric",
+  "description": "Welcome to the Fabric Espresso series! In this video, Stijn and Filip talk about OneLake and how it enables you to have single copy of all your data accross the organization. Stay tuned for future videos where they will cover additional benefits of OneLake.\n\nOneLake, the OneDrive for data: https://learn.microsoft.com/fabric/onelake/onelake-overview\n\nFilip Popovic - Senior Program Manager \nhttps://www.linkedin.com/in/popovicfilip/\nhttps://twitter.com/FilipPop_MSFT\n\nStijn Wynants - Fasttrack Engineer \nhttps://www.linkedin.com/in/stijn-wynants-ba528660/\nhttps://sql-stijn.com/\nhttps://twitter.com/SQLStijn\n\n#onelake #microsoftfabric #fabric",
+  "upload_date": "20230608",
+  "timestamp": 1686236420,
+  "duration": 340,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 49.0,
+    "title": "Introduction to Fabric"
+   },
+   {
+    "start": 49.0,
+    "end": 118.0,
+    "title": "What is OneLake"
+   },
+   {
+    "start": 118.0,
+    "end": 191.0,
+    "title": "Benefits and Architecture"
+   },
+   {
+    "start": 191.0,
+    "end": 274.0,
+    "title": "OneLake Demonstration"
+   },
+   {
+    "start": 274.0,
+    "end": 340,
+    "title": "Conclusion and Wrap-up"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 87
+ },
+ {
+  "id": "6tmkvV3s44Q",
+  "title": "Synapse Real-time Analytics: How to Get Data into a KQL Database",
+  "description": "Welcome to the first video in our How To series for Real-Time Analytics in Microsoft Fabric!\n\nIn this video, Anshul Sharma, a Product Manager for Synapse Real-Time Analytics in Microsoft Fabric, will discuss the best ways for bringing data into a KQL database using the Get data experiences.  \n\n00:07 What is Real-Time Analytics?\n01:23 Real-Time Analytics in Microsoft Fabric\n03:16 Ingest data from a local file\n05:00 Ingest data from OneLake\n07:08 Analyze and derive insights from your data\n09:40 Wrap-Up\n\nRead the Get Data blog: blog.fabric.microsoft.com/blog/synapse-real-time-analytics-discovering-the-best-ways-to-get-data-into-a-kql-database/\n\nFollow Anshul on Twitter: https://twitter.com/anshuldsharma\n\n#microsoftfabric #synapserealtimeanalytics",
+  "upload_date": "20230607",
+  "timestamp": 1686150006,
+  "duration": 624,
+  "chapters": [
+   {
+    "start": 0,
+    "end": 7.0,
+    "title": "<Untitled Chapter 1>"
+   },
+   {
+    "start": 7.0,
+    "end": 83.0,
+    "title": "What is Real-Time Analytics?"
+   },
+   {
+    "start": 83.0,
+    "end": 196.0,
+    "title": "Real-Time Analytics in Microsoft Fabric"
+   },
+   {
+    "start": 196.0,
+    "end": 300.0,
+    "title": "Ingest data from a local file"
+   },
+   {
+    "start": 300.0,
+    "end": 428.0,
+    "title": "Ingest data from OneLake"
+   },
+   {
+    "start": 428.0,
+    "end": 580.0,
+    "title": "Analyze and derive insights from your data"
+   },
+   {
+    "start": 580.0,
+    "end": 624,
+    "title": "Wrap-Up"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 88
+ },
+ {
+  "id": "WRfyN9_PL3A",
+  "title": "Fabric Espresso: Microsoft Fabric Introduction",
+  "description": "Welcome to our Fabric Espresso series! In this video, Stijn and Filip discuss Microsoft Fabric and what will they build using it in the following episodes.\n\nMicrosoft Fabric: https://learn.microsoft.com/abric/\nWhat is Microsoft Fabric: https://learn.microsoft.com/fabric/get-started/microsoft-fabric-overview\n\nFilip Popovic - Senior Program Manager \nhttps://www.linkedin.com/in/popovicfilip/\nhttps://twitter.com/FilipPop_MSFT\n \nStijn Wynants - Fasttrack Engineer \nhttps://www.linkedin.com/in/stijn-wynants-ba528660/\nhttps://sql-stijn.com/\nhttps://twitter.com/SQLStijn\n\n#microsoftfabric #fabric",
+  "upload_date": "20230605",
+  "timestamp": 1685977231,
+  "duration": 326,
+  "chapters": [
+   {
+    "start": 0.0,
+    "end": 167.0,
+    "title": "Intro"
+   },
+   {
+    "start": 167.0,
+    "end": 212.0,
+    "title": "How to get started"
+   },
+   {
+    "start": 212.0,
+    "end": 268.0,
+    "title": "Whats next"
+   },
+   {
+    "start": 268.0,
+    "end": 326,
+    "title": "Outro"
+   }
+  ],
+  "tags": [],
+  "channel": "Azure Synapse Analytics",
+  "channel_url": "https://www.youtube.com/@AzureSynapse",
+  "playlist_index": 89
+ }
+]

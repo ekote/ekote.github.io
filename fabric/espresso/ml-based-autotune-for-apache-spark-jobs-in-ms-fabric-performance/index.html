@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ML based Autotune for Apache Spark Jobs in MS Fabric performance optimization for recurrent jobs | Fabric Espresso</title>
+  <meta name="description" content="In this episode of Fabric Espresso, we delve into Autotune. Estera Kot, along with Karuna Sagar Krishna and Yiwen Zhu unpack the technology, use cases...">
+  <meta name="google-site-verification" content="cSOWqrR3-ff1EmSCDMry0rZuk_c8wklIxxS-CFQkkfg" />
+  <link rel="canonical" href="https://ekote.github.io/fabric/espresso/ml-based-autotune-for-apache-spark-jobs-in-ms-fabric-performance/">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Dr. Estera Kot">
+  <meta property="og:type" content="video.other">
+  <meta property="og:site_name" content="Dr. Estera Kot">
+  <meta property="og:title" content="ML based Autotune for Apache Spark Jobs in MS Fabric performance optimization for recurrent jobs">
+  <meta property="og:description" content="In this episode of Fabric Espresso, we delve into Autotune. Estera Kot, along with Karuna Sagar Krishna and Yiwen Zhu unpack the technology, use cases...">
+  <meta property="og:url" content="https://ekote.github.io/fabric/espresso/ml-based-autotune-for-apache-spark-jobs-in-ms-fabric-performance/">
+  <meta property="og:image" content="https://i.ytimg.com/vi/qGVaHE53vGc/hqdefault.jpg">
+  <meta property="og:image:width" content="480">
+  <meta property="og:image:height" content="360">
+  <meta property="og:image:alt" content="Thumbnail of the Fabric Espresso episode ML based Autotune for Apache Spark Jobs in MS Fabric performance optimization for recurrent jobs">
+  <meta property="og:video" content="https://www.youtube.com/embed/qGVaHE53vGc">
+  <meta property="og:video:secure_url" content="https://www.youtube.com/embed/qGVaHE53vGc">
+  <meta property="og:video:type" content="text/html">
+  <meta property="og:video:width" content="1280">
+  <meta property="og:video:height" content="720">
+  <meta property="video:release_date" content="2024-08-13">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ML based Autotune for Apache Spark Jobs in MS Fabric performance optimization for recurrent jobs">
+  <meta name="twitter:description" content="In this episode of Fabric Espresso, we delve into Autotune. Estera Kot, along with Karuna Sagar Krishna and Yiwen Zhu unpack the technology, use cases...">
+  <meta name="twitter:image" content="https://i.ytimg.com/vi/qGVaHE53vGc/hqdefault.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&amp;family=Source+Sans+3:wght@400;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../../style.css?v=4">
+  <style>
+    .crumbs { font-size: .9rem; color: var(--muted); margin: 0 0 16px; }
+    .crumbs a { margin: 0 4px; }
+    .crumbs a:first-child { margin-left: 0; }
+    .thumb { display: inline-block; margin: 6px 0 12px; max-width: 100%; }
+    .thumb img { display: block; max-width: 100%; height: auto; border: 1px solid #D5D0C8; }
+    .vmeta { color: var(--muted); }
+    .desc p { overflow-wrap: anywhere; }
+    .src { color: var(--muted); font-size: .9rem; }
+    .chapters { list-style: none; padding-left: 0; }
+    .chapters li { margin-bottom: 4px; }
+    .chapters a { display: inline-block; min-width: 3.6em; font-variant-numeric: tabular-nums; }
+    .pn { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 32px; margin-top: 44px;
+          border-top: 1px solid var(--rule); padding-top: 18px; }
+    .pn span { display: block; color: var(--muted); font-size: .88rem; }
+    .pn .next { text-align: right; }
+    @media (max-width: 600px) { .pn { grid-template-columns: 1fr; } .pn .next { text-align: left; } }
+  </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://ekote.github.io/fabric/espresso/ml-based-autotune-for-apache-spark-jobs-in-ms-fabric-performance/#video",
+      "name": "ML based Autotune for Apache Spark Jobs in MS Fabric performance optimization for recurrent jobs",
+      "url": "https://ekote.github.io/fabric/espresso/ml-based-autotune-for-apache-spark-jobs-in-ms-fabric-performance/",
+      "description": "In this episode of Fabric Espresso, we delve into Autotune. Estera Kot, along with Karuna Sagar Krishna and Yiwen Zhu unpack the technology, use cases and demo of Autotune – predictive optimization for Apache Spark Jobs - which automatically adjusts Apache Spark configuration to speed up workload execution and to optimize overall performance. Autotune configures three Apache Spark settings for each of your queries separately based on historical runs. Read more: https://learn.microsoft.com/en-us/fabric/data-engineering/autotune Meet the Speakers: Guest Expert: Karuna Sagar Krishna | Principal Software Engineering Manager at Microsoft LinkedIn:https://www.linkedin.com/in/karuna-krishna-842211126/ Guest Expert: Yiwen Zhu | Principal Applied Data Scientist, Researcher at Microsoft LinkedIn: https://www.linkedin.com/in/yiwen-zhu-25139933/ Host: Estera Kot, PhD, Principal Product Manager at Microsoft. LinkedIn: https://www.linkedin.com/in/esterakot/ Twitter: https://twitter.com/estera_kot Liked this video? Don't forget to hit the 'Like' button and share it with your peers!",
+      "thumbnailUrl": [
+        "https://i.ytimg.com/vi/qGVaHE53vGc/hqdefault.jpg"
+      ],
+      "embedUrl": "https://www.youtube.com/embed/qGVaHE53vGc",
+      "uploadDate": "2024-08-13",
+      "duration": "PT28M11S",
+      "contentUrl": "https://www.youtube.com/watch?v=qGVaHE53vGc",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Azure Synapse Analytics",
+        "url": "https://www.youtube.com/@AzureSynapse"
+      },
+      "author": {
+        "@id": "https://ekote.github.io/#person"
+      },
+      "creator": {
+        "@id": "https://ekote.github.io/#person"
+      },
+      "isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": "Fabric Espresso",
+        "url": "https://ekote.github.io/fabric/espresso/"
+      },
+      "hasPart": [
+        {
+          "@type": "Clip",
+          "name": "Introduction",
+          "startOffset": 0,
+          "url": "https://www.youtube.com/watch?v=qGVaHE53vGc",
+          "endOffset": 115
+        },
+        {
+          "@type": "Clip",
+          "name": "Spark settings",
+          "startOffset": 115,
+          "url": "https://www.youtube.com/watch?v=qGVaHE53vGc&t=115s",
+          "endOffset": 450
+        },
+        {
+          "@type": "Clip",
+          "name": "Autotune performance",
+          "startOffset": 450,
+          "url": "https://www.youtube.com/watch?v=qGVaHE53vGc&t=450s",
+          "endOffset": 800
+        },
+        {
+          "@type": "Clip",
+          "name": "Technical details",
+          "startOffset": 800,
+          "url": "https://www.youtube.com/watch?v=qGVaHE53vGc&t=800s",
+          "endOffset": 1207
+        },
+        {
+          "@type": "Clip",
+          "name": "AI based intuition",
+          "startOffset": 1207,
+          "url": "https://www.youtube.com/watch?v=qGVaHE53vGc&t=1207s",
+          "endOffset": 1223
+        },
+        {
+          "@type": "Clip",
+          "name": "Autotune approach",
+          "startOffset": 1223,
+          "url": "https://www.youtube.com/watch?v=qGVaHE53vGc&t=1223s",
+          "endOffset": 1285
+        },
+        {
+          "@type": "Clip",
+          "name": "Finetuning process",
+          "startOffset": 1285,
+          "url": "https://www.youtube.com/watch?v=qGVaHE53vGc&t=1285s",
+          "endOffset": 1364
+        },
+        {
+          "@type": "Clip",
+          "name": "Centroid update",
+          "startOffset": 1364,
+          "url": "https://www.youtube.com/watch?v=qGVaHE53vGc&t=1364s",
+          "endOffset": 1506
+        },
+        {
+          "@type": "Clip",
+          "name": "Enable Autotune",
+          "startOffset": 1506,
+          "url": "https://www.youtube.com/watch?v=qGVaHE53vGc&t=1506s",
+          "endOffset": 1691
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ekote.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Microsoft Fabric",
+          "item": "https://ekote.github.io/fabric/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fabric Espresso",
+          "item": "https://ekote.github.io/fabric/espresso/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "ML based Autotune for Apache Spark Jobs in MS Fabric performance optimization for recurrent jobs",
+          "item": "https://ekote.github.io/fabric/espresso/ml-based-autotune-for-apache-spark-jobs-in-ms-fabric-performance/"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ekote.github.io/#person",
+      "name": "Estera Kot",
+      "honorificPrefix": "Dr.",
+      "url": "https://ekote.github.io/"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+  <!-- generated by fabric/espresso/build_episodes.py -->
+  <header class="topbar">
+    <div class="inner">
+      <a class="brand" href="../../../">Dr. Estera Kot</a>
+      <nav>
+        <a href="../../../">Home</a>
+        <a href="../../">Fabric guide</a>
+        <a href="../">Fabric Espresso</a>
+        <a href="../../../#publications">Publications</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../">Home</a> / <a href="../../">Microsoft Fabric</a> / <a href="../">Fabric Espresso</a></nav>
+    <h1>ML based Autotune for Apache Spark Jobs in MS Fabric performance optimization for recurrent jobs</h1>
+    <p class="title">Episode 65 of Fabric Espresso, hosted by Dr. Estera Kot.</p>
+    <a class="thumb" href="https://www.youtube.com/watch?v=qGVaHE53vGc"><img src="https://i.ytimg.com/vi/qGVaHE53vGc/hqdefault.jpg" width="480" height="360" alt="Video thumbnail for ML based Autotune for Apache Spark Jobs in MS Fabric performance optimization for recurrent jobs. Opens the video on YouTube."></a>
+    <p class="vmeta">Length 28:11. Published Aug 13, 2024 on the Azure Synapse Analytics YouTube channel. Topic: <a href="../#spark-data-engineering">Spark and Data Engineering</a>.</p>
+    <p><strong><a href="https://www.youtube.com/watch?v=qGVaHE53vGc">Watch on YouTube</a></strong></p>
+    <section class="desc">
+      <h2>About this episode</h2>
+      <p class="src">Text from the YouTube description.</p>
+      <p>In this episode of Fabric Espresso, we delve into Autotune. Estera Kot, along with Karuna Sagar Krishna and Yiwen Zhu unpack the technology, use cases and demo of Autotune – predictive optimization for Apache Spark Jobs - which automatically adjusts Apache Spark configuration to speed up workload execution and to optimize overall performance. Autotune configures three Apache Spark settings for each of your queries separately based on historical runs.</p>
+      <p>Read more: <a href="https://learn.microsoft.com/en-us/fabric/data-engineering/autotune" rel="nofollow noopener">https://learn.microsoft.com/en-us/fabric/data-engineering/autotune</a></p>
+      <p>🎙 Meet the Speakers:</p>
+      <p>👤 Guest Expert: Karuna Sagar Krishna | Principal Software Engineering Manager at Microsoft</p>
+      <p>LinkedIn:<a href="https://www.linkedin.com/in/karuna-krishna-842211126/" rel="nofollow noopener">https://www.linkedin.com/in/karuna-krishna-842211126/</a></p>
+      <p>👤 Guest Expert: Yiwen Zhu | Principal Applied Data Scientist, Researcher at Microsoft</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/yiwen-zhu-25139933/" rel="nofollow noopener">https://www.linkedin.com/in/yiwen-zhu-25139933/</a></p>
+      <p>👤 Host: Estera Kot, PhD, Principal Product Manager at Microsoft.</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/esterakot/" rel="nofollow noopener">https://www.linkedin.com/in/esterakot/</a></p>
+      <p>Twitter: <a href="https://twitter.com/estera_kot" rel="nofollow noopener">https://twitter.com/estera_kot</a></p>
+      <p>👍 Liked this video? Don&#x27;t forget to hit the &#x27;Like&#x27; button and share it with your peers!</p>
+    </section>
+    <section>
+      <h2>Chapters</h2>
+      <ol class="chapters">
+        <li><a href="https://www.youtube.com/watch?v=qGVaHE53vGc">0:00</a> Introduction</li>
+        <li><a href="https://www.youtube.com/watch?v=qGVaHE53vGc&amp;t=115s">1:55</a> Spark settings</li>
+        <li><a href="https://www.youtube.com/watch?v=qGVaHE53vGc&amp;t=450s">7:30</a> Autotune performance</li>
+        <li><a href="https://www.youtube.com/watch?v=qGVaHE53vGc&amp;t=800s">13:20</a> Technical details</li>
+        <li><a href="https://www.youtube.com/watch?v=qGVaHE53vGc&amp;t=1207s">20:07</a> AI based intuition</li>
+        <li><a href="https://www.youtube.com/watch?v=qGVaHE53vGc&amp;t=1223s">20:23</a> Autotune approach</li>
+        <li><a href="https://www.youtube.com/watch?v=qGVaHE53vGc&amp;t=1285s">21:25</a> Finetuning process</li>
+        <li><a href="https://www.youtube.com/watch?v=qGVaHE53vGc&amp;t=1364s">22:44</a> Centroid update</li>
+        <li><a href="https://www.youtube.com/watch?v=qGVaHE53vGc&amp;t=1506s">25:06</a> Enable Autotune</li>
+      </ol>
+    </section>
+    <nav class="pn" aria-label="More episodes">
+      <div class="prev"><span>Previous episode</span><a href="../mirroring/">Mirroring</a></div>
+      <div class="next"><span>Next episode</span><a href="../ingesting-data-into-fabric-warehouse/">Ingesting data into Fabric Warehouse</a></div>
+    </nav>
+    <p><a href="../">All Fabric Espresso episodes</a></p>
+    <footer>
+      <a href="../../../privacy.html">Privacy</a>
+      <a href="../../../terms.html">Terms</a>
+      <span>Dr. Estera Kot, Warsaw and Gdynia, Poland.</span>
+    </footer>
+  </main>
+</body>
+</html>

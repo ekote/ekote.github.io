@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Getting data into your Microsoft Fabric Lakehouse using Load to Tables | Fabric Espresso</title>
+  <meta name="description" content="The future of data analytics is here, and it&#x27;s called Lakehouse! Microsoft Fabric Lakehouse is revolutionizing the way we manage and analyze data.">
+  <meta name="google-site-verification" content="cSOWqrR3-ff1EmSCDMry0rZuk_c8wklIxxS-CFQkkfg" />
+  <link rel="canonical" href="https://ekote.github.io/fabric/espresso/getting-data-into-your-microsoft-fabric-lakehouse-using-load-to-tables/">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Dr. Estera Kot">
+  <meta property="og:type" content="video.other">
+  <meta property="og:site_name" content="Dr. Estera Kot">
+  <meta property="og:title" content="Getting data into your Microsoft Fabric Lakehouse using Load to Tables">
+  <meta property="og:description" content="The future of data analytics is here, and it&#x27;s called Lakehouse! Microsoft Fabric Lakehouse is revolutionizing the way we manage and analyze data.">
+  <meta property="og:url" content="https://ekote.github.io/fabric/espresso/getting-data-into-your-microsoft-fabric-lakehouse-using-load-to-tables/">
+  <meta property="og:image" content="https://i.ytimg.com/vi/GhX4oMHlCOY/hqdefault.jpg">
+  <meta property="og:image:width" content="480">
+  <meta property="og:image:height" content="360">
+  <meta property="og:image:alt" content="Thumbnail of the Fabric Espresso episode Getting data into your Microsoft Fabric Lakehouse using Load to Tables">
+  <meta property="og:video" content="https://www.youtube.com/embed/GhX4oMHlCOY">
+  <meta property="og:video:secure_url" content="https://www.youtube.com/embed/GhX4oMHlCOY">
+  <meta property="og:video:type" content="text/html">
+  <meta property="og:video:width" content="1280">
+  <meta property="og:video:height" content="720">
+  <meta property="video:release_date" content="2023-09-19">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Getting data into your Microsoft Fabric Lakehouse using Load to Tables">
+  <meta name="twitter:description" content="The future of data analytics is here, and it&#x27;s called Lakehouse! Microsoft Fabric Lakehouse is revolutionizing the way we manage and analyze data.">
+  <meta name="twitter:image" content="https://i.ytimg.com/vi/GhX4oMHlCOY/hqdefault.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&amp;family=Source+Sans+3:wght@400;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../../style.css?v=4">
+  <style>
+    .crumbs { font-size: .9rem; color: var(--muted); margin: 0 0 16px; }
+    .crumbs a { margin: 0 4px; }
+    .crumbs a:first-child { margin-left: 0; }
+    .thumb { display: inline-block; margin: 6px 0 12px; max-width: 100%; }
+    .thumb img { display: block; max-width: 100%; height: auto; border: 1px solid #D5D0C8; }
+    .vmeta { color: var(--muted); }
+    .desc p { overflow-wrap: anywhere; }
+    .src { color: var(--muted); font-size: .9rem; }
+    .chapters { list-style: none; padding-left: 0; }
+    .chapters li { margin-bottom: 4px; }
+    .chapters a { display: inline-block; min-width: 3.6em; font-variant-numeric: tabular-nums; }
+    .pn { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 32px; margin-top: 44px;
+          border-top: 1px solid var(--rule); padding-top: 18px; }
+    .pn span { display: block; color: var(--muted); font-size: .88rem; }
+    .pn .next { text-align: right; }
+    @media (max-width: 600px) { .pn { grid-template-columns: 1fr; } .pn .next { text-align: left; } }
+  </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://ekote.github.io/fabric/espresso/getting-data-into-your-microsoft-fabric-lakehouse-using-load-to-tables/#video",
+      "name": "Getting data into your Microsoft Fabric Lakehouse using Load to Tables",
+      "url": "https://ekote.github.io/fabric/espresso/getting-data-into-your-microsoft-fabric-lakehouse-using-load-to-tables/",
+      "description": "The future of data analytics is here, and it's called Lakehouse! Microsoft Fabric Lakehouse is revolutionizing the way we manage and analyze data. In this episode, we'll explore: Load Single File into a New or Existing Table Learn which file types are supported in the Load to Tables feature. Table and Column Name Validation and Rules Walk through the process of selecting a file in the Lakehouse Files section and loading it into a new Delta table. Meet the Speakers: Guest from Microsoft Fabric Product Group: Daniel Coelho, Principal Product Manager Linkedin: https://www.linkedin.com/in/danibunny/ Host: Estera Kot: Senior Product Manager at Microsoft LinkedIn: https://www.linkedin.com/in/esterakot/ Twitter: https://twitter.com/estera_kot #microsoft #microsoftfabric",
+      "thumbnailUrl": [
+        "https://i.ytimg.com/vi/GhX4oMHlCOY/hqdefault.jpg"
+      ],
+      "embedUrl": "https://www.youtube.com/embed/GhX4oMHlCOY",
+      "uploadDate": "2023-09-19",
+      "duration": "PT9M10S",
+      "contentUrl": "https://www.youtube.com/watch?v=GhX4oMHlCOY",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Azure Synapse Analytics",
+        "url": "https://www.youtube.com/@AzureSynapse"
+      },
+      "author": {
+        "@id": "https://ekote.github.io/#person"
+      },
+      "creator": {
+        "@id": "https://ekote.github.io/#person"
+      },
+      "isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": "Fabric Espresso",
+        "url": "https://ekote.github.io/fabric/espresso/"
+      },
+      "hasPart": [
+        {
+          "@type": "Clip",
+          "name": "Introduction to load to tables",
+          "startOffset": 0,
+          "url": "https://www.youtube.com/watch?v=GhX4oMHlCOY",
+          "endOffset": 53
+        },
+        {
+          "@type": "Clip",
+          "name": "Understanding load to tables",
+          "startOffset": 53,
+          "url": "https://www.youtube.com/watch?v=GhX4oMHlCOY&t=53s",
+          "endOffset": 135
+        },
+        {
+          "@type": "Clip",
+          "name": "Supported formats and limitations",
+          "startOffset": 135,
+          "url": "https://www.youtube.com/watch?v=GhX4oMHlCOY&t=135s",
+          "endOffset": 355
+        },
+        {
+          "@type": "Clip",
+          "name": "Automation and API support",
+          "startOffset": 355,
+          "url": "https://www.youtube.com/watch?v=GhX4oMHlCOY&t=355s",
+          "endOffset": 418
+        },
+        {
+          "@type": "Clip",
+          "name": "Demonstration and best practices",
+          "startOffset": 418,
+          "url": "https://www.youtube.com/watch?v=GhX4oMHlCOY&t=418s",
+          "endOffset": 511
+        },
+        {
+          "@type": "Clip",
+          "name": "Conclusion and next steps",
+          "startOffset": 511,
+          "url": "https://www.youtube.com/watch?v=GhX4oMHlCOY&t=511s",
+          "endOffset": 550
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ekote.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Microsoft Fabric",
+          "item": "https://ekote.github.io/fabric/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fabric Espresso",
+          "item": "https://ekote.github.io/fabric/espresso/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Getting data into your Microsoft Fabric Lakehouse using Load to Tables",
+          "item": "https://ekote.github.io/fabric/espresso/getting-data-into-your-microsoft-fabric-lakehouse-using-load-to-tables/"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ekote.github.io/#person",
+      "name": "Estera Kot",
+      "honorificPrefix": "Dr.",
+      "url": "https://ekote.github.io/"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+  <!-- generated by fabric/espresso/build_episodes.py -->
+  <header class="topbar">
+    <div class="inner">
+      <a class="brand" href="../../../">Dr. Estera Kot</a>
+      <nav>
+        <a href="../../../">Home</a>
+        <a href="../../">Fabric guide</a>
+        <a href="../">Fabric Espresso</a>
+        <a href="../../../#publications">Publications</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../">Home</a> / <a href="../../">Microsoft Fabric</a> / <a href="../">Fabric Espresso</a></nav>
+    <h1>Getting data into your Microsoft Fabric Lakehouse using Load to Tables</h1>
+    <p class="title">Episode 27 of Fabric Espresso, hosted by Dr. Estera Kot.</p>
+    <a class="thumb" href="https://www.youtube.com/watch?v=GhX4oMHlCOY"><img src="https://i.ytimg.com/vi/GhX4oMHlCOY/hqdefault.jpg" width="480" height="360" alt="Video thumbnail for Getting data into your Microsoft Fabric Lakehouse using Load to Tables. Opens the video on YouTube."></a>
+    <p class="vmeta">Length 9:10. Published Sep 19, 2023 on the Azure Synapse Analytics YouTube channel. Topic: <a href="../#lakehouse-onelake">Lakehouse and OneLake</a>.</p>
+    <p><strong><a href="https://www.youtube.com/watch?v=GhX4oMHlCOY">Watch on YouTube</a></strong></p>
+    <section class="desc">
+      <h2>About this episode</h2>
+      <p class="src">Text from the YouTube description.</p>
+      <p>The future of data analytics is here, and it&#x27;s called Lakehouse! Microsoft Fabric Lakehouse is revolutionizing the way we manage and analyze data.</p>
+      <p>📌 In this episode, we&#x27;ll explore:</p>
+      <p>📊 Load Single File into a New or Existing Table</p>
+      <p>📊 Learn which file types are supported in the Load to Tables feature.</p>
+      <p>📊 Table and Column Name Validation and Rules</p>
+      <p>📊 Walk through the process of selecting a file in the Lakehouse Files section and loading it into a new Delta table.</p>
+      <p>🎙 Meet the Speakers:</p>
+      <p>👤 Guest from Microsoft Fabric Product Group: Daniel Coelho, Principal Product Manager<br>
+Linkedin:  <a href="https://www.linkedin.com/in/danibunny/" rel="nofollow noopener">https://www.linkedin.com/in/danibunny/</a></p>
+      <p>👤 Host: Estera Kot: Senior Product Manager at Microsoft<br>
+LinkedIn: <a href="https://www.linkedin.com/in/esterakot/" rel="nofollow noopener">https://www.linkedin.com/in/esterakot/</a><br>
+Twitter: <a href="https://twitter.com/estera_kot" rel="nofollow noopener">https://twitter.com/estera_kot</a></p>
+      <p>#microsoft #microsoftfabric</p>
+    </section>
+    <section>
+      <h2>Chapters</h2>
+      <ol class="chapters">
+        <li><a href="https://www.youtube.com/watch?v=GhX4oMHlCOY">0:00</a> Introduction to load to tables</li>
+        <li><a href="https://www.youtube.com/watch?v=GhX4oMHlCOY&amp;t=53s">0:53</a> Understanding load to tables</li>
+        <li><a href="https://www.youtube.com/watch?v=GhX4oMHlCOY&amp;t=135s">2:15</a> Supported formats and limitations</li>
+        <li><a href="https://www.youtube.com/watch?v=GhX4oMHlCOY&amp;t=355s">5:55</a> Automation and API support</li>
+        <li><a href="https://www.youtube.com/watch?v=GhX4oMHlCOY&amp;t=418s">6:58</a> Demonstration and best practices</li>
+        <li><a href="https://www.youtube.com/watch?v=GhX4oMHlCOY&amp;t=511s">8:31</a> Conclusion and next steps</li>
+      </ol>
+    </section>
+    <nav class="pn" aria-label="More episodes">
+      <div class="prev"><span>Previous episode</span><a href="../real-time-data-sharing-in-microsoft-fabric/">Real-Time Data Sharing in Microsoft Fabric</a></div>
+      <div class="next"><span>Next episode</span><a href="../data-science-in-microsoft-fabric-model-scoring-with-predict/">Data Science in Microsoft Fabric – Model scoring with PREDICT</a></div>
+    </nav>
+    <p><a href="../">All Fabric Espresso episodes</a></p>
+    <footer>
+      <a href="../../../privacy.html">Privacy</a>
+      <a href="../../../terms.html">Terms</a>
+      <span>Dr. Estera Kot, Warsaw and Gdynia, Poland.</span>
+    </footer>
+  </main>
+</body>
+</html>

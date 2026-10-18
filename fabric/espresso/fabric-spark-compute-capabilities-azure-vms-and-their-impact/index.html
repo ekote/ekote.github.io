@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fabric Spark Compute Capabilities - Azure VM&#x27;s and their impact on performance | Fabric Espresso</title>
+  <meta name="description" content="In this episode, Guy and Estera discuss how Fabric Spark, a distributed data processing platform, leverages Azure VM&#x27;s to achieve high performance and...">
+  <meta name="google-site-verification" content="cSOWqrR3-ff1EmSCDMry0rZuk_c8wklIxxS-CFQkkfg" />
+  <link rel="canonical" href="https://ekote.github.io/fabric/espresso/fabric-spark-compute-capabilities-azure-vms-and-their-impact/">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Dr. Estera Kot">
+  <meta property="og:type" content="video.other">
+  <meta property="og:site_name" content="Dr. Estera Kot">
+  <meta property="og:title" content="Fabric Spark Compute Capabilities - Azure VM&#x27;s and their impact on performance">
+  <meta property="og:description" content="In this episode, Guy and Estera discuss how Fabric Spark, a distributed data processing platform, leverages Azure VM&#x27;s to achieve high performance and...">
+  <meta property="og:url" content="https://ekote.github.io/fabric/espresso/fabric-spark-compute-capabilities-azure-vms-and-their-impact/">
+  <meta property="og:image" content="https://i.ytimg.com/vi/LJAmc1Ng-Ic/hqdefault.jpg">
+  <meta property="og:image:width" content="480">
+  <meta property="og:image:height" content="360">
+  <meta property="og:image:alt" content="Thumbnail of the Fabric Espresso episode Fabric Spark Compute Capabilities - Azure VM&#x27;s and their impact on performance">
+  <meta property="og:video" content="https://www.youtube.com/embed/LJAmc1Ng-Ic">
+  <meta property="og:video:secure_url" content="https://www.youtube.com/embed/LJAmc1Ng-Ic">
+  <meta property="og:video:type" content="text/html">
+  <meta property="og:video:width" content="1280">
+  <meta property="og:video:height" content="720">
+  <meta property="video:release_date" content="2024-02-21">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Fabric Spark Compute Capabilities - Azure VM&#x27;s and their impact on performance">
+  <meta name="twitter:description" content="In this episode, Guy and Estera discuss how Fabric Spark, a distributed data processing platform, leverages Azure VM&#x27;s to achieve high performance and...">
+  <meta name="twitter:image" content="https://i.ytimg.com/vi/LJAmc1Ng-Ic/hqdefault.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&amp;family=Source+Sans+3:wght@400;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../../style.css?v=4">
+  <style>
+    .crumbs { font-size: .9rem; color: var(--muted); margin: 0 0 16px; }
+    .crumbs a { margin: 0 4px; }
+    .crumbs a:first-child { margin-left: 0; }
+    .thumb { display: inline-block; margin: 6px 0 12px; max-width: 100%; }
+    .thumb img { display: block; max-width: 100%; height: auto; border: 1px solid #D5D0C8; }
+    .vmeta { color: var(--muted); }
+    .desc p { overflow-wrap: anywhere; }
+    .src { color: var(--muted); font-size: .9rem; }
+    .chapters { list-style: none; padding-left: 0; }
+    .chapters li { margin-bottom: 4px; }
+    .chapters a { display: inline-block; min-width: 3.6em; font-variant-numeric: tabular-nums; }
+    .pn { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 32px; margin-top: 44px;
+          border-top: 1px solid var(--rule); padding-top: 18px; }
+    .pn span { display: block; color: var(--muted); font-size: .88rem; }
+    .pn .next { text-align: right; }
+    @media (max-width: 600px) { .pn { grid-template-columns: 1fr; } .pn .next { text-align: left; } }
+  </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://ekote.github.io/fabric/espresso/fabric-spark-compute-capabilities-azure-vms-and-their-impact/#video",
+      "name": "Fabric Spark Compute Capabilities - Azure VM's and their impact on performance",
+      "url": "https://ekote.github.io/fabric/espresso/fabric-spark-compute-capabilities-azure-vms-and-their-impact/",
+      "description": "In this episode, Guy and Estera discuss how Fabric Spark, a distributed data processing platform, leverages Azure VM's to achieve high performance and scalability. They compare Fabric Spark with Synapse Spark, and highlight the differences in terms of architecture, features, and pricing. Read more: https://learn.microsoft.com/en-us/fabric/data-engineering/spark-compute Meet the Speakers: Guest: Guy Haycock, Principal Program Manager in Microsoft - https://www.linkedin.com/in/guyhay/ Host: Estera Kot, Senior Product Manager at Microsoft - https://www.linkedin.com/in/esterakot/",
+      "thumbnailUrl": [
+        "https://i.ytimg.com/vi/LJAmc1Ng-Ic/hqdefault.jpg"
+      ],
+      "embedUrl": "https://www.youtube.com/embed/LJAmc1Ng-Ic",
+      "uploadDate": "2024-02-21",
+      "duration": "PT9M23S",
+      "contentUrl": "https://www.youtube.com/watch?v=LJAmc1Ng-Ic",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Azure Synapse Analytics",
+        "url": "https://www.youtube.com/@AzureSynapse"
+      },
+      "author": {
+        "@id": "https://ekote.github.io/#person"
+      },
+      "creator": {
+        "@id": "https://ekote.github.io/#person"
+      },
+      "isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": "Fabric Espresso",
+        "url": "https://ekote.github.io/fabric/espresso/"
+      },
+      "hasPart": [
+        {
+          "@type": "Clip",
+          "name": "Intro",
+          "startOffset": 0,
+          "url": "https://www.youtube.com/watch?v=LJAmc1Ng-Ic",
+          "endOffset": 49
+        },
+        {
+          "@type": "Clip",
+          "name": "What are the features of Fabric Spark Compute",
+          "startOffset": 49,
+          "url": "https://www.youtube.com/watch?v=LJAmc1Ng-Ic&t=49s",
+          "endOffset": 132
+        },
+        {
+          "@type": "Clip",
+          "name": "Can I select a different Azure VM SKU",
+          "startOffset": 132,
+          "url": "https://www.youtube.com/watch?v=LJAmc1Ng-Ic&t=132s",
+          "endOffset": 212
+        },
+        {
+          "@type": "Clip",
+          "name": "How often do you roll out new hardware",
+          "startOffset": 212,
+          "url": "https://www.youtube.com/watch?v=LJAmc1Ng-Ic&t=212s",
+          "endOffset": 331
+        },
+        {
+          "@type": "Clip",
+          "name": "What about Synaps",
+          "startOffset": 331,
+          "url": "https://www.youtube.com/watch?v=LJAmc1Ng-Ic&t=331s",
+          "endOffset": 389
+        },
+        {
+          "@type": "Clip",
+          "name": "Performance Boost",
+          "startOffset": 389,
+          "url": "https://www.youtube.com/watch?v=LJAmc1Ng-Ic&t=389s",
+          "endOffset": 445
+        },
+        {
+          "@type": "Clip",
+          "name": "Price Comparison",
+          "startOffset": 445,
+          "url": "https://www.youtube.com/watch?v=LJAmc1Ng-Ic&t=445s",
+          "endOffset": 492
+        },
+        {
+          "@type": "Clip",
+          "name": "Future Plans",
+          "startOffset": 492,
+          "url": "https://www.youtube.com/watch?v=LJAmc1Ng-Ic&t=492s",
+          "endOffset": 563
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ekote.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Microsoft Fabric",
+          "item": "https://ekote.github.io/fabric/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fabric Espresso",
+          "item": "https://ekote.github.io/fabric/espresso/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Fabric Spark Compute Capabilities - Azure VM's and their impact on performance",
+          "item": "https://ekote.github.io/fabric/espresso/fabric-spark-compute-capabilities-azure-vms-and-their-impact/"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ekote.github.io/#person",
+      "name": "Estera Kot",
+      "honorificPrefix": "Dr.",
+      "url": "https://ekote.github.io/"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+  <!-- generated by fabric/espresso/build_episodes.py -->
+  <header class="topbar">
+    <div class="inner">
+      <a class="brand" href="../../../">Dr. Estera Kot</a>
+      <nav>
+        <a href="../../../">Home</a>
+        <a href="../../">Fabric guide</a>
+        <a href="../">Fabric Espresso</a>
+        <a href="../../../#publications">Publications</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../">Home</a> / <a href="../../">Microsoft Fabric</a> / <a href="../">Fabric Espresso</a></nav>
+    <h1>Fabric Spark Compute Capabilities - Azure VM&#x27;s and their impact on performance</h1>
+    <p class="title">Episode 44 of Fabric Espresso, hosted by Dr. Estera Kot.</p>
+    <a class="thumb" href="https://www.youtube.com/watch?v=LJAmc1Ng-Ic"><img src="https://i.ytimg.com/vi/LJAmc1Ng-Ic/hqdefault.jpg" width="480" height="360" alt="Video thumbnail for Fabric Spark Compute Capabilities - Azure VM&#x27;s and their impact on performance. Opens the video on YouTube."></a>
+    <p class="vmeta">Length 9:23. Published Feb 21, 2024 on the Azure Synapse Analytics YouTube channel. Topic: <a href="../#spark-data-engineering">Spark and Data Engineering</a>.</p>
+    <p><strong><a href="https://www.youtube.com/watch?v=LJAmc1Ng-Ic">Watch on YouTube</a></strong></p>
+    <section class="desc">
+      <h2>About this episode</h2>
+      <p class="src">Text from the YouTube description.</p>
+      <p>In this episode, Guy and Estera discuss how Fabric Spark, a distributed data processing platform, leverages Azure VM&#x27;s to achieve high performance and scalability. They compare Fabric Spark with Synapse Spark, and highlight the differences in terms of architecture, features, and pricing.</p>
+      <p>Read more: <a href="https://learn.microsoft.com/en-us/fabric/data-engineering/spark-compute" rel="nofollow noopener">https://learn.microsoft.com/en-us/fabric/data-engineering/spark-compute</a></p>
+      <p>🎙 Meet the Speakers:</p>
+      <p>👤 Guest: Guy Haycock, Principal Program Manager in Microsoft - <a href="https://www.linkedin.com/in/guyhay/" rel="nofollow noopener">https://www.linkedin.com/in/guyhay/</a></p>
+      <p>👤 Host: Estera Kot, Senior Product Manager at Microsoft - <a href="https://www.linkedin.com/in/esterakot/" rel="nofollow noopener">https://www.linkedin.com/in/esterakot/</a></p>
+    </section>
+    <section>
+      <h2>Chapters</h2>
+      <ol class="chapters">
+        <li><a href="https://www.youtube.com/watch?v=LJAmc1Ng-Ic">0:00</a> Intro</li>
+        <li><a href="https://www.youtube.com/watch?v=LJAmc1Ng-Ic&amp;t=49s">0:49</a> What are the features of Fabric Spark Compute</li>
+        <li><a href="https://www.youtube.com/watch?v=LJAmc1Ng-Ic&amp;t=132s">2:12</a> Can I select a different Azure VM SKU</li>
+        <li><a href="https://www.youtube.com/watch?v=LJAmc1Ng-Ic&amp;t=212s">3:32</a> How often do you roll out new hardware</li>
+        <li><a href="https://www.youtube.com/watch?v=LJAmc1Ng-Ic&amp;t=331s">5:31</a> What about Synaps</li>
+        <li><a href="https://www.youtube.com/watch?v=LJAmc1Ng-Ic&amp;t=389s">6:29</a> Performance Boost</li>
+        <li><a href="https://www.youtube.com/watch?v=LJAmc1Ng-Ic&amp;t=445s">7:25</a> Price Comparison</li>
+        <li><a href="https://www.youtube.com/watch?v=LJAmc1Ng-Ic&amp;t=492s">8:12</a> Future Plans</li>
+      </ol>
+    </section>
+    <nav class="pn" aria-label="More episodes">
+      <div class="prev"><span>Previous episode</span><a href="../automated-maintenance-features-in-fabric-warehouse/">Automated maintenance features in Fabric Warehouse</a></div>
+      <div class="next"><span>Next episode</span><a href="../consume-warehouse-data-from-other-services/">Consume Warehouse data from other services</a></div>
+    </nav>
+    <p><a href="../">All Fabric Espresso episodes</a></p>
+    <footer>
+      <a href="../../../privacy.html">Privacy</a>
+      <a href="../../../terms.html">Terms</a>
+      <span>Dr. Estera Kot, Warsaw and Gdynia, Poland.</span>
+    </footer>
+  </main>
+</body>
+</html>

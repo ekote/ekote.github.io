@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://ekote.github.io/sitemap.xml
+Sitemap: https://ekote.github.io/fabric/espresso/sitemap-espresso.xml

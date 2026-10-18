@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Real-Time Data Sharing in Microsoft Fabric | Fabric Espresso</title>
+  <meta name="description" content="Anshul Sharma walks us through in-place data sharing in Synapse Real-time Analytics. Introducing database shortcuts in Real-Time analytics!">
+  <meta name="google-site-verification" content="cSOWqrR3-ff1EmSCDMry0rZuk_c8wklIxxS-CFQkkfg" />
+  <link rel="canonical" href="https://ekote.github.io/fabric/espresso/real-time-data-sharing-in-microsoft-fabric/">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Dr. Estera Kot">
+  <meta property="og:type" content="video.other">
+  <meta property="og:site_name" content="Dr. Estera Kot">
+  <meta property="og:title" content="Real-Time Data Sharing in Microsoft Fabric">
+  <meta property="og:description" content="Anshul Sharma walks us through in-place data sharing in Synapse Real-time Analytics. Introducing database shortcuts in Real-Time analytics!">
+  <meta property="og:url" content="https://ekote.github.io/fabric/espresso/real-time-data-sharing-in-microsoft-fabric/">
+  <meta property="og:image" content="https://i.ytimg.com/vi/4QJNVVT5Ga0/hqdefault.jpg">
+  <meta property="og:image:width" content="480">
+  <meta property="og:image:height" content="360">
+  <meta property="og:image:alt" content="Thumbnail of the Fabric Espresso episode Real-Time Data Sharing in Microsoft Fabric">
+  <meta property="og:video" content="https://www.youtube.com/embed/4QJNVVT5Ga0">
+  <meta property="og:video:secure_url" content="https://www.youtube.com/embed/4QJNVVT5Ga0">
+  <meta property="og:video:type" content="text/html">
+  <meta property="og:video:width" content="1280">
+  <meta property="og:video:height" content="720">
+  <meta property="video:release_date" content="2023-09-18">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Real-Time Data Sharing in Microsoft Fabric">
+  <meta name="twitter:description" content="Anshul Sharma walks us through in-place data sharing in Synapse Real-time Analytics. Introducing database shortcuts in Real-Time analytics!">
+  <meta name="twitter:image" content="https://i.ytimg.com/vi/4QJNVVT5Ga0/hqdefault.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&amp;family=Source+Sans+3:wght@400;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../../style.css?v=4">
+  <style>
+    .crumbs { font-size: .9rem; color: var(--muted); margin: 0 0 16px; }
+    .crumbs a { margin: 0 4px; }
+    .crumbs a:first-child { margin-left: 0; }
+    .thumb { display: inline-block; margin: 6px 0 12px; max-width: 100%; }
+    .thumb img { display: block; max-width: 100%; height: auto; border: 1px solid #D5D0C8; }
+    .vmeta { color: var(--muted); }
+    .desc p { overflow-wrap: anywhere; }
+    .src { color: var(--muted); font-size: .9rem; }
+    .chapters { list-style: none; padding-left: 0; }
+    .chapters li { margin-bottom: 4px; }
+    .chapters a { display: inline-block; min-width: 3.6em; font-variant-numeric: tabular-nums; }
+    .pn { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 32px; margin-top: 44px;
+          border-top: 1px solid var(--rule); padding-top: 18px; }
+    .pn span { display: block; color: var(--muted); font-size: .88rem; }
+    .pn .next { text-align: right; }
+    @media (max-width: 600px) { .pn { grid-template-columns: 1fr; } .pn .next { text-align: left; } }
+  </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://ekote.github.io/fabric/espresso/real-time-data-sharing-in-microsoft-fabric/#video",
+      "name": "Real-Time Data Sharing in Microsoft Fabric",
+      "url": "https://ekote.github.io/fabric/espresso/real-time-data-sharing-in-microsoft-fabric/",
+      "description": "Anshul Sharma walks us through in-place data sharing in Synapse Real-time Analytics. Introducing database shortcuts in Real-Time analytics! A database shortcut in Real-Time Analytics is an embedded reference within a KQL database to a source database in Azure Data Explorer allowing in-place data sharing. The behaviour exhibited by the database shortcut is similar to that of a follower database.",
+      "thumbnailUrl": [
+        "https://i.ytimg.com/vi/4QJNVVT5Ga0/hqdefault.jpg"
+      ],
+      "embedUrl": "https://www.youtube.com/embed/4QJNVVT5Ga0",
+      "uploadDate": "2023-09-18",
+      "duration": "PT9M11S",
+      "contentUrl": "https://www.youtube.com/watch?v=4QJNVVT5Ga0",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Azure Synapse Analytics",
+        "url": "https://www.youtube.com/@AzureSynapse"
+      },
+      "isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": "Fabric Espresso",
+        "url": "https://ekote.github.io/fabric/espresso/"
+      },
+      "hasPart": [
+        {
+          "@type": "Clip",
+          "name": "Intro",
+          "startOffset": 0,
+          "url": "https://www.youtube.com/watch?v=4QJNVVT5Ga0",
+          "endOffset": 17
+        },
+        {
+          "@type": "Clip",
+          "name": "Demo Scenario",
+          "startOffset": 17,
+          "url": "https://www.youtube.com/watch?v=4QJNVVT5Ga0&t=17s",
+          "endOffset": 77
+        },
+        {
+          "@type": "Clip",
+          "name": "Data Provider Scenario",
+          "startOffset": 77,
+          "url": "https://www.youtube.com/watch?v=4QJNVVT5Ga0&t=77s",
+          "endOffset": 125
+        },
+        {
+          "@type": "Clip",
+          "name": "Data Consumer Scenario",
+          "startOffset": 125,
+          "url": "https://www.youtube.com/watch?v=4QJNVVT5Ga0&t=125s",
+          "endOffset": 210
+        },
+        {
+          "@type": "Clip",
+          "name": "Company Financial Database",
+          "startOffset": 210,
+          "url": "https://www.youtube.com/watch?v=4QJNVVT5Ga0&t=210s",
+          "endOffset": 247
+        },
+        {
+          "@type": "Clip",
+          "name": "Querying Data",
+          "startOffset": 247,
+          "url": "https://www.youtube.com/watch?v=4QJNVVT5Ga0&t=247s",
+          "endOffset": 383
+        },
+        {
+          "@type": "Clip",
+          "name": "Shortcut",
+          "startOffset": 383,
+          "url": "https://www.youtube.com/watch?v=4QJNVVT5Ga0&t=383s",
+          "endOffset": 551
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ekote.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Microsoft Fabric",
+          "item": "https://ekote.github.io/fabric/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fabric Espresso",
+          "item": "https://ekote.github.io/fabric/espresso/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Real-Time Data Sharing in Microsoft Fabric",
+          "item": "https://ekote.github.io/fabric/espresso/real-time-data-sharing-in-microsoft-fabric/"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ekote.github.io/#person",
+      "name": "Estera Kot",
+      "honorificPrefix": "Dr.",
+      "url": "https://ekote.github.io/"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+  <!-- generated by fabric/espresso/build_episodes.py -->
+  <header class="topbar">
+    <div class="inner">
+      <a class="brand" href="../../../">Dr. Estera Kot</a>
+      <nav>
+        <a href="../../../">Home</a>
+        <a href="../../">Fabric guide</a>
+        <a href="../">Fabric Espresso</a>
+        <a href="../../../#publications">Publications</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../">Home</a> / <a href="../../">Microsoft Fabric</a> / <a href="../">Fabric Espresso</a></nav>
+    <h1>Real-Time Data Sharing in Microsoft Fabric</h1>
+    <p class="title">Episode 26 of Fabric Espresso, the Microsoft Fabric video series created by Dr. Estera Kot.</p>
+    <a class="thumb" href="https://www.youtube.com/watch?v=4QJNVVT5Ga0"><img src="https://i.ytimg.com/vi/4QJNVVT5Ga0/hqdefault.jpg" width="480" height="360" alt="Video thumbnail for Real-Time Data Sharing in Microsoft Fabric. Opens the video on YouTube."></a>
+    <p class="vmeta">Length 9:11. Published Sep 18, 2023 on the Azure Synapse Analytics YouTube channel. Topic: <a href="../#real-time-kql">Real-Time Intelligence and KQL</a>.</p>
+    <p><strong><a href="https://www.youtube.com/watch?v=4QJNVVT5Ga0">Watch on YouTube</a></strong></p>
+    <section class="desc">
+      <h2>About this episode</h2>
+      <p class="src">Text from the YouTube description.</p>
+      <p>Anshul Sharma walks us through in-place data sharing in Synapse Real-time Analytics.</p>
+      <p>Introducing database shortcuts in Real-Time analytics! A database shortcut in Real-Time Analytics is an embedded reference within a KQL database to a source database in Azure Data Explorer allowing in-place data sharing. The behaviour exhibited by the database shortcut is similar to that of a follower database.</p>
+    </section>
+    <section>
+      <h2>Chapters</h2>
+      <ol class="chapters">
+        <li><a href="https://www.youtube.com/watch?v=4QJNVVT5Ga0">0:00</a> Intro</li>
+        <li><a href="https://www.youtube.com/watch?v=4QJNVVT5Ga0&amp;t=17s">0:17</a> Demo Scenario</li>
+        <li><a href="https://www.youtube.com/watch?v=4QJNVVT5Ga0&amp;t=77s">1:17</a> Data Provider Scenario</li>
+        <li><a href="https://www.youtube.com/watch?v=4QJNVVT5Ga0&amp;t=125s">2:05</a> Data Consumer Scenario</li>
+        <li><a href="https://www.youtube.com/watch?v=4QJNVVT5Ga0&amp;t=210s">3:30</a> Company Financial Database</li>
+        <li><a href="https://www.youtube.com/watch?v=4QJNVVT5Ga0&amp;t=247s">4:07</a> Querying Data</li>
+        <li><a href="https://www.youtube.com/watch?v=4QJNVVT5Ga0&amp;t=383s">6:23</a> Shortcut</li>
+      </ol>
+    </section>
+    <nav class="pn" aria-label="More episodes">
+      <div class="prev"><span>Previous episode</span><a href="../spark-data-engineering-patterns-shortcuts-and-external-tables/">Spark Data Engineering Patterns – Shortcuts and external tables</a></div>
+      <div class="next"><span>Next episode</span><a href="../getting-data-into-your-microsoft-fabric-lakehouse-using-load-to-tables/">Getting data into your Microsoft Fabric Lakehouse using Load to Tables</a></div>
+    </nav>
+    <p><a href="../">All Fabric Espresso episodes</a></p>
+    <footer>
+      <a href="../../../privacy.html">Privacy</a>
+      <a href="../../../terms.html">Terms</a>
+      <span>Dr. Estera Kot, Warsaw and Gdynia, Poland.</span>
+    </footer>
+  </main>
+</body>
+</html>

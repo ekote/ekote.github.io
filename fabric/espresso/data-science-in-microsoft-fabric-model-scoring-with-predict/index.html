@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data Science in Microsoft Fabric – Model scoring with PREDICT | Fabric Espresso</title>
+  <meta name="description" content="Exploring Data Science in Microsoft Fabric We&#x27;re back with Eren to explore the cutting-edge capabilities of Microsoft Fabric in the realm of Data Science.">
+  <meta name="google-site-verification" content="cSOWqrR3-ff1EmSCDMry0rZuk_c8wklIxxS-CFQkkfg" />
+  <link rel="canonical" href="https://ekote.github.io/fabric/espresso/data-science-in-microsoft-fabric-model-scoring-with-predict/">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Dr. Estera Kot">
+  <meta property="og:type" content="video.other">
+  <meta property="og:site_name" content="Dr. Estera Kot">
+  <meta property="og:title" content="Data Science in Microsoft Fabric – Model scoring with PREDICT">
+  <meta property="og:description" content="Exploring Data Science in Microsoft Fabric We&#x27;re back with Eren to explore the cutting-edge capabilities of Microsoft Fabric in the realm of Data Science.">
+  <meta property="og:url" content="https://ekote.github.io/fabric/espresso/data-science-in-microsoft-fabric-model-scoring-with-predict/">
+  <meta property="og:image" content="https://i.ytimg.com/vi/HzdZ0n0lpFw/hqdefault.jpg">
+  <meta property="og:image:width" content="480">
+  <meta property="og:image:height" content="360">
+  <meta property="og:image:alt" content="Thumbnail of the Fabric Espresso episode Data Science in Microsoft Fabric – Model scoring with PREDICT">
+  <meta property="og:video" content="https://www.youtube.com/embed/HzdZ0n0lpFw">
+  <meta property="og:video:secure_url" content="https://www.youtube.com/embed/HzdZ0n0lpFw">
+  <meta property="og:video:type" content="text/html">
+  <meta property="og:video:width" content="1280">
+  <meta property="og:video:height" content="720">
+  <meta property="video:release_date" content="2023-09-26">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Data Science in Microsoft Fabric – Model scoring with PREDICT">
+  <meta name="twitter:description" content="Exploring Data Science in Microsoft Fabric We&#x27;re back with Eren to explore the cutting-edge capabilities of Microsoft Fabric in the realm of Data Science.">
+  <meta name="twitter:image" content="https://i.ytimg.com/vi/HzdZ0n0lpFw/hqdefault.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&amp;family=Source+Sans+3:wght@400;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../../style.css?v=4">
+  <style>
+    .crumbs { font-size: .9rem; color: var(--muted); margin: 0 0 16px; }
+    .crumbs a { margin: 0 4px; }
+    .crumbs a:first-child { margin-left: 0; }
+    .thumb { display: inline-block; margin: 6px 0 12px; max-width: 100%; }
+    .thumb img { display: block; max-width: 100%; height: auto; border: 1px solid #D5D0C8; }
+    .vmeta { color: var(--muted); }
+    .desc p { overflow-wrap: anywhere; }
+    .src { color: var(--muted); font-size: .9rem; }
+    .chapters { list-style: none; padding-left: 0; }
+    .chapters li { margin-bottom: 4px; }
+    .chapters a { display: inline-block; min-width: 3.6em; font-variant-numeric: tabular-nums; }
+    .pn { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 32px; margin-top: 44px;
+          border-top: 1px solid var(--rule); padding-top: 18px; }
+    .pn span { display: block; color: var(--muted); font-size: .88rem; }
+    .pn .next { text-align: right; }
+    @media (max-width: 600px) { .pn { grid-template-columns: 1fr; } .pn .next { text-align: left; } }
+  </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://ekote.github.io/fabric/espresso/data-science-in-microsoft-fabric-model-scoring-with-predict/#video",
+      "name": "Data Science in Microsoft Fabric – Model scoring with PREDICT",
+      "url": "https://ekote.github.io/fabric/espresso/data-science-in-microsoft-fabric-model-scoring-with-predict/",
+      "description": "Exploring Data Science in Microsoft Fabric We're back with Eren to explore the cutting-edge capabilities of Microsoft Fabric in the realm of Data Science. Microsoft Fabric allows users to operationalize machine learning models with a scalable function called PREDICT, which supports batch scoring in any compute engine. Users can generate batch predictions directly from a Microsoft Fabric notebook or from a given model's item page. Meet the Speakers : Estera Kot: Senior Product Manager at Microsoft LinkedIn: https://www.linkedin.com/in/esterakot/ Twitter: https://twitter.com/estera_kot Eren Orbey, Product Manager, Microsoft Fabric LinkedIn https://www.linkedin.com/in/orbey Twitter: https://twitter.com/erenorbey",
+      "thumbnailUrl": [
+        "https://i.ytimg.com/vi/HzdZ0n0lpFw/hqdefault.jpg"
+      ],
+      "embedUrl": "https://www.youtube.com/embed/HzdZ0n0lpFw",
+      "uploadDate": "2023-09-26",
+      "duration": "PT25M32S",
+      "contentUrl": "https://www.youtube.com/watch?v=HzdZ0n0lpFw",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Azure Synapse Analytics",
+        "url": "https://www.youtube.com/@AzureSynapse"
+      },
+      "contributor": {
+        "@id": "https://ekote.github.io/#person"
+      },
+      "isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": "Fabric Espresso",
+        "url": "https://ekote.github.io/fabric/espresso/"
+      },
+      "hasPart": [
+        {
+          "@type": "Clip",
+          "name": "Introduction",
+          "startOffset": 0,
+          "url": "https://www.youtube.com/watch?v=HzdZ0n0lpFw",
+          "endOffset": 8
+        },
+        {
+          "@type": "Clip",
+          "name": "ML Concepts",
+          "startOffset": 8,
+          "url": "https://www.youtube.com/watch?v=HzdZ0n0lpFw&t=8s",
+          "endOffset": 95
+        },
+        {
+          "@type": "Clip",
+          "name": "Overview of predict function",
+          "startOffset": 95,
+          "url": "https://www.youtube.com/watch?v=HzdZ0n0lpFw&t=95s",
+          "endOffset": 149
+        },
+        {
+          "@type": "Clip",
+          "name": "Model workspace setup",
+          "startOffset": 149,
+          "url": "https://www.youtube.com/watch?v=HzdZ0n0lpFw&t=149s",
+          "endOffset": 372
+        },
+        {
+          "@type": "Clip",
+          "name": "Batch prediction code flow",
+          "startOffset": 372,
+          "url": "https://www.youtube.com/watch?v=HzdZ0n0lpFw&t=372s",
+          "endOffset": 554
+        },
+        {
+          "@type": "Clip",
+          "name": "Prediction APIs",
+          "startOffset": 554,
+          "url": "https://www.youtube.com/watch?v=HzdZ0n0lpFw&t=554s",
+          "endOffset": 739
+        },
+        {
+          "@type": "Clip",
+          "name": "Persisting results",
+          "startOffset": 739,
+          "url": "https://www.youtube.com/watch?v=HzdZ0n0lpFw&t=739s",
+          "endOffset": 838
+        },
+        {
+          "@type": "Clip",
+          "name": "UI-based model application",
+          "startOffset": 838,
+          "url": "https://www.youtube.com/watch?v=HzdZ0n0lpFw&t=838s",
+          "endOffset": 1201
+        },
+        {
+          "@type": "Clip",
+          "name": "Data visualization",
+          "startOffset": 1201,
+          "url": "https://www.youtube.com/watch?v=HzdZ0n0lpFw&t=1201s",
+          "endOffset": 1341
+        },
+        {
+          "@type": "Clip",
+          "name": "Future capabilities",
+          "startOffset": 1341,
+          "url": "https://www.youtube.com/watch?v=HzdZ0n0lpFw&t=1341s",
+          "endOffset": 1532
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ekote.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Microsoft Fabric",
+          "item": "https://ekote.github.io/fabric/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fabric Espresso",
+          "item": "https://ekote.github.io/fabric/espresso/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Data Science in Microsoft Fabric – Model scoring with PREDICT",
+          "item": "https://ekote.github.io/fabric/espresso/data-science-in-microsoft-fabric-model-scoring-with-predict/"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ekote.github.io/#person",
+      "name": "Estera Kot",
+      "honorificPrefix": "Dr.",
+      "url": "https://ekote.github.io/"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+  <!-- generated by fabric/espresso/build_episodes.py -->
+  <header class="topbar">
+    <div class="inner">
+      <a class="brand" href="../../../">Dr. Estera Kot</a>
+      <nav>
+        <a href="../../../">Home</a>
+        <a href="../../">Fabric guide</a>
+        <a href="../">Fabric Espresso</a>
+        <a href="../../../#publications">Publications</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../">Home</a> / <a href="../../">Microsoft Fabric</a> / <a href="../">Fabric Espresso</a></nav>
+    <h1>Data Science in Microsoft Fabric – Model scoring with PREDICT</h1>
+    <p class="title">Episode 28 of Fabric Espresso, with Dr. Estera Kot.</p>
+    <a class="thumb" href="https://www.youtube.com/watch?v=HzdZ0n0lpFw"><img src="https://i.ytimg.com/vi/HzdZ0n0lpFw/hqdefault.jpg" width="480" height="360" alt="Video thumbnail for Data Science in Microsoft Fabric – Model scoring with PREDICT. Opens the video on YouTube."></a>
+    <p class="vmeta">Length 25:32. Published Sep 26, 2023 on the Azure Synapse Analytics YouTube channel. Topic: <a href="../#data-science-ml">Data Science and Machine Learning</a>.</p>
+    <p><strong><a href="https://www.youtube.com/watch?v=HzdZ0n0lpFw">Watch on YouTube</a></strong></p>
+    <section class="desc">
+      <h2>About this episode</h2>
+      <p class="src">Text from the YouTube description.</p>
+      <p>🌟📊 Exploring Data Science in Microsoft Fabric 📊🌟</p>
+      <p>We&#x27;re back with Eren to explore the cutting-edge capabilities of Microsoft Fabric in the realm of Data Science. Microsoft Fabric allows users to operationalize machine learning models with a scalable function called PREDICT, which supports batch scoring in any compute engine. Users can generate batch predictions directly from a Microsoft Fabric notebook or from a given model&#x27;s item page.</p>
+      <p>Meet the Speakers 🚀 🚀 🚀:</p>
+      <p>Estera Kot: Senior Product Manager at Microsoft<br>
+LinkedIn: <a href="https://www.linkedin.com/in/esterakot/" rel="nofollow noopener">https://www.linkedin.com/in/esterakot/</a><br>
+Twitter: <a href="https://twitter.com/estera_kot" rel="nofollow noopener">https://twitter.com/estera_kot</a></p>
+      <p>Eren Orbey, Product Manager, Microsoft Fabric</p>
+      <p>LinkedIn  <a href="https://www.linkedin.com/in/orbey" rel="nofollow noopener">https://www.linkedin.com/in/orbey</a></p>
+      <p>Twitter:  <a href="https://twitter.com/erenorbey" rel="nofollow noopener">https://twitter.com/erenorbey</a></p>
+    </section>
+    <section>
+      <h2>Chapters</h2>
+      <ol class="chapters">
+        <li><a href="https://www.youtube.com/watch?v=HzdZ0n0lpFw">0:00</a> Introduction</li>
+        <li><a href="https://www.youtube.com/watch?v=HzdZ0n0lpFw&amp;t=8s">0:08</a> ML Concepts</li>
+        <li><a href="https://www.youtube.com/watch?v=HzdZ0n0lpFw&amp;t=95s">1:35</a> Overview of predict function</li>
+        <li><a href="https://www.youtube.com/watch?v=HzdZ0n0lpFw&amp;t=149s">2:29</a> Model workspace setup</li>
+        <li><a href="https://www.youtube.com/watch?v=HzdZ0n0lpFw&amp;t=372s">6:12</a> Batch prediction code flow</li>
+        <li><a href="https://www.youtube.com/watch?v=HzdZ0n0lpFw&amp;t=554s">9:14</a> Prediction APIs</li>
+        <li><a href="https://www.youtube.com/watch?v=HzdZ0n0lpFw&amp;t=739s">12:19</a> Persisting results</li>
+        <li><a href="https://www.youtube.com/watch?v=HzdZ0n0lpFw&amp;t=838s">13:58</a> UI-based model application</li>
+        <li><a href="https://www.youtube.com/watch?v=HzdZ0n0lpFw&amp;t=1201s">20:01</a> Data visualization</li>
+        <li><a href="https://www.youtube.com/watch?v=HzdZ0n0lpFw&amp;t=1341s">22:21</a> Future capabilities</li>
+      </ol>
+    </section>
+    <nav class="pn" aria-label="More episodes">
+      <div class="prev"><span>Previous episode</span><a href="../getting-data-into-your-microsoft-fabric-lakehouse-using-load-to-tables/">Getting data into your Microsoft Fabric Lakehouse using Load to Tables</a></div>
+      <div class="next"><span>Next episode</span><a href="../utilization-reporting-for-warehouse/">Utilization Reporting for Warehouse!</a></div>
+    </nav>
+    <p><a href="../">All Fabric Espresso episodes</a></p>
+    <footer>
+      <a href="../../../privacy.html">Privacy</a>
+      <a href="../../../terms.html">Terms</a>
+      <span>Dr. Estera Kot, Warsaw and Gdynia, Poland.</span>
+    </footer>
+  </main>
+</body>
+</html>

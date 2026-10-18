@@ -90,4 +90,7 @@
   </url>
   <url><loc>https://ekote.github.io/privacy.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
   <url><loc>https://ekote.github.io/terms.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://ekote.github.io/fabric/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ekote.github.io/fabric/maturity-model/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ekote.github.io/fabric/espresso/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

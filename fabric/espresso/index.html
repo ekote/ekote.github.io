@@ -1,0 +1,1853 @@
+<!doctype html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fabric Espresso, the Microsoft Fabric video series by Dr. Estera Kot</title>
+  <meta name="description" content="Fabric Espresso, the Microsoft Fabric video series by Dr. Estera Kot. 89 episodes on Spark, Data Engineering, Data Science, Warehouse, and Data Factory.">
+  <meta name="google-site-verification" content="cSOWqrR3-ff1EmSCDMry0rZuk_c8wklIxxS-CFQkkfg" />
+  <link rel="canonical" href="https://ekote.github.io/fabric/espresso/">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Dr. Estera Kot">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Dr. Estera Kot">
+  <meta property="og:title" content="Fabric Espresso, the Microsoft Fabric video series by Dr. Estera Kot">
+  <meta property="og:description" content="Fabric Espresso, the Microsoft Fabric video series by Dr. Estera Kot. 89 episodes on Spark, Data Engineering, Data Science, Warehouse, and Data Factory.">
+  <meta property="og:url" content="https://ekote.github.io/fabric/espresso/">
+  <meta property="og:image" content="https://ekote.github.io/headshot.jpg">
+  <meta property="og:image:alt" content="Portrait of Dr. Estera Kot">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Fabric Espresso, the Microsoft Fabric video series by Dr. Estera Kot">
+  <meta name="twitter:description" content="Fabric Espresso, the Microsoft Fabric video series by Dr. Estera Kot. 89 episodes on Spark, Data Engineering, Data Science, Warehouse, and Data Factory.">
+  <meta name="twitter:image" content="https://ekote.github.io/headshot.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&amp;family=Source+Sans+3:wght@400;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../style.css?v=4">
+  <style>
+    .crumbs { font-size: .9rem; color: var(--muted); margin: 0 0 16px; }
+    .crumbs a { margin: 0 4px; }
+    .crumbs a:first-child { margin-left: 0; }
+    .topics { columns: 2; column-gap: 40px; padding-left: 20px; }
+    .eps { width: 100%; border-collapse: collapse; font-size: .95rem; }
+    .eps th, .eps td { text-align: left; padding: 7px 12px 7px 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+    .eps th { font-weight: 600; color: var(--muted); font-size: .85rem; }
+    .eps .num, .eps .len { font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .eps .date { white-space: nowrap; color: var(--muted); }
+    @media (max-width: 600px) {
+      .topics { columns: 1; }
+      .eps thead { display: none; }
+      .eps, .eps tbody { display: block; }
+      .eps tr { display: grid; grid-template-columns: 2.2em auto 1fr; column-gap: 10px;
+                padding: 8px 0; border-bottom: 1px solid var(--rule); }
+      .eps td { border: 0; padding: 0; }
+      .eps .num { grid-row: 1 / span 2; }
+      .eps .title { grid-column: 2 / 4; }
+      .eps .len, .eps .date { font-size: .88rem; color: var(--muted); }
+    }
+  </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://ekote.github.io/fabric/espresso/#page",
+      "url": "https://ekote.github.io/fabric/espresso/",
+      "name": "Fabric Espresso, the Microsoft Fabric video series by Dr. Estera Kot",
+      "inLanguage": "en-US",
+      "about": {
+        "@id": "https://ekote.github.io/fabric/espresso/#series"
+      },
+      "mainEntity": {
+        "@id": "https://ekote.github.io/fabric/espresso/#episodes"
+      },
+      "author": {
+        "@id": "https://ekote.github.io/#person"
+      },
+      "dateModified": "2026-10-19"
+    },
+    {
+      "@type": "CreativeWorkSeries",
+      "@id": "https://ekote.github.io/fabric/espresso/#series",
+      "name": "Fabric Espresso",
+      "url": "https://ekote.github.io/fabric/espresso/",
+      "sameAs": [
+        "https://www.youtube.com/playlist?list=PLnfmGXUkCC7SypXJ6AcSk155pcUS0DPIX"
+      ],
+      "inLanguage": "en",
+      "about": [
+        "Microsoft Fabric",
+        "Apache Spark",
+        "Native Execution Engine",
+        "Data Engineering",
+        "Data Science",
+        "Data Warehouse",
+        "Data Factory",
+        "Real-Time Intelligence",
+        "Data governance"
+      ],
+      "creator": {
+        "@id": "https://ekote.github.io/#person"
+      },
+      "description": "Technical video series on Microsoft Fabric with 89 episodes. Most episodes feature guests from the Microsoft Fabric product group.",
+      "startDate": "2023-06-05"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://ekote.github.io/fabric/espresso/#episodes",
+      "name": "Fabric Espresso episodes",
+      "numberOfItems": 89,
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/microsoft-fabric-introduction/#video",
+            "name": "Fabric Espresso: Microsoft Fabric Introduction",
+            "url": "https://ekote.github.io/fabric/espresso/microsoft-fabric-introduction/",
+            "description": "Welcome to our Fabric Espresso series! In this video, Stijn and Filip discuss Microsoft Fabric and what will they build using it in the following...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/WRfyN9_PL3A/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/WRfyN9_PL3A",
+            "uploadDate": "2023-06-05",
+            "duration": "PT5M26S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/synapse-real-time-analytics-how-to-get-data-into-a-kql-database/#video",
+            "name": "Synapse Real-time Analytics: How to Get Data into a KQL Database",
+            "url": "https://ekote.github.io/fabric/espresso/synapse-real-time-analytics-how-to-get-data-into-a-kql-database/",
+            "description": "Welcome to the first video in our How To series for Real-Time Analytics in Microsoft Fabric!",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/6tmkvV3s44Q/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/6tmkvV3s44Q",
+            "uploadDate": "2023-06-07",
+            "duration": "PT10M24S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/onelake-as-the-glue-in-microsoft-fabric/#video",
+            "name": "Fabric Espresso: OneLake as the glue In Microsoft Fabric",
+            "url": "https://ekote.github.io/fabric/espresso/onelake-as-the-glue-in-microsoft-fabric/",
+            "description": "Welcome to the Fabric Espresso series! In this video, Stijn and Filip talk about OneLake and how it enables you to have single copy of all your data...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/Rw4JPSjcBNA/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/Rw4JPSjcBNA",
+            "uploadDate": "2023-06-08",
+            "duration": "PT5M40S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/tap-into-existing-data-with-shortcuts/#video",
+            "name": "Fabric Espresso: Tap into existing data with Shortcuts",
+            "url": "https://ekote.github.io/fabric/espresso/tap-into-existing-data-with-shortcuts/",
+            "description": "Welcome to our Fabric Espresso series! In this video, Stijn and Filip demonstrate how you can leverage OneLake shortcuts to query the data without...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/bjzPnZ-Ctu4/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/bjzPnZ-Ctu4",
+            "uploadDate": "2023-06-12",
+            "duration": "PT7M39S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/synapse-real-time-analytics-stream-data-from-eventstream-into-a-kql/#video",
+            "name": "Synapse Real-Time Analytics: Stream data from Eventstream into a KQL database for powerful analytics",
+            "url": "https://ekote.github.io/fabric/espresso/synapse-real-time-analytics-stream-data-from-eventstream-into-a-kql/",
+            "description": "Welcome to the second video in our How To series for Real-Time Analytics in Microsoft Fabric!",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/Oo4Tdy3oKdo/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/Oo4Tdy3oKdo",
+            "uploadDate": "2023-06-14",
+            "duration": "PT7M51S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/building-a-landing-zone-in-microsoft-fabric/#video",
+            "name": "Fabric Espresso: Building a Landing zone in Microsoft Fabric",
+            "url": "https://ekote.github.io/fabric/espresso/building-a-landing-zone-in-microsoft-fabric/",
+            "description": "Welcome to our Fabric Espresso series! In this video, Stijn shows how to load data to a Landing Zone in Microsoft Fabric and also shows how to tap into...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/u3U9aHkvaF8/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/u3U9aHkvaF8",
+            "uploadDate": "2023-06-15",
+            "duration": "PT9M34S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/loading-data-from-landing-to-bronze/#video",
+            "name": "Fabric Espresso: Loading Data from Landing to Bronze!",
+            "url": "https://ekote.github.io/fabric/espresso/loading-data-from-landing-to-bronze/",
+            "description": "Welcome to our Fabric Espresso series! In this video, Stijn shows how to incrementally load data from a landing zone to a Bronze lakehouse in Microsoft...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/inIwJoNzk-I/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/inIwJoNzk-I",
+            "uploadDate": "2023-06-19",
+            "duration": "PT6M37S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/synapse-real-time-analytics-get-started-with-kql/#video",
+            "name": "Synapse Real-Time Analytics: Get started with KQL",
+            "url": "https://ekote.github.io/fabric/espresso/synapse-real-time-analytics-get-started-with-kql/",
+            "description": "Welcome to the third video in our How To series for Real-Time Analytics in Microsoft Fabric!",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/Bw_d6zmALV0/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/Bw_d6zmALV0",
+            "uploadDate": "2023-06-21",
+            "duration": "PT13M27S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/loading-existing-delta-tables-to-silver/#video",
+            "name": "Fabric Espresso: Loading existing Delta Tables to Silver!",
+            "url": "https://ekote.github.io/fabric/espresso/loading-existing-delta-tables-to-silver/",
+            "description": "Welcome to our Fabric Espresso series! In this video, Stijn shows how to tap into existing delta tables residing on ADLS Gen2 with Microsoft Fabric!",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/r7urq_EDR3k/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/r7urq_EDR3k",
+            "uploadDate": "2023-06-22",
+            "duration": "PT5M14S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/will-fabric-replace-azure-synapse/#video",
+            "name": "Fabric Espresso: Will Fabric replace Azure Synapse?",
+            "url": "https://ekote.github.io/fabric/espresso/will-fabric-replace-azure-synapse/",
+            "description": "Welcome to our Fabric Espresso series! In this video Bogdan joins Stijn to talk about Microsoft Fabric and what place Azure Synapse has in all of this.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/6BI89Y2S-Oo/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/6BI89Y2S-Oo",
+            "uploadDate": "2023-06-26",
+            "duration": "PT3M51S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/synapse-real-time-analytics-stream-data-from-event-hubs-into-a-kql/#video",
+            "name": "Synapse Real-Time Analytics: Stream data from Event Hubs into a KQL database for powerful analytics",
+            "url": "https://ekote.github.io/fabric/espresso/synapse-real-time-analytics-stream-data-from-event-hubs-into-a-kql/",
+            "description": "Welcome to the fourth video in our How To series for Real-Time Analytics in Microsoft Fabric!",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/bK9WNtCmT4M/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/bK9WNtCmT4M",
+            "uploadDate": "2023-06-28",
+            "duration": "PT10M44S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/table-clone-in-warehouse-within-microsoft-fabric/#video",
+            "name": "Fabric Espresso: Table clone in Warehouse within Microsoft Fabric",
+            "url": "https://ekote.github.io/fabric/espresso/table-clone-in-warehouse-within-microsoft-fabric/",
+            "description": "Welcome to our Fabric Espresso series! In this video Ambika joins Stijn to talk about table clone in Warehouse within Microsoft Fabric.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/b4fYU-ik6XY/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/b4fYU-ik6XY",
+            "uploadDate": "2023-07-06",
+            "duration": "PT5M56S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/top-microsoft-fabric-features-that-every-data-engineer-should-know/#video",
+            "name": "Top Microsoft Fabric Features that Every Data Engineer Should Know",
+            "url": "https://ekote.github.io/fabric/espresso/top-microsoft-fabric-features-that-every-data-engineer-should-know/",
+            "description": "As part of our Fabric Espresso series, we're diving deep into the realm of Data Engineering and Data Science.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/gC8BczGL7ic/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/gC8BczGL7ic",
+            "uploadDate": "2023-07-25",
+            "duration": "PT8M57S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/performance-at-scale-with-microsoft-fabric-query-processing/#video",
+            "name": "Performance at Scale with Microsoft Fabric: Query Processing!",
+            "url": "https://ekote.github.io/fabric/espresso/performance-at-scale-with-microsoft-fabric-query-processing/",
+            "description": "In this video Bogdan joins Stijn to talk about Microsoft Fabric performance and what happens underneath the hood while processing a query!",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/3Cs8uTJ1HnA/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/3Cs8uTJ1HnA",
+            "uploadDate": "2023-07-27",
+            "duration": "PT9M4S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/data-engineer-perspective-on-loading-data-for-fabric-uploads-data/#video",
+            "name": "Data Engineer perspective on loading data for Fabric: Uploads, Data Flows, Copy Tool or Shortcuts?",
+            "url": "https://ekote.github.io/fabric/espresso/data-engineer-perspective-on-loading-data-for-fabric-uploads-data/",
+            "description": "Data Engineer's Perspective: Loading Data into Fabric - Comprehensive Guide In this enlightening video, we delve into the world of data engineering and...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/rrxF0ATZY7s/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/rrxF0ATZY7s",
+            "uploadDate": "2023-08-01",
+            "duration": "PT8M44S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/performance-at-scale-with-microsoft-fabric-query-optimizations/#video",
+            "name": "Performance at Scale with Microsoft Fabric: Query Optimizations!",
+            "url": "https://ekote.github.io/fabric/espresso/performance-at-scale-with-microsoft-fabric-query-optimizations/",
+            "description": "In this video Bogdan joins Stijn to talk about Microsoft Fabric performance and what we do underneath the hood for optimizing queries!",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/9bkZHHUcy6I/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/9bkZHHUcy6I",
+            "uploadDate": "2023-08-03",
+            "duration": "PT7M31S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/data-engineers-perspective-on-storing-data-in-fabric-lakehouse/#video",
+            "name": "Data Engineer’s perspective on storing data in Fabric: Lakehouse or Warehouse?",
+            "url": "https://ekote.github.io/fabric/espresso/data-engineers-perspective-on-storing-data-in-fabric-lakehouse/",
+            "description": "Data Engineer's Perspective: Storing Data in Fabric - Lakehouse or Warehouse? A Complete Guide!",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/yCQTOHDOfJw/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/yCQTOHDOfJw",
+            "uploadDate": "2023-08-08",
+            "duration": "PT5M5S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/performance-at-scale-with-microsoft-fabric-concurrency/#video",
+            "name": "Performance at Scale with Microsoft Fabric: Concurrency!",
+            "url": "https://ekote.github.io/fabric/espresso/performance-at-scale-with-microsoft-fabric-concurrency/",
+            "description": "In this video Bogdan joins Stijn to talk about Microsoft Fabric performance and what we do underneath the hood to tackle concurrency and how this all...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/l-8omtemVU0/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/l-8omtemVU0",
+            "uploadDate": "2023-08-10",
+            "duration": "PT5M46S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/data-science-in-microsoft-fabric-data-preparation-and-exploration/#video",
+            "name": "Data Science in Microsoft Fabric – Data preparation and exploration with Data Wrangler",
+            "url": "https://ekote.github.io/fabric/espresso/data-science-in-microsoft-fabric-data-preparation-and-exploration/",
+            "description": "Exploring Data Science in Microsoft Fabric Step into the dynamic realm of Microsoft Fabric's Data Wrangler in this episode.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/-g6KveKQXu4/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/-g6KveKQXu4",
+            "uploadDate": "2023-08-15",
+            "duration": "PT19M15S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/learn-to-share-a-microsoft-fabric-warehouse/#video",
+            "name": "Learn to Share a Microsoft Fabric Warehouse!",
+            "url": "https://ekote.github.io/fabric/espresso/learn-to-share-a-microsoft-fabric-warehouse/",
+            "description": "In this video, Jacinda joins Stijn to walk through how to share a Microsoft Fabric warehouse and demos how the recipient can build reports, query the...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/upW7DtKX2IU/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/upW7DtKX2IU",
+            "uploadDate": "2023-08-17",
+            "duration": "PT6M50S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/enabling-data-mesh-with-onelake-on-microsoft-fabric/#video",
+            "name": "Enabling Data Mesh with OneLake on Microsoft Fabric",
+            "url": "https://ekote.github.io/fabric/espresso/enabling-data-mesh-with-onelake-on-microsoft-fabric/",
+            "description": "Fabric Espresso Presents: \"Enabling Data Mesh with OneLake on Microsoft Fabric\" Ever wondered how to scale analytics adoption beyond just one platform?",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/6_3gjipEq_k/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/6_3gjipEq_k",
+            "uploadDate": "2023-08-22",
+            "duration": "PT15M"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/granular-access-control-for-warehouse/#video",
+            "name": "Granular Access Control for Warehouse!",
+            "url": "https://ekote.github.io/fabric/espresso/granular-access-control-for-warehouse/",
+            "description": "Fabric Espresso Presents: \" Granular Access Control for Warehouse \" Do you want to know how to only give access to single tables/stored procedures/...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/_GpwpXuS2gk/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/_GpwpXuS2gk",
+            "uploadDate": "2023-08-24",
+            "duration": "PT4M54S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/spark-compute-in-fabric-data-engineering-and-data-science-starter/#video",
+            "name": "Spark Compute in Fabric Data Engineering and Data Science - Starter Pools vs Custom Pools Unveiled!",
+            "url": "https://ekote.github.io/fabric/espresso/spark-compute-in-fabric-data-engineering-and-data-science-starter/",
+            "description": "Fabric Espresso Presents: \" Spark Compute for Microsoft Fabric Data Engineering and Data Science - Starter Pools vs Custom Pools Unveiled!",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/AXXasVxhgTs/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/AXXasVxhgTs",
+            "uploadDate": "2023-08-30",
+            "duration": "PT16M55S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/high-concurrency-mode-in-microsoft-fabric/#video",
+            "name": "High Concurrency Mode in Microsoft Fabric",
+            "url": "https://ekote.github.io/fabric/espresso/high-concurrency-mode-in-microsoft-fabric/",
+            "description": "Fabric Espresso Presents: High Concurrency Mode in Microsoft Fabric. Learn about how high concurrency mode works in Fabric Spark for Notebooks Ever...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/j2GrmcR6xA8/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/j2GrmcR6xA8",
+            "uploadDate": "2023-09-05",
+            "duration": "PT16M9S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/spark-data-engineering-patterns-shortcuts-and-external-tables/#video",
+            "name": "Spark Data Engineering Patterns – Shortcuts and external tables",
+            "url": "https://ekote.github.io/fabric/espresso/spark-data-engineering-patterns-shortcuts-and-external-tables/",
+            "description": "Fabric Espresso Presents: \"Spark Data Engineering Patterns – Shortcuts and external tables\" About This Episode: In today's data-driven world, mastering...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/AObKOOVHRv4/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/AObKOOVHRv4",
+            "uploadDate": "2023-09-13",
+            "duration": "PT15M47S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/real-time-data-sharing-in-microsoft-fabric/#video",
+            "name": "Real-Time Data Sharing in Microsoft Fabric",
+            "url": "https://ekote.github.io/fabric/espresso/real-time-data-sharing-in-microsoft-fabric/",
+            "description": "Anshul Sharma walks us through in-place data sharing in Synapse Real-time Analytics. Introducing database shortcuts in Real-Time analytics!",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/4QJNVVT5Ga0/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/4QJNVVT5Ga0",
+            "uploadDate": "2023-09-18",
+            "duration": "PT9M11S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 27,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/getting-data-into-your-microsoft-fabric-lakehouse-using-load-to-tables/#video",
+            "name": "Getting data into your Microsoft Fabric Lakehouse using Load to Tables",
+            "url": "https://ekote.github.io/fabric/espresso/getting-data-into-your-microsoft-fabric-lakehouse-using-load-to-tables/",
+            "description": "The future of data analytics is here, and it's called Lakehouse! Microsoft Fabric Lakehouse is revolutionizing the way we manage and analyze data.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/GhX4oMHlCOY/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/GhX4oMHlCOY",
+            "uploadDate": "2023-09-19",
+            "duration": "PT9M10S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 28,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/data-science-in-microsoft-fabric-model-scoring-with-predict/#video",
+            "name": "Data Science in Microsoft Fabric – Model scoring with PREDICT",
+            "url": "https://ekote.github.io/fabric/espresso/data-science-in-microsoft-fabric-model-scoring-with-predict/",
+            "description": "Exploring Data Science in Microsoft Fabric We're back with Eren to explore the cutting-edge capabilities of Microsoft Fabric in the realm of Data Science.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/HzdZ0n0lpFw/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/HzdZ0n0lpFw",
+            "uploadDate": "2023-09-26",
+            "duration": "PT25M32S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 29,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/utilization-reporting-for-warehouse/#video",
+            "name": "Utilization Reporting for Warehouse!",
+            "url": "https://ekote.github.io/fabric/espresso/utilization-reporting-for-warehouse/",
+            "description": "Welcome back to another episode of Fabric Espresso Warehouse series. Meet the Speakers: Guest from Microsoft Fabric Product Group: Sowmya Sivaraman...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/30UpPJFKHGM/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/30UpPJFKHGM",
+            "uploadDate": "2023-09-28",
+            "duration": "PT8M19S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 30,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/caching-in-data-warehousing/#video",
+            "name": "Caching in data warehousing",
+            "url": "https://ekote.github.io/fabric/espresso/caching-in-data-warehousing/",
+            "description": "In this video, we dive into the world of caching techniques that can supercharge your SQL query performance, especially when dealing with large datasets.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/1tI1d3m0ffg/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/1tI1d3m0ffg",
+            "uploadDate": "2023-09-29",
+            "duration": "PT4M3S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 31,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/spark-data-engineering-patterns-optimizing-delta-tables-for-power-bi/#video",
+            "name": "Spark Data Engineering Patterns Optimizing Delta Tables for Power Bi in Microsoft Fabric",
+            "url": "https://ekote.github.io/fabric/espresso/spark-data-engineering-patterns-optimizing-delta-tables-for-power-bi/",
+            "description": "Welcome back to another episode of Fabric Espresso DE&DS series. In this episode, we're diving deep into the world of Delta Lake table optimization...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/mt4Lqa36wss/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/mt4Lqa36wss",
+            "uploadDate": "2023-10-03",
+            "duration": "PT16M26S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 32,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/row-level-security-in-fabric-warehouse-and-sql-endpoint/#video",
+            "name": "Row-Level security in Fabric Warehouse & SQL Endpoint",
+            "url": "https://ekote.github.io/fabric/espresso/row-level-security-in-fabric-warehouse-and-sql-endpoint/",
+            "description": "Welcome back to another episode of Fabric Espresso Warehouse series. In this episode, we introduce and highlight the new Row-Level security feature in...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/_gcPNOyrGgc/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/_gcPNOyrGgc",
+            "uploadDate": "2023-10-05",
+            "duration": "PT5M32S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 33,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/microsoft-fabric-notebooks-showcase-with-advanced-features/#video",
+            "name": "Microsoft Fabric Notebooks - Showcase with advanced features",
+            "url": "https://ekote.github.io/fabric/espresso/microsoft-fabric-notebooks-showcase-with-advanced-features/",
+            "description": "Welcome back to another episode of Fabric Espresso DE&DS series. In this episode, we introduce and explore the nuances of Fabric Notebooks, a web-based...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/L3ZC46lAUhI/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/L3ZC46lAUhI",
+            "uploadDate": "2023-10-10",
+            "duration": "PT27M51S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 34,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/microsoft-fabric-spark-integration-and-vs-code/#video",
+            "name": "Microsoft Fabric Spark integration and VS Code",
+            "url": "https://ekote.github.io/fabric/espresso/microsoft-fabric-spark-integration-and-vs-code/",
+            "description": "Welcome back to another episode of Fabric Espresso DE&DS series. In this episode, Qixiao and Estera will discuss VS Code, The Synapse VS Code extension...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/A9SjAyZ_JSc/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/A9SjAyZ_JSc",
+            "uploadDate": "2023-10-24",
+            "duration": "PT27M10S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 35,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/permissions-in-microsoft-fabric-workspace-and-sql/#video",
+            "name": "Permissions in Microsoft Fabric Workspace and SQL",
+            "url": "https://ekote.github.io/fabric/espresso/permissions-in-microsoft-fabric-workspace-and-sql/",
+            "description": "In this episode, we will discuss how to control and regulate access to sensitive or valuable data within Fabric.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/47vCxbHchn4/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/47vCxbHchn4",
+            "uploadDate": "2023-10-31",
+            "duration": "PT12M51S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 36,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/microsoft-fabric-spark-utilities-mssparkutils/#video",
+            "name": "Microsoft Fabric Spark Utilities - mssparkutils",
+            "url": "https://ekote.github.io/fabric/espresso/microsoft-fabric-spark-utilities-mssparkutils/",
+            "description": "Welcome back to another episode of Fabric Espresso DE&DS series. In this episode, we introduce and explore the nuances of Fabric Notebooks and a...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/P3vQyvO55DI/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/P3vQyvO55DI",
+            "uploadDate": "2023-11-07",
+            "duration": "PT21M16S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 37,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/r-programming-language-in-microsoft-fabric-an-insightful-overview/#video",
+            "name": "R (Programming Language) in Microsoft Fabric - An Insightful Overview with Fabric Product Group",
+            "url": "https://ekote.github.io/fabric/espresso/r-programming-language-in-microsoft-fabric-an-insightful-overview/",
+            "description": "Welcome to the latest episode of our Fabric Espresso series, where we delve deep into the world of Data Engineering, Data Science, and Real-Time...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/Vai5YQ2IqsU/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/Vai5YQ2IqsU",
+            "uploadDate": "2023-11-21",
+            "duration": "PT16M52S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 38,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/data-engineering-starter-kit-quick-start-with-fabric-product-group/#video",
+            "name": "Data Engineering Starter Kit - Quick Start with Fabric Product Group",
+            "url": "https://ekote.github.io/fabric/espresso/data-engineering-starter-kit-quick-start-with-fabric-product-group/",
+            "description": "Welcome back to the Fabric Espresso series! Today's episode is a goldmine for data engineers and enthusiasts diving into the Microsoft Fabric platform.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/Sf5qSfiYITA/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/Sf5qSfiYITA",
+            "uploadDate": "2023-11-28",
+            "duration": "PT12M13S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 39,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/microsoft-fabric-capacity-smoothing-and-data-warehouse-throttling/#video",
+            "name": "Microsoft Fabric Capacity Smoothing and Data Warehouse Throttling",
+            "url": "https://ekote.github.io/fabric/espresso/microsoft-fabric-capacity-smoothing-and-data-warehouse-throttling/",
+            "description": "In the dynamic world of technology, demand spikes and troughs are inevitable. In this video, learn more about capacity smoothing that intelligently...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/6pe9NnpRm0w/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/6pe9NnpRm0w",
+            "uploadDate": "2023-11-30",
+            "duration": "PT14M55S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 40,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/model-and-experiment-tracking-in-fabric-data-science-mlflow/#video",
+            "name": "Model & Experiment Tracking in Fabric Data Science (MLFLOW)",
+            "url": "https://ekote.github.io/fabric/espresso/model-and-experiment-tracking-in-fabric-data-science-mlflow/",
+            "description": "Microsoft Fabric offers Data Science experiences to empower users to complete end-to-end data science workflows for the purpose of data enrichment and...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/vqqVcD5f-g0/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/vqqVcD5f-g0",
+            "uploadDate": "2023-12-05",
+            "duration": "PT20M24S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 41,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/autologging-and-mlflow-in-fabric-data-science/#video",
+            "name": "Autologging and MLFlow in Fabric Data Science",
+            "url": "https://ekote.github.io/fabric/espresso/autologging-and-mlflow-in-fabric-data-science/",
+            "description": "Autologging revolutionizes how we track MLFlow runs by significantly reducing the code needed to log parameters, metrics, and model artifacts during...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/VrIrZfq2RQU/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/VrIrZfq2RQU",
+            "uploadDate": "2023-12-12",
+            "duration": "PT15M16S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 42,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/csv-ingestion-performance-improvements/#video",
+            "name": "CSV ingestion performance improvements",
+            "url": "https://ekote.github.io/fabric/espresso/csv-ingestion-performance-improvements/",
+            "description": "Welcome back to another episode of Fabric Espresso DW series. In this episode, we'll be exploring the ins and outs of recent performance improvements...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/PD3AnXiCQo0/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/PD3AnXiCQo0",
+            "uploadDate": "2023-12-14",
+            "duration": "PT5M3S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 43,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/automated-maintenance-features-in-fabric-warehouse/#video",
+            "name": "Automated maintenance features in Fabric Warehouse",
+            "url": "https://ekote.github.io/fabric/espresso/automated-maintenance-features-in-fabric-warehouse/",
+            "description": "Welcome back to another episode of Fabric Espresso DW series. In this episode, we'll be exploring maintenance features that optimize your tables...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/uKgXKAw00XM/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/uKgXKAw00XM",
+            "uploadDate": "2024-01-04",
+            "duration": "PT10M30S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 44,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/fabric-spark-compute-capabilities-azure-vms-and-their-impact/#video",
+            "name": "Fabric Spark Compute Capabilities - Azure VM's and their impact on performance",
+            "url": "https://ekote.github.io/fabric/espresso/fabric-spark-compute-capabilities-azure-vms-and-their-impact/",
+            "description": "In this episode, Guy and Estera discuss how Fabric Spark, a distributed data processing platform, leverages Azure VM's to achieve high performance and...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/LJAmc1Ng-Ic/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/LJAmc1Ng-Ic",
+            "uploadDate": "2024-02-21",
+            "duration": "PT9M23S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 45,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/consume-warehouse-data-from-other-services/#video",
+            "name": "Consume Warehouse data from other services",
+            "url": "https://ekote.github.io/fabric/espresso/consume-warehouse-data-from-other-services/",
+            "description": "Welcome back to another episode of Fabric Espresso DW series. In this episode, we'll show how you can access your Microsoft Fabric Warehouse tables in...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/SSSlufo9kqM/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/SSSlufo9kqM",
+            "uploadDate": "2024-02-29",
+            "duration": "PT6M47S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 46,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/microsoft-fabric-data-engineering-how-to-make-the-reference-file-work/#video",
+            "name": "Microsoft Fabric Data Engineering - How to make the reference file work in Spark Job Definitions?",
+            "url": "https://ekote.github.io/fabric/espresso/microsoft-fabric-data-engineering-how-to-make-the-reference-file-work/",
+            "description": "Join us in this Fabric Espresso episode as Qixiao Wang and Estera Kot explore the integration of reference files in Spark Job Definitions in Microsoft...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/J1vRWanmd00/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/J1vRWanmd00",
+            "uploadDate": "2024-03-12",
+            "duration": "PT14M13S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 47,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/medallion-architecture-data-design-and-lakehouse-patterns-microsoft/#video",
+            "name": "Medallion Architecture Data Design and Lakehouse Patterns | Microsoft Fabric Data Factory",
+            "url": "https://ekote.github.io/fabric/espresso/medallion-architecture-data-design-and-lakehouse-patterns-microsoft/",
+            "description": "Join us in this Fabric Espresso episode as Abhishek and Estera discuss the Medallion Architecture Data Design and Lakehouse Patterns in Microsoft...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/706MVIBivOU/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/706MVIBivOU",
+            "uploadDate": "2024-03-19",
+            "duration": "PT45M42S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 48,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/fabric-data-science-sales-forecasting-predict-sales-numbers/#video",
+            "name": "Fabric Data Science Sales Forecasting: Predict sales numbers for product categories at a superstore.",
+            "url": "https://ekote.github.io/fabric/espresso/fabric-data-science-sales-forecasting-predict-sales-numbers/",
+            "description": "The Synapse Data Science software as a service (SaaS) experience in Microsoft Fabric can help machine learning professionals build, deploy, and...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/YZP5DWdqUYo/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/YZP5DWdqUYo",
+            "uploadDate": "2024-03-21",
+            "duration": "PT29M11S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 49,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/fabric-data-science-cust-churn-scenario-when-a-customer-will-stop/#video",
+            "name": "Fabric Data Science Cust churn scenario - when a customer will stop doing business with the bank.",
+            "url": "https://ekote.github.io/fabric/espresso/fabric-data-science-cust-churn-scenario-when-a-customer-will-stop/",
+            "description": "The Synapse Data Science software as a service (SaaS) experience in Microsoft Fabric can help machine learning professionals build, deploy, and...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/vC2QzSmh5N4/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/vC2QzSmh5N4",
+            "uploadDate": "2024-03-26",
+            "duration": "PT33M1S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 50,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/what-are-dataflows-gen2-in-fabric-data-factory/#video",
+            "name": "What are Dataflows Gen2 in Fabric Data Factory?",
+            "url": "https://ekote.github.io/fabric/espresso/what-are-dataflows-gen2-in-fabric-data-factory/",
+            "description": "Dataflow Gen2 is the new generation of dataflows. The new generation of dataflows resides alongside the Power BI Dataflow (Gen1) and brings new...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/qfn-LsaXOIA/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/qfn-LsaXOIA",
+            "uploadDate": "2024-03-28",
+            "duration": "PT15M1S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 51,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/dataflow-gen2-data-destinations-in-fabric-data-factory/#video",
+            "name": "Dataflow Gen2 data destinations in Fabric Data Factory",
+            "url": "https://ekote.github.io/fabric/espresso/dataflow-gen2-data-destinations-in-fabric-data-factory/",
+            "description": "Dataflow Gen2 is the new generation of dataflows. The new generation of dataflows resides alongside the Power BI Dataflow (Gen1) and brings new...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/Yek4riSko40/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/Yek4riSko40",
+            "uploadDate": "2024-04-02",
+            "duration": "PT16M11S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 52,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/automate-your-interactions-with-fabric-warehouse/#video",
+            "name": "Automate your interactions with Fabric Warehouse",
+            "url": "https://ekote.github.io/fabric/espresso/automate-your-interactions-with-fabric-warehouse/",
+            "description": "Welcome back to another episode of Fabric Espresso DW series. In this episode, we'll be exploring how you can automate actions in your Fabric solution...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/H__IFLhKPD0/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/H__IFLhKPD0",
+            "uploadDate": "2024-04-23",
+            "duration": "PT5M33S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 53,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/getting-the-most-out-of-the-staging-mechanisms-in-dataflows-gen2/#video",
+            "name": "Getting the most out of the Staging Mechanisms in Dataflows Gen2 Fabric Data Factory",
+            "url": "https://ekote.github.io/fabric/espresso/getting-the-most-out-of-the-staging-mechanisms-in-dataflows-gen2/",
+            "description": "After you've cleaned and prepared your data with Dataflow Gen2, you want to land your data in a destination.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/U9YQyaNFixo/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/U9YQyaNFixo",
+            "uploadDate": "2024-04-25",
+            "duration": "PT10M58S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 54,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/optimize-warehouse-costs-with-capacity-pause-and-resume/#video",
+            "name": "Optimize Warehouse costs with capacity pause and resume",
+            "url": "https://ekote.github.io/fabric/espresso/optimize-warehouse-costs-with-capacity-pause-and-resume/",
+            "description": "Welcome back to another episode of Fabric Espresso DW series. In this episode, we'll be exploring capacity pause and resume features so you can...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/Yompg73vvEw/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/Yompg73vvEw",
+            "uploadDate": "2024-05-21",
+            "duration": "PT10M16S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 55,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/copilot-in-microsoft-fabric-ultimate-demo-of-copilots-in-notebooks-ds/#video",
+            "name": "Copilot in Microsoft Fabric | Ultimate demo of copilots in Notebooks - DS & DE",
+            "url": "https://ekote.github.io/fabric/espresso/copilot-in-microsoft-fabric-ultimate-demo-of-copilots-in-notebooks-ds/",
+            "description": "In this episode, we delve into the use of Copilot within Fabric Data Science and Data Engineering notebooks.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/H3LND_ErY5U/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/H3LND_ErY5U",
+            "uploadDate": "2024-05-28",
+            "duration": "PT15M41S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 56,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/microsoft-fabric-data-science-detecting-machine-failure-classification/#video",
+            "name": "Microsoft Fabric Data Science - Detecting Machine Failure (Classification).",
+            "url": "https://ekote.github.io/fabric/espresso/microsoft-fabric-data-science-detecting-machine-failure-classification/",
+            "description": "Microsoft Fabric Data Science - Detecting Machine Failure (Classification).Predict when manufacturing equipment will fail.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/u_60vpO3PlU/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/u_60vpO3PlU",
+            "uploadDate": "2024-06-04",
+            "duration": "PT23M51S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 57,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/microsoft-fabric-data-engineering-apache-spark-jobs-monitoring/#video",
+            "name": "Microsoft Fabric Data Engineering – Apache Spark Jobs Monitoring",
+            "url": "https://ekote.github.io/fabric/espresso/microsoft-fabric-data-engineering-apache-spark-jobs-monitoring/",
+            "description": "In this episode of Fabric Data Engineering, host Estera Kot and guest expert Jenny Jiang, Principal Product Manager at Fabric Data Engineering, dive...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/afe6vdO_UHw/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/afe6vdO_UHw",
+            "uploadDate": "2024-06-11",
+            "duration": "PT11M11S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 58,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/microsoft-fabric-data-engineering-notebooks-monitoring-and-apache/#video",
+            "name": "Microsoft Fabric Data Engineering - Notebooks Monitoring and Apache Spark Jobs Advisor",
+            "url": "https://ekote.github.io/fabric/espresso/microsoft-fabric-data-engineering-notebooks-monitoring-and-apache/",
+            "description": "In this episode of Fabric Data Engineering, we delve into the world of Notebooks Monitoring and Spark Advisor.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/6AUM9JOxlP8/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/6AUM9JOxlP8",
+            "uploadDate": "2024-06-18",
+            "duration": "PT10M43S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 59,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/fabric-apache-spark-jobs-monitoring-capabilities-resource-usage/#video",
+            "name": "Fabric Apache Spark Jobs monitoring capabilities - Resource Usage Analysis",
+            "url": "https://ekote.github.io/fabric/espresso/fabric-apache-spark-jobs-monitoring-capabilities-resource-usage/",
+            "description": "Microsoft Fabric allows you to operate notebooks, jobs, and various applications using Apache Spark within your workspace.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/SC8a9ks4-Qg/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/SC8a9ks4-Qg",
+            "uploadDate": "2024-06-25",
+            "duration": "PT10M33S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 60,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/fabric-apache-spark-autotune-and-run-series-job-analysis-in-monitoring/#video",
+            "name": "Fabric Apache Spark Autotune and Run Series Job Analysis in Monitoring Hub",
+            "url": "https://ekote.github.io/fabric/espresso/fabric-apache-spark-autotune-and-run-series-job-analysis-in-monitoring/",
+            "description": "In this episode of Fabric Espresso, we delve into two features: Apache Spark Autotune and Run Series Job Analysis.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/iv1kAz_ShEo/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/iv1kAz_ShEo",
+            "uploadDate": "2024-07-02",
+            "duration": "PT17M51S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 61,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/fabric-copilot-billing-pricing/#video",
+            "name": "Fabric Copilot billing pricing",
+            "url": "https://ekote.github.io/fabric/espresso/fabric-copilot-billing-pricing/",
+            "description": "We are pleased to announce the global availability of the public preview of Copilot in Microsoft Fabric.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/iXYQUr4WcGU/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/iXYQUr4WcGU",
+            "uploadDate": "2024-07-09",
+            "duration": "PT26M28S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 62,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/native-execution-engine-for-apache-spark-in-fabric/#video",
+            "name": "Native execution engine for Apache Spark in Fabric",
+            "url": "https://ekote.github.io/fabric/espresso/native-execution-engine-for-apache-spark-in-fabric/",
+            "description": "Native execution engine for Apache Spark on Fabric is a vectorized engine that optimizes the performance and efficiency of your Spark queries by...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/8GJj4QlFlsw/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/8GJj4QlFlsw",
+            "uploadDate": "2024-07-16",
+            "duration": "PT20M30S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 63,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/microsoft-fabric-optimistic-job-admission-for-apache-spark-maximum/#video",
+            "name": "Microsoft Fabric Optimistic Job Admission for Apache Spark - maximum compute utilization by default",
+            "url": "https://ekote.github.io/fabric/espresso/microsoft-fabric-optimistic-job-admission-for-apache-spark-maximum/",
+            "description": "Welcome to our latest video where we dive into the powerful capabilities of Microsoft Fabric's Data Engineering and Data Science experiences!",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/oFkC4hauU88/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/oFkC4hauU88",
+            "uploadDate": "2024-07-23",
+            "duration": "PT19M5S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 64,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/mirroring/#video",
+            "name": "Mirroring",
+            "url": "https://ekote.github.io/fabric/espresso/mirroring/",
+            "description": "Welcome back to another episode of Fabric Espresso DW series. In this episode, we'll be exploring mirroring.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/V6OydGZvjdw/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/V6OydGZvjdw",
+            "uploadDate": "2024-08-01",
+            "duration": "PT6M59S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 65,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/ml-based-autotune-for-apache-spark-jobs-in-ms-fabric-performance/#video",
+            "name": "ML based Autotune for Apache Spark Jobs in MS Fabric performance optimization for recurrent jobs",
+            "url": "https://ekote.github.io/fabric/espresso/ml-based-autotune-for-apache-spark-jobs-in-ms-fabric-performance/",
+            "description": "In this episode of Fabric Espresso, we delve into Autotune. Estera Kot, along with Karuna Sagar Krishna and Yiwen Zhu unpack the technology, use cases...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/qGVaHE53vGc/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/qGVaHE53vGc",
+            "uploadDate": "2024-08-13",
+            "duration": "PT28M11S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 66,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/ingesting-data-into-fabric-warehouse/#video",
+            "name": "Ingesting data into Fabric Warehouse",
+            "url": "https://ekote.github.io/fabric/espresso/ingesting-data-into-fabric-warehouse/",
+            "description": "Welcome back to another episode of Fabric Espresso DW series. In this episode, we're diving into various methods for ingesting data into Fabric Warehouse.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/8TxiiryF7N4/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/8TxiiryF7N4",
+            "uploadDate": "2024-08-20",
+            "duration": "PT5M53S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 67,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/apache-spark-runtimes-in-microsoft-fabric-runtime-1-3-based-on-apache/#video",
+            "name": "Apache Spark Runtimes in Microsoft Fabric – Runtime 1.3 based on Apache Spark 3.5",
+            "url": "https://ekote.github.io/fabric/espresso/apache-spark-runtimes-in-microsoft-fabric-runtime-1-3-based-on-apache/",
+            "description": "Microsoft Fabric Runtime is an Azure-integrated platform based on Apache Spark that enables the execution and management of data engineering and data...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/u3B2U8M0PtI/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/u3B2U8M0PtI",
+            "uploadDate": "2024-08-27",
+            "duration": "PT16M41S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 68,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/data-wrangler-in-microsoft-fabric-an-immersive-interface/#video",
+            "name": "Data Wrangler in Microsoft Fabric (an immersive interface for exploratory data analysis)",
+            "url": "https://ekote.github.io/fabric/espresso/data-wrangler-in-microsoft-fabric-an-immersive-interface/",
+            "description": "In this episode of Fabric Espresso, we delve into Data Wrangler, a notebook-based tool for exploratory data analysis, now supports both Spark...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/EzSStWnyLkc/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/EzSStWnyLkc",
+            "uploadDate": "2024-09-03",
+            "duration": "PT19M5S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 69,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/automl-in-fabric-data-science-automated-model-training/#video",
+            "name": "AutoML in Fabric Data Science - automated model training and optimization (do more with less work!)",
+            "url": "https://ekote.github.io/fabric/espresso/automl-in-fabric-data-science-automated-model-training/",
+            "description": "Microsoft Fabric offers Data Science experiences to empower users to complete end-to-end data science workflows for the purpose of data enrichment and...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/9-Ci6r6TO9w/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/9-Ci6r6TO9w",
+            "uploadDate": "2024-09-10",
+            "duration": "PT19M5S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 70,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/interoperability-of-delta-lake-table-format-in-fabric/#video",
+            "name": "Interoperability of Delta Lake table format in Fabric",
+            "url": "https://ekote.github.io/fabric/espresso/interoperability-of-delta-lake-table-format-in-fabric/",
+            "description": "In Microsoft Fabric, the Delta Lake table format is the standard for analytics. Delta Lake is an open-source storage layer that brings ACID (Atomicity...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/qY0JEGdN6Aw/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/qY0JEGdN6Aw",
+            "uploadDate": "2024-09-17",
+            "duration": "PT15M42S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 71,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/spark-in-microsoft-fabric-and-spark-sql-for-dw-users/#video",
+            "name": "Spark in Microsoft Fabric and Spark SQL for DW Users",
+            "url": "https://ekote.github.io/fabric/espresso/spark-in-microsoft-fabric-and-spark-sql-for-dw-users/",
+            "description": "In this episode of Fabric Espresso, we delve into Apache Spark in Microsoft Fabric for SQL users.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/qzZvGfx16zM/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/qzZvGfx16zM",
+            "uploadDate": "2024-09-24",
+            "duration": "PT34M46S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 72,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/custom-schema-and-multipart-naming-in-microsoft-fabric-lakehouse/#video",
+            "name": "Custom schema and multipart naming in Microsoft Fabric Lakehouse",
+            "url": "https://ekote.github.io/fabric/espresso/custom-schema-and-multipart-naming-in-microsoft-fabric-lakehouse/",
+            "description": "Lakehouse supports the creation of custom schemas. Schemas allow you to group your tables together for better data discovery, access control, and more.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/gjK-tT7C4ZA/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/gjK-tT7C4ZA",
+            "uploadDate": "2024-09-24",
+            "duration": "PT12M25S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 73,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/lifecycle-of-apache-spark-runtimes-in-ms-fabric-unpacking-experimental/#video",
+            "name": "Lifecycle of Apache Spark Runtimes in MS Fabric Unpacking Experimental Preview, GA & End of Support",
+            "url": "https://ekote.github.io/fabric/espresso/lifecycle-of-apache-spark-runtimes-in-ms-fabric-unpacking-experimental/",
+            "description": "The Microsoft Fabric runtime is an Azure-integrated platform based on Apache Spark. It facilitates the execution and management of data engineering and...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/1nlqp5Dv6ko/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/1nlqp5Dv6ko",
+            "uploadDate": "2024-10-08",
+            "duration": "PT16M41S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 74,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/performance-best-practices/#video",
+            "name": "Performance best practices",
+            "url": "https://ekote.github.io/fabric/espresso/performance-best-practices/",
+            "description": "Welcome back to another episode of Fabric Espresso DW series. In this episode, we'll be exploring the best practices for achieving optimal query...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/QYbpLSUoghI/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/QYbpLSUoghI",
+            "uploadDate": "2024-10-16",
+            "duration": "PT17M24S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 75,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/apache-airflow-job-in-microsoft-fabric/#video",
+            "name": "Apache Airflow Job in Microsoft Fabric",
+            "url": "https://ekote.github.io/fabric/espresso/apache-airflow-job-in-microsoft-fabric/",
+            "description": "Apache Airflow job in Microsoft Fabric provides an integrated, cloud-based platform for development, scheduling, and monitoring python-based data...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/ykF3HfK8-6k/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/ykF3HfK8-6k",
+            "uploadDate": "2024-10-23",
+            "duration": "PT36M33S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 76,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/job-queueing-for-notebook-in-microsoft-fabric-spark-compute/#video",
+            "name": "Job Queueing for Notebook in Microsoft Fabric | Spark Compute",
+            "url": "https://ekote.github.io/fabric/espresso/job-queueing-for-notebook-in-microsoft-fabric-spark-compute/",
+            "description": "Microsoft Fabric supports job queueing for Spark compute when capacity limits are reached, ensuring jobs are retried until they either execute or expire.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/kj9IzL2Iyuc/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/kj9IzL2Iyuc",
+            "uploadDate": "2024-10-29",
+            "duration": "PT27M14S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 77,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/microsoft-fabric-environment-a-consolidated-item-for-all-your-hardware/#video",
+            "name": "Microsoft Fabric environment - A consolidated item for all your hardware and software settings",
+            "url": "https://ekote.github.io/fabric/espresso/microsoft-fabric-environment-a-consolidated-item-for-all-your-hardware/",
+            "description": "The environment serves as a comprehensive container for both your hardware and software settings within Spark.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/3w9c15kaGkU/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/3w9c15kaGkU",
+            "uploadDate": "2024-11-05",
+            "duration": "PT23M6S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 78,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/hyperparameter-tuning-in-fabric-data-science/#video",
+            "name": "Hyperparameter tuning in Fabric Data Science",
+            "url": "https://ekote.github.io/fabric/espresso/hyperparameter-tuning-in-fabric-data-science/",
+            "description": "Hyperparameter tuning involves determining the optimal values for parameters not learned by the machine learning model during training but set by the...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/eXZLxRPOzzQ/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/eXZLxRPOzzQ",
+            "uploadDate": "2024-11-12",
+            "duration": "PT13M20S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 79,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/high-concurrency-mode-for-notebooks-in-pipelines-for-fabric-spark/#video",
+            "name": "High Concurrency Mode for Notebooks in Pipelines for Fabric Spark",
+            "url": "https://ekote.github.io/fabric/espresso/high-concurrency-mode-for-notebooks-in-pipelines-for-fabric-spark/",
+            "description": "With high concurrency mode, we’re bringing a game-changing way to orchestrate your data ingestion and transformation processes in enterprise workflows.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/AF6HUl4wImM/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/AF6HUl4wImM",
+            "uploadDate": "2024-11-19",
+            "duration": "PT16M1S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 80,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/low-code-automl-ui-in-microsoft-fabric-data-science/#video",
+            "name": "Low Code AutoML UI in Microsoft Fabric Data Science",
+            "url": "https://ekote.github.io/fabric/espresso/low-code-automl-ui-in-microsoft-fabric-data-science/",
+            "description": "AutoML (Automated Machine Learning) is a collection of methods and tools that automate machine learning model training and optimization with little...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/NMqnMrEKOqs/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/NMqnMrEKOqs",
+            "uploadDate": "2024-11-26",
+            "duration": "PT12M"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 81,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/microsoft-fabric-product-group-presents-t-sql-support-in-microsoft/#video",
+            "name": "Microsoft Fabric Product Group presents T-SQL support in Microsoft Fabric Notebooks",
+            "url": "https://ekote.github.io/fabric/espresso/microsoft-fabric-product-group-presents-t-sql-support-in-microsoft/",
+            "description": "The T-SQL notebook feature in Microsoft Fabric lets you write and run T-SQL code within a notebook.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/V6rlyj5TiWg/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/V6rlyj5TiWg",
+            "uploadDate": "2024-12-03",
+            "duration": "PT9M11S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 82,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/microsoft-fabric-spark-diagnostic-emitter-for-logs-and-metrics/#video",
+            "name": "Microsoft Fabric Spark Diagnostic Emitter for Logs and Metrics",
+            "url": "https://ekote.github.io/fabric/espresso/microsoft-fabric-spark-diagnostic-emitter-for-logs-and-metrics/",
+            "description": "Fabric Apache Spark Diagnostic Emitter for Logs and Metrics is now in public preview. This new feature allows Apache Spark users to collect Spark logs...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/NOwtY6yhrx4/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/NOwtY6yhrx4",
+            "uploadDate": "2024-12-11",
+            "duration": "PT14M41S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 83,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/microsoft-fabric-product-group-presents-security-in-fabric-data/#video",
+            "name": "Microsoft Fabric Product Group presents: Security in Fabric Data Engineering",
+            "url": "https://ekote.github.io/fabric/espresso/microsoft-fabric-product-group-presents-security-in-fabric-data/",
+            "description": "Microsoft Fabric is a SaaS platform that lets you easily connect, process, and visualize data, all within a single, secure environment.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/xTF8AaQJrXY/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/xTF8AaQJrXY",
+            "uploadDate": "2024-12-17",
+            "duration": "PT30M39S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 84,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/fabrics-native-spark-the-end-of-the-jvm-bottleneck/#video",
+            "name": "Fabric's Native Spark: The end of the JVM Bottleneck",
+            "url": "https://ekote.github.io/fabric/espresso/fabrics-native-spark-the-end-of-the-jvm-bottleneck/",
+            "description": "Microsoft Fabric just delivered what data engineers have been waiting for, a way to finally escape the JVM performance prison that's been choking Spark...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/FAjwdPCcGRw/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/FAjwdPCcGRw",
+            "uploadDate": "2025-08-25",
+            "duration": "PT5M43S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 85,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/fabric-in-production-inside-view-from-microsofts-product-team-justyna/#video",
+            "name": "Fabric in production: inside view from Microsoft's Product Team Justyna Lucznik",
+            "url": "https://ekote.github.io/fabric/espresso/fabric-in-production-inside-view-from-microsofts-product-team-justyna/",
+            "description": "Microsoft Fabric isn’t just another data platform, it’s the unification of Synapse, Power BI, ADF, and more into one powerful ecosystem built for scale.",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/lMqnSne5ee0/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/lMqnSne5ee0",
+            "uploadDate": "2025-09-10",
+            "duration": "PT8M"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 86,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/microsoft-purview-a-service-for-handling-enterprise-data-governance/#video",
+            "name": "Microsoft Purview - A Service for Handling Enterprise Data Governance Challenges in AI-Enabled World",
+            "url": "https://ekote.github.io/fabric/espresso/microsoft-purview-a-service-for-handling-enterprise-data-governance/",
+            "description": "Enterprise organizations deploying AI tools face critical data governance gaps. Microsoft Purview addresses these challenges through integrated...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/gLSHIQWztWA/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/gLSHIQWztWA",
+            "uploadDate": "2025-09-30",
+            "duration": "PT16M31S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 87,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/ai-agents-and-chain-of-debate-building-intelligent-multi-agent-systems/#video",
+            "name": "AI Agents and Chain of Debate: Building Intelligent Multi-Agent Systems with Microsoft AI Foundry",
+            "url": "https://ekote.github.io/fabric/espresso/ai-agents-and-chain-of-debate-building-intelligent-multi-agent-systems/",
+            "description": "In this episode of AI Espresso, Michał Furmankiewicz and Estera Kot explore the emerging world of AI agents - autonomous systems powered by large...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/uBDwx6wgSyk/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/uBDwx6wgSyk",
+            "uploadDate": "2025-11-04",
+            "duration": "PT19M19S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 88,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/data-clustering-on-fabric-data-warehouse/#video",
+            "name": "Data Clustering on Fabric Data Warehouse",
+            "url": "https://ekote.github.io/fabric/espresso/data-clustering-on-fabric-data-warehouse/",
+            "description": "In this episode of Fabric Espresso, Joanna Podgoetsky hosts Peri Rocha, Senior Product Manager for Microsoft Fabric Data Warehouse, to explore the Data...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/SJ4df1RMt1U/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/SJ4df1RMt1U",
+            "uploadDate": "2025-11-19",
+            "duration": "PT10M41S"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 89,
+          "item": {
+            "@type": "VideoObject",
+            "@id": "https://ekote.github.io/fabric/espresso/data-clustering-on-fabric-data-warehouse-2/#video",
+            "name": "Data Clustering on Fabric Data Warehouse",
+            "url": "https://ekote.github.io/fabric/espresso/data-clustering-on-fabric-data-warehouse-2/",
+            "description": "In this episode of Fabric Espresso, Joanna Podgoetsky hosts Peri Rocha, Senior Product Manager for Microsoft Fabric Data Warehouse, to explore the Data...",
+            "thumbnailUrl": [
+              "https://i.ytimg.com/vi/jRcyphMmHRg/hqdefault.jpg"
+            ],
+            "embedUrl": "https://www.youtube.com/embed/jRcyphMmHRg",
+            "uploadDate": "2025-12-02",
+            "duration": "PT10M41S"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ekote.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Microsoft Fabric",
+          "item": "https://ekote.github.io/fabric/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fabric Espresso",
+          "item": "https://ekote.github.io/fabric/espresso/"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ekote.github.io/#person",
+      "name": "Estera Kot",
+      "honorificPrefix": "Dr.",
+      "url": "https://ekote.github.io/"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+  <!-- generated by fabric/espresso/build_episodes.py -->
+  <header class="topbar">
+    <div class="inner">
+      <a class="brand" href="../../">Dr. Estera Kot</a>
+      <nav>
+        <a href="../../">Home</a>
+        <a href="../">Fabric guide</a>
+        <a href="./">Fabric Espresso</a>
+        <a href="../../#publications">Publications</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../../">Home</a> / <a href="../">Microsoft Fabric</a></nav>
+    <h1>Fabric Espresso</h1>
+    <p class="title">The Microsoft Fabric video series by Dr. Estera Kot</p>
+    <p>Fabric Espresso is a technical video series on Microsoft Fabric. Dr. Estera Kot created the series and hosts it. Most episodes feature guests from the Microsoft Fabric product group, the engineers and product managers who build the features under discussion. The YouTube descriptions name Dr. Kot as host or speaker on 53 of the 89 episodes. Product group colleagues host others, including the Warehouse series.</p>
+    <p>Episodes cover Spark in Fabric, the Native Execution Engine, Data Engineering, Data Science, Warehouse, Data Factory, Real-Time Intelligence, and governance. The 89 episodes run about 22 hours in total. Episodes were published between June 2023 and December 2025.</p>
+    <p>The full series is on YouTube: <a href="https://www.youtube.com/playlist?list=PLnfmGXUkCC7SypXJ6AcSk155pcUS0DPIX">Fabric Espresso playlist</a>.</p>
+    <p class="note">Episodes are grouped by topic and numbered in publication order. Each episode page carries the YouTube description, the chapter list where YouTube has one, and a link to the video.</p>
+    <h2 style="margin-top:32px">Topics</h2>
+    <ul class="topics">
+      <li><a href="#spark-data-engineering">Spark and Data Engineering</a> (29)</li>
+      <li><a href="#data-science-ml">Data Science and Machine Learning</a> (12)</li>
+      <li><a href="#warehouse">Warehouse</a> (18)</li>
+      <li><a href="#data-factory-dataflows">Data Factory and Dataflows</a> (5)</li>
+      <li><a href="#real-time-kql">Real-Time Intelligence and KQL</a> (5)</li>
+      <li><a href="#lakehouse-onelake">Lakehouse and OneLake</a> (9)</li>
+      <li><a href="#governance-security">Governance, Security, and Purview</a> (5)</li>
+      <li><a href="#ai-copilot-agents">AI, Copilot, and Agents</a> (3)</li>
+      <li><a href="#other">Other topics</a> (3)</li>
+    </ul>
+    <section id="spark-data-engineering">
+      <h2>Spark and Data Engineering</h2>
+      <table class="eps">
+        <thead><tr><th class="num" scope="col">No.</th><th scope="col">Episode</th><th scope="col">Length</th><th scope="col">Published</th></tr></thead>
+        <tbody>
+          <tr><td class="num">13</td><td class="title"><a href="top-microsoft-fabric-features-that-every-data-engineer-should-know/">Top Microsoft Fabric Features that Every Data Engineer Should Know</a></td><td class="len">8:57</td><td class="date">Jul 25, 2023</td></tr>
+          <tr><td class="num">15</td><td class="title"><a href="data-engineer-perspective-on-loading-data-for-fabric-uploads-data/">Data Engineer perspective on loading data for Fabric: Uploads, Data Flows, Copy Tool or Shortcuts?</a></td><td class="len">8:44</td><td class="date">Aug 1, 2023</td></tr>
+          <tr><td class="num">17</td><td class="title"><a href="data-engineers-perspective-on-storing-data-in-fabric-lakehouse/">Data Engineer’s perspective on storing data in Fabric: Lakehouse or Warehouse?</a></td><td class="len">5:05</td><td class="date">Aug 8, 2023</td></tr>
+          <tr><td class="num">23</td><td class="title"><a href="spark-compute-in-fabric-data-engineering-and-data-science-starter/">Spark Compute in Fabric Data Engineering and Data Science - Starter Pools vs Custom Pools Unveiled!</a></td><td class="len">16:55</td><td class="date">Aug 30, 2023</td></tr>
+          <tr><td class="num">24</td><td class="title"><a href="high-concurrency-mode-in-microsoft-fabric/">High Concurrency Mode in Microsoft Fabric</a></td><td class="len">16:09</td><td class="date">Sep 5, 2023</td></tr>
+          <tr><td class="num">25</td><td class="title"><a href="spark-data-engineering-patterns-shortcuts-and-external-tables/">Spark Data Engineering Patterns – Shortcuts and external tables</a></td><td class="len">15:47</td><td class="date">Sep 13, 2023</td></tr>
+          <tr><td class="num">31</td><td class="title"><a href="spark-data-engineering-patterns-optimizing-delta-tables-for-power-bi/">Spark Data Engineering Patterns Optimizing Delta Tables for Power Bi in Microsoft Fabric</a></td><td class="len">16:26</td><td class="date">Oct 3, 2023</td></tr>
+          <tr><td class="num">33</td><td class="title"><a href="microsoft-fabric-notebooks-showcase-with-advanced-features/">Microsoft Fabric Notebooks - Showcase with advanced features</a></td><td class="len">27:51</td><td class="date">Oct 10, 2023</td></tr>
+          <tr><td class="num">34</td><td class="title"><a href="microsoft-fabric-spark-integration-and-vs-code/">Microsoft Fabric Spark integration and VS Code</a></td><td class="len">27:10</td><td class="date">Oct 24, 2023</td></tr>
+          <tr><td class="num">36</td><td class="title"><a href="microsoft-fabric-spark-utilities-mssparkutils/">Microsoft Fabric Spark Utilities - mssparkutils</a></td><td class="len">21:16</td><td class="date">Nov 7, 2023</td></tr>
+          <tr><td class="num">38</td><td class="title"><a href="data-engineering-starter-kit-quick-start-with-fabric-product-group/">Data Engineering Starter Kit - Quick Start with Fabric Product Group</a></td><td class="len">12:13</td><td class="date">Nov 28, 2023</td></tr>
+          <tr><td class="num">44</td><td class="title"><a href="fabric-spark-compute-capabilities-azure-vms-and-their-impact/">Fabric Spark Compute Capabilities - Azure VM&#x27;s and their impact on performance</a></td><td class="len">9:23</td><td class="date">Feb 21, 2024</td></tr>
+          <tr><td class="num">46</td><td class="title"><a href="microsoft-fabric-data-engineering-how-to-make-the-reference-file-work/">Microsoft Fabric Data Engineering - How to make the reference file work in Spark Job Definitions?</a></td><td class="len">14:13</td><td class="date">Mar 12, 2024</td></tr>
+          <tr><td class="num">57</td><td class="title"><a href="microsoft-fabric-data-engineering-apache-spark-jobs-monitoring/">Microsoft Fabric Data Engineering – Apache Spark Jobs Monitoring</a></td><td class="len">11:11</td><td class="date">Jun 11, 2024</td></tr>
+          <tr><td class="num">58</td><td class="title"><a href="microsoft-fabric-data-engineering-notebooks-monitoring-and-apache/">Microsoft Fabric Data Engineering - Notebooks Monitoring and Apache Spark Jobs Advisor</a></td><td class="len">10:43</td><td class="date">Jun 18, 2024</td></tr>
+          <tr><td class="num">59</td><td class="title"><a href="fabric-apache-spark-jobs-monitoring-capabilities-resource-usage/">Fabric Apache Spark Jobs monitoring capabilities - Resource Usage Analysis</a></td><td class="len">10:33</td><td class="date">Jun 25, 2024</td></tr>
+          <tr><td class="num">60</td><td class="title"><a href="fabric-apache-spark-autotune-and-run-series-job-analysis-in-monitoring/">Fabric Apache Spark Autotune and Run Series Job Analysis in Monitoring Hub</a></td><td class="len">17:51</td><td class="date">Jul 2, 2024</td></tr>
+          <tr><td class="num">62</td><td class="title"><a href="native-execution-engine-for-apache-spark-in-fabric/">Native execution engine for Apache Spark in Fabric</a></td><td class="len">20:30</td><td class="date">Jul 16, 2024</td></tr>
+          <tr><td class="num">63</td><td class="title"><a href="microsoft-fabric-optimistic-job-admission-for-apache-spark-maximum/">Microsoft Fabric Optimistic Job Admission for Apache Spark - maximum compute utilization by default</a></td><td class="len">19:05</td><td class="date">Jul 23, 2024</td></tr>
+          <tr><td class="num">65</td><td class="title"><a href="ml-based-autotune-for-apache-spark-jobs-in-ms-fabric-performance/">ML based Autotune for Apache Spark Jobs in MS Fabric performance optimization for recurrent jobs</a></td><td class="len">28:11</td><td class="date">Aug 13, 2024</td></tr>
+          <tr><td class="num">67</td><td class="title"><a href="apache-spark-runtimes-in-microsoft-fabric-runtime-1-3-based-on-apache/">Apache Spark Runtimes in Microsoft Fabric – Runtime 1.3 based on Apache Spark 3.5</a></td><td class="len">16:41</td><td class="date">Aug 27, 2024</td></tr>
+          <tr><td class="num">71</td><td class="title"><a href="spark-in-microsoft-fabric-and-spark-sql-for-dw-users/">Spark in Microsoft Fabric and Spark SQL for DW Users</a></td><td class="len">34:46</td><td class="date">Sep 24, 2024</td></tr>
+          <tr><td class="num">73</td><td class="title"><a href="lifecycle-of-apache-spark-runtimes-in-ms-fabric-unpacking-experimental/">Lifecycle of Apache Spark Runtimes in MS Fabric Unpacking Experimental Preview, GA &amp; End of Support</a></td><td class="len">16:41</td><td class="date">Oct 8, 2024</td></tr>
+          <tr><td class="num">76</td><td class="title"><a href="job-queueing-for-notebook-in-microsoft-fabric-spark-compute/">Job Queueing for Notebook in Microsoft Fabric | Spark Compute</a></td><td class="len">27:14</td><td class="date">Oct 29, 2024</td></tr>
+          <tr><td class="num">77</td><td class="title"><a href="microsoft-fabric-environment-a-consolidated-item-for-all-your-hardware/">Microsoft Fabric environment - A consolidated item for all your hardware and software settings</a></td><td class="len">23:06</td><td class="date">Nov 5, 2024</td></tr>
+          <tr><td class="num">79</td><td class="title"><a href="high-concurrency-mode-for-notebooks-in-pipelines-for-fabric-spark/">High Concurrency Mode for Notebooks in Pipelines for Fabric Spark</a></td><td class="len">16:01</td><td class="date">Nov 19, 2024</td></tr>
+          <tr><td class="num">81</td><td class="title"><a href="microsoft-fabric-product-group-presents-t-sql-support-in-microsoft/">Microsoft Fabric Product Group presents T-SQL support in Microsoft Fabric Notebooks</a></td><td class="len">9:11</td><td class="date">Dec 3, 2024</td></tr>
+          <tr><td class="num">82</td><td class="title"><a href="microsoft-fabric-spark-diagnostic-emitter-for-logs-and-metrics/">Microsoft Fabric Spark Diagnostic Emitter for Logs and Metrics</a></td><td class="len">14:41</td><td class="date">Dec 11, 2024</td></tr>
+          <tr><td class="num">84</td><td class="title"><a href="fabrics-native-spark-the-end-of-the-jvm-bottleneck/">Fabric&#x27;s Native Spark: The end of the JVM Bottleneck</a></td><td class="len">5:43</td><td class="date">Aug 25, 2025</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="data-science-ml">
+      <h2>Data Science and Machine Learning</h2>
+      <table class="eps">
+        <thead><tr><th class="num" scope="col">No.</th><th scope="col">Episode</th><th scope="col">Length</th><th scope="col">Published</th></tr></thead>
+        <tbody>
+          <tr><td class="num">19</td><td class="title"><a href="data-science-in-microsoft-fabric-data-preparation-and-exploration/">Data Science in Microsoft Fabric – Data preparation and exploration with Data Wrangler</a></td><td class="len">19:15</td><td class="date">Aug 15, 2023</td></tr>
+          <tr><td class="num">28</td><td class="title"><a href="data-science-in-microsoft-fabric-model-scoring-with-predict/">Data Science in Microsoft Fabric – Model scoring with PREDICT</a></td><td class="len">25:32</td><td class="date">Sep 26, 2023</td></tr>
+          <tr><td class="num">37</td><td class="title"><a href="r-programming-language-in-microsoft-fabric-an-insightful-overview/">R (Programming Language) in Microsoft Fabric - An Insightful Overview with Fabric Product Group</a></td><td class="len">16:52</td><td class="date">Nov 21, 2023</td></tr>
+          <tr><td class="num">40</td><td class="title"><a href="model-and-experiment-tracking-in-fabric-data-science-mlflow/">Model &amp; Experiment Tracking in Fabric Data Science (MLFLOW)</a></td><td class="len">20:24</td><td class="date">Dec 5, 2023</td></tr>
+          <tr><td class="num">41</td><td class="title"><a href="autologging-and-mlflow-in-fabric-data-science/">Autologging and MLFlow in Fabric Data Science</a></td><td class="len">15:16</td><td class="date">Dec 12, 2023</td></tr>
+          <tr><td class="num">48</td><td class="title"><a href="fabric-data-science-sales-forecasting-predict-sales-numbers/">Fabric Data Science Sales Forecasting: Predict sales numbers for product categories at a superstore.</a></td><td class="len">29:11</td><td class="date">Mar 21, 2024</td></tr>
+          <tr><td class="num">49</td><td class="title"><a href="fabric-data-science-cust-churn-scenario-when-a-customer-will-stop/">Fabric Data Science Cust churn scenario - when a customer will stop doing business with the bank.</a></td><td class="len">33:01</td><td class="date">Mar 26, 2024</td></tr>
+          <tr><td class="num">56</td><td class="title"><a href="microsoft-fabric-data-science-detecting-machine-failure-classification/">Microsoft Fabric Data Science - Detecting Machine Failure (Classification).</a></td><td class="len">23:51</td><td class="date">Jun 4, 2024</td></tr>
+          <tr><td class="num">68</td><td class="title"><a href="data-wrangler-in-microsoft-fabric-an-immersive-interface/">Data Wrangler in Microsoft Fabric (an immersive interface for exploratory data analysis)</a></td><td class="len">19:05</td><td class="date">Sep 3, 2024</td></tr>
+          <tr><td class="num">69</td><td class="title"><a href="automl-in-fabric-data-science-automated-model-training/">AutoML in Fabric Data Science - automated model training and optimization (do more with less work!)</a></td><td class="len">19:05</td><td class="date">Sep 10, 2024</td></tr>
+          <tr><td class="num">78</td><td class="title"><a href="hyperparameter-tuning-in-fabric-data-science/">Hyperparameter tuning in Fabric Data Science</a></td><td class="len">13:20</td><td class="date">Nov 12, 2024</td></tr>
+          <tr><td class="num">80</td><td class="title"><a href="low-code-automl-ui-in-microsoft-fabric-data-science/">Low Code AutoML UI in Microsoft Fabric Data Science</a></td><td class="len">12:00</td><td class="date">Nov 26, 2024</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="warehouse">
+      <h2>Warehouse</h2>
+      <table class="eps">
+        <thead><tr><th class="num" scope="col">No.</th><th scope="col">Episode</th><th scope="col">Length</th><th scope="col">Published</th></tr></thead>
+        <tbody>
+          <tr><td class="num">12</td><td class="title"><a href="table-clone-in-warehouse-within-microsoft-fabric/">Fabric Espresso: Table clone in Warehouse within Microsoft Fabric</a></td><td class="len">5:56</td><td class="date">Jul 6, 2023</td></tr>
+          <tr><td class="num">14</td><td class="title"><a href="performance-at-scale-with-microsoft-fabric-query-processing/">Performance at Scale with Microsoft Fabric: Query Processing!</a></td><td class="len">9:04</td><td class="date">Jul 27, 2023</td></tr>
+          <tr><td class="num">16</td><td class="title"><a href="performance-at-scale-with-microsoft-fabric-query-optimizations/">Performance at Scale with Microsoft Fabric: Query Optimizations!</a></td><td class="len">7:31</td><td class="date">Aug 3, 2023</td></tr>
+          <tr><td class="num">18</td><td class="title"><a href="performance-at-scale-with-microsoft-fabric-concurrency/">Performance at Scale with Microsoft Fabric: Concurrency!</a></td><td class="len">5:46</td><td class="date">Aug 10, 2023</td></tr>
+          <tr><td class="num">20</td><td class="title"><a href="learn-to-share-a-microsoft-fabric-warehouse/">Learn to Share a Microsoft Fabric Warehouse!</a></td><td class="len">6:50</td><td class="date">Aug 17, 2023</td></tr>
+          <tr><td class="num">29</td><td class="title"><a href="utilization-reporting-for-warehouse/">Utilization Reporting for Warehouse!</a></td><td class="len">8:19</td><td class="date">Sep 28, 2023</td></tr>
+          <tr><td class="num">30</td><td class="title"><a href="caching-in-data-warehousing/">Caching in data warehousing</a></td><td class="len">4:03</td><td class="date">Sep 29, 2023</td></tr>
+          <tr><td class="num">39</td><td class="title"><a href="microsoft-fabric-capacity-smoothing-and-data-warehouse-throttling/">Microsoft Fabric Capacity Smoothing and Data Warehouse Throttling</a></td><td class="len">14:55</td><td class="date">Nov 30, 2023</td></tr>
+          <tr><td class="num">42</td><td class="title"><a href="csv-ingestion-performance-improvements/">CSV ingestion performance improvements</a></td><td class="len">5:03</td><td class="date">Dec 14, 2023</td></tr>
+          <tr><td class="num">43</td><td class="title"><a href="automated-maintenance-features-in-fabric-warehouse/">Automated maintenance features in Fabric Warehouse</a></td><td class="len">10:30</td><td class="date">Jan 4, 2024</td></tr>
+          <tr><td class="num">45</td><td class="title"><a href="consume-warehouse-data-from-other-services/">Consume Warehouse data from other services</a></td><td class="len">6:47</td><td class="date">Feb 29, 2024</td></tr>
+          <tr><td class="num">52</td><td class="title"><a href="automate-your-interactions-with-fabric-warehouse/">Automate your interactions with Fabric Warehouse</a></td><td class="len">5:33</td><td class="date">Apr 23, 2024</td></tr>
+          <tr><td class="num">54</td><td class="title"><a href="optimize-warehouse-costs-with-capacity-pause-and-resume/">Optimize Warehouse costs with capacity pause and resume</a></td><td class="len">10:16</td><td class="date">May 21, 2024</td></tr>
+          <tr><td class="num">64</td><td class="title"><a href="mirroring/">Mirroring</a></td><td class="len">6:59</td><td class="date">Aug 1, 2024</td></tr>
+          <tr><td class="num">66</td><td class="title"><a href="ingesting-data-into-fabric-warehouse/">Ingesting data into Fabric Warehouse</a></td><td class="len">5:53</td><td class="date">Aug 20, 2024</td></tr>
+          <tr><td class="num">74</td><td class="title"><a href="performance-best-practices/">Performance best practices</a></td><td class="len">17:24</td><td class="date">Oct 16, 2024</td></tr>
+          <tr><td class="num">88</td><td class="title"><a href="data-clustering-on-fabric-data-warehouse/">Data Clustering on Fabric Data Warehouse</a></td><td class="len">10:41</td><td class="date">Nov 19, 2025</td></tr>
+          <tr><td class="num">89</td><td class="title"><a href="data-clustering-on-fabric-data-warehouse-2/">Data Clustering on Fabric Data Warehouse</a></td><td class="len">10:41</td><td class="date">Dec 2, 2025</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="data-factory-dataflows">
+      <h2>Data Factory and Dataflows</h2>
+      <table class="eps">
+        <thead><tr><th class="num" scope="col">No.</th><th scope="col">Episode</th><th scope="col">Length</th><th scope="col">Published</th></tr></thead>
+        <tbody>
+          <tr><td class="num">47</td><td class="title"><a href="medallion-architecture-data-design-and-lakehouse-patterns-microsoft/">Medallion Architecture Data Design and Lakehouse Patterns | Microsoft Fabric Data Factory</a></td><td class="len">45:42</td><td class="date">Mar 19, 2024</td></tr>
+          <tr><td class="num">50</td><td class="title"><a href="what-are-dataflows-gen2-in-fabric-data-factory/">What are Dataflows Gen2 in Fabric Data Factory?</a></td><td class="len">15:01</td><td class="date">Mar 28, 2024</td></tr>
+          <tr><td class="num">51</td><td class="title"><a href="dataflow-gen2-data-destinations-in-fabric-data-factory/">Dataflow Gen2 data destinations in Fabric Data Factory</a></td><td class="len">16:11</td><td class="date">Apr 2, 2024</td></tr>
+          <tr><td class="num">53</td><td class="title"><a href="getting-the-most-out-of-the-staging-mechanisms-in-dataflows-gen2/">Getting the most out of the Staging Mechanisms in Dataflows Gen2 Fabric Data Factory</a></td><td class="len">10:58</td><td class="date">Apr 25, 2024</td></tr>
+          <tr><td class="num">75</td><td class="title"><a href="apache-airflow-job-in-microsoft-fabric/">Apache Airflow Job in Microsoft Fabric</a></td><td class="len">36:33</td><td class="date">Oct 23, 2024</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="real-time-kql">
+      <h2>Real-Time Intelligence and KQL</h2>
+      <table class="eps">
+        <thead><tr><th class="num" scope="col">No.</th><th scope="col">Episode</th><th scope="col">Length</th><th scope="col">Published</th></tr></thead>
+        <tbody>
+          <tr><td class="num">2</td><td class="title"><a href="synapse-real-time-analytics-how-to-get-data-into-a-kql-database/">Synapse Real-time Analytics: How to Get Data into a KQL Database</a></td><td class="len">10:24</td><td class="date">Jun 7, 2023</td></tr>
+          <tr><td class="num">5</td><td class="title"><a href="synapse-real-time-analytics-stream-data-from-eventstream-into-a-kql/">Synapse Real-Time Analytics: Stream data from Eventstream into a KQL database for powerful analytics</a></td><td class="len">7:51</td><td class="date">Jun 14, 2023</td></tr>
+          <tr><td class="num">8</td><td class="title"><a href="synapse-real-time-analytics-get-started-with-kql/">Synapse Real-Time Analytics: Get started with KQL</a></td><td class="len">13:27</td><td class="date">Jun 21, 2023</td></tr>
+          <tr><td class="num">11</td><td class="title"><a href="synapse-real-time-analytics-stream-data-from-event-hubs-into-a-kql/">Synapse Real-Time Analytics: Stream data from Event Hubs into a KQL database for powerful analytics</a></td><td class="len">10:44</td><td class="date">Jun 28, 2023</td></tr>
+          <tr><td class="num">26</td><td class="title"><a href="real-time-data-sharing-in-microsoft-fabric/">Real-Time Data Sharing in Microsoft Fabric</a></td><td class="len">9:11</td><td class="date">Sep 18, 2023</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="lakehouse-onelake">
+      <h2>Lakehouse and OneLake</h2>
+      <table class="eps">
+        <thead><tr><th class="num" scope="col">No.</th><th scope="col">Episode</th><th scope="col">Length</th><th scope="col">Published</th></tr></thead>
+        <tbody>
+          <tr><td class="num">3</td><td class="title"><a href="onelake-as-the-glue-in-microsoft-fabric/">Fabric Espresso: OneLake as the glue In Microsoft Fabric</a></td><td class="len">5:40</td><td class="date">Jun 8, 2023</td></tr>
+          <tr><td class="num">4</td><td class="title"><a href="tap-into-existing-data-with-shortcuts/">Fabric Espresso: Tap into existing data with Shortcuts</a></td><td class="len">7:39</td><td class="date">Jun 12, 2023</td></tr>
+          <tr><td class="num">6</td><td class="title"><a href="building-a-landing-zone-in-microsoft-fabric/">Fabric Espresso: Building a Landing zone in Microsoft Fabric</a></td><td class="len">9:34</td><td class="date">Jun 15, 2023</td></tr>
+          <tr><td class="num">7</td><td class="title"><a href="loading-data-from-landing-to-bronze/">Fabric Espresso: Loading Data from Landing to Bronze!</a></td><td class="len">6:37</td><td class="date">Jun 19, 2023</td></tr>
+          <tr><td class="num">9</td><td class="title"><a href="loading-existing-delta-tables-to-silver/">Fabric Espresso: Loading existing Delta Tables to Silver!</a></td><td class="len">5:14</td><td class="date">Jun 22, 2023</td></tr>
+          <tr><td class="num">21</td><td class="title"><a href="enabling-data-mesh-with-onelake-on-microsoft-fabric/">Enabling Data Mesh with OneLake on Microsoft Fabric</a></td><td class="len">15:00</td><td class="date">Aug 22, 2023</td></tr>
+          <tr><td class="num">27</td><td class="title"><a href="getting-data-into-your-microsoft-fabric-lakehouse-using-load-to-tables/">Getting data into your Microsoft Fabric Lakehouse using Load to Tables</a></td><td class="len">9:10</td><td class="date">Sep 19, 2023</td></tr>
+          <tr><td class="num">70</td><td class="title"><a href="interoperability-of-delta-lake-table-format-in-fabric/">Interoperability of Delta Lake table format in Fabric</a></td><td class="len">15:42</td><td class="date">Sep 17, 2024</td></tr>
+          <tr><td class="num">72</td><td class="title"><a href="custom-schema-and-multipart-naming-in-microsoft-fabric-lakehouse/">Custom schema and multipart naming in Microsoft Fabric Lakehouse</a></td><td class="len">12:25</td><td class="date">Sep 24, 2024</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="governance-security">
+      <h2>Governance, Security, and Purview</h2>
+      <table class="eps">
+        <thead><tr><th class="num" scope="col">No.</th><th scope="col">Episode</th><th scope="col">Length</th><th scope="col">Published</th></tr></thead>
+        <tbody>
+          <tr><td class="num">22</td><td class="title"><a href="granular-access-control-for-warehouse/">Granular Access Control for Warehouse!</a></td><td class="len">4:54</td><td class="date">Aug 24, 2023</td></tr>
+          <tr><td class="num">32</td><td class="title"><a href="row-level-security-in-fabric-warehouse-and-sql-endpoint/">Row-Level security in Fabric Warehouse &amp; SQL Endpoint</a></td><td class="len">5:32</td><td class="date">Oct 5, 2023</td></tr>
+          <tr><td class="num">35</td><td class="title"><a href="permissions-in-microsoft-fabric-workspace-and-sql/">Permissions in Microsoft Fabric Workspace and SQL</a></td><td class="len">12:51</td><td class="date">Oct 31, 2023</td></tr>
+          <tr><td class="num">83</td><td class="title"><a href="microsoft-fabric-product-group-presents-security-in-fabric-data/">Microsoft Fabric Product Group presents: Security in Fabric Data Engineering</a></td><td class="len">30:39</td><td class="date">Dec 17, 2024</td></tr>
+          <tr><td class="num">86</td><td class="title"><a href="microsoft-purview-a-service-for-handling-enterprise-data-governance/">Microsoft Purview - A Service for Handling Enterprise Data Governance Challenges in AI-Enabled World</a></td><td class="len">16:31</td><td class="date">Sep 30, 2025</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="ai-copilot-agents">
+      <h2>AI, Copilot, and Agents</h2>
+      <table class="eps">
+        <thead><tr><th class="num" scope="col">No.</th><th scope="col">Episode</th><th scope="col">Length</th><th scope="col">Published</th></tr></thead>
+        <tbody>
+          <tr><td class="num">55</td><td class="title"><a href="copilot-in-microsoft-fabric-ultimate-demo-of-copilots-in-notebooks-ds/">Copilot in Microsoft Fabric | Ultimate demo of copilots in Notebooks - DS &amp; DE</a></td><td class="len">15:41</td><td class="date">May 28, 2024</td></tr>
+          <tr><td class="num">61</td><td class="title"><a href="fabric-copilot-billing-pricing/">Fabric Copilot billing pricing</a></td><td class="len">26:28</td><td class="date">Jul 9, 2024</td></tr>
+          <tr><td class="num">87</td><td class="title"><a href="ai-agents-and-chain-of-debate-building-intelligent-multi-agent-systems/">AI Agents and Chain of Debate: Building Intelligent Multi-Agent Systems with Microsoft AI Foundry</a></td><td class="len">19:19</td><td class="date">Nov 4, 2025</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="other">
+      <h2>Other topics</h2>
+      <table class="eps">
+        <thead><tr><th class="num" scope="col">No.</th><th scope="col">Episode</th><th scope="col">Length</th><th scope="col">Published</th></tr></thead>
+        <tbody>
+          <tr><td class="num">1</td><td class="title"><a href="microsoft-fabric-introduction/">Fabric Espresso: Microsoft Fabric Introduction</a></td><td class="len">5:26</td><td class="date">Jun 5, 2023</td></tr>
+          <tr><td class="num">10</td><td class="title"><a href="will-fabric-replace-azure-synapse/">Fabric Espresso: Will Fabric replace Azure Synapse?</a></td><td class="len">3:51</td><td class="date">Jun 26, 2023</td></tr>
+          <tr><td class="num">85</td><td class="title"><a href="fabric-in-production-inside-view-from-microsofts-product-team-justyna/">Fabric in production: inside view from Microsoft&#x27;s Product Team Justyna Lucznik</a></td><td class="len">8:00</td><td class="date">Sep 10, 2025</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <footer>
+      <a href="../../privacy.html">Privacy</a>
+      <a href="../../terms.html">Terms</a>
+      <span>Dr. Estera Kot, Warsaw and Gdynia, Poland.</span>
+    </footer>
+  </main>
+</body>
+</html>

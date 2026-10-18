@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Microsoft Fabric Spark Utilities - mssparkutils | Fabric Espresso</title>
+  <meta name="description" content="Welcome back to another episode of Fabric Espresso DE&amp;DS series. In this episode, we introduce and explore the nuances of Fabric Notebooks and a...">
+  <meta name="google-site-verification" content="cSOWqrR3-ff1EmSCDMry0rZuk_c8wklIxxS-CFQkkfg" />
+  <link rel="canonical" href="https://ekote.github.io/fabric/espresso/microsoft-fabric-spark-utilities-mssparkutils/">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Dr. Estera Kot">
+  <meta property="og:type" content="video.other">
+  <meta property="og:site_name" content="Dr. Estera Kot">
+  <meta property="og:title" content="Microsoft Fabric Spark Utilities - mssparkutils">
+  <meta property="og:description" content="Welcome back to another episode of Fabric Espresso DE&amp;DS series. In this episode, we introduce and explore the nuances of Fabric Notebooks and a...">
+  <meta property="og:url" content="https://ekote.github.io/fabric/espresso/microsoft-fabric-spark-utilities-mssparkutils/">
+  <meta property="og:image" content="https://i.ytimg.com/vi/P3vQyvO55DI/hqdefault.jpg">
+  <meta property="og:image:width" content="480">
+  <meta property="og:image:height" content="360">
+  <meta property="og:image:alt" content="Thumbnail of the Fabric Espresso episode Microsoft Fabric Spark Utilities - mssparkutils">
+  <meta property="og:video" content="https://www.youtube.com/embed/P3vQyvO55DI">
+  <meta property="og:video:secure_url" content="https://www.youtube.com/embed/P3vQyvO55DI">
+  <meta property="og:video:type" content="text/html">
+  <meta property="og:video:width" content="1280">
+  <meta property="og:video:height" content="720">
+  <meta property="video:release_date" content="2023-11-07">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Microsoft Fabric Spark Utilities - mssparkutils">
+  <meta name="twitter:description" content="Welcome back to another episode of Fabric Espresso DE&amp;DS series. In this episode, we introduce and explore the nuances of Fabric Notebooks and a...">
+  <meta name="twitter:image" content="https://i.ytimg.com/vi/P3vQyvO55DI/hqdefault.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&amp;family=Source+Sans+3:wght@400;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../../style.css?v=4">
+  <style>
+    .crumbs { font-size: .9rem; color: var(--muted); margin: 0 0 16px; }
+    .crumbs a { margin: 0 4px; }
+    .crumbs a:first-child { margin-left: 0; }
+    .thumb { display: inline-block; margin: 6px 0 12px; max-width: 100%; }
+    .thumb img { display: block; max-width: 100%; height: auto; border: 1px solid #D5D0C8; }
+    .vmeta { color: var(--muted); }
+    .desc p { overflow-wrap: anywhere; }
+    .src { color: var(--muted); font-size: .9rem; }
+    .chapters { list-style: none; padding-left: 0; }
+    .chapters li { margin-bottom: 4px; }
+    .chapters a { display: inline-block; min-width: 3.6em; font-variant-numeric: tabular-nums; }
+    .pn { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 32px; margin-top: 44px;
+          border-top: 1px solid var(--rule); padding-top: 18px; }
+    .pn span { display: block; color: var(--muted); font-size: .88rem; }
+    .pn .next { text-align: right; }
+    @media (max-width: 600px) { .pn { grid-template-columns: 1fr; } .pn .next { text-align: left; } }
+  </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://ekote.github.io/fabric/espresso/microsoft-fabric-spark-utilities-mssparkutils/#video",
+      "name": "Microsoft Fabric Spark Utilities - mssparkutils",
+      "url": "https://ekote.github.io/fabric/espresso/microsoft-fabric-spark-utilities-mssparkutils/",
+      "description": "Welcome back to another episode of Fabric Espresso DE&DS series. In this episode, we introduce and explore the nuances of Fabric Notebooks and a library named MSSparkUtils. Microsoft Spark Utilities (MSSparkUtils) is a built-in package to help you easily perform common tasks. You can use MSSparkUtils to work with file systems, to get environment variables, to chain notebooks together, and to work with secrets. MSSparkUtils are available in PySpark (Python), Scala, .NET Spark (C#), and R (Preview) notebooks and Synapse pipelines. Meet the Speakers: Guest from Microsoft Fabric Product Group: Jene Zhang, Senior Program Manager of Fabric Notebooks Jene is a Senior Program Manager at Microsoft with a passion for developing advanced developer tools and AI technology. Currently, she is spearheading the creation of a specialized Spark notebook aimed at enabling data engineers and scientists to excel in their domains. LinkedIn: https://www.linkedin.com/in/edelweissno1/ Twitter: https://twitter.com/edelweissno1 Host: Estera Kot, Senior Product Manager at Microsoft and a member of the Fabric Product Group. She holds the role of Product Owner for Apache Spark-based runtimes in Microsoft Fabric and Synapse Analytics. Estera is a Data & AI Architect and is passionate about computer science. LinkedIn: https://www.linkedin.com/in/esterakot/ Twitter: https://twitter.com/estera_kot Like this video? Don't forget to hit the 'Like' button and share it with your network! Stay Updated: For more insights into Microsoft Fabric Data Engineering and Data Science, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode! #Microsoft #MicrosoftFabric #FabricNotebooks #DataScience #BigData #DataAnalytics #ApacheSpark #JupyterNotebook #SynapseNotebook #IPywidgets #TechInnovation #mssparkutils #MicrosoftSparkUtilities",
+      "thumbnailUrl": [
+        "https://i.ytimg.com/vi/P3vQyvO55DI/hqdefault.jpg"
+      ],
+      "embedUrl": "https://www.youtube.com/embed/P3vQyvO55DI",
+      "uploadDate": "2023-11-07",
+      "duration": "PT21M16S",
+      "contentUrl": "https://www.youtube.com/watch?v=P3vQyvO55DI",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Azure Synapse Analytics",
+        "url": "https://www.youtube.com/@AzureSynapse"
+      },
+      "author": {
+        "@id": "https://ekote.github.io/#person"
+      },
+      "creator": {
+        "@id": "https://ekote.github.io/#person"
+      },
+      "isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": "Fabric Espresso",
+        "url": "https://ekote.github.io/fabric/espresso/"
+      },
+      "hasPart": [
+        {
+          "@type": "Clip",
+          "name": "Introduction to MS Spark",
+          "startOffset": 0,
+          "url": "https://www.youtube.com/watch?v=P3vQyvO55DI",
+          "endOffset": 55
+        },
+        {
+          "@type": "Clip",
+          "name": "What is MS Spark Utils",
+          "startOffset": 55,
+          "url": "https://www.youtube.com/watch?v=P3vQyvO55DI&t=55s",
+          "endOffset": 125
+        },
+        {
+          "@type": "Clip",
+          "name": "Key Utilities and Use Cases",
+          "startOffset": 125,
+          "url": "https://www.youtube.com/watch?v=P3vQyvO55DI&t=125s",
+          "endOffset": 261
+        },
+        {
+          "@type": "Clip",
+          "name": "File System API Demo",
+          "startOffset": 261,
+          "url": "https://www.youtube.com/watch?v=P3vQyvO55DI&t=261s",
+          "endOffset": 363
+        },
+        {
+          "@type": "Clip",
+          "name": "Mounting Storage Demo",
+          "startOffset": 363,
+          "url": "https://www.youtube.com/watch?v=P3vQyvO55DI&t=363s",
+          "endOffset": 516
+        },
+        {
+          "@type": "Clip",
+          "name": "Working with Mount Paths",
+          "startOffset": 516,
+          "url": "https://www.youtube.com/watch?v=P3vQyvO55DI&t=516s",
+          "endOffset": 576
+        },
+        {
+          "@type": "Clip",
+          "name": "Notebook Resources Management",
+          "startOffset": 576,
+          "url": "https://www.youtube.com/watch?v=P3vQyvO55DI&t=576s",
+          "endOffset": 654
+        },
+        {
+          "@type": "Clip",
+          "name": "Fast Copy Functionality",
+          "startOffset": 654,
+          "url": "https://www.youtube.com/watch?v=P3vQyvO55DI&t=654s",
+          "endOffset": 825
+        },
+        {
+          "@type": "Clip",
+          "name": "Reference Run API Demo",
+          "startOffset": 825,
+          "url": "https://www.youtube.com/watch?v=P3vQyvO55DI&t=825s",
+          "endOffset": 1065
+        },
+        {
+          "@type": "Clip",
+          "name": "Unique Features and Summary",
+          "startOffset": 1065,
+          "url": "https://www.youtube.com/watch?v=P3vQyvO55DI&t=1065s",
+          "endOffset": 1276
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ekote.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Microsoft Fabric",
+          "item": "https://ekote.github.io/fabric/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fabric Espresso",
+          "item": "https://ekote.github.io/fabric/espresso/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Microsoft Fabric Spark Utilities - mssparkutils",
+          "item": "https://ekote.github.io/fabric/espresso/microsoft-fabric-spark-utilities-mssparkutils/"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ekote.github.io/#person",
+      "name": "Estera Kot",
+      "honorificPrefix": "Dr.",
+      "url": "https://ekote.github.io/"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+  <!-- generated by fabric/espresso/build_episodes.py -->
+  <header class="topbar">
+    <div class="inner">
+      <a class="brand" href="../../../">Dr. Estera Kot</a>
+      <nav>
+        <a href="../../../">Home</a>
+        <a href="../../">Fabric guide</a>
+        <a href="../">Fabric Espresso</a>
+        <a href="../../../#publications">Publications</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../">Home</a> / <a href="../../">Microsoft Fabric</a> / <a href="../">Fabric Espresso</a></nav>
+    <h1>Microsoft Fabric Spark Utilities - mssparkutils</h1>
+    <p class="title">Episode 36 of Fabric Espresso, hosted by Dr. Estera Kot.</p>
+    <a class="thumb" href="https://www.youtube.com/watch?v=P3vQyvO55DI"><img src="https://i.ytimg.com/vi/P3vQyvO55DI/hqdefault.jpg" width="480" height="360" alt="Video thumbnail for Microsoft Fabric Spark Utilities - mssparkutils. Opens the video on YouTube."></a>
+    <p class="vmeta">Length 21:16. Published Nov 7, 2023 on the Azure Synapse Analytics YouTube channel. Topic: <a href="../#spark-data-engineering">Spark and Data Engineering</a>.</p>
+    <p><strong><a href="https://www.youtube.com/watch?v=P3vQyvO55DI">Watch on YouTube</a></strong></p>
+    <section class="desc">
+      <h2>About this episode</h2>
+      <p class="src">Text from the YouTube description.</p>
+      <p>Welcome back to another episode of Fabric Espresso DE&amp;DS series. In this episode, we introduce and explore the nuances of Fabric Notebooks and a library named MSSparkUtils. Microsoft Spark Utilities (MSSparkUtils) is a built-in package to help you easily perform common tasks. You can use MSSparkUtils to work with file systems, to get environment variables, to chain notebooks together, and to work with secrets. MSSparkUtils are available in PySpark (Python), Scala, .NET Spark (C#), and R (Preview) notebooks and Synapse pipelines.</p>
+      <p>🎙 Meet the Speakers:</p>
+      <p>👤 Guest from Microsoft Fabric Product Group: Jene Zhang, Senior Program Manager of Fabric Notebooks</p>
+      <p>Jene is a Senior Program Manager at Microsoft with a passion for developing advanced developer tools and AI technology. Currently, she is spearheading the creation of a specialized Spark notebook aimed at enabling data engineers and scientists to excel in their domains.</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/edelweissno1/" rel="nofollow noopener">https://www.linkedin.com/in/edelweissno1/</a></p>
+      <p>Twitter:   <a href="https://twitter.com/edelweissno1" rel="nofollow noopener">https://twitter.com/edelweissno1</a></p>
+      <p>👤 Host: Estera Kot, Senior Product Manager at Microsoft and a member of the Fabric Product Group. She holds the role of Product Owner for Apache Spark-based runtimes in Microsoft Fabric and Synapse Analytics. Estera is a Data &amp; AI Architect and is passionate about computer science.<br>
+LinkedIn: <a href="https://www.linkedin.com/in/esterakot/" rel="nofollow noopener">https://www.linkedin.com/in/esterakot/</a><br>
+Twitter: <a href="https://twitter.com/estera_kot" rel="nofollow noopener">https://twitter.com/estera_kot</a></p>
+      <p>👍 Like this video? Don&#x27;t forget to hit the &#x27;Like&#x27; button and share it with your network!</p>
+      <p>🔔 Stay Updated: For more insights into Microsoft Fabric Data Engineering and Data Science, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode!</p>
+      <p>#Microsoft #MicrosoftFabric #FabricNotebooks #DataScience #BigData #DataAnalytics #ApacheSpark #JupyterNotebook #SynapseNotebook #IPywidgets #TechInnovation #mssparkutils #MicrosoftSparkUtilities</p>
+    </section>
+    <section>
+      <h2>Chapters</h2>
+      <ol class="chapters">
+        <li><a href="https://www.youtube.com/watch?v=P3vQyvO55DI">0:00</a> Introduction to MS Spark</li>
+        <li><a href="https://www.youtube.com/watch?v=P3vQyvO55DI&amp;t=55s">0:55</a> What is MS Spark Utils</li>
+        <li><a href="https://www.youtube.com/watch?v=P3vQyvO55DI&amp;t=125s">2:05</a> Key Utilities and Use Cases</li>
+        <li><a href="https://www.youtube.com/watch?v=P3vQyvO55DI&amp;t=261s">4:21</a> File System API Demo</li>
+        <li><a href="https://www.youtube.com/watch?v=P3vQyvO55DI&amp;t=363s">6:03</a> Mounting Storage Demo</li>
+        <li><a href="https://www.youtube.com/watch?v=P3vQyvO55DI&amp;t=516s">8:36</a> Working with Mount Paths</li>
+        <li><a href="https://www.youtube.com/watch?v=P3vQyvO55DI&amp;t=576s">9:36</a> Notebook Resources Management</li>
+        <li><a href="https://www.youtube.com/watch?v=P3vQyvO55DI&amp;t=654s">10:54</a> Fast Copy Functionality</li>
+        <li><a href="https://www.youtube.com/watch?v=P3vQyvO55DI&amp;t=825s">13:45</a> Reference Run API Demo</li>
+        <li><a href="https://www.youtube.com/watch?v=P3vQyvO55DI&amp;t=1065s">17:45</a> Unique Features and Summary</li>
+      </ol>
+    </section>
+    <nav class="pn" aria-label="More episodes">
+      <div class="prev"><span>Previous episode</span><a href="../permissions-in-microsoft-fabric-workspace-and-sql/">Permissions in Microsoft Fabric Workspace and SQL</a></div>
+      <div class="next"><span>Next episode</span><a href="../r-programming-language-in-microsoft-fabric-an-insightful-overview/">R (Programming Language) in Microsoft Fabric - An Insightful Overview with Fabric Product Group</a></div>
+    </nav>
+    <p><a href="../">All Fabric Espresso episodes</a></p>
+    <footer>
+      <a href="../../../privacy.html">Privacy</a>
+      <a href="../../../terms.html">Terms</a>
+      <span>Dr. Estera Kot, Warsaw and Gdynia, Poland.</span>
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSV ingestion performance improvements | Fabric Espresso</title>
+  <meta name="description" content="Welcome back to another episode of Fabric Espresso DW series. In this episode, we&#x27;ll be exploring the ins and outs of recent performance improvements...">
+  <meta name="google-site-verification" content="cSOWqrR3-ff1EmSCDMry0rZuk_c8wklIxxS-CFQkkfg" />
+  <link rel="canonical" href="https://ekote.github.io/fabric/espresso/csv-ingestion-performance-improvements/">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Dr. Estera Kot">
+  <meta property="og:type" content="video.other">
+  <meta property="og:site_name" content="Dr. Estera Kot">
+  <meta property="og:title" content="CSV ingestion performance improvements">
+  <meta property="og:description" content="Welcome back to another episode of Fabric Espresso DW series. In this episode, we&#x27;ll be exploring the ins and outs of recent performance improvements...">
+  <meta property="og:url" content="https://ekote.github.io/fabric/espresso/csv-ingestion-performance-improvements/">
+  <meta property="og:image" content="https://i.ytimg.com/vi/PD3AnXiCQo0/hqdefault.jpg">
+  <meta property="og:image:width" content="480">
+  <meta property="og:image:height" content="360">
+  <meta property="og:image:alt" content="Thumbnail of the Fabric Espresso episode CSV ingestion performance improvements">
+  <meta property="og:video" content="https://www.youtube.com/embed/PD3AnXiCQo0">
+  <meta property="og:video:secure_url" content="https://www.youtube.com/embed/PD3AnXiCQo0">
+  <meta property="og:video:type" content="text/html">
+  <meta property="og:video:width" content="1280">
+  <meta property="og:video:height" content="720">
+  <meta property="video:release_date" content="2023-12-14">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CSV ingestion performance improvements">
+  <meta name="twitter:description" content="Welcome back to another episode of Fabric Espresso DW series. In this episode, we&#x27;ll be exploring the ins and outs of recent performance improvements...">
+  <meta name="twitter:image" content="https://i.ytimg.com/vi/PD3AnXiCQo0/hqdefault.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&amp;family=Source+Sans+3:wght@400;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../../style.css?v=4">
+  <style>
+    .crumbs { font-size: .9rem; color: var(--muted); margin: 0 0 16px; }
+    .crumbs a { margin: 0 4px; }
+    .crumbs a:first-child { margin-left: 0; }
+    .thumb { display: inline-block; margin: 6px 0 12px; max-width: 100%; }
+    .thumb img { display: block; max-width: 100%; height: auto; border: 1px solid #D5D0C8; }
+    .vmeta { color: var(--muted); }
+    .desc p { overflow-wrap: anywhere; }
+    .src { color: var(--muted); font-size: .9rem; }
+    .chapters { list-style: none; padding-left: 0; }
+    .chapters li { margin-bottom: 4px; }
+    .chapters a { display: inline-block; min-width: 3.6em; font-variant-numeric: tabular-nums; }
+    .pn { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 32px; margin-top: 44px;
+          border-top: 1px solid var(--rule); padding-top: 18px; }
+    .pn span { display: block; color: var(--muted); font-size: .88rem; }
+    .pn .next { text-align: right; }
+    @media (max-width: 600px) { .pn { grid-template-columns: 1fr; } .pn .next { text-align: left; } }
+  </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://ekote.github.io/fabric/espresso/csv-ingestion-performance-improvements/#video",
+      "name": "CSV ingestion performance improvements",
+      "url": "https://ekote.github.io/fabric/espresso/csv-ingestion-performance-improvements/",
+      "description": "Welcome back to another episode of Fabric Espresso DW series. In this episode, we'll be exploring the ins and outs of recent performance improvements on CSV ingestion in Microsoft Fabric Warehouse. Stay tuned to learn how it supercharges your ingestion pipeline. Meet the Speakers: Guest from Microsoft Fabric Product Group: Peri Rocha is a Senior Product Manager working on data ingestion for warehouse in Microsoft Fabric. He has more than 25 years of experience in databases and analytics. LinkedIn: https://www.linkedin.com/in/periclesrocha/ Twitter: https://www.twitter.com/periclesrocha Host: Filip Popović is a Senior Product Manager at Microsoft and part of the Fabric Product Group, focusing on performance. Before joining Microsoft in 2019, he spent over ten years in the software and financial services industry, delivering business analytics solutions using the Microsoft technology stack. LinkedIn: https://www.linkedin.com/in/popovicfilip/ Twitter: https://twitter.com/FilipPop_MSFT Like this video? Don't forget to hit the 'Like' button and share it with your network! Stay Updated: For more insights into Microsoft Fabric Data Warehousing, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode! #Microsoft #MicrosoftFabric #FabricWarehouse #ingestion",
+      "thumbnailUrl": [
+        "https://i.ytimg.com/vi/PD3AnXiCQo0/hqdefault.jpg"
+      ],
+      "embedUrl": "https://www.youtube.com/embed/PD3AnXiCQo0",
+      "uploadDate": "2023-12-14",
+      "duration": "PT5M3S",
+      "contentUrl": "https://www.youtube.com/watch?v=PD3AnXiCQo0",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Azure Synapse Analytics",
+        "url": "https://www.youtube.com/@AzureSynapse"
+      },
+      "isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": "Fabric Espresso",
+        "url": "https://ekote.github.io/fabric/espresso/"
+      },
+      "hasPart": [
+        {
+          "@type": "Clip",
+          "name": "Introduction",
+          "startOffset": 0,
+          "url": "https://www.youtube.com/watch?v=PD3AnXiCQo0",
+          "endOffset": 27
+        },
+        {
+          "@type": "Clip",
+          "name": "What is it",
+          "startOffset": 27,
+          "url": "https://www.youtube.com/watch?v=PD3AnXiCQo0&t=27s",
+          "endOffset": 75
+        },
+        {
+          "@type": "Clip",
+          "name": "Demo",
+          "startOffset": 75,
+          "url": "https://www.youtube.com/watch?v=PD3AnXiCQo0&t=75s",
+          "endOffset": 183
+        },
+        {
+          "@type": "Clip",
+          "name": "Why use 10",
+          "startOffset": 183,
+          "url": "https://www.youtube.com/watch?v=PD3AnXiCQo0&t=183s",
+          "endOffset": 200
+        },
+        {
+          "@type": "Clip",
+          "name": "Parser support",
+          "startOffset": 200,
+          "url": "https://www.youtube.com/watch?v=PD3AnXiCQo0&t=200s",
+          "endOffset": 219
+        },
+        {
+          "@type": "Clip",
+          "name": "Multibyte separators",
+          "startOffset": 219,
+          "url": "https://www.youtube.com/watch?v=PD3AnXiCQo0&t=219s",
+          "endOffset": 237
+        },
+        {
+          "@type": "Clip",
+          "name": "Conclusion",
+          "startOffset": 237,
+          "url": "https://www.youtube.com/watch?v=PD3AnXiCQo0&t=237s",
+          "endOffset": 303
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ekote.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Microsoft Fabric",
+          "item": "https://ekote.github.io/fabric/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fabric Espresso",
+          "item": "https://ekote.github.io/fabric/espresso/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "CSV ingestion performance improvements",
+          "item": "https://ekote.github.io/fabric/espresso/csv-ingestion-performance-improvements/"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ekote.github.io/#person",
+      "name": "Estera Kot",
+      "honorificPrefix": "Dr.",
+      "url": "https://ekote.github.io/"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+  <!-- generated by fabric/espresso/build_episodes.py -->
+  <header class="topbar">
+    <div class="inner">
+      <a class="brand" href="../../../">Dr. Estera Kot</a>
+      <nav>
+        <a href="../../../">Home</a>
+        <a href="../../">Fabric guide</a>
+        <a href="../">Fabric Espresso</a>
+        <a href="../../../#publications">Publications</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../">Home</a> / <a href="../../">Microsoft Fabric</a> / <a href="../">Fabric Espresso</a></nav>
+    <h1>CSV ingestion performance improvements</h1>
+    <p class="title">Episode 42 of Fabric Espresso, the Microsoft Fabric video series created by Dr. Estera Kot.</p>
+    <a class="thumb" href="https://www.youtube.com/watch?v=PD3AnXiCQo0"><img src="https://i.ytimg.com/vi/PD3AnXiCQo0/hqdefault.jpg" width="480" height="360" alt="Video thumbnail for CSV ingestion performance improvements. Opens the video on YouTube."></a>
+    <p class="vmeta">Length 5:03. Published Dec 14, 2023 on the Azure Synapse Analytics YouTube channel. Topic: <a href="../#warehouse">Warehouse</a>.</p>
+    <p><strong><a href="https://www.youtube.com/watch?v=PD3AnXiCQo0">Watch on YouTube</a></strong></p>
+    <section class="desc">
+      <h2>About this episode</h2>
+      <p class="src">Text from the YouTube description.</p>
+      <p>Welcome back to another episode of Fabric Espresso DW series. In this episode, we&#x27;ll be exploring the ins and outs of recent performance improvements on CSV ingestion in Microsoft Fabric Warehouse. Stay tuned to learn how it supercharges your ingestion pipeline.</p>
+      <p>🎙 Meet the Speakers:</p>
+      <p>👤 Guest from Microsoft Fabric Product Group: Peri Rocha is a Senior Product Manager working on data ingestion for warehouse in Microsoft Fabric. He has more than 25 years of experience in databases and analytics. LinkedIn: <a href="https://www.linkedin.com/in/periclesrocha/" rel="nofollow noopener">https://www.linkedin.com/in/periclesrocha/</a> Twitter: <a href="https://www.twitter.com/periclesrocha" rel="nofollow noopener">https://www.twitter.com/periclesrocha</a></p>
+      <p>👤 Host: Filip Popović is a Senior Product Manager at Microsoft and part of the Fabric Product Group, focusing on performance. Before joining Microsoft in 2019, he spent over ten years in the software and financial services industry, delivering business analytics solutions using the Microsoft technology stack. LinkedIn: <a href="https://www.linkedin.com/in/popovicfilip/" rel="nofollow noopener">https://www.linkedin.com/in/popovicfilip/</a> Twitter: <a href="https://twitter.com/FilipPop_MSFT" rel="nofollow noopener">https://twitter.com/FilipPop_MSFT</a></p>
+      <p>👍 Like this video? Don&#x27;t forget to hit the &#x27;Like&#x27; button and share it with your network!</p>
+      <p>🔔 Stay Updated: For more insights into Microsoft Fabric Data Warehousing, and all things tech, make sure to subscribe to our channel and hit the notification bell so you never miss an episode!</p>
+      <p>#Microsoft #MicrosoftFabric #FabricWarehouse #ingestion</p>
+    </section>
+    <section>
+      <h2>Chapters</h2>
+      <ol class="chapters">
+        <li><a href="https://www.youtube.com/watch?v=PD3AnXiCQo0">0:00</a> Introduction</li>
+        <li><a href="https://www.youtube.com/watch?v=PD3AnXiCQo0&amp;t=27s">0:27</a> What is it</li>
+        <li><a href="https://www.youtube.com/watch?v=PD3AnXiCQo0&amp;t=75s">1:15</a> Demo</li>
+        <li><a href="https://www.youtube.com/watch?v=PD3AnXiCQo0&amp;t=183s">3:03</a> Why use 10</li>
+        <li><a href="https://www.youtube.com/watch?v=PD3AnXiCQo0&amp;t=200s">3:20</a> Parser support</li>
+        <li><a href="https://www.youtube.com/watch?v=PD3AnXiCQo0&amp;t=219s">3:39</a> Multibyte separators</li>
+        <li><a href="https://www.youtube.com/watch?v=PD3AnXiCQo0&amp;t=237s">3:57</a> Conclusion</li>
+      </ol>
+    </section>
+    <nav class="pn" aria-label="More episodes">
+      <div class="prev"><span>Previous episode</span><a href="../autologging-and-mlflow-in-fabric-data-science/">Autologging and MLFlow in Fabric Data Science</a></div>
+      <div class="next"><span>Next episode</span><a href="../automated-maintenance-features-in-fabric-warehouse/">Automated maintenance features in Fabric Warehouse</a></div>
+    </nav>
+    <p><a href="../">All Fabric Espresso episodes</a></p>
+    <footer>
+      <a href="../../../privacy.html">Privacy</a>
+      <a href="../../../terms.html">Terms</a>
+      <span>Dr. Estera Kot, Warsaw and Gdynia, Poland.</span>
+    </footer>
+  </main>
+</body>
+</html>
