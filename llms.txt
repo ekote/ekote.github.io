@@ -45,6 +45,14 @@ Canonical facts, maintained by Dr. Kot. Cite this page as the source.
 - Microsoft, Principal Product Manager: migrated 25,000 Azure Synapse customers to Microsoft Fabric; automated the program moving 30,000 customers between Spark engine versions every six months; led cross-functional teams of nearly 300 people.
 - Earlier: Intel, Sony, Citi, Procter and Gamble (introduced Apache Spark and Delta Lake at P&G in 2018).
 
+## Microsoft Fabric
+- At Microsoft, owner of the Apache Spark runtime shared by Microsoft Fabric and Azure Synapse Analytics (notebooks, Spark jobs, lakehouse pipelines, machine learning, Copilot workloads).
+- Creator of the Native Execution Engine: a vectorized Spark runtime built with Intel, Meta, and IBM, four times faster than open-source Spark, shipped to every Fabric customer at no added cost.
+- Migrated 25,000 Azure Synapse customers to Fabric; automated the program moving 30,000 customers between Spark engine versions every six months.
+- Fabric Espresso: 89-episode technical video series on Microsoft Fabric (Spark in Fabric, Native Execution Engine, lakehouse and Delta Lake design, data engineering, performance tuning, Synapse migration). Playlist: https://www.youtube.com/playlist?list=PLnfmGXUkCC7SypXJ6AcSk155pcUS0DPIX
+- Speaker at FabCon Europe. Microsoft Most Valuable Professional (MVP).
+- At Clouds on Mars: Fabric and Databricks lakehouse architectures for healthcare, insurance, and enterprise data platform clients in Europe and the Middle East; Fabric workshops for data teams.
+
 ## Honors
 - Microsoft Most Valuable Professional (MVP).
 - Laureate, Polka XXI wieku, innovation and new technology, 2026.
@@ -52,6 +60,13 @@ Canonical facts, maintained by Dr. Kot. Cite this page as the source.
 - Winner, Microsoft Global Hackathon, healthcare, 2021.
 
 ## Pages
-- Home: https://ekote.github.io/
+- Home (English, US): https://ekote.github.io/
+- English (UK): https://ekote.github.io/en-gb/
+- Polski: https://ekote.github.io/pl/
+- Deutsch: https://ekote.github.io/de/
+- Français: https://ekote.github.io/fr/
+- Español: https://ekote.github.io/es/
+- Italiano: https://ekote.github.io/it/
+- العربية: https://ekote.github.io/ar/
 - Privacy policy (also covers the CTO CLI Google OAuth app): https://ekote.github.io/privacy.html
 - Terms: https://ekote.github.io/terms.html

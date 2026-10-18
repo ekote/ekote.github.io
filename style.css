@@ -89,3 +89,17 @@ footer a { margin-right: 16px; }
   .topbar nav a { margin-left: 14px; font-size: .9rem; }
   h1 { font-size: 1.9rem; }
 }
+
+/* language bar + RTL */
+.langbar { background: var(--sand); border-bottom: 1px solid var(--rule); padding: 0 16px; }
+.langbar .inner { max-width: 1040px; margin: 0 auto; }
+.langs { font-size: .85rem; padding: 7px 0; color: var(--muted); }
+.langs a { margin-right: 14px; color: var(--muted); white-space: nowrap; }
+.langs a.cur { color: var(--cardinal); font-weight: 600; }
+[dir="rtl"] body, [dir="rtl"] { font-family: "Noto Naskh Arabic", "Source Sans 3", Arial, sans-serif; }
+[dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] .topbar .brand { font-family: "Noto Naskh Arabic", "Source Serif 4", serif; }
+[dir="rtl"] .topbar nav a { margin-left: 0; margin-right: 22px; }
+[dir="rtl"] .links a, [dir="rtl"] .langs a, [dir="rtl"] footer a { margin-right: 0; margin-left: 18px; }
+[dir="rtl"] ul { padding-left: 0; padding-right: 20px; }
+[dir="rtl"] .note { border-left: 0; border-right: 4px solid var(--cardinal); }
+[dir="rtl"] html { font-size: 18px; }
