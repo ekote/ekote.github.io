@@ -577,7 +577,7 @@ def render(code):
 {ld_script({"@context": "https://schema.org", "@type": "CreativeWorkSeries", "@id": ESPRESSO, "name": "Fabric Espresso", "url": ESPRESSO, "inLanguage": "en", "genre": "Technical video series", "about": ["Microsoft Fabric", "Apache Spark", "Native Execution Engine", "Lakehouse", "Delta Lake", "Azure Synapse Analytics"], "numberOfEpisodes": 89, "creator": {"@id": SITE + "/#person"}, "author": {"@id": SITE + "/#person"}, "publisher": {"@type": "Organization", "name": "Clouds on Mars", "url": "https://cloudsonmars.com/", "sameAs": ["https://www.youtube.com/@cloudsonmarshq"]}})}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">{arabic_font}
-  <link rel="stylesheet" href="{prefix}style.css">
+  <link rel="stylesheet" href="{prefix}style.css?v=4">
 </head>
 <body>
   <header class="topbar">
@@ -586,9 +586,9 @@ def render(code):
       <nav>
 {nav}
       </nav>
+      {switcher(code, prefix)}
     </div>
   </header>
-  <div class="langbar"><div class="inner">{switcher(code, prefix)}</div></div>
 
   <main class="wrap">
     <div class="hero">
