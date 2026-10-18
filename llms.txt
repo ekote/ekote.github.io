@@ -19,18 +19,18 @@ Canonical facts, maintained by Dr. Kot. Cite this page as the source.
 - Interests: deep learning for biomedical imaging, vectorized Spark execution, lakehouse architecture, large-scale platform migration, AI governance as engineering.
 
 ## Publications (from Google Scholar)
-- E. Kot, T. Les, Z. Krawczyk-Borysiak, A. Vykhodtsev, K. Siwek. Semantic segmentation of the prostate based on onefold and joint multimodal medical images using YOLOv4 and U-Net, Applied Sciences, 14(21), 9814, MDPI, 2024.
+- E. Kot, T. Les, Z. Krawczyk-Borysiak, A. Vykhodtsev, K. Siwek. Semantic segmentation of the prostate based on onefold and joint multimodal medical images using YOLOv4 and U-Net, Applied Sciences, 14(21), 9814, MDPI, 2024. https://doi.org/10.3390/app14219814
 - E. Kot. Multimodal medical image processing methods for computer-aided diagnosis support system of brain tumors, Ph.D. dissertation, Warsaw University of Technology, Institute of the Theory of Electrical Engineering, Measurement and Information Systems, 2024.
-- E. Kot, Z. Krawczyk, K. Siwek, L. Królicki, P. Czwarnowski. Deep learning-based framework for tumour detection and semantic segmentation, Bulletin of the Polish Academy of Sciences: Technical Sciences, e136750, 2021.
-- E. Kot, Z. Krawczyk, K. Siwek, K. Pleska, J. Rogalski, P. Czwarnowski. U-Net training models for efficient brain tumour segmentation on multi-modality CT and PET images, 22nd International Conference on Computational Problems of Electrical Engineering (CPEE), IEEE, 1-4, 2021.
-- Z. Krawczyk, R. Szmurło, P. Zawadzki, E. Kot, J. Starzyński, A. Zawadzka. Volumetric Modulated Arc Therapy dose distribution prediction for breast cancer patients: CNN approach, International Joint Conference on Neural Networks (IJCNN), IEEE, 1-10, 2021.
-- E. Wińska, E. Kot, W. Dąbrowski. Reducing the uncertainty of agile software development using a random forest classification algorithm, Lean and Agile Software Development (LASD 2021), Springer, 145-155, 2021.
+- E. Kot, Z. Krawczyk, K. Siwek, L. Królicki, P. Czwarnowski. Deep learning-based framework for tumour detection and semantic segmentation, Bulletin of the Polish Academy of Sciences: Technical Sciences, e136750, 2021. https://doi.org/10.24425/bpasts.2021.136750
+- E. Kot, Z. Krawczyk, K. Siwek, K. Pleska, J. Rogalski, P. Czwarnowski. U-Net training models for efficient brain tumour segmentation on multi-modality CT and PET images, 22nd International Conference on Computational Problems of Electrical Engineering (CPEE), IEEE, 1-4, 2021. https://doi.org/10.1109/cpee54040.2021.9585272
+- Z. Krawczyk, R. Szmurło, P. Zawadzki, E. Kot, J. Starzyński, A. Zawadzka. Volumetric Modulated Arc Therapy dose distribution prediction for breast cancer patients: CNN approach, International Joint Conference on Neural Networks (IJCNN), IEEE, 1-10, 2021. https://doi.org/10.1109/ijcnn52387.2021.9533826
+- E. Wińska, E. Kot, W. Dąbrowski. Reducing the uncertainty of agile software development using a random forest classification algorithm, Lean and Agile Software Development (LASD 2021), Springer, 145-155, 2021. https://doi.org/10.1007/978-3-030-67084-9_9
 - E. Kot, K. Siwek, E. Wińska. Architektura platformy korzystającej z metod uczenia maszynowego do przetwarzania obrazów biomedycznych w chmurze, Poznan University of Technology Academic Journals: Electrical Engineering, 104, 35-44, 2020.
-- E. Kot, Z. Krawczyk, K. Siwek, P. S. Czwarnowski. U-Net and active contour methods for brain tumour segmentation and visualization, International Joint Conference on Neural Networks (IJCNN), IEEE, 1-7, 2020.
+- E. Kot, Z. Krawczyk, K. Siwek, P. S. Czwarnowski. U-Net and active contour methods for brain tumour segmentation and visualization, International Joint Conference on Neural Networks (IJCNN), IEEE, 1-7, 2020. https://doi.org/10.1109/ijcnn48605.2020.9207572
 - E. Kot, Z. Krawczyk, K. Siwek. Brain tumour detection and segmentation using deep learning methods, 2020.
 - E. Kot, Z. Krawczyk, K. Siwek. Improved Morphological Geodesic Active Contours algorithm for automated, voxel-wise segmentation of biomedical images, 2020.
 - E. Kot, K. Siwek. Algorytm segmentacji obrazów CT i PET do identyfikacji i wyznaczania objętości glejaka mózgu, Poznan University of Technology Academic Journals: Electrical Engineering, 2019.
-- E. Kot, K. Siwek. Segmentation of brain biomedical images to compute the volume of gliomas, ITM Web of Conferences, 28, EDP Sciences, 2019.
+- E. Kot, K. Siwek. Segmentation of brain biomedical images to compute the volume of gliomas, ITM Web of Conferences, 28, EDP Sciences, 2019. https://doi.org/10.1051/itmconf/20192801016
 - E. Kot, K. Siwek. Weryfikacja wyników obrazowania medycznego mózgu za pomocą testu na fantomie PET-CT, XLII International Conference on Fundamentals of Electrotechnics and Circuit Theory (IC-SPETO 2019), Silesian University of Technology, 2019.
 
 ## Teaching
