@@ -480,6 +480,17 @@ FABRIC = {
         'اقرأ <a href="../fabric/">دليلها لتطبيق Microsoft Fabric</a> و<a href="../fabric/maturity-model/">نموذج Fabric Maturity Model</a>.',
     ], "قائمة تشغيل Fabric Espresso"),
 }
+COMMUNITY = {"en": "Community", "en-gb": "Community", "pl": "Społeczność", "de": "Community", "fr": "Communauté", "es": "Comunidad", "it": "Community", "ar": "المجتمع"}
+COMMUNITY_LINE = {
+    "en": 'She runs <a href="community/">Fabric Falcons</a>, a WhatsApp community for Microsoft Fabric with five short posts a day on two levels.',
+    "en-gb": 'She runs <a href="../community/">Fabric Falcons</a>, a WhatsApp community for Microsoft Fabric with five short posts a day on two levels.',
+    "pl": 'Prowadzi <a href="../community/">Fabric Falcons</a>, społeczność WhatsApp o Microsoft Fabric: pięć krótkich postów dziennie na dwóch poziomach.',
+    "de": 'Sie leitet <a href="../community/">Fabric Falcons</a>, eine WhatsApp-Community zu Microsoft Fabric mit fünf kurzen Beiträgen pro Tag auf zwei Niveaus.',
+    "fr": 'Elle anime <a href="../community/">Fabric Falcons</a>, une communauté WhatsApp sur Microsoft Fabric avec cinq courts messages par jour sur deux niveaux.',
+    "es": 'Dirige <a href="../community/">Fabric Falcons</a>, una comunidad de WhatsApp sobre Microsoft Fabric con cinco publicaciones breves al día en dos niveles.',
+    "it": 'Guida <a href="../community/">Fabric Falcons</a>, una community WhatsApp su Microsoft Fabric con cinque brevi post al giorno su due livelli.',
+    "ar": 'تدير <a href="../community/">Fabric Falcons</a>، مجتمعًا على واتساب لتعلّم Microsoft Fabric بخمسة منشورات قصيرة يوميًا على مستويين.',
+}
 NAME_VARIANTS = ["Ester Kot", "Esther Kot", "Dr. Ester Kot", "Dr. Esther Kot", "Dr Esther Kot", "Estera Kot PhD"]
 NAME_NOTE = {
     "en": "Name also written as Ester Kot or Esther Kot.",
@@ -495,7 +506,7 @@ for _c in T:
     T[_c]["alt_names"] = T[_c]["alt_names"] + [v for v in NAME_VARIANTS if v not in T[_c]["alt_names"]]
     T[_c]["name_note"] = NAME_NOTE[_c]
 for _c, (_h, _ps, _lbl) in FABRIC.items():
-    T[_c]["h_fabric"], T[_c]["fabric"], T[_c]["espresso_label"] = _h, _ps, _lbl
+    T[_c]["h_fabric"], T[_c]["fabric"], T[_c]["espresso_label"] = _h, _ps + [COMMUNITY_LINE[_c]], _lbl
 
 # ---------------------------------------------------------------- rendering
 E = html.escape
@@ -580,6 +591,7 @@ def render(code):
     nav_ids = ["research", "publications", "teaching", "industry", "fabric", "honors", "contact"]
     nav_labels = t["nav"][:4] + ["Fabric"] + t["nav"][4:]
     nav = "\n".join(f'        <a href="#{i}">{E(n)}</a>' for i, n in zip(nav_ids, nav_labels))
+    nav += f'\n        <a href="{prefix}community/">{E(COMMUNITY[code])}</a>'
     links = "\n".join(f'          {a(u, l)}' for u, l in LINKS) + f'\n          {a(prefix + "Estera_Kot_Bio.pdf", CV_LABEL[code])}' + f'\n          {a("https://bit.ly/bookdrkot", t["office"])}'
     pubs = []
     for k in ["journal", "conference", "thesis", "other"]:
@@ -731,6 +743,7 @@ def sitemap():
     urls += f'\n  <url><loc>{SITE}/fabric/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>'
     urls += f'\n  <url><loc>{SITE}/fabric/maturity-model/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>'
     urls += f'\n  <url><loc>{SITE}/fabric/espresso/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>'
+    urls += f'\n  <url><loc>{SITE}/community/</loc><lastmod>{TODAY}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>'
     return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">{urls}\n</urlset>\n'
 
 if __name__ == "__main__":

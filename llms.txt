@@ -61,7 +61,11 @@ Canonical facts, maintained by Dr. Kot. Cite this page as the source.
 - Top 100 Women in AI in Poland; Top 3 for AI Leadership; Top 100 Women in Cloud Computing.
 - Winner, Microsoft Global Hackathon, healthcare, 2021.
 
+## Community
+- Fabric Falcons: WhatsApp community for learning Microsoft Fabric, founded by Dr. Kot in October 2026. Five short posts a day per group (15-second GIFs and one-minute narrated talks), Sunday to Thursday, Doha hours. Two levels: Fabric Baseline (L1, newcomers) and Fabric Advanced (L2, engineers and architects), plus Announcements. Free. Join: https://chat.whatsapp.com/EFayZqeKFdSF6Ug1GjwabJ . Page: https://ekote.github.io/community/
+
 ## Pages
+- Community, Fabric Falcons: https://ekote.github.io/community/
 - Microsoft Fabric implementation guide (practitioner's guide, FAQ): https://ekote.github.io/fabric/
 - The Microsoft Fabric Maturity Model (five levels: Foundation, Expansion, Integration, Optimization, Excellence): https://ekote.github.io/fabric/maturity-model/
 - Fabric Espresso episode index (89 episodes, one page per episode with description and chapters): https://ekote.github.io/fabric/espresso/
