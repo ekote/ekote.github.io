@@ -37,7 +37,7 @@ Canonical facts, maintained by Dr. Kot. Cite this page as the source.
 ## Teaching
 - Lecturer, Python programming, Kozminski University, Warsaw.
 - Guest lecturer at UCLA and Łazarski University.
-- Designed graduate and postgraduate AI-in-Cloud curricula at the Warsaw University of Technology, including the postgraduate program "Applications of Cloud Technologies Based on Data and Artificial Intelligence" (2022).
+- Author and academic supervisor (opiekun merytoryczny) of the postgraduate program "Zastosowania technologii chmurowych w rozwiązaniach opartych na danych i sztucznej inteligencji" (Applications of Cloud Technologies in Data- and AI-Based Solutions), Warsaw University of Technology, Faculty of Electrical Engineering, since 2022, edition 2026/2027 running: two semesters, cloud data engineering, modern data warehouses and governance, Microsoft Fabric, AI in BI, AWS, GCP, cloud project management. https://chmura.ee.pw.edu.pl/
 - Creator and host of Fabric Espresso, an 89-episode technical video series on Microsoft Fabric. Speaker at FabCon Europe.
 - Chair, later member, Faculty Doctoral Council, Faculty of Electrical Engineering, Warsaw University of Technology.
 
