@@ -31,15 +31,19 @@ SAME_AS = [
     "https://mvp.microsoft.com/en-US/MVP/profile/dee98064-3431-4a89-80f8-148643d8f705",
     "https://www.f6s.com/drkot",
 ]
-LINKS = [  # (url, label)
+LINKS = [  # hero: academic identity only
     ("https://orcid.org/0000-0001-8308-7129", "ORCID 0000-0001-8308-7129"),
     ("https://scholar.google.com/citations?user=wF7USzwAAAAJ", "Google Scholar"),
+]
+CV_LABEL = {"en": "Bio (PDF)", "en-gb": "Bio (PDF)", "pl": "Bio (PDF)", "de": "Bio (PDF)", "fr": "Bio (PDF)", "es": "Bio (PDF)", "it": "Bio (PDF)", "ar": "السيرة (PDF)"}
+FOOTER_LINKS = [
     ("https://www.researchgate.net/profile/Estera-Kot", "ResearchGate"),
     ("https://www.linkedin.com/in/esterakot/", "LinkedIn"),
     ("https://github.com/ekote", "GitHub"),
     ("https://x.com/estera_kot", "X"),
     ("https://mvp.microsoft.com/en-US/MVP/profile/dee98064-3431-4a89-80f8-148643d8f705", "Microsoft MVP"),
 ]
+UPDATED = {"en": "Last updated", "en-gb": "Last updated", "pl": "Ostatnia aktualizacja", "de": "Zuletzt aktualisiert", "fr": "Dernière mise à jour", "es": "Última actualización", "it": "Ultimo aggiornamento", "ar": "آخر تحديث"}
 PUBS = [  # (year, kind, title, authors, venue, doi)
     (2024, "journal", "Semantic segmentation of the prostate based on onefold and joint multimodal medical images using YOLOv4 and U-Net", "E. Kot, T. Les, Z. Krawczyk-Borysiak, A. Vykhodtsev, K. Siwek", "Applied Sciences, 14(21), 9814, MDPI", "10.3390/app14219814"),
     (2021, "journal", "Deep learning-based framework for tumour detection and semantic segmentation", "E. Kot, Z. Krawczyk, K. Siwek, L. Królicki, P. Czwarnowski", "Bulletin of the Polish Academy of Sciences: Technical Sciences, e136750", "10.24425/bpasts.2021.136750"),
@@ -562,7 +566,8 @@ def pub_li(p, code="en"):
     shown = E(title)
     if code != "pl" and title in PUB_TITLE_EN:
         shown = f'{E(PUB_TITLE_EN[title])} <span lang="pl">[{E(title)}]</span> ({E(PUB_IN_POLISH[code])})'
-    return f"        <li>{E(auth)}. {shown}{tail}, {y}{d}</li>"
+    auth_html = E(auth).replace("E. Kot", "<strong>E. Kot</strong>")
+    return f"        <li class=\"pub\">{auth_html}. {shown}{tail}, {y}{d}</li>"
 
 def render(code):
     t = T[code]; p, hl, loc, direction = LANGS[code]
@@ -575,7 +580,7 @@ def render(code):
     nav_ids = ["research", "publications", "teaching", "industry", "fabric", "honors", "contact"]
     nav_labels = t["nav"][:4] + ["Fabric"] + t["nav"][4:]
     nav = "\n".join(f'        <a href="#{i}">{E(n)}</a>' for i, n in zip(nav_ids, nav_labels))
-    links = "\n".join(f'          {a(u, l)}' for u, l in LINKS) + f'\n          {a("https://bit.ly/bookdrkot", t["office"])}'
+    links = "\n".join(f'          {a(u, l)}' for u, l in LINKS) + f'\n          {a(prefix + "Estera_Kot_Bio.pdf", CV_LABEL[code])}' + f'\n          {a("https://bit.ly/bookdrkot", t["office"])}'
     pubs = []
     for k in ["journal", "conference", "thesis", "other"]:
         pubs.append(f"      <h3>{E(t['pub_groups'][k])}</h3>\n      <ul>\n" + "\n".join(pub_li(x, code) for x in sorted([x for x in PUBS if x[1] == k], key=lambda x: -x[0])) + "\n      </ul>")
@@ -705,6 +710,8 @@ def render(code):
       <a href="{prefix}privacy.html">{E(t["privacy"])}</a>
       <a href="{prefix}terms.html">{E(t["terms"])}</a>
       <span>{E(t["footer"])}</span>
+      <p class="footlinks">{" ".join(a(u, l) for u, l in FOOTER_LINKS)}</p>
+      <p class="updated">{E(UPDATED[code])}: {TODAY}.</p>
     </footer>
   </main>
 </body>

@@ -117,3 +117,11 @@ footer a { margin-right: 16px; }
   .langs { justify-content: flex-start; }
   .langs a { padding: 0 8px; }
 }
+
+/* academic polish */
+li.pub { list-style: none; padding-left: 1.6em; text-indent: -1.6em; }
+[dir="rtl"] li.pub { padding-left: 0; padding-right: 1.6em; text-indent: -1.6em; }
+section#publications ul { padding-left: 0; }
+[dir="rtl"] section#publications ul { padding-right: 0; }
+.footlinks { margin: 10px 0 0; }
+.updated { margin: 6px 0 0; font-size: .85rem; }
