@@ -339,7 +339,7 @@ def head(*, title: str, desc: str, url: str, css: str, og: list[tuple[str, str]]
 <html lang="en-US" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">\n  <link rel="icon" href="/favicon.ico" sizes="any">\n  <link rel="icon" href="/favicon.svg" type="image/svg+xml">\n  <link rel="apple-touch-icon" href="/apple-touch-icon.png">\n  <link rel="manifest" href="/site.webmanifest">\n  <meta name="theme-color" content="#8C1515">\n
   <title>{esc(title)}</title>
   <meta name="description" content="{esc(desc)}">
   <meta name="google-site-verification" content="{GSV}" />
