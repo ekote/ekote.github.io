@@ -466,6 +466,20 @@ FABRIC = {
         'اقرأ <a href="../fabric/">دليلها لتطبيق Microsoft Fabric</a> و<a href="../fabric/maturity-model/">نموذج Fabric Maturity Model</a>.',
     ], "قائمة تشغيل Fabric Espresso"),
 }
+NAME_VARIANTS = ["Ester Kot", "Esther Kot", "Dr. Ester Kot", "Dr. Esther Kot", "Dr Esther Kot", "Estera Kot PhD"]
+NAME_NOTE = {
+    "en": "Name also written as Ester Kot or Esther Kot.",
+    "en-gb": "Name also written as Ester Kot or Esther Kot.",
+    "pl": "Imię bywa zapisywane także jako Ester Kot lub, po angielsku, Esther Kot.",
+    "de": "Der Name wird auch als Ester Kot oder Esther Kot geschrieben.",
+    "fr": "Nom également écrit Ester Kot ou Esther Kot.",
+    "es": "Nombre escrito también como Ester Kot o Esther Kot.",
+    "it": "Nome scritto anche come Ester Kot o Esther Kot.",
+    "ar": "يُكتب الاسم أيضًا Ester Kot أو Esther Kot.",
+}
+for _c in T:
+    T[_c]["alt_names"] = T[_c]["alt_names"] + [v for v in NAME_VARIANTS if v not in T[_c]["alt_names"]]
+    T[_c]["name_note"] = NAME_NOTE[_c]
 for _c, (_h, _ps, _lbl) in FABRIC.items():
     T[_c]["h_fabric"], T[_c]["fabric"], T[_c]["espresso_label"] = _h, _ps, _lbl
 
@@ -609,6 +623,7 @@ def render(code):
         <p class="links">
 {links}
         </p>
+        <p class="namenote">{E(t["name_note"])}</p>
       </div>
     </div>
 

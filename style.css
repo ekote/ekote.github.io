@@ -50,6 +50,7 @@ h1 {
 .title span { display: block; }
 .links { font-size: .95rem; color: var(--muted); }
 .links a { margin-right: 18px; white-space: nowrap; }
+.namenote { font-size: .85rem; color: var(--muted); margin: 8px 0 0; }
 
 section { margin-top: 44px; border-top: 1px solid var(--rule); padding-top: 22px; }
 h2 {
