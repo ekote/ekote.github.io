@@ -56,6 +56,16 @@ PUBS = [  # (year, kind, title, authors, venue, doi)
     (2020, "other", "Improved Morphological Geodesic Active Contours algorithm for automated, voxel-wise segmentation of biomedical images", "E. Kot, Z. Krawczyk, K. Siwek", "", ""),
 ]
 
+PUB_TITLE_EN = {
+    "Architektura platformy korzystającej z metod uczenia maszynowego do przetwarzania obrazów biomedycznych w chmurze":
+        "Architecture of a cloud platform using machine learning methods for biomedical image processing",
+    "Algorytm segmentacji obrazów CT i PET do identyfikacji i wyznaczania objętości glejaka mózgu":
+        "A CT and PET image segmentation algorithm for identifying and measuring the volume of brain glioma",
+    "Weryfikacja wyników obrazowania medycznego mózgu za pomocą testu na fantomie PET-CT":
+        "Verification of brain medical imaging results using a PET-CT phantom test",
+}
+PUB_IN_POLISH = {"en": "in Polish", "en-gb": "in Polish", "de": "auf Polnisch", "fr": "en polonais", "es": "en polaco", "it": "in polacco", "ar": "بالبولندية", "pl": ""}
+
 # ---------------------------------------------------------------- texts
 T = {}
 
@@ -76,7 +86,7 @@ T["en"] = dict(
     h_research="Research", h_interests="Interests", h_selected="Selected work",
     interests=["Deep learning for biomedical image analysis, in particular brain tumor segmentation and volume estimation", "Vectorized execution engines for Apache Spark and lakehouse architectures", "Large-scale data platform migration and engine lifecycle management", "AI governance as an engineering discipline rather than a compliance layer"],
     selected=["Ph.D. dissertation: brain biomedical image segmentation for glioma volume estimation, Warsaw University of Technology, with distinction", "U.S. patent in big data processing", "Native Execution Engine for Microsoft Fabric: a vectorized Spark runtime built with Intel, Meta, and IBM, four times faster than open-source Spark", "Fifteen peer-reviewed publications. Full list on {scholar} and {orcid}"],
-    h_pubs="Publications", pubs_intro="From {scholar}. Author names as published; Polish titles kept in the original.",
+    h_pubs="Publications", pubs_intro="From {scholar}. Author names as published. Works published in Polish are listed with an English title and the original in brackets.",
     pub_groups={"journal": "Journal articles", "conference": "Conference papers", "thesis": "Doctoral dissertation", "other": "Other manuscripts"},
     h_teaching="Teaching",
     teaching=[
@@ -531,8 +541,9 @@ def person_ld(t, code, url):
 def pubs_ld(t):
     items = []
     for y, k, title, auth, venue, doi in PUBS:
-        o = {"@type": "Thesis" if k == "thesis" else "ScholarlyArticle", "name": title, "datePublished": str(y),
+        o = {"@type": "Thesis" if k == "thesis" else "ScholarlyArticle", "name": PUB_TITLE_EN.get(title, title), "datePublished": str(y),
              "author": [{"@type": "Person", "name": n.strip()} for n in auth.split(",")]}
+        if title in PUB_TITLE_EN: o["alternateName"] = title; o["inLanguage"] = "pl"
         if venue: o["isPartOf"] = {"@type": "Periodical" if k == "journal" else "CreativeWorkSeries", "name": venue}
         if doi:
             o["identifier"] = {"@type": "PropertyValue", "propertyID": "DOI", "value": doi}
@@ -544,11 +555,14 @@ def pubs_ld(t):
 def ld_script(obj):
     return '  <script type="application/ld+json">\n  ' + json.dumps(obj, ensure_ascii=False, indent=2).replace("\n", "\n  ") + "\n  </script>"
 
-def pub_li(p):
+def pub_li(p, code="en"):
     y, k, title, auth, venue, doi = p
     tail = f", <em>{E(venue)}</em>" if venue else ""
     d = f'. <a href="https://doi.org/{doi}">doi:{doi}</a>' if doi else ""
-    return f"        <li>{E(auth)}. {E(title)}{tail}, {y}{d}</li>"
+    shown = E(title)
+    if code != "pl" and title in PUB_TITLE_EN:
+        shown = f'{E(PUB_TITLE_EN[title])} <span lang="pl">[{E(title)}]</span> ({E(PUB_IN_POLISH[code])})'
+    return f"        <li>{E(auth)}. {shown}{tail}, {y}{d}</li>"
 
 def render(code):
     t = T[code]; p, hl, loc, direction = LANGS[code]
@@ -564,7 +578,7 @@ def render(code):
     links = "\n".join(f'          {a(u, l)}' for u, l in LINKS) + f'\n          {a("https://bit.ly/bookdrkot", t["office"])}'
     pubs = []
     for k in ["journal", "conference", "thesis", "other"]:
-        pubs.append(f"      <h3>{E(t['pub_groups'][k])}</h3>\n      <ul>\n" + "\n".join(pub_li(x) for x in sorted([x for x in PUBS if x[1] == k], key=lambda x: -x[0])) + "\n      </ul>")
+        pubs.append(f"      <h3>{E(t['pub_groups'][k])}</h3>\n      <ul>\n" + "\n".join(pub_li(x, code) for x in sorted([x for x in PUBS if x[1] == k], key=lambda x: -x[0])) + "\n      </ul>")
     arabic_font = '\n  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600&display=swap" rel="stylesheet">' if code == "ar" else ""
     return f'''<!doctype html>
 <html lang="{hl}" dir="{direction}">
