@@ -562,7 +562,7 @@ def ld_script(obj):
 def pub_li(p, code="en"):
     y, k, title, auth, venue, doi = p
     tail = f", <em>{E(venue)}</em>" if venue else ""
-    d = f'. <a href="https://doi.org/{doi}">doi:{doi}</a>' if doi else ""
+    d = f'. <a href="https://doi.org/{doi}">doi:{doi}</a>' if doi else "."
     shown = E(title)
     if code != "pl" and title in PUB_TITLE_EN:
         shown = f'{E(PUB_TITLE_EN[title])} <span lang="pl">[{E(title)}]</span> ({E(PUB_IN_POLISH[code])})'
