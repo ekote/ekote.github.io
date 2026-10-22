@@ -7,6 +7,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 SITE = "https://ekote.github.io"
 TODAY = datetime.date.today().isoformat()
+NOW = datetime.datetime.now().astimezone().replace(microsecond=0).isoformat()  # schema.org DateTime with offset
+CREATED = "2026-10-19T00:28:08+02:00"  # first commit
 VERIFY = '<meta name="google-site-verification" content="cSOWqrR3-ff1EmSCDMry0rZuk_c8wklIxxS-CFQkkfg" />'
 
 LANGS = {  # code: (path, hreflang, og_locale, dir)
@@ -533,7 +535,7 @@ def person_ld(t, code, url):
     p, hl, _, _ = LANGS[code]
     return {
         "@context": "https://schema.org", "@type": "ProfilePage", "@id": url + "#page", "url": url,
-        "name": t["name"], "dateCreated": "2026-10-19", "dateModified": TODAY, "inLanguage": hl,
+        "name": t["name"], "dateCreated": CREATED, "dateModified": NOW, "inLanguage": hl,
         "mainEntity": {
             "@type": "Person", "@id": SITE + "/#person", "name": "Estera Kot", "givenName": "Estera", "familyName": "Kot",
             "honorificPrefix": "Dr.", "alternateName": t["alt_names"], "url": SITE + "/", "image": SITE + "/headshot.jpg",

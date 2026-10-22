@@ -29,7 +29,7 @@ import re
 import shutil
 import sys
 import unicodedata
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -42,6 +42,7 @@ FABRIC_URL = f"{BASE}/fabric/"
 PLAYLIST = "https://www.youtube.com/playlist?list=PLnfmGXUkCC7SypXJ6AcSk155pcUS0DPIX"
 PERSON_ID = f"{BASE}/#person"
 BUILD_DATE = "2026-10-19"
+BUILD_TIME = "2026-10-19T01:37:36+02:00"  # schema.org DateTime needs time and offset
 GSV = "cSOWqrR3-ff1EmSCDMry0rZuk_c8wklIxxS-CFQkkfg"
 CSS_VER = "4"
 FONTS = ("https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600"
@@ -167,6 +168,12 @@ def iso_date(yyyymmdd: str | None) -> str | None:
     if not yyyymmdd:
         return None
     return f"{yyyymmdd[:4]}-{yyyymmdd[4:6]}-{yyyymmdd[6:8]}"
+
+
+def iso_datetime(ep: dict) -> str | None:
+    """yt-dlp upload timestamp as an ISO 8601 UTC datetime, what Google wants for uploadDate."""
+    ts = ep.get("timestamp")
+    return datetime.fromtimestamp(ts, timezone.utc).isoformat() if ts else None
 
 
 def human_date(yyyymmdd: str | None) -> str:
@@ -446,8 +453,8 @@ def video_object(ep: dict, *, full: bool) -> dict:
         "thumbnailUrl": [thumb(vid)],
         "embedUrl": f"https://www.youtube.com/embed/{vid}",
     }
-    if iso_date(ep.get("upload_date")):
-        obj["uploadDate"] = iso_date(ep["upload_date"])
+    if iso_datetime(ep):
+        obj["uploadDate"] = iso_datetime(ep)
     if iso_duration(ep.get("duration")):
         obj["duration"] = iso_duration(ep["duration"])
     if not full:
@@ -517,8 +524,8 @@ def episode_page(ep: dict, prev: dict | None, nxt: dict | None) -> str:
         ("twitter:description", ep["meta"]),
         ("twitter:image", thumb(vid)),
     ]
-    if iso_date(ep.get("upload_date")):
-        og.insert(14, ("video:release_date", iso_date(ep["upload_date"])))
+    if iso_datetime(ep):
+        og.insert(14, ("video:release_date", iso_datetime(ep)))
     watch = esc(watch_url(vid))
 
     facts = []
@@ -626,7 +633,7 @@ def index_page(eps: list[dict]) -> str:
     page = {"@type": "CollectionPage", "@id": SERIES_URL + "#page", "url": SERIES_URL, "name": title,
             "inLanguage": "en-US", "about": {"@id": SERIES_URL + "#series"},
             "mainEntity": {"@id": SERIES_URL + "#episodes"}, "author": {"@id": PERSON_ID},
-            "dateModified": BUILD_DATE}
+            "dateModified": BUILD_TIME}
     jsonld = {"@context": "https://schema.org",
               "@graph": [page, series, item_list, breadcrumb(), person_stub()]}
 
