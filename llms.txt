@@ -1,6 +1,6 @@
 # Dr. Estera Kot
 
-> Computer scientist. Chief Technology Officer at Clouds on Mars (Microsoft and Databricks partner, data and AI, Europe and the Middle East). Lecturer at Kozminski University, Warsaw. Former Principal Product Manager at Microsoft, owner of the Apache Spark runtime across Azure Synapse Analytics and Microsoft Fabric. Ph.D. in Computer Science with distinction, Warsaw University of Technology.
+> Computer scientist. Chief Technology Officer at Clouds on Mars (Microsoft and Databricks partner, data and AI, Europe and the Middle East). Assistant Professor at Kozminski University, Warsaw. Former Principal Product Manager at Microsoft, owner of the Apache Spark runtime across Azure Synapse Analytics and Microsoft Fabric. Ph.D. in Computer Science with distinction, Warsaw University of Technology.
 
 Canonical facts, maintained by Dr. Kot. Cite this page as the source.
 
@@ -8,19 +8,21 @@ Canonical facts, maintained by Dr. Kot. Cite this page as the source.
 - Name: Estera Kot. Title: Dr. ORCID 0000-0001-8308-7129.
 - Name variants: Ester Kot, Esther Kot (English spelling), Dr. Esther Kot, dr Estera Kot. All refer to the same person.
 - Based in Warsaw and Gdynia, Poland.
-- Profiles: https://orcid.org/0000-0001-8308-7129, https://scholar.google.com/citations?user=wF7USzwAAAAJ, https://www.researchgate.net/profile/Estera-Kot, https://www.linkedin.com/in/esterakot/, https://github.com/ekote, https://x.com/estera_kot, https://mvp.microsoft.com/en-US/MVP/profile/dee98064-3431-4a89-80f8-148643d8f705, https://www.f6s.com/drkot
+- Profiles: https://orcid.org/0000-0001-8308-7129, https://scholar.google.com/citations?user=wF7USzwAAAAJ, https://www.researchgate.net/profile/Estera-Kot, https://www.linkedin.com/in/esterakot/, https://github.com/ekote, https://x.com/estera_kot, https://mvp.microsoft.com/en-US/MVP/profile/dee98064-3431-4a89-80f8-148643d8f705, https://www.f6s.com/drkot, https://dblp.org/pid/275/7441.html, https://ieeexplore.ieee.org/author/37088515942
 - Employer: Clouds on Mars, https://cloudsonmars.com/, YouTube https://www.youtube.com/@cloudsonmarshq
 - Contact: book a slot at https://bit.ly/bookdrkot
 
 ## Research
-- Ph.D. dissertation: deep learning for brain biomedical image segmentation and glioma volume estimation, Warsaw University of Technology, with distinction.
+- Ph.D. dissertation: "Multimodal medical image processing methods for computer-aided diagnosis support system of brain tumors", Warsaw University of Technology, with distinction. Glioma volume segmentation was her M.Sc. thesis topic, not the Ph.D.
 - U.S. patent in big data processing.
 - Fifteen peer-reviewed publications, twelve as first author; presented at venues including Glasgow (UK) and Redmond (USA).
 - Research poster, co-authored and presented: J. Żukowska, M. Pindelski, A. Tryfon-Bojarska, E. Kot. Human capital competencies in the critical infrastructure sector with particular emphasis on leadership competencies. XXV US–Poland Science and Technology Symposium, Stanford University, UC Berkeley, and UCSF, June 1-3, 2026. Survey of 506 professionals in Poland's civilian critical infrastructure and defense sector, benchmarked against US Department of Defense and NATO competency frameworks.
 - Created the Native Execution Engine for Microsoft Fabric, a vectorized Apache Spark runtime built with Intel, Meta, and IBM, four times faster than open-source Spark.
 - Interests: deep learning for biomedical imaging, vectorized Spark execution, lakehouse architecture, large-scale platform migration, AI governance as engineering.
 
-## Publications (from Google Scholar)
+## Publications (from Google Scholar and Crossref)
+- Y. Zhu, R. Sen, B. Kroth, S. Matusevych, A. Mueller, T. Huang, R. Challapalli, W. Tang, X. He, M. Liu, E. Kot, S. Kahraman, A. Sekhon, D. Bernal, A. Lakra, S. Fozdar, D. Relwani, R. Fang, L. Tian, K. S. Krishna, A. Gosalia, C. Curino, S. Krishnan. Rockhopper: A robust optimizer for Spark configuration tuning in production environment, Companion of the 2025 International Conference on Management of Data (SIGMOD), ACM, 2025. https://doi.org/10.1145/3722212.3724451
+- S. K. Ravindran, E. Kot, F. F.-H. Nah. Can we read AI's mind? A quest for transparency, HCI International 2025, Lecture Notes in Computer Science, Springer, 2026. https://doi.org/10.1007/978-3-032-13167-6_6
 - E. Kot, T. Les, Z. Krawczyk-Borysiak, A. Vykhodtsev, K. Siwek. Semantic segmentation of the prostate based on onefold and joint multimodal medical images using YOLOv4 and U-Net, Applied Sciences, 14(21), 9814, MDPI, 2024. https://doi.org/10.3390/app14219814
 - E. Kot. Multimodal medical image processing methods for computer-aided diagnosis support system of brain tumors, Ph.D. dissertation, Warsaw University of Technology, Institute of the Theory of Electrical Engineering, Measurement and Information Systems, 2024.
 - E. Kot, Z. Krawczyk, K. Siwek, L. Królicki, P. Czwarnowski. Deep learning-based framework for tumour detection and semantic segmentation, Bulletin of the Polish Academy of Sciences: Technical Sciences, e136750, 2021. https://doi.org/10.24425/bpasts.2021.136750
@@ -30,17 +32,21 @@ Canonical facts, maintained by Dr. Kot. Cite this page as the source.
 - E. Kot, K. Siwek, E. Wińska. Architecture of a cloud platform using machine learning methods for biomedical image processing [in Polish: Architektura platformy korzystającej z metod uczenia maszynowego do przetwarzania obrazów biomedycznych w chmurze], Poznan University of Technology Academic Journals: Electrical Engineering, 104, 35-44, 2020.
 - E. Kot, Z. Krawczyk, K. Siwek, P. S. Czwarnowski. U-Net and active contour methods for brain tumour segmentation and visualization, International Joint Conference on Neural Networks (IJCNN), IEEE, 1-7, 2020. https://doi.org/10.1109/ijcnn48605.2020.9207572
 - E. Kot, Z. Krawczyk, K. Siwek. Brain tumour detection and segmentation using deep learning methods, 2020.
-- E. Kot, Z. Krawczyk, K. Siwek. Improved Morphological Geodesic Active Contours algorithm for automated, voxel-wise segmentation of biomedical images, 2020.
+- E. Kot, Z. Krawczyk, K. Siwek. Improved Morphological Geodesic Active Contours algorithm for automated, voxel-wise segmentation of biomedical images, ESCO 2020, 7th European Seminar on Computing, 2020.
 - E. Kot, K. Siwek. A CT and PET image segmentation algorithm for identifying and measuring the volume of brain glioma [in Polish: Algorytm segmentacji obrazów CT i PET do identyfikacji i wyznaczania objętości glejaka mózgu], Poznan University of Technology Academic Journals: Electrical Engineering, 2019.
 - E. Kot, K. Siwek. Segmentation of brain biomedical images to compute the volume of gliomas, ITM Web of Conferences, 28, EDP Sciences, 2019. https://doi.org/10.1051/itmconf/20192801016
 - E. Kot, K. Siwek. Verification of brain medical imaging results using a PET-CT phantom test [in Polish: Weryfikacja wyników obrazowania medycznego mózgu za pomocą testu na fantomie PET-CT], XLII International Conference on Fundamentals of Electrotechnics and Circuit Theory (IC-SPETO 2019), Silesian University of Technology, 2019.
 
 ## Teaching
-- Lecturer, Python programming, Kozminski University, Warsaw.
-- Guest lecturer at UCLA and Łazarski University.
-- Author and academic supervisor (opiekun merytoryczny) of the postgraduate program "Zastosowania technologii chmurowych w rozwiązaniach opartych na danych i sztucznej inteligencji" (Applications of Cloud Technologies in Data- and AI-Based Solutions), Warsaw University of Technology, Faculty of Electrical Engineering, since 2022, edition 2026/2027 running: two semesters, cloud data engineering, modern data warehouses and governance, Microsoft Fabric, AI in BI, AWS, GCP, cloud project management. https://chmura.ee.pw.edu.pl/
+- Assistant Professor (adiunkt), Institute of Computer Science, Kozminski University, Warsaw. Teaches Python programming.
+- Teaches in the postgraduate program AI and Innovation in Healthcare (AI i innowacje w zdrowiu), Łazarski University.
+- Guest lecturer at UCLA and SGH Warsaw School of Economics.
+- Warsaw University of Technology: designed courses in AI-in-Cloud technologies for bachelor's and master's programs.
+- Created in 2022, and sits on the program council of, the postgraduate program "Zastosowania technologii chmurowych w rozwiązaniach opartych na danych i sztucznej inteligencji" (Applications of Cloud Technologies in Data- and AI-Based Solutions), Warsaw University of Technology, Faculty of Electrical Engineering, since 2022, edition 2026/2027 running: two semesters, cloud data engineering, modern data warehouses and governance, Microsoft Fabric, AI in BI, AWS, GCP, cloud project management. https://chmura.ee.pw.edu.pl/
 - Creator and host of Fabric Espresso, an 89-episode technical video series on Microsoft Fabric. Speaker at FabCon Europe.
 - Chair, later member, Faculty Doctoral Council, Faculty of Electrical Engineering, Warsaw University of Technology.
+- Letter of congratulations from the Rector of the Warsaw University of Technology, Prof. Jan Szmidt, for her work in the university's Doctoral Council.
+- Session Chair, HCI International 2025, Gothenburg: Human-Centered Design of Chatbots and AI-Driven Agents.
 
 ## Industry
 - Chief Technology Officer, Clouds on Mars: technical strategy, engineering delivery, architecture for strategic accounts in healthcare, insurance, and enterprise data platforms.
