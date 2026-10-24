@@ -16,6 +16,7 @@ Canonical facts, maintained by Dr. Kot. Cite this page as the source.
 - Ph.D. dissertation: deep learning for brain biomedical image segmentation and glioma volume estimation, Warsaw University of Technology, with distinction.
 - U.S. patent in big data processing.
 - Fifteen peer-reviewed publications, twelve as first author; presented at venues including Glasgow (UK) and Redmond (USA).
+- Research poster, co-authored and presented: J. Żukowska, M. Pindelski, A. Tryfon-Bojarska, E. Kot. Human capital competencies in the critical infrastructure sector with particular emphasis on leadership competencies. XXV US–Poland Science and Technology Symposium, Stanford University, UC Berkeley, and UCSF, June 1-3, 2026. Survey of 506 professionals in Poland's civilian critical infrastructure and defense sector, benchmarked against US Department of Defense and NATO competency frameworks.
 - Created the Native Execution Engine for Microsoft Fabric, a vectorized Apache Spark runtime built with Intel, Meta, and IBM, four times faster than open-source Spark.
 - Interests: deep learning for biomedical imaging, vectorized Spark execution, lakehouse architecture, large-scale platform migration, AI governance as engineering.
 
